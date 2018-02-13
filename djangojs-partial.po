@@ -1,0 +1,4795 @@
+# edX translation file.
+# Copyright (C) 2017 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# わたカフェの店長, 2013-2015
+# ayokose <ayokose.gacco@gmail.com>, 2015
+# kawa <h.kawasaki@nttks.co.jp>, 2014
+# h_yoshida <h_yoshida@matsumo-sys.com>, 2014-2015
+# Juan Camilo Montoya Franco <juan.montoya@edunext.co>, 2017
+# Kyoto University <edxkyotoux@gmail.com>, 2017
+# hachiyanagi_ks <m.hachiyanagi@nttks.co.jp>, 2015
+# sunk <s.kim@nttks.co.jp>, 2014
+# Aoshi <support@225nou.com>, 2014
+# Takashi Nagai <ngi644@gmail.com>, 2017
+# Toshiboumi Ohta <ohta@securesky-tech.com>, 2015,2017
+# Yoshitaka Sakamaki <y.sakamaki@gacco.co.jp>, 2016
+# わたカフェの店長, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2017-10-27 10:28+0000\n"
+"PO-Revision-Date: 2017-10-19 18:27+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/cms/js/main.js:37
+#: cms/static/js/views/active_video_upload_list.js:35
+#: common/static/bundles/Import.js:39
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr "サーバーまたはインターネット接続にエラーが発生している可能性があります。再読込をする、またはオンラインになっているか確認してください。"
+
+#: cms/static/cms/js/main.js:46 common/static/bundles/Import.js:48
+msgid "Studio's having trouble saving your work"
+msgstr "Studioでの作業の保存に問題が発生しています"
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:113
+#: cms/static/js/certificates/views/signatory_details.js:70
+#: cms/static/js/models/section.js:27 cms/static/js/utils/drag_and_drop.js:296
+#: cms/static/js/views/asset.js:82 cms/static/js/views/container.js:42
+#: cms/static/js/views/course_info_handout.js:62
+#: cms/static/js/views/course_info_update.js:172
+#: cms/static/js/views/edit_textbook.js:63
+#: cms/static/js/views/list_item_editor.js:38
+#: cms/static/js/views/modals/edit_xblock.js:166
+#: cms/static/js/views/tabs.js:85 cms/static/js/views/tabs.js:117
+#: cms/static/js/views/utils/xblock_utils.js:204
+#: cms/static/js/views/utils/xblock_utils.js:219
+#: lms/static/js/ccx/schedule.js:251 lms/static/js/views/fields.js:70
+msgid "Saving"
+msgstr "保存中"
+
+#: cms/static/js/certificates/views/signatory_editor.js:139
+#: cms/static/js/views/asset.js:54 cms/static/js/views/list_item.js:59
+#: cms/static/js/views/manage_users_and_roles.js:31
+#: cms/static/js/views/show_textbook.js:38
+#: common/static/js/vendor/ova/catch/js/catch.js:139
+#: common/static/js/vendor/ova/catch/js/catch.js:252
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:35
+msgid "Delete"
+msgstr "削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/certificates/views/signatory_editor.js:162
+#: cms/static/js/views/asset.js:70
+#: cms/static/js/views/course_info_update.js:271
+#: cms/static/js/views/export.js:360
+#: cms/static/js/views/manage_users_and_roles.js:32
+#: cms/static/js/views/modals/base_modal.js:134
+#: cms/static/js/views/modals/course_outline_modals.js:206
+#: cms/static/js/views/modals/course_outline_modals.js:238
+#: cms/static/js/views/show_textbook.js:52 cms/static/js/views/tabs.js:187
+#: cms/static/js/views/validation.js:127
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:204
+#: common/static/common/js/components/utils/view_utils.js:62
+#: lms/static/js/Markdown.Editor.js:1106
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: cms/static/js/features/import/factories/import.js:20
+#: common/static/bundles/Import.js:109
+msgid "There was an error during the upload process."
+msgstr "アップロード処理中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:21
+#: common/static/bundles/Import.js:109
+msgid "There was an error while unpacking the file."
+msgstr "ファイルの解凍中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:22
+#: common/static/bundles/Import.js:109
+msgid "There was an error while verifying the file you submitted."
+msgstr "提出したファイルの確認中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:31
+#: common/static/bundles/Import.js:115
+msgid "Choose new file"
+msgstr "新規ファイルを選ぶ"
+
+#: cms/static/js/features/import/factories/import.js:46
+#: common/static/bundles/Import.js:129
+msgid ""
+"File format not supported. Please upload a file with a {ext} extension."
+msgstr "サポート対象外のファイルフォーマットです。拡張子が{ext}のファイルをアップロードしてください。"
+
+#: cms/static/js/features/import/factories/import.js:54
+#: common/static/bundles/Import.js:136
+msgid "There was an error while importing the new library to our database."
+msgstr "新規ライブラリをデータベースにインポート中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:56
+#: common/static/bundles/Import.js:138
+msgid "There was an error while importing the new course to our database."
+msgstr "新規コースをデータベースにインポート中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:119
+#: common/static/bundles/Import.js:196
+msgid "Your import has failed."
+msgstr "インポート失敗しました。"
+
+#: cms/static/js/features/import/views/import.js:66
+#: common/static/bundles/Import.js:319
+msgid "Your import is in progress; navigating away will abort it."
+msgstr "インポート処理中です。移動すると、この処理は中止されます。"
+
+#: cms/static/js/features/import/views/import.js:253
+#: common/static/bundles/Import.js:487
+msgid "Error importing course"
+msgstr "コースのインポートエラー"
+
+#: cms/static/js/features/import/views/import.js:298
+#: common/static/bundles/Import.js:533
+msgid "There was an error with the upload"
+msgstr "アップロードにエラーが発生しました"
+
+#. Translators: This is the status of an active video upload
+#: cms/static/js/models/active_video_upload.js:11
+#: cms/static/js/views/assets.js:237 cms/static/js/views/video_thumbnail.js:57
+#: lms/static/js/views/image_field.js:19
+msgid "Uploading"
+msgstr "アップロード中"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/active_video_upload.js:45
+#: cms/static/js/views/modals/edit_xblock.js:115
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:254
+#: lms/static/js/student_account/tos_modal.js:48
+msgid "Close"
+msgstr "閉じる"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/assets.js:110
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:724
+msgid "Name"
+msgstr "名前"
+
+#: cms/static/js/views/assets.js:257 lms/static/js/Markdown.Editor.js:1107
+msgid "Choose File"
+msgstr "ファイルを選択"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/course_info_update.js:245
+#: cms/static/js/views/tabs.js:163
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:769
+#: lms/static/js/Markdown.Editor.js:1105
+msgid "OK"
+msgstr "OK"
+
+#: cms/static/js/views/course_video_settings.js:413
+#: cms/static/js/views/metadata.js:291
+#: cms/static/js/views/previous_video_upload.js:60
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:84
+#: lms/static/js/views/image_field.js:17
+msgid "Remove"
+msgstr "削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/manage_users_and_roles.js:10
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:764
+msgid "Ok"
+msgstr "OK"
+
+#: cms/static/js/views/manage_users_and_roles.js:12
+#: lms/static/js/instructor_dashboard/util.js:165
+msgid "Unknown"
+msgstr "不明"
+
+#: cms/static/js/views/metadata.js:538 lms/static/js/views/file_uploader.js:47
+msgid "Upload File"
+msgstr "ファイルをアップロード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/base_modal.js:45
+#: cms/static/js/views/modals/course_outline_modals.js:237
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:924
+msgid "Save"
+msgstr "保存"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/course_outline_modals.js:940
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:114
+msgid "Advanced"
+msgstr "詳細"
+
+#: cms/static/js/views/previous_video_upload.js:63
+#: lms/static/js/views/image_field.js:20
+msgid "Removing"
+msgstr "削除中"
+
+#: cms/static/js/views/validation.js:146
+#: lms/static/js/discussions_management/views/divided_discussions_course_wide.js:75
+#: lms/static/js/discussions_management/views/divided_discussions_inline.js:142
+#: lms/static/js/views/fields.js:71
+msgid "Your changes have been saved."
+msgstr "変更は保存されました。"
+
+#. Translators: This message will be added to the front of messages of type
+#. error,
+#. e.g. "Error: required field is missing".
+#: cms/static/js/views/xblock_validation.js:54
+#: common/static/common/js/discussion/utils.js:198
+#: common/static/common/js/discussion/utils.js:235
+#: common/static/common/js/discussion/views/discussion_inline_view.js:199
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:320
+#: common/static/common/js/discussion/views/discussion_thread_view.js:217
+#: common/static/common/js/discussion/views/discussion_thread_view.js:222
+#: common/static/common/js/discussion/views/discussion_thread_view.js:227
+#: common/static/common/js/discussion/views/response_comment_view.js:119
+#: lms/static/js/student_account/views/FinishAuthView.js:80
+#: lms/static/js/verify_student/views/payment_confirmation_step_view.js:63
+#: lms/static/js/verify_student/views/step_view.js:50
+#: lms/static/js/views/fields.js:41
+msgid "Error"
+msgstr "エラー"
+
+#: common/lib/xmodule/xmodule/assets/library_content/public/js/library_content_edit.js:18
+#: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js:18
+msgid "Updating with latest library content"
+msgstr "最新のライブラリコンテンツで更新中"
+
+#: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js:12
+#: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js:12
+msgid "Creating missing groups"
+msgstr "足りないグループを作成中"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:264
+msgid "{start_strong}{total}{end_strong} words submitted in total."
+msgstr "合計{start_strong}{total}{end_strong}語提出済。"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:291
+msgid "text_word_{uniqueId} title_word_{uniqueId}"
+msgstr "text_word_{uniqueId} title_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:302
+msgid "title_word_{uniqueId}"
+msgstr "title_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:326
+msgid "text_word_{uniqueId}"
+msgstr "text_word_{uniqueId}"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:223
+msgid "Show Annotations"
+msgstr "注釈を表示"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:225
+msgid "Hide Annotations"
+msgstr "注釈を非表示"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:240
+msgid "Expand Instructions"
+msgstr "指示を表示"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:242
+msgid "Collapse Instructions"
+msgstr "指示を閉じる"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:330
+msgid "Commentary"
+msgstr "解説"
+
+#: common/lib/xmodule/xmodule/js/src/annotatable/display.js:341
+msgid "Reply to Annotation"
+msgstr "注釈に返信する"
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:232
+msgid "%(num_points)s point possible (graded, results hidden)"
+msgid_plural "%(num_points)s points possible (graded, results hidden)"
+msgstr[0] "全%(num_points)s点 (採点対象、結果非表示) "
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:239
+msgid "%(num_points)s point possible (ungraded, results hidden)"
+msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
+msgstr[0] "全%(num_points)s点 (採点対象外、結果非表示) "
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:250
+msgid "%(num_points)s point possible (graded)"
+msgid_plural "%(num_points)s points possible (graded)"
+msgstr[0] "全%(num_points)s点 (採点対象) "
+
+#. Translators: %(num_points)s is the number of points possible (examples: 1,
+#. 3, 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:256
+msgid "%(num_points)s point possible (ungraded)"
+msgid_plural "%(num_points)s points possible (ungraded)"
+msgstr[0] "全%(num_points)s点 (採点対象外) "
+
+#. Translators: %(earned)s is the number of points earned. %(possible)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:266
+msgid "%(earned)s/%(possible)s point (graded)"
+msgid_plural "%(earned)s/%(possible)s points (graded)"
+msgstr[0] "全%(possible)s点中%(earned)s点 (採点対象) "
+
+#. Translators: %(earned)s is the number of points earned. %(possible)s is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:273
+msgid "%(earned)s/%(possible)s point (ungraded)"
+msgid_plural "%(earned)s/%(possible)s points (ungraded)"
+msgstr[0] "全%(possible)s点中%(earned)s点 (採点対象外)"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:345
+msgid "The grading process is still running. Refresh the page to see updates."
+msgstr "採点処理中です。画面を再読み込みして更新状況を確認してください。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:452
+msgid "Could not grade your answer. The submission was aborted."
+msgstr "あなたの解答は採点できませんでした。提出は中止されました。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:516
+msgid ""
+"Submission aborted! Sorry, your browser does not support file uploads. If "
+"you can, please use Chrome or Safari which have been verified to support "
+"file uploads."
+msgstr "提出が中断されました！申し訳ありませんが、お使いのブラウザはファイルのアップロード機能に対応していません。可能であれば、ファイルアップロード機能を検証済のChromeまたはSafariをお使いください。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:542
+msgid "You submitted {filename}; only {allowedFiles} are allowed."
+msgstr "{filename}は提出済です。{allowedFiles} のみ可能です。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:555
+msgid "Your file {filename} is too large (max size: {maxSize}MB)."
+msgstr " {filename} ファイルは大きすぎます (最大: {maxSize}MBまで)。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:570
+msgid "You did not submit the required files: {requiredFiles}."
+msgstr "必要なファイルが提出されていません: {requiredFiles}"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:580
+msgid "You did not select any files to submit."
+msgstr "提出するファイルが選択されていませんでした。"
+
+#. Translators: This is only translated to allow for reordering of label and
+#. associated status.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:663
+msgid "{label}: {status}"
+msgstr "{label}: {status}"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:694
+msgid "This problem has been reset."
+msgstr "この問題はリセットされました。"
+
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:996
+msgid "unsubmitted"
+msgstr "未提出"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:85
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:779
+msgid "Paragraph"
+msgstr "段落"
+
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:86
+msgid "Preformatted"
+msgstr "事前フォーマット済"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:87
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:529
+msgid "Heading 3"
+msgstr "見出し3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:88
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:534
+msgid "Heading 4"
+msgstr "見出し4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:89
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:539
+msgid "Heading 5"
+msgstr "見出し5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:90
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:544
+msgid "Heading 6"
+msgstr "見出し6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:109
+msgid "Add to Dictionary"
+msgstr "ディクショナリに追加"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:119
+msgid "Align center"
+msgstr "中央寄せ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:124
+msgid "Align left"
+msgstr "左寄せ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:129
+msgid "Align right"
+msgstr "右寄せ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:134
+msgid "Alignment"
+msgstr "文字配置"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:139
+msgid "Alternative source"
+msgstr "ALT属性"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:144
+msgid "Anchor"
+msgstr "リンク"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:149
+msgid "Anchors"
+msgstr "複数リンク"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:154
+msgid "Author"
+msgstr "著者"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:159
+msgid "Background color"
+msgstr "背景色"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:164
+#: lms/static/js/Markdown.Editor.js:1868
+msgid "Blockquote"
+msgstr "引用"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:169
+msgid "Blocks"
+msgstr "ブロック"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:174
+msgid "Body"
+msgstr "本文"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:179
+msgid "Bold"
+msgstr "太字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:184
+msgid "Border color"
+msgstr "線の色"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:189
+msgid "Border"
+msgstr "線"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:194
+msgid "Bottom"
+msgstr "下部"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:199
+msgid "Bullet list"
+msgstr "箇条書きリスト"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:209
+msgid "Caption"
+msgstr "キャプション"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:214
+msgid "Cell padding"
+msgstr "セル詰め"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:219
+msgid "Cell properties"
+msgstr "セルのプロパティ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:224
+msgid "Cell spacing"
+msgstr "セルの幅"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:229
+msgid "Cell type"
+msgstr "セルのタイプ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:234
+msgid "Cell"
+msgstr "セル"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:239
+msgid "Center"
+msgstr "中央"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:244
+msgid "Circle"
+msgstr "円"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:249
+msgid "Clear formatting"
+msgstr "フォーマット削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:259
+msgid "Code block"
+msgstr "コードブロック"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:264
+msgid "Code"
+msgstr "コード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:269
+msgid "Color"
+msgstr "色"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:274
+msgid "Cols"
+msgstr "列"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:279
+msgid "Column group"
+msgstr "列グループ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:284
+msgid "Column"
+msgstr "列"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:289
+msgid "Constrain proportions"
+msgstr "形状を規制する"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:294
+msgid "Copy row"
+msgstr "行をコピー"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:299
+msgid "Copy"
+msgstr "コピー"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:304
+msgid "Could not find the specified string."
+msgstr "ご指定の文字列が見つかりませんでした。"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:309
+msgid "Custom color"
+msgstr "カスタムカラー"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:314
+msgid "Custom..."
+msgstr "カスタム…"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:319
+msgid "Cut row"
+msgstr "行を削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:324
+msgid "Cut"
+msgstr "切り取り"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:329
+msgid "Decrease indent"
+msgstr "インデント下げ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:334
+msgid "Default"
+msgstr "デフォルト"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:339
+msgid "Delete column"
+msgstr "列を削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:344
+msgid "Delete row"
+msgstr "行を削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:349
+msgid "Delete table"
+msgstr "表を削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:354
+msgid "Description"
+msgstr "説明"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:359
+msgid "Dimensions"
+msgstr "次元"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:364
+msgid "Disc"
+msgstr "ディスク"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:369
+msgid "Div"
+msgstr "Div"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:374
+msgid "Document properties"
+msgstr "文書のプロパティ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:379
+msgid "Edit HTML"
+msgstr "HTMLを編集"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:384
+#: common/static/js/vendor/ova/catch/js/catch.js:249
+msgid "Edit"
+msgstr "編集"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:389
+msgid "Embed"
+msgstr "埋め込み"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:394
+msgid "Emoticons"
+msgstr "エモーティコン"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:399
+msgid "Encoding"
+msgstr "エンコード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:404
+msgid "File"
+msgstr "ファイル"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:409
+msgid "Find and replace"
+msgstr "検索と置換"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:414
+msgid "Find next"
+msgstr "次を検索"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:419
+msgid "Find previous"
+msgstr "前を検索"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:424
+msgid "Find"
+msgstr "検索"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:429
+msgid "Finish"
+msgstr "終了"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:434
+msgid "Font Family"
+msgstr "フォントの種類"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:439
+msgid "Font Sizes"
+msgstr "フォントサイズ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:444
+msgid "Footer"
+msgstr "フッター"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:449
+msgid "Format"
+msgstr "フォーマット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:454
+msgid "Formats"
+msgstr "フォーマット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:459
+msgid "Fullscreen"
+msgstr "全画面"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:464
+msgid "General"
+msgstr "一般"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:469
+msgid "H Align"
+msgstr "見出し寄せ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:474
+msgid "Header 1"
+msgstr "見出し1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:479
+msgid "Header 2"
+msgstr "見出し2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:484
+msgid "Header 3"
+msgstr "見出し3"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:489
+msgid "Header 4"
+msgstr "見出し4"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:494
+msgid "Header 5"
+msgstr "見出し5"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:499
+msgid "Header 6"
+msgstr "見出し6"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:504
+msgid "Header cell"
+msgstr "ヘッダーセル"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:509
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:49
+msgid "Header"
+msgstr "ヘッダー"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:514
+msgid "Headers"
+msgstr "見出し"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:519
+msgid "Heading 1"
+msgstr "見出し1"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:524
+msgid "Heading 2"
+msgstr "見出し2"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:549
+msgid "Headings"
+msgstr "見出し"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:554
+msgid "Height"
+msgstr "高さ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:559
+msgid "Horizontal line"
+msgstr "水平線"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:564
+msgid "Horizontal space"
+msgstr "横サイズ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:569
+msgid "HTML source code"
+msgstr "HTMLソースコード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:574
+msgid "Ignore all"
+msgstr "全て無視"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:579
+msgid "Ignore"
+msgstr "無視"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:584
+msgid "Image description"
+msgstr "画像の説明"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:589
+msgid "Increase indent"
+msgstr "インデント上げ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:594
+msgid "Inline"
+msgstr "インライン"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:599
+msgid "Insert column after"
+msgstr "後に列を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:604
+msgid "Insert column before"
+msgstr "前に列を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:609
+msgid "Insert date/time"
+msgstr "日時を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:614
+msgid "Insert image"
+msgstr "画像を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:619
+msgid "Insert link"
+msgstr "リンクを挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:624
+msgid "Insert row after"
+msgstr "後に行を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:629
+msgid "Insert row before"
+msgstr "前に行を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:634
+msgid "Insert table"
+msgstr "表を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:639
+msgid "Insert template"
+msgstr "テンプレートを挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:644
+msgid "Insert video"
+msgstr "動画を挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:649
+msgid "Insert"
+msgstr "挿入"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:654
+msgid "Insert/edit image"
+msgstr "画像を挿入/編集"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:659
+msgid "Insert/edit link"
+msgstr "リンクを挿入/編集"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:664
+msgid "Insert/edit video"
+msgstr "動画を挿入/編集"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:669
+msgid "Italic"
+msgstr "斜体"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:674
+msgid "Justify"
+msgstr "均等割り付け"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:679
+msgid "Keywords"
+msgstr "キーワード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:684
+msgid "Left to right"
+msgstr "左から右"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:689
+msgid "Left"
+msgstr "左"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:694
+msgid "Lower Alpha"
+msgstr "小文字のアルファベット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:699
+msgid "Lower Greek"
+msgstr "小文字のギリシャ文字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:704
+msgid "Lower Roman"
+msgstr "小文字のローマ字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:709
+msgid "Match case"
+msgstr "大文字小文字判定"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:714
+msgid "Merge cells"
+msgstr "セルをマージ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:719
+msgid "Middle"
+msgstr "中央"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:729
+msgid "New document"
+msgstr "新規ドキュメント"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:734
+msgid "New window"
+msgstr "新規ウインドウ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:739
+msgid "Next"
+msgstr "次"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:744
+msgid "No color"
+msgstr "色なし"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:749
+msgid "Nonbreaking space"
+msgstr "ノーブレークスペース"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:754
+msgid "None"
+msgstr "なし"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:759
+msgid "Numbered list"
+msgstr "数字リスト"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:774
+msgid "Page break"
+msgstr "改ページ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:784
+msgid "Paste as text"
+msgstr "テキストとして貼り付け"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:789
+msgid ""
+"Paste is now in plain text mode. Contents will now be pasted as plain text "
+"until you toggle this option off."
+msgstr "貼り付けは現在プレーンテキストモードです。このオプションをオフにするまでは、コンテンツはプレーンテキストとして貼り付けられます。"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:794
+msgid "Paste row after"
+msgstr "後に行を貼り付け"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:799
+msgid "Paste row before"
+msgstr "前に行を貼り付け"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:804
+msgid "Paste your embed code below:"
+msgstr "以下に埋め込みコードを貼り付けてください: "
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:809
+msgid "Paste"
+msgstr "貼り付け"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:814
+msgid "Poster"
+msgstr "ポスター"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:819
+msgid "Pre"
+msgstr "前"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:824
+msgid "Prev"
+msgstr "前"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:829
+#: lms/static/coffee/src/customwmd.js:157
+msgid "Preview"
+msgstr "プレビュー"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:834
+msgid "Print"
+msgstr "印刷"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:839
+msgid "Redo"
+msgstr "戻る"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:844
+msgid "Remove link"
+msgstr "リンクを削除"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:849
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:854
+msgid "Replace all"
+msgstr "全置換"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:859
+msgid "Replace with"
+msgstr "次のもので置換"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:864
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:869
+msgid "Replace"
+msgstr "置換"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:874
+msgid "Restore last draft"
+msgstr "最終ドラフトを復元"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:879
+msgid ""
+"Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
+"ALT-0 for help"
+msgstr "リッチテキストエリア。ALT-F9でメニューを表示。ALT-F10でツールバーを表示。ALT-0でヘルプを表示。"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:884
+msgid "Right to left"
+msgstr "右から左"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:889
+msgid "Right"
+msgstr "右"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:894
+msgid "Robots"
+msgstr "ロボット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:899
+msgid "Row group"
+msgstr "行グループ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:904
+msgid "Row properties"
+msgstr "行のプロパティ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:909
+msgid "Row type"
+msgstr "行タイプ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:914
+msgid "Row"
+msgstr "行"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:919
+msgid "Rows"
+msgstr "行"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:929
+msgid "Scope"
+msgstr "範囲"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:934
+msgid "Select all"
+msgstr "全て選択"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:939
+msgid "Show blocks"
+msgstr "ブロックを表示"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:944
+msgid "Show invisible characters"
+msgstr "不可視文字を表示"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:949
+msgid "Source code"
+msgstr "ソースコード"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:954
+msgid "Source"
+msgstr "ソース"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:959
+msgid "Special character"
+msgstr "特殊文字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:964
+msgid "Spellcheck"
+msgstr "スペルチェック"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:969
+msgid "Split cell"
+msgstr "セルを分割"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:974
+msgid "Square"
+msgstr "四角形"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:979
+msgid "Start search"
+msgstr "検索開始"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:984
+msgid "Strikethrough"
+msgstr "取り消し線"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:989
+msgid "Style"
+msgstr "スタイル"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:994
+msgid "Subscript"
+msgstr "下付き文字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:999
+msgid "Superscript"
+msgstr "上付き文字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1004
+msgid "Table properties"
+msgstr "表のプロパティ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1009
+msgid "Table"
+msgstr "表"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1014
+msgid "Target"
+msgstr "ターゲット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1019
+msgid "Templates"
+msgstr "テンプレート"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1024
+msgid "Text color"
+msgstr "文字の色"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1029
+msgid "Text to display"
+msgstr "テキストを表示"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1034
+msgid ""
+"The URL you entered seems to be an email address. Do you want to add the "
+"required mailto: prefix?"
+msgstr "入力されたURLはメールアドレスのように見えます。mailto: prefixを追加しますか？"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1039
+msgid ""
+"The URL you entered seems to be an external link. Do you want to add the "
+"required http:// prefix?"
+msgstr "入力されたURLは外部リンクのように見えます。http:// prefixを追加しますか？"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1044
+msgid "Title"
+msgstr "件名"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1049
+msgid "Tools"
+msgstr "ツール"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1054
+msgid "Top"
+msgstr "トップ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1059
+msgid "Underline"
+msgstr "下線"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1064
+msgid "Undo"
+msgstr "戻る"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1069
+msgid "Upper Alpha"
+msgstr "大文字のアルファベット"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1074
+msgid "Upper Roman"
+msgstr "大文字のローマ字"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1079
+msgid "Url"
+msgstr "URL"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1084
+msgid "V Align"
+msgstr "垂直揃え"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1089
+msgid "Vertical space"
+msgstr "縦サイズ"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1094
+msgid "View"
+msgstr "見る"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1099
+msgid "Visual aids"
+msgstr "視覚教材"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1104
+msgid "Whole words"
+msgstr "全ての語"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1109
+msgid "Width"
+msgstr "幅"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1114
+msgid "Words: {0}"
+msgstr "語数: {0}"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1119
+msgid "You have unsaved changes are you sure you want to navigate away?"
+msgstr "保存されていない変更があります。このページから移動しますか？"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1124
+msgid ""
+"Your browser doesn't support direct access to the clipboard. Please use the "
+"Ctrl+X/C/V keyboard shortcuts instead."
+msgstr "このブラウザはクリップボードへのアクセスがサポートされていません。代わりに、Ctrl+X/C/Vといったキーボードショートカットを使ってください。"
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:20
+msgid ""
+"Click OK to have your username and e-mail address sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "OKをクリックすると、あなたのユーザー名とメールアドレスが第三者のシステムに送信されます。\n\nキャンセルをクリックすると、情報を送信せずにこの画面に戻ります。"
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:22
+msgid ""
+"Click OK to have your username sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "OKをクリックすると、あなたのユーザー名が第三者のシステムに送信されます。\n\nキャンセルをクリックすると、情報を送信せずにこの画面に戻ります。"
+
+#: common/lib/xmodule/xmodule/js/src/lti/lti.js:24
+msgid ""
+"Click OK to have your e-mail address sent to a 3rd party application.\n"
+"\n"
+"Click Cancel to return to this page without sending your information."
+msgstr "OKをクリックすると、あなたのメールアドレスが第三者のシステムに送信されます。\n\nキャンセルをクリックすると、情報を送信せずにこの画面に戻ります。"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:34
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:46
+msgid "incorrect"
+msgstr "不正解"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:34
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:37
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:46
+msgid "correct"
+msgstr "正解"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:40
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:43
+msgid "answer"
+msgstr "解答"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:52
+msgid "Short explanation"
+msgstr "簡単な説明"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:130
+msgid ""
+"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
+"\n"
+"Proceed to the Advanced Editor and convert this problem to XML?"
+msgstr "Advanced Editorを使用すると、この問題はXMLに変換され、Simple Editor Interfaceに戻ることはできなくなります。\n\nAdvanced Editorに進んでこの問題をXMLに変換しますか？"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:725
+msgid "Explanation"
+msgstr "説明"
+
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:319
+msgid ""
+"Sequence error! Cannot navigate to %(tab_name)s in the current "
+"SequenceModule. Please contact the course staff."
+msgstr "シーケンスエラー！このシーケンスモジュールでは%(tab_name)sを操作できません。講座スタッフにお問い合わせください。"
+
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:417
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
+msgid "Bookmarked"
+msgstr "ブックマーク済"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:14
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:29
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:87
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js:29
+msgid "Play"
+msgstr "再生"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:15
+#: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js:77
+msgid "Pause"
+msgstr "一時停止"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:16
+msgid "Mute"
+msgstr "ミュート"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:17
+msgid "Unmute"
+msgstr "ミュート解除"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:18
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:159
+msgid "Exit full browser"
+msgstr "フルブラウザをやめる"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:19
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:6
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:137
+msgid "Fill browser"
+msgstr "ブラウザ内で最大化する"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:20
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:45
+msgid "Speed"
+msgstr "速度"
+
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:21
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:69
+msgid "Volume"
+msgstr "音量"
+
+#. Translators: Volume level equals 0%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:23
+msgid "Muted"
+msgstr "ミュート中"
+
+#. Translators: Volume level in range ]0,20]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:25
+msgid "Very low"
+msgstr "とても小さい"
+
+#. Translators: Volume level in range ]20,40]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:27
+msgid "Low"
+msgstr "小さい"
+
+#. Translators: Volume level in range ]40,60]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:29
+msgid "Average"
+msgstr "普通"
+
+#. Translators: Volume level in range ]60,80]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:31
+msgid "Loud"
+msgstr "大きい"
+
+#. Translators: Volume level in range ]80,99]%
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:33
+msgid "Very loud"
+msgstr "とても大きい"
+
+#. Translators: Volume level equals 100%.
+#: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:35
+msgid "Maximum"
+msgstr "最大"
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js:87
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "このブラウザは.mp4、.ogg、.webmファイルを再生できません。"
+
+#: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js:88
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "Google Chromeなど別のブラウザを使用してください。"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:23
+msgid "High Definition"
+msgstr "高解像度"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:24
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:156
+msgid "off"
+msgstr "オフ"
+
+#: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js:150
+msgid "on"
+msgstr "オン"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:16
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:107
+msgid "Video position. Press space to toggle playback"
+msgstr "動画位置。スペースバーで再生・停止"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:302
+msgid "Video ended"
+msgstr "動画終了"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:306
+msgid "Video position"
+msgstr "動画位置"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:321
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s 時間"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:324
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s 分"
+
+#: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:327
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s 秒"
+
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:67
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr "このボタンをクリックすると、動画がミュート／ミュート解除されます。UP／DOWNボタンで音量を調節できます。"
+
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:68
+msgid "Adjust video volume"
+msgstr "音量を調整"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:35
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr "UP を押して再生速度メニュー画面に入り、 上下の矢印キーを使って再生速度を調整しENTER を押すと、選択した速度に変更します。"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:39
+msgid "Adjust video speed"
+msgstr "速度を調整"
+
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr "動画速度"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js:78
+msgid "Skip"
+msgstr "スキップ"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_poster.js:30
+msgid "Play video"
+msgstr "動画再生"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js:32
+msgid "Do not show again"
+msgstr "再表示しない"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:101
+msgid "Open language menu"
+msgstr "言語選択メニューを開く"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:549
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "動画を再生すると字幕が表示されます。"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:793
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr "このグループのリンクを有効化すると、ビデオの該当箇所にスキップします。"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:796
+msgid "Video transcript"
+msgstr "動画字幕"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:799
+msgid "Start of transcript. Skip to the end."
+msgstr "字幕の最初です。最後へ飛びます。"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:803
+msgid "End of transcript. Skip to the start."
+msgstr "字幕の最後です。最初へ戻ります。"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:807
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr "言語メニューを入力するにはUPキーを押し、UPおよびDOWNキーを使って言語を選択してください。ENTERを押すと言語が変更されます。"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1185
+msgid "Hide closed captions"
+msgstr "字幕を非表示"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1192
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(動画の再生を開始すると字幕が表示されます。)"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1207
+msgid "Turn on closed captioning"
+msgstr "字幕を表示する"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1255
+msgid "Turn on transcripts"
+msgstr "字幕を表示"
+
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1267
+msgid "Turn off transcripts"
+msgstr "字幕を非表示"
+
+#: common/static/bundles/CourseGoals.b56f05f27734759a3a6a.js:1
+#: common/static/bundles/CourseGoals.js:35
+msgid "Thank you for setting your course goal to "
+msgstr ""
+
+#: common/static/bundles/CourseGoals.b56f05f27734759a3a6a.js:1
+#: common/static/bundles/CourseGoals.js:45
+msgid ""
+"There was an error in setting your goal, please reload the page and try "
+"again."
+msgstr ""
+
+#: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
+#: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
+#: common/static/bundles/CourseHome.js:93
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:84
+msgid "You have successfully updated your goal."
+msgstr ""
+
+#: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
+#: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
+#: common/static/bundles/CourseHome.js:98
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:89
+msgid "There was an error updating your goal."
+msgstr ""
+
+#: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
+#: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
+#: common/static/bundles/CourseHome.js:191
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:181
+msgid "Show more"
+msgstr ""
+
+#: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
+#: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
+#: common/static/bundles/CourseHome.js:212
+#: openedx/features/course_experience/static/course_experience/js/CourseHome.js:202
+msgid "Show less"
+msgstr ""
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:55
+msgid "Organization:"
+msgstr "組織: "
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:69
+msgid "Course Number:"
+msgstr "講座番号: "
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:83
+msgid "Course Run:"
+msgstr "Course Run: "
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:94
+msgid "(Read-only)"
+msgstr "(読取専用)"
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:112
+msgid "Re-run Course"
+msgstr "再開講"
+
+#: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
+#: common/static/bundles/StudioIndex.js:127
+msgid "View Live"
+msgstr "ライブ表示"
+
+#: common/static/common/js/components/utils/view_utils.js:208
+msgid "Required field."
+msgstr "必須欄です。"
+
+#: common/static/common/js/components/utils/view_utils.js:222
+msgid "Please do not use any spaces in this field."
+msgstr "この欄にはスペースを使用しないで下さい。"
+
+#: common/static/common/js/components/utils/view_utils.js:227
+msgid "Please do not use any spaces or special characters in this field."
+msgstr "この欄にはスペースや特殊文字を使用しないで下さい。"
+
+#: common/static/common/js/components/views/paginated_view.js:47
+#: common/static/common/js/components/views/paging_footer.js:21
+msgid "Pagination"
+msgstr "ページ番号"
+
+#: common/static/common/js/components/views/paginated_view.js:75
+msgid ""
+"Your request could not be completed. Reload the page and try again. If the "
+"issue persists, click the Help tab to report the problem."
+msgstr "リクエストの実行は完了していません。再読込して再試行してください。問題が解決しない場合はヘルプタブをクリックして問題を報告してください。"
+
+#: common/static/common/js/components/views/paging_header.js:37
+msgid "Showing {firstIndex} out of {numItems} total"
+msgstr "全 {numItems} 個のうち {firstIndex} 番目を表示中"
+
+#: common/static/common/js/components/views/paging_header.js:42
+msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
+msgstr "全 {numItems}個のうち {firstIndex}-{lastIndex} 番目を表示中"
+
+#: common/static/common/js/discussion/utils.js:142
+msgid "Loading content"
+msgstr "コンテンツ読込中"
+
+#: common/static/common/js/discussion/utils.js:199
+msgid "Your request could not be processed. Refresh the page and try again."
+msgstr "リクエストの実行を完了できませんでした。この画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/utils.js:469
+#: common/static/common/js/discussion/utils.js:493
+msgid "…"
+msgstr "..."
+
+#: common/static/common/js/discussion/utils.js:506
+msgid "Some images in this post have been omitted"
+msgstr "本投稿の画像は省略されました。"
+
+#: common/static/common/js/discussion/utils.js:512
+msgid "image omitted"
+msgstr "映像省略"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:280
+msgid "there is currently {numVotes} vote"
+msgid_plural "there are currently {numVotes} votes"
+msgstr[0] "現在 {numVotes} 票"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:286
+msgid "{numVotes} Vote"
+msgid_plural "{numVotes} Votes"
+msgstr[0] "{numVotes} 票"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:354
+msgid ""
+"You could not be subscribed to this post. Refresh the page and try again."
+msgstr "この投稿を署名できませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:356
+msgid ""
+"You could not be unsubscribed from this post. Refresh the page and try "
+"again."
+msgstr "この投稿から署名を解除できませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:383
+msgid ""
+"This response could not be marked as an answer. Refresh the page and try "
+"again."
+msgstr "この返信は解答としてマークできませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:385
+msgid ""
+"This response could not be unmarked as an answer. Refresh the page and try "
+"again."
+msgstr "この返信は解答のマークを外すことができませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:389
+msgid ""
+"This response could not be marked as endorsed. Refresh the page and try "
+"again."
+msgstr "この返信にいいね！ができませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:391
+msgid "This response could not be unendorsed. Refresh the page and try again."
+msgstr "この返信のいいね！が解除できませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:423
+msgid "This vote could not be processed. Refresh the page and try again."
+msgstr "この投票は処理できませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:439
+msgid "This post could not be pinned. Refresh the page and try again."
+msgstr "この投稿はピン止めできませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:441
+msgid "This post could not be unpinned. Refresh the page and try again."
+msgstr "この投稿はピン止めを外せませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:457
+msgid ""
+"This post could not be flagged for abuse. Refresh the page and try again."
+msgstr "この投稿は不正投稿としてフラグがつけられませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:460
+msgid ""
+"This post could not be unflagged for abuse. Refresh the page and try again."
+msgstr "この投稿は不正投稿のフラグを外せませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:480
+msgid "This post could not be closed. Refresh the page and try again."
+msgstr "この投稿を終了することができませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:482
+msgid "This post could not be reopened. Refresh the page and try again."
+msgstr "この投稿を再開することができませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:191
+#: common/static/common/js/discussion/views/discussion_inline_view.js:229
+msgid "Hide Discussion"
+msgstr "ディスカッションを非表示"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:200
+msgid "This discussion could not be loaded. Refresh the page and try again."
+msgstr "このディスカッションは読み込めませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:211
+msgid "Show Discussion"
+msgstr "ディスカッションを表示"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:269
+msgid "Loading more threads"
+msgstr "追加のスレッドを読込中"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:321
+msgid "Additional posts could not be loaded. Refresh the page and try again."
+msgstr "追加の投稿を読み込めませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:382
+msgid "Current conversation"
+msgstr "現在のディスカッション"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:498
+msgid "Loading posts list"
+msgstr "投稿リストを読込中"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:516
+msgid ""
+"No results found for {original_query}. Showing results for "
+"{suggested_query}."
+msgstr "{original_query} に該当する結果が見つかりませんでした。 {suggested_query} の結果を表示しています。 "
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:535
+msgid "No posts matched your query."
+msgstr "質問に該当する投稿がありませんでした。"
+
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:570
+msgid "Show posts by {username}."
+msgstr "{username}の投稿を見る"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:218
+msgid "The post you selected has been deleted."
+msgstr "あなたが選択した投稿は削除されています。"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:223
+msgid "Responses could not be loaded. Refresh the page and try again."
+msgstr "返信を読み込めませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:228
+msgid ""
+"Additional responses could not be loaded. Refresh the page and try again."
+msgstr "追加の返信を読み込めませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:244
+msgid "{numResponses} other response"
+msgid_plural "{numResponses} other responses"
+msgstr[0] "{numResponses} 件の投稿"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:251
+msgid "{numResponses} response"
+msgid_plural "{numResponses} responses"
+msgstr[0] "{numResponses} 件の投稿"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:263
+msgid "Showing all responses"
+msgstr "すべての返信を表示中"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:268
+msgid "Showing first response"
+msgid_plural "Showing first {numResponses} responses"
+msgstr[0] "最初の {numResponses} 件の返信を表示中"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:281
+msgid "Load all responses"
+msgstr "すべての返信を読込"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:284
+msgid "Load next {numResponses} responses"
+msgstr "次の {numResponses} 件の返信を読込"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:449
+msgid "Are you sure you want to delete this post?"
+msgstr "この投稿を削除してもよろしいですか？"
+
+#: common/static/common/js/discussion/views/new_post_view.js:233
+msgid "Your post will be discarded."
+msgstr "あなたの投稿は破棄されます。"
+
+#: common/static/common/js/discussion/views/response_comment_show_view.js:58
+msgid "anonymous"
+msgstr "匿名"
+
+#: common/static/common/js/discussion/views/response_comment_view.js:104
+msgid "Are you sure you want to delete this comment?"
+msgstr "このコメントを削除してもよろしいですか？"
+
+#: common/static/common/js/discussion/views/response_comment_view.js:120
+msgid "This comment could not be deleted. Refresh the page and try again."
+msgstr "このコメントは削除できませんでした。画面を再読込して再度実行してください。"
+
+#: common/static/common/js/discussion/views/thread_response_view.js:229
+msgid "Are you sure you want to delete this response?"
+msgstr "この返信を削除してよろしいですか？"
+
+#: common/static/common/js/utils/edx.utils.validate.js:27
+msgid "The email address you've provided isn't formatted correctly."
+msgstr "メールアドレスの書式が正しくありません。"
+
+#: common/static/common/js/utils/edx.utils.validate.js:28
+msgid "%(field)s must have at least %(count)d characters."
+msgstr "%(field)s には最低 %(count)d 文字必要です。"
+
+#: common/static/common/js/utils/edx.utils.validate.js:29
+msgid "%(field)s can only contain up to %(count)d characters."
+msgstr "%(field)s は最大 %(count)d 文字までです。"
+
+#: common/static/common/js/utils/edx.utils.validate.js:30
+msgid "Please enter your %(field)s."
+msgstr "%(field)s を入力して下さい。"
+
+#: common/static/js/capa/drag_and_drop/base_image.js:21
+msgid "Drop target image"
+msgstr "目的の画像をドロップ"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:86
+msgid "dragging out of slider"
+msgstr "スライダーの外にドラッグ"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:88
+msgid "dragging"
+msgstr "ドラッグ"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:110
+msgid "dropped in slider"
+msgstr "スライダーの中にドロップ"
+
+#: common/static/js/capa/drag_and_drop/draggable_events.js:112
+msgid "dropped on target"
+msgstr "ターゲットにドロップ"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js:3
+#, javascript-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
+#: common/static/js/src/jquery.timeago.locale.js:5
+#, javascript-format
+msgid "%s from now"
+msgstr "現在から %s 前"
+
+#: common/static/js/src/jquery.timeago.locale.js:6
+msgid "less than a minute"
+msgstr "１分以内"
+
+#: common/static/js/src/jquery.timeago.locale.js:7
+msgid "about a minute"
+msgstr "約１分"
+
+#: common/static/js/src/jquery.timeago.locale.js:8
+#, javascript-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分"
+
+#: common/static/js/src/jquery.timeago.locale.js:9
+msgid "about an hour"
+msgstr "約１時間"
+
+#: common/static/js/src/jquery.timeago.locale.js:10
+#, javascript-format
+msgid "about %d hour"
+msgid_plural "about %d hours"
+msgstr[0] "約 %d 時間"
+
+#: common/static/js/src/jquery.timeago.locale.js:11
+msgid "a day"
+msgstr "１日"
+
+#: common/static/js/src/jquery.timeago.locale.js:12
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 日"
+
+#: common/static/js/src/jquery.timeago.locale.js:13
+msgid "about a month"
+msgstr "約１ヶ月"
+
+#: common/static/js/src/jquery.timeago.locale.js:14
+#, javascript-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d ヶ月"
+
+#: common/static/js/src/jquery.timeago.locale.js:15
+msgid "about a year"
+msgstr "約１年"
+
+#: common/static/js/src/jquery.timeago.locale.js:16
+#, javascript-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d 年"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:45
+msgid "User"
+msgstr "ユーザー"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:49
+msgid "Annotation"
+msgstr "注釈"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:54
+msgid "Start"
+msgstr "開始"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:58
+msgid "End"
+msgstr "終了"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:63
+msgid "#Replies"
+msgstr "#返信"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:67
+msgid "Date posted"
+msgstr "投稿日時"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:76
+#: lms/static/js/courseware/credit_progress.js:7
+#: lms/static/js/courseware/credit_progress.js:14
+msgid "More"
+msgstr "その他"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:81
+#: common/static/js/vendor/ova/catch/js/catch.js:92
+msgid "My Notes"
+msgstr "マイノート"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:82
+msgid "Instructor"
+msgstr "講師"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:83
+#: common/static/js/vendor/ova/catch/js/catch.js:93
+msgid "Public"
+msgstr "公開"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:84
+#: common/static/js/vendor/ova/catch/js/catch.js:94
+msgid "Search"
+msgstr "検索"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:85
+#: common/static/js/vendor/ova/catch/js/catch.js:95
+msgid "Users"
+msgstr "ユーザー"
+
+#. Translators: 'Tags' is the name of the view (noun) within the Student Notes
+#. page that shows all
+#. notes organized by the tags the student has associated with them (if any).
+#. When defining a
+#. note in the courseware, the student can choose to associate 1 or more tags
+#. with the note
+#. in order to group similar notes together and help with search.
+#: common/static/js/vendor/ova/catch/js/catch.js:86
+#: common/static/js/vendor/ova/catch/js/catch.js:96
+#: lms/static/js/edxnotes/views/tabs/tags.js:130
+msgid "Tags"
+msgstr "タグ"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:87
+#: common/static/js/vendor/ova/catch/js/catch.js:97
+msgid "Annotation Text"
+msgstr "注釈テキスト"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:88
+#: common/static/js/vendor/ova/catch/js/catch.js:98
+msgid "Clear"
+msgstr "クリア"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:104
+msgid "Text"
+msgstr "テキスト"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:107
+msgid "Video"
+msgstr "動画"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:110
+#: lms/static/js/views/image_field.js:23
+msgid "Image"
+msgstr "画像"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:246
+msgid "Reply"
+msgstr "返信"
+
+#: common/static/js/vendor/ova/catch/js/catch.js:261
+msgid "Tags:"
+msgstr "タグ："
+
+#. Translators: please note that this is not a literal flag, but rather a
+#. report
+#: common/static/js/vendor/ova/flagging-annotator.js:48
+msgid "Check the box to remove all flags."
+msgstr "全てのフラグを解除するにはチェックをいれます。"
+
+#. Translators: 'totalFlags' is the number of flags solely for that annotation
+#: common/static/js/vendor/ova/flagging-annotator.js:93
+msgid "Check the box to remove %(totalFlags)s flag."
+msgid_plural "Check the box to remove %(totalFlags)s flags."
+msgstr[0] "全%(totalFlags)s件のフラグを解除するにはチェックをいれます。"
+
+#. Translators: 'count' is the number of flags solely for that annotation that
+#. will be removed
+#: common/static/js/vendor/ova/flagging-annotator.js:102
+msgid "Check the box to remove %(count)s flag."
+msgid_plural "Check the box to remove %(count)s flags."
+msgstr[0] "%(totalFlags)s件のフラグを解除するにはチェックをいれます。"
+
+#: common/static/js/vendor/ova/flagging-annotator.js:105
+msgid "All flags have been removed. To undo, uncheck the box."
+msgstr "全てのフラグが解除されました。元に戻すにはチェックを外してください。"
+
+#: common/static/js/vendor/ova/flagging-annotator.js:153
+#: common/static/js/vendor/ova/flagging-annotator.js:198
+msgid "You have already reported this annotation."
+msgstr "この注釈は既に問題報告されました。"
+
+#: common/static/js/vendor/ova/flagging-annotator.js:165
+#: common/static/js/vendor/ova/flagging-annotator.js:223
+msgid "Report annotation as inappropriate or offensive."
+msgstr "注釈が不適切および攻撃的表現であると報告する。"
+
+#. Translators: 'count' is the number of flags solely for that annotation
+#: common/static/js/vendor/ova/flagging-annotator.js:183
+msgid "This annotation has %(count)s flag."
+msgid_plural "This annotation has %(count)s flags."
+msgstr[0] "この注釈には%(count)s件のフラグが設定されました。"
+
+#: lms/djangoapps/support/static/support/js/views/certificates.js:51
+msgid "An unexpected error occurred.  Please try again."
+msgstr "予期せぬエラーが発生しました。やり直してください。"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:15
+msgid "Financial Assistance"
+msgstr "経済的援助"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:16
+msgid "Upset Learner"
+msgstr "受講者を動揺させる"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment.js:17
+msgid "Teaching Assistant"
+msgstr "ティーチングアシスタント"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:51
+msgid "Please specify a reason."
+msgstr "理由を説明してください。"
+
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:62
+msgid "Something went wrong changing this enrollment. Please try again."
+msgstr "登録の変更時に問題が発生しました。再試行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/collections/team.js:35
+msgid "last activity"
+msgstr "最近のアクティビティ"
+
+#: lms/djangoapps/teams/static/teams/js/collections/team.js:36
+msgid "open slots"
+msgstr "公開スロット"
+
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js:25
+msgid "name"
+msgstr "名前"
+
+#. Translators: This refers to the number of teams (a count of how many teams
+#. there are)
+#: lms/djangoapps/teams/static/teams/js/collections/topic.js:27
+msgid "team count"
+msgstr "チーム・カウント"
+
+#: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js:9
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:135
+msgid "Teams"
+msgstr "チーム"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:33
+msgid "Create"
+msgstr "作成"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:38
+msgid "Update"
+msgstr "更新"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:43
+msgid "Team Name (Required) *"
+msgstr "チーム名 (必須) *"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:45
+msgid "A name that identifies your team (maximum 255 characters)."
+msgstr "チームを特定するための名称 (最大 255文字まで) 。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:50
+msgid "Team Description (Required) *"
+msgstr "チームの説明 (必須) *"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:54
+msgid ""
+"A short description of the team to help other learners understand the goals "
+"or direction of the team (maximum 300 characters)."
+msgstr "他の受講者にチームの目的や方向性を理解してもらうための短文解説 (最大 300文字まで)。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:59
+#: lms/static/js/student_account/views/account_settings_factory.js:117
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:145
+msgid "Language"
+msgstr "言語"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:65
+msgid ""
+"The language that team members primarily use to communicate with each other."
+msgstr "チームのメンバーがお互いにコミュニケーションをする際に主として使う言語。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:70
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:133
+msgid "Country"
+msgstr "国"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:76
+msgid "The country that team members primarily identify with."
+msgstr "チームの主なメンバーの国。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:143
+#: lms/static/js/views/fields.js:68
+msgid "An error occurred. Please try again."
+msgstr "エラーが発生しました。再試行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:153
+msgid "Check the highlighted fields below and try again."
+msgstr "以下にハイライトされている欄を確認して再試行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:163
+msgid "Enter team name."
+msgstr "チーム名を入力してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:169
+msgid "Team name cannot have more than 255 characters."
+msgstr "チーム名は 255 文字以下にしてください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:177
+msgid "Enter team description."
+msgstr "チームの説明を入力してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:183
+msgid "Team description cannot have more than 300 characters."
+msgstr "チームの説明は300文字以下にしてください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:18
+msgid "An error occurred while removing the member from the team. Try again."
+msgstr "チームからのメンバーの削除処理中にエラーが発生しました。再試行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:38
+msgid "This team does not have any members."
+msgstr "このチームには誰も参加していません。"
+
+#. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
+#. https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:53
+msgid "Joined %(date)s"
+msgstr "%(date)s に参加済"
+
+#. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
+#. https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:60
+msgid "Last Activity %(date)s"
+msgstr "最近のアクティビティ %(date)s "
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:82
+msgid "Remove this team member?"
+msgstr "このメンバーをチームから削除しますか？"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:83
+msgid ""
+"This learner will be removed from the team, allowing another learner to take"
+" the available spot."
+msgstr "この受講者がチームから削除されることにより、別の受講者が参加可能になります。"
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:33
+msgid "Delete this team?"
+msgstr "このチームを削除しますか？"
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:34
+msgid ""
+"Deleting a team is permanent and cannot be undone. All members are removed "
+"from the team, and team discussions can no longer be accessed."
+msgstr "チームの削除は恒久的なもので取り消しできません。チームからすべてのメンバーが削除され、チームのディスカッションへのアクセスもできなくなります。"
+
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:58
+msgid "Team \"{team}\" successfully deleted."
+msgstr "チーム \"{team}\" は問題なく削除されました。"
+
+#: lms/djangoapps/teams/static/teams/js/views/my_teams.js:16
+msgid "You are not currently a member of any team."
+msgstr "現在どのチームにも参加していません。"
+
+#. Translators: "and others" refers to fact that additional members of a team
+#. exist that are not displayed.
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:49
+msgid "and others"
+msgstr "とその他"
+
+#. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
+#. http://momentjs.com/)
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:88
+msgid "Last activity %(date)s"
+msgstr "最近のアクティビティ %(date)s "
+
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:123
+msgid "View %(span_start)s %(team_name)s %(span_end)s"
+msgstr "%(span_start)s %(team_name)s %(span_end)s を見る"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:21
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:13
+msgid "An error occurred. Try again."
+msgstr "エラーが発生しました。再試行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:92
+msgid "Leave this team?"
+msgstr "このチームを辞めますか？"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:93
+msgid ""
+"If you leave, you can no longer post in this team's discussions. Your place "
+"will be available to another learner."
+msgstr "もし辞めると、このチームのディスカッションに投稿することができなくなります。使用していた環境は他の受講者が利用できるようになります。"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:94
+#: lms/static/js/verify_student/views/reverify_view.js:50
+msgid "Confirm"
+msgstr "確認"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:14
+msgid "You already belong to another team."
+msgstr "すでに他のチームに参加しています。"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:15
+msgid "This team is full."
+msgstr "このチームは満員です。"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_utils.js:26
+msgid "%(memberCount)s / %(maxMemberCount)s Member"
+msgid_plural "%(memberCount)s / %(maxMemberCount)s Members"
+msgstr[0] "メンバー %(memberCount)s / %(maxMemberCount)s 人"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams.js:15
+msgid "All teams"
+msgstr "全てのチーム"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams.js:18
+msgid "Teams Pagination"
+msgstr "チームのページ数"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:36
+msgid "Topics"
+msgstr "トピックス"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:136
+msgid ""
+"See all teams in your course, organized by topic. Join a team to collaborate"
+" with other learners who are interested in the same topic as you are."
+msgstr "講座の全チームをトピック別に整理して表示します。同じトピックに興味を持っている他の受講者と協同学習するために、チームに参加しましょう。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:139
+msgid "My Team"
+msgstr "参加しているチーム"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:143
+msgid "Browse"
+msgstr "ブラウズ"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:175
+msgid "Your request could not be completed. Reload the page and try again."
+msgstr "リクエストの実行を完了できませんでした。画面を再読込して再度実行してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:180
+msgid ""
+"Your request could not be completed due to a server problem. Reload the page"
+" and try again. If the issue persists, click the Help tab to report the "
+"problem."
+msgstr "サーバーの問題によりリクエストの実行を完了できませんでした。画面を再読込して再度実行してください。この問題が解決しない場合はヘルプタブをクリックして問題を報告してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:217
+msgid "Team Search"
+msgstr "チーム検索"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:219
+msgid "Showing results for \"{searchString}\""
+msgstr "\"{searchString}\" の結果を表示中"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:238
+msgid "Create a New Team"
+msgstr "新規チームを作成"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:239
+msgid ""
+"Create a new team if you can't find an existing team to join, or if you "
+"would like to learn with friends you know."
+msgstr "参加したいチームが見つからない場合や友達と一緒に受講をしたい場合は、新規チームを作成してください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:272
+msgid "Edit Team"
+msgstr "チームを編集"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:273
+msgid ""
+"If you make significant changes, make sure you notify members of the team "
+"before making these changes."
+msgstr "大幅な変更を行う場合は、変更を行う前にチームメンバーに必ず知らせてください。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:301
+msgid "Membership"
+msgstr "メンバーシップ"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:302
+msgid ""
+"You can remove members from this team, especially if they have not "
+"participated in the team's activity."
+msgstr "チームの活動に参加していないメンバーがいる場合は、そのメンバーをチームから削除することができます。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:361
+msgid "Search teams"
+msgstr "チームの検索"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:457
+msgid "All Topics"
+msgstr "全てのトピック"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:588
+msgid "The page \"{route}\" could not be found."
+msgstr "\"{route}\" というページが見つかりませんでした。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:597
+msgid "The topic \"{topic}\" could not be found."
+msgstr "\"{topic}\" というトピックが見つかりませんでした。"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:606
+msgid "The team \"{team}\" could not be found."
+msgstr "\"{team}\" というチームが見つかりませんでした。"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:19
+msgid "%(team_count)s Team"
+msgid_plural "%(team_count)s Teams"
+msgstr[0] "%(team_count)s チーム"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:39
+msgid "Topic"
+msgstr "トピック"
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:46
+msgid "View Teams in the %(topic_name)s Topic"
+msgstr "%(topic_name)s というトピックのチームを見る"
+
+#. Translators: this string is shown at the bottom of the teams page
+#. to find a team to join or else to create a new one. There are three
+#. links that need to be included in the message:
+#. 1. Browse teams in other topics
+#. 2. search teams
+#. 3. create a new team
+#. Be careful to start each link with the appropriate start indicator
+#. (e.g. {browse_span_start} for #1) and finish it with {span_end}.
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:47
+msgid ""
+"{browse_span_start}Browse teams in other topics{span_end} or "
+"{search_span_start}search teams{span_end} in this topic. If you still can't "
+"find a team to join, {create_span_start}create a new team in this "
+"topic{span_end}."
+msgstr "{browse_span_start}他のトピックのチームを表示する{span_end} 、または{search_span_start}このトピックのチームを検索する{span_end}。参加したいチームが見つからない場合は、{create_span_start}このトピックで新規チームを作りましょう{span_end}。"
+
+#: lms/djangoapps/teams/static/teams/js/views/topics.js:15
+msgid "All topics"
+msgstr "全トピック"
+
+#: lms/static/coffee/src/calculator.js:40
+msgid "Open Calculator"
+msgstr "計算機を開く"
+
+#: lms/static/coffee/src/calculator.js:47
+msgid "Close Calculator"
+msgstr "計算機を閉じる"
+
+#: lms/static/coffee/src/customwmd.js:157
+msgid "HTML preview of post"
+msgstr "投稿の HTML プレビュー"
+
+#: lms/static/coffee/src/customwmd.js:158
+msgid "Post body"
+msgstr "ボディを投稿"
+
+#: lms/static/js/Markdown.Editor.js:28
+msgid "Insert Hyperlink"
+msgstr "リンクを挿入"
+
+#: lms/static/js/Markdown.Editor.js:29
+msgid "e.g. 'http://google.com'"
+msgstr "例. 'http://google.com'"
+
+#: lms/static/js/Markdown.Editor.js:30
+msgid "Link Description"
+msgstr "リンク詳細"
+
+#: lms/static/js/Markdown.Editor.js:31
+msgid "e.g. 'google'"
+msgstr "例. 'google'"
+
+#: lms/static/js/Markdown.Editor.js:32
+msgid "Please provide a description of the link destination."
+msgstr "リンク先の詳細を述べてください。"
+
+#: lms/static/js/Markdown.Editor.js:36
+msgid "Insert Image (upload file or type URL)"
+msgstr "画像挿入 (ファイルのアップロードまたはURL入力)"
+
+#: lms/static/js/Markdown.Editor.js:37
+msgid ""
+"Type in a URL or use the \"Choose File\" button to upload a file from your "
+"machine. (e.g. 'http://example.com/img/clouds.jpg')"
+msgstr "URLを入力するか、\"ファイルを選ぶ\"ボタンを使ってファイルをアップロードしてください。(例. 'http://example.com/img/clouds.jpg')"
+
+#: lms/static/js/Markdown.Editor.js:38
+msgid "Image Description"
+msgstr "画像詳細"
+
+#: lms/static/js/Markdown.Editor.js:40
+msgid ""
+"Please describe this image or agree that it has no contextual value by "
+"checking the checkbox."
+msgstr "画像の詳細を入力するか、チェックボックスにチェックをして背景的な値がないことに同意してください。"
+
+#: lms/static/js/Markdown.Editor.js:41
+msgid ""
+"e.g. 'Sky with clouds'. The description is helpful for users who cannot see "
+"the image."
+msgstr "例. '雲のある空'。画像を見ることができないユーザーにとっては、この説明が助けになります。"
+
+#: lms/static/js/Markdown.Editor.js:44
+msgid "How to create useful text alternatives."
+msgstr "役立つ文章の書き方。"
+
+#: lms/static/js/Markdown.Editor.js:46
+msgid ""
+"This image is for decorative purposes only and does not require a "
+"description."
+msgstr "この画像は装飾用なので、詳細説明は不要です。"
+
+#: lms/static/js/Markdown.Editor.js:49
+msgid "Markdown Editing Help"
+msgstr "マークダウン編集ヘルプ"
+
+#: lms/static/js/Markdown.Editor.js:50
+msgid "URL"
+msgstr "URL"
+
+#: lms/static/js/Markdown.Editor.js:51
+msgid "Please provide a valid URL."
+msgstr "正しいURLを入力してください。"
+
+#. Translators: 'errorCount' is the number of errors found in the form.
+#: lms/static/js/Markdown.Editor.js:1076
+msgid "%(errorCount)s error found in form."
+msgid_plural "%(errorCount)s errors found in form."
+msgstr[0] "フォームに %(errorCount)s 個エラーがありました。"
+
+#: lms/static/js/Markdown.Editor.js:1471
+msgid "Bold (Ctrl+B)"
+msgstr "太字 (Ctrl+B)"
+
+#: lms/static/js/Markdown.Editor.js:1472
+msgid "Italic (Ctrl+I)"
+msgstr "斜体 (Ctrl+I)"
+
+#: lms/static/js/Markdown.Editor.js:1474
+msgid "Hyperlink (Ctrl+L)"
+msgstr "ハイパーリンク (Ctrl+L)"
+
+#: lms/static/js/Markdown.Editor.js:1477
+msgid "Blockquote (Ctrl+Q)"
+msgstr "引用 (Ctrl+Q)"
+
+#: lms/static/js/Markdown.Editor.js:1478
+msgid "Code Sample (Ctrl+K)"
+msgstr "コードサンプル (Ctrl+K)"
+
+#: lms/static/js/Markdown.Editor.js:1479
+msgid "Image (Ctrl+G)"
+msgstr "画像 (Ctrl+G)"
+
+#: lms/static/js/Markdown.Editor.js:1483
+msgid "Numbered List (Ctrl+O)"
+msgstr "数字付きリスト (Ctrl+O)"
+
+#: lms/static/js/Markdown.Editor.js:1486
+msgid "Bulleted List (Ctrl+U)"
+msgstr "箇条書きリスト (Ctrl+U)"
+
+#: lms/static/js/Markdown.Editor.js:1489
+msgid "Heading (Ctrl+H)"
+msgstr "見出し (Ctrl+H)"
+
+#: lms/static/js/Markdown.Editor.js:1490
+msgid "Horizontal Rule (Ctrl+R)"
+msgstr "罫線 (Ctrl+R)"
+
+#: lms/static/js/Markdown.Editor.js:1492
+msgid "Undo (Ctrl+Z)"
+msgstr "元に戻す (Ctrl+Z)"
+
+#: lms/static/js/Markdown.Editor.js:1496
+msgid "Redo (Ctrl+Y)"
+msgstr "やり直し (Ctrl+Y)"
+
+#: lms/static/js/Markdown.Editor.js:1497
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr "やり直し (Ctrl+Shift+Z)"
+
+#: lms/static/js/Markdown.Editor.js:1563
+msgid "strong text"
+msgstr "重要テキスト"
+
+#: lms/static/js/Markdown.Editor.js:1567
+msgid "emphasized text"
+msgstr "強調テキスト"
+
+#: lms/static/js/Markdown.Editor.js:1764
+msgid "enter link description here"
+msgstr "リンクの説明をここに入力"
+
+#: lms/static/js/Markdown.Editor.js:2022 lms/static/js/Markdown.Editor.js:2045
+msgid "enter code here"
+msgstr "コードをここに入力"
+
+#: lms/static/js/Markdown.Editor.js:2136
+msgid "List item"
+msgstr "リスト項目"
+
+#: lms/static/js/Markdown.Editor.js:2166
+msgid "Heading"
+msgstr "見出し"
+
+#: lms/static/js/ajax-error.js:4
+msgid ""
+"You have been logged out of your edX account. Click Okay to log in again "
+"now. Click Cancel to stay on this page (you must log in again to save your "
+"work)."
+msgstr "edX アカウントからログアウト済です。OKをクリックすると、ただちに再度ログインします。キャンセルをクリックすると、この画面に留まります (作業内容を保存するには再度ログインする必要があります) 。"
+
+#: lms/static/js/api_admin/views/catalog_preview.js:24
+msgid "Preview this query"
+msgstr "このクエリをプレビューする"
+
+#: lms/static/js/ccx/schedule.js:62
+msgid "All subsections"
+msgstr "全サブセクション"
+
+#: lms/static/js/ccx/schedule.js:84
+msgid "All units"
+msgstr "全ユニット"
+
+#: lms/static/js/ccx/schedule.js:183 lms/static/js/ccx/schedule.js:185
+msgid "Click to change"
+msgstr "クリックで変更"
+
+#: lms/static/js/ccx/schedule.js:221
+msgid "Select a chapter"
+msgstr "チャプターを選択"
+
+#: lms/static/js/ccx/schedule.js:262 lms/static/js/ccx/schedule.js:273
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: lms/static/js/ccx/schedule.js:294
+msgid "Please enter valid start date and time."
+msgstr "正しい開始日時を入力してください。"
+
+#: lms/static/js/ccx/schedule.js:301
+msgid "Due date cannot be before start date."
+msgstr "締切は、開始日以前にはできません。"
+
+#: lms/static/js/ccx/schedule.js:429
+msgid "Enter Due Date and Time"
+msgstr "締切日時を入力"
+
+#: lms/static/js/ccx/schedule.js:430
+msgid "Enter Start Date and Time"
+msgstr "開始日時を入力"
+
+#: lms/static/js/certificates/models/certificate_exception.js:31
+msgid ""
+"Student username/email field is required and can not be empty. Kindly fill "
+"in username/email and then press \"Add to Exception List\" button."
+msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"例外一覧へ追加\" ボタンを押してください。"
+
+#: lms/static/js/certificates/models/certificate_invalidation.js:28
+msgid ""
+"Student username/email field is required and can not be empty. Kindly fill "
+"in username/email and then press \"Invalidate Certificate\" button."
+msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"修了証を失効する\"ボタンを押してください。"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:83
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "アップロードしたファイルが発行されました。視聴するためには \"+\"  をクリックしてください。"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:159
+msgid " learners are successfully added to exception list"
+msgstr "受講者を例外一覧に追加しました"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:160
+msgid " learner is successfully added to the exception list"
+msgstr "受講者を例外一覧に追加しました"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:164
+msgid " records are not in correct format and not added to the exception list"
+msgstr "レコードが正しいフォーマットになっていないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:166
+msgid " record is not in correct format and not added to the exception list"
+msgstr "レコードが正しいフォーマットになっていないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:171
+msgid " learners do not exist in LMS and not added to the exception list"
+msgstr "受講者が LMS にいないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:173
+msgid " learner does not exist in LMS and not added to the exception list"
+msgstr "受講者が LMS にいないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:177
+msgid " learners are already white listed and not added to the exception list"
+msgstr "受講者は既にホワイトリスト化されているため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:179
+msgid " learner is already white listed and not added to the exception list"
+msgstr "受講者は既にホワイトリスト化されているため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:184
+msgid ""
+" learners are not enrolled in course and not added to the exception list"
+msgstr "受講者が講座に受講登録していないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_bulk_whitelist.js:186
+msgid " learner is not enrolled in course and not added to the exception list"
+msgstr "受講者が講座に受講登録していないため、例外一覧に追加されません"
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:49
+msgid ""
+"Certificate of <%= user %> has already been invalidated. Please check your "
+"spelling and retry."
+msgstr " <%= user %> の修了証は既に無効になっています。綴りをチェックして再度実行してください。"
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:59
+msgid "Certificate has been successfully invalidated for <%= user %>."
+msgstr " <%= user %>の修了証は既に無効になっています。"
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:70
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:100
+#: lms/static/js/certificates/views/certificate_whitelist.js:102
+#: lms/static/js/certificates/views/certificate_whitelist_editor.js:112
+msgid "Server Error, Please refresh the page and try again."
+msgstr "サーバーエラーが発生しました。画面を再読込して再度実行してください。"
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:90
+msgid ""
+"The certificate for this learner has been re-validated and the system is re-"
+"running the grade for this learner."
+msgstr "この受講者の修了証は再度有効となりましたので、システムは採点を再開します。"
+
+#: lms/static/js/certificates/views/certificate_invalidation_view.js:110
+msgid ""
+"Could not find Certificate Invalidation in the list. Please refresh the page"
+" and try again"
+msgstr "一覧に修了証失効はありませんでした。画面を再読込して再度実行してください。"
+
+#: lms/static/js/certificates/views/certificate_whitelist.js:59
+msgid "Student Removed from certificate white list successfully."
+msgstr "修了証ホワイトリストからの受講者削除を正常に実行しました。"
+
+#: lms/static/js/certificates/views/certificate_whitelist.js:70
+msgid ""
+"Could not find Certificate Exception in white list. Please refresh the page "
+"and try again"
+msgstr "ホワイトリストに修了証の例外はありませんでした。画面を再読込して再度実行してください。"
+
+#: lms/static/js/certificates/views/certificate_whitelist_editor.js:61
+msgid "<%= user %> already in exception list."
+msgstr "<%= user %>は既に例外一覧に入っています"
+
+#: lms/static/js/certificates/views/certificate_whitelist_editor.js:67
+msgid ""
+"<%= user %> has been successfully added to the exception list. Click "
+"Generate Exception Certificate below to send the certificate."
+msgstr "<%= user %> は例外一覧に問題なく追加されました。修了証を送信するには、下の\"修了証例外の生成\"をクリックしてください。"
+
+#: lms/static/js/course_survey.js:73
+msgid "There has been an error processing your survey."
+msgstr "アンケート調査処理中にエラーが発生しました。"
+
+#: lms/static/js/courseware/credit_progress.js:14
+msgid "Less"
+msgstr "少ない"
+
+#: lms/static/js/dashboard/donation.js:175
+msgid "Please enter a valid donation amount."
+msgstr "正しい寄付額を入力してください。"
+
+#: lms/static/js/dashboard/donation.js:207
+msgid "Your donation could not be submitted."
+msgstr "寄付できませんでした。"
+
+#: lms/static/js/dashboard/legacy.js:93 lms/static/js/dashboard/legacy.js:105
+msgid "You will be refunded the amount you paid."
+msgstr "お支払いいただいた金額が返金されます。"
+
+#: lms/static/js/dashboard/legacy.js:95
+msgid "You will not be refunded the amount you paid."
+msgstr "お支払いいただいた金額は返金されません。"
+
+#: lms/static/js/dashboard/legacy.js:97
+msgid ""
+"Are you sure you want to unenroll from the purchased course %(courseName)s "
+"(%(courseNumber)s)?"
+msgstr "支払済の講座 %(courseName)s(%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
+
+#: lms/static/js/dashboard/legacy.js:100
+msgid ""
+"Are you sure you want to unenroll from %(courseName)s (%(courseNumber)s)?"
+msgstr "%(courseName)s (%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
+
+#: lms/static/js/dashboard/legacy.js:103
+msgid ""
+"Are you sure you want to unenroll from the verified %(certNameLong)s  track "
+"of %(courseName)s  (%(courseNumber)s)?"
+msgstr "%(courseName)s(%(courseNumber)s)の認証付き %(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+
+#: lms/static/js/dashboard/legacy.js:107
+msgid ""
+"Are you sure you want to unenroll from the verified %(certNameLong)s track "
+"of %(courseName)s (%(courseNumber)s)?"
+msgstr "%(courseName)s(%(courseNumber)s)の認証付き %(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+
+#: lms/static/js/dashboard/legacy.js:109
+msgid ""
+"The refund deadline for this course has passed,so you will not receive a "
+"refund."
+msgstr "この講座の払い戻し期限が過ぎましたので、払い戻しを受けられません。"
+
+#: lms/static/js/dashboard/legacy.js:173 lms/static/js/dashboard/legacy.js:183
+#: lms/static/js/learner_dashboard/views/unenroll_view.js:61
+msgid ""
+"Unable to determine whether we should give you a refund because of System "
+"Error. Please try again later."
+msgstr "システムエラーのため払い戻しができるかどうか決定できませんでした。後ほど再操作してください。"
+
+#: lms/static/js/discovery/views/search_form.js:48
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "%s 講座を見る"
+
+#: lms/static/js/discovery/views/search_form.js:57
+#, javascript-format
+msgid "We couldn't find any results for \"%s\"."
+msgstr "\"%s\" の検索結果が見つかりません。"
+
+#: lms/static/js/discovery/views/search_form.js:65
+msgid "There was an error, try searching again."
+msgstr "エラーが発生しました。再度検索してください。"
+
+#: lms/static/js/discussions_management/views/discussions.js:59
+msgid "Not divided"
+msgstr "分割されていません"
+
+#: lms/static/js/discussions_management/views/discussions.js:60
+msgid ""
+"Discussions are unified; all learners interact with posts from other "
+"learners, regardless of the group they are in."
+msgstr "ディスカッションは統合されています; 参加グループに関係なく、全受講者は投稿によって他の受講者と交流することができます。"
+
+#: lms/static/js/discussions_management/views/discussions.js:66
+msgid "Enrollment Tracks"
+msgstr "受講登録トラック"
+
+#: lms/static/js/discussions_management/views/discussions.js:67
+msgid ""
+"Use enrollment tracks as the basis for dividing discussions. All learners, "
+"regardless of their enrollment track, see the same discussion topics, but "
+"within divided topics, only learners who are in the same enrollment track "
+"see and respond to each others’ posts."
+msgstr "ディスカッションを分割する基準として受講登録トラックを利用します。受講登録トラックに関係なく、全受講者に同じディスカッション・トピックが表示されますが、分割されたトピック内では同じ受講登録トラックの受講者だけが互いの投稿を見たり返信したりすることができます。"
+
+#: lms/static/js/discussions_management/views/discussions.js:73
+msgid "Cohorts"
+msgstr "コホート"
+
+#: lms/static/js/discussions_management/views/discussions.js:74
+msgid ""
+"Use cohorts as the basis for dividing discussions. All learners, regardless "
+"of cohort, see the same discussion topics, but within divided topics, only "
+"members of the same cohort see and respond to each others’ posts. "
+msgstr "ディスカッションを分割する基準としてコホートを利用します。コホートに関係なく、全受講者に同じディスカッション・トピックが表示されますが、分割されたトピック内では同じコホートの受講者だけが互いの投稿を見たり返信したりすることができます。"
+
+#: lms/static/js/discussions_management/views/discussions.js:181
+msgid "Discussion topics in the course are not divided."
+msgstr "この講座のディスカッション・トピックは分割されていません。"
+
+#: lms/static/js/discussions_management/views/discussions.js:184
+msgid "Any divided discussion topics are divided based on enrollment track."
+msgstr "ディスカッション・トピックは、受講登録トラックを基に分割されています。"
+
+#: lms/static/js/discussions_management/views/discussions.js:187
+msgid "Any divided discussion topics are divided based on cohort."
+msgstr "分割されているディスカッション・トピックは、コホートを基に分割されています。"
+
+#: lms/static/js/discussions_management/views/discussions.js:194
+msgid "Your changes have been saved. {details}"
+msgstr "変更内容が保存されました。{details}"
+
+#: lms/static/js/discussions_management/views/discussions.js:209
+msgid "We have encountered an error. Refresh your browser and then try again."
+msgstr "エラーが発生しました。ブラウザを更新して再試行してください。"
+
+#: lms/static/js/discussions_management/views/divided_discussions.js:62
+#: lms/static/js/discussions_management/views/divided_discussions_course_wide.js:79
+#: lms/static/js/discussions_management/views/divided_discussions_inline.js:145
+#: lms/static/js/groups/views/cohort_form.js:162
+#: lms/static/js/groups/views/cohorts.js:161
+msgid "We've encountered an error. Refresh your browser and then try again."
+msgstr "エラーが発生しました。ブラウザを更新して再試行してください。"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:12
+#: lms/static/js/edxnotes/views/search_box.js:17
+msgid ""
+"An error has occurred. Make sure that you are connected to the Internet, and"
+" then try refreshing the page."
+msgstr "エラーが発生しました。インターネットに接続されていることを確認して画面を再読込してください。"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:57
+msgid "Hide notes"
+msgstr "ノートを非表示"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:58
+msgid "Notes visible"
+msgstr "ノート表示中"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:64
+msgid "Show notes"
+msgstr "ノートを表示"
+
+#: lms/static/js/edxnotes/views/notes_visibility_factory.js:65
+msgid "Notes hidden"
+msgstr "ノート非表示"
+
+#: lms/static/js/edxnotes/views/search_box.js:20
+msgid "Please enter a term in the {anchorStart} search field{anchorEnd}."
+msgstr "{anchorStart} 検索欄 {anchorEnd} に用語を入力してください。"
+
+#: lms/static/js/edxnotes/views/tab_item.js:25
+msgid "Current tab"
+msgstr "現在のタブ"
+
+#: lms/static/js/edxnotes/views/tabs/course_structure.js:49
+msgid "Location in Course"
+msgstr "講座中のロケーション"
+
+#: lms/static/js/edxnotes/views/tabs/recent_activity.js:25
+msgid "Recent Activity"
+msgstr "最近のアクティビティ"
+
+#: lms/static/js/edxnotes/views/tabs/search_results.js:34
+msgid "No results found for \"%(query_string)s\". Please try searching again."
+msgstr "\"%(query_string)s\"が見つかりません。検索し直してください。"
+
+#: lms/static/js/edxnotes/views/tabs/search_results.js:48
+msgid "Search Results"
+msgstr "検索結果"
+
+#. Translators: this is a title shown before all Notes that have no associated
+#. tags. It is put within
+#. brackets to differentiate it from user-defined tags, but it should still be
+#. translated.
+#: lms/static/js/edxnotes/views/tabs/tags.js:38
+msgid "[no tags]"
+msgstr "[タグなし]"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:35
+msgid "Unable to submit application"
+msgstr "申込を提出できません"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:103
+#: lms/static/js/student_account/views/LoginView.js:175
+msgid "An error has occurred. Check your Internet connection and try again."
+msgstr "エラーが発生しました。インターネット接続を確認して再試行してください。"
+
+#: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:140
+msgid "Choose one"
+msgstr "どれか一つを選択"
+
+#: lms/static/js/groups/views/cohort_editor.js:62
+msgid "Selected tab"
+msgstr "選択されたタブ"
+
+#: lms/static/js/groups/views/cohort_editor.js:76
+msgid "Saved cohort"
+msgstr "保存されたコホート"
+
+#: lms/static/js/groups/views/cohort_editor.js:119
+msgid "Error adding learners."
+msgstr "受講者の追加エラー。"
+
+#: lms/static/js/groups/views/cohort_editor.js:122
+msgid "Enter a username or email."
+msgstr "ユーザー名またはメールアドレスを入力してください。"
+
+#: lms/static/js/groups/views/cohort_editor.js:174
+msgid "{numUsersAdded} learner has been added to this cohort. "
+msgid_plural "{numUsersAdded} learners have been added to this cohort. "
+msgstr[0] "このコホートに {numUsersAdded}名の受講者を追加しました。"
+
+#: lms/static/js/groups/views/cohort_editor.js:194
+msgid "{numMoved} learner was moved from {prevCohort}"
+msgid_plural "{numMoved} learners were moved from {prevCohort}"
+msgstr[0] " {prevCohort}から{numMoved}名の受講者を移動"
+
+#: lms/static/js/groups/views/cohort_editor.js:204
+msgid "{numPresent} learner was already in the cohort"
+msgid_plural "{numPresent} learners were already in the cohort"
+msgstr[0] "このコホートには既に{numPresent}名の受講者がいます"
+
+#: lms/static/js/groups/views/cohort_editor.js:230
+msgid "{email}"
+msgstr "{email}"
+
+#: lms/static/js/groups/views/cohort_editor.js:236
+msgid ""
+"{numPreassigned} learner was pre-assigned for this cohort. This learner will"
+" automatically be added to the cohort when they enroll in the course."
+msgid_plural ""
+"{numPreassigned} learners were pre-assigned for this cohort. These learners "
+"will automatically be added to the cohort when they enroll in the course."
+msgstr[0] "このコホートには{numPreassigned}名の受講者が予備登録されています。これらの受講者は、講座の受講登録をすると自動的にこのコホートに追加されます。"
+
+#: lms/static/js/groups/views/cohort_editor.js:274
+msgid "Unknown username: {user}"
+msgstr "ユーザー名不明：{user}"
+
+#: lms/static/js/groups/views/cohort_editor.js:278
+msgid "Invalid email address: {email}"
+msgstr "無効なメールアドレス：{email}"
+
+#: lms/static/js/groups/views/cohort_editor.js:285
+msgid "There was an error when trying to add learners:"
+msgid_plural "{numErrors} learners could not be added to this cohort:"
+msgstr[0] "{numErrors}名の受講者をコホートに追加できませんでした: "
+
+#: lms/static/js/groups/views/cohort_editor.js:300
+msgid "View all errors"
+msgstr "全てのエラーを見る"
+
+#: lms/static/js/groups/views/cohort_form.js:107
+msgid "You must specify a name for the cohort"
+msgstr "コホートの名前を指定する必要があります"
+
+#: lms/static/js/groups/views/cohort_form.js:111
+msgid "You did not select a content group"
+msgstr "コンテンツグループが選択されていませんでした"
+
+#: lms/static/js/groups/views/cohort_form.js:114
+msgid "The selected content group does not exist"
+msgstr "選択されたコンテンツグループは存在しません"
+
+#: lms/static/js/groups/views/cohort_form.js:142
+msgid "The cohort cannot be saved"
+msgstr "コホートが保存できません"
+
+#: lms/static/js/groups/views/cohort_form.js:142
+msgid "The cohort cannot be added"
+msgstr "コホートが追加できません"
+
+#: lms/static/js/groups/views/cohorts.js:121
+msgid "You currently have no cohorts configured"
+msgstr "コホートが設定されていません"
+
+#: lms/static/js/groups/views/cohorts.js:122
+msgid "Add Cohort"
+msgstr "コホートを追加"
+
+#: lms/static/js/groups/views/cohorts.js:262
+msgid ""
+"The {cohortGroupName} cohort has been created. You can manually add students"
+" to this cohort below."
+msgstr "コホート {cohortGroupName} が作成されました。このコホートには手動で受講者を追加できます。"
+
+#: lms/static/js/groups/views/cohorts.js:292
+msgid "Assign students to cohorts by uploading a CSV file."
+msgstr "CSVファイルをアップロードしてコホートに受講者を振り分けてください。"
+
+#: lms/static/js/groups/views/cohorts.js:293
+msgid "Choose a .csv file"
+msgstr ".csvファイルを選択"
+
+#: lms/static/js/groups/views/cohorts.js:294
+msgid "Only properly formatted .csv files will be accepted."
+msgstr "適切なフォーマットの.csvファイルのみ許可されます。"
+
+#: lms/static/js/groups/views/cohorts.js:295
+msgid "Upload File and Assign Students"
+msgstr "ファイルをアップロードして受講者を振り分ける"
+
+#: lms/static/js/groups/views/cohorts.js:300
+msgid ""
+"Your file '{file}' has been uploaded. Allow a few minutes for processing."
+msgstr "'{file}' はアップロードされました。処理に数分かかります。"
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js:21
+msgid "Cohorts Enabled"
+msgstr "コホート有効"
+
+#: lms/static/js/groups/views/course_cohort_settings_notification.js:23
+msgid "Cohorts Disabled"
+msgstr "コホート無効"
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:35
+msgid ""
+"This course uses automatic cohorting for verified track learners. You cannot"
+" disable cohorts, and you cannot rename the manual cohort named "
+"'{verifiedCohortName}'. To change the configuration for verified track "
+"cohorts, contact your edX partner manager."
+msgstr "この講座では、認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX partner managerにお問い合わせください。"
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:44
+msgid ""
+"This course has automatic cohorting enabled for verified track learners, but"
+" the required cohort does not exist. You must create a manually-assigned "
+"cohort named '{verifiedCohortName}' for the feature to work."
+msgstr "この講座では、認証付きコースの受講者に対して自動コホートが設定されていますが、必要なコホートがありません。作業を進めるには '{verifiedCohortName}' という名称の手動振り分けコホートを作成してください。"
+
+#: lms/static/js/groups/views/verified_track_settings_notification.js:54
+msgid ""
+"This course has automatic cohorting enabled for verified track learners, but"
+" cohorts are disabled. You must enable cohorts for the feature to work."
+msgstr "この講座では、認証付きコースの受講者に対して自動コホートが設定されていますが、コホートが無効になっています。作業を進めるにはコホートを有効にしてください。"
+
+#: lms/static/js/instructor_dashboard/certificates.js:20
+msgid "Allow students to generate certificates for this course?"
+msgstr "受講者にこの講座の修了証の生成を許可しますか？"
+
+#: lms/static/js/instructor_dashboard/certificates.js:22
+msgid "Prevent students from generating certificates in this course?"
+msgstr "受講者にこの講座の修了証の生成を禁止しますか？"
+
+#: lms/static/js/instructor_dashboard/certificates.js:44
+msgid "Start generating certificates for all students in this course?"
+msgstr "この講座の全受講者の修了証生成を開始しますか？"
+
+#: lms/static/js/instructor_dashboard/certificates.js:59
+msgid "Error while generating certificates. Please try again."
+msgstr "修了証生成中にエラーが発生しました。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/certificates.js:68
+msgid "Start regenerating certificates for students in this course?"
+msgstr "この講座の受講者の修了証の再生成を開始しますか？"
+
+#: lms/static/js/instructor_dashboard/certificates.js:96
+msgid "Error while regenerating certificates. Please try again."
+msgstr "修了証の再生成中にエラーが発生しました。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:30
+msgid "Loading data..."
+msgstr "データ読込中…"
+
+#: lms/static/js/instructor_dashboard/data_download.js:37
+msgid "Error getting issued certificates list."
+msgstr "発行済み修了証一覧の取得エラー。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:125
+msgid "Error generating proctored exam results. Please try again."
+msgstr "監督付き試験の結果生成のエラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:151
+msgid "Error generating survey results. Please try again."
+msgstr "アンケート調査結果の生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:177
+msgid "Error generating student profile information. Please try again."
+msgstr "受講者のプロフィール情報の生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:203
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
+msgid "Loading"
+msgstr "読込中"
+
+#: lms/static/js/instructor_dashboard/data_download.js:211
+msgid "Error getting student list."
+msgstr "受講者一覧の取得エラー。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:278
+msgid "Error generating list of students who may enroll. Please try again."
+msgstr "受講登録見込みの学生一覧の生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:310
+msgid "Error retrieving grading configuration."
+msgstr "採点設定の取得エラー。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:335
+msgid "Error generating grades. Please try again."
+msgstr "成績の生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:337
+msgid "Error generating problem grade report. Please try again."
+msgstr "問題成績レポートの生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/data_download.js:339
+msgid "Error generating ORA data report. Please try again."
+msgstr "ORA データレポートの生成エラー。再試行してください。"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:58
+#: lms/static/js/instructor_dashboard/ecommerce.js:78
+msgid ""
+"There was a problem creating the report. Select \"Create Executive Summary\""
+" to try again."
+msgstr "レポートの作成中に問題が発生しました。\"責任者用サマリの作成\" を選択して再度実行してください。"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:92
+msgid "Enter the enrollment code."
+msgstr "受講登録コードを入力してください。"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:120
+msgid "Cancel enrollment code"
+msgstr "受講登録コードをキャンセル"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:130
+msgid "Restore enrollment code"
+msgstr "受講登録コードを復元"
+
+#: lms/static/js/instructor_dashboard/ecommerce.js:140
+msgid "Mark enrollment code as unused"
+msgstr "受講登録コードを未使用に設定"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+#: lms/static/js/student_account/views/account_settings_factory.js:74
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:98
+msgid "Username"
+msgstr "ユーザー名"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+msgid "Email"
+msgstr "メールアドレス"
+
+#: lms/static/js/instructor_dashboard/membership.js:111
+#: lms/static/js/instructor_dashboard/membership.js:116
+#: lms/static/js/instructor_dashboard/membership.js:172
+msgid "Revoke access"
+msgstr "アクセスを放棄"
+
+#: lms/static/js/instructor_dashboard/membership.js:116
+msgid "Group"
+msgstr "グループ"
+
+#: lms/static/js/instructor_dashboard/membership.js:122
+msgid "Enter username or email"
+msgstr "ユーザー名またはメールアドレスを入力"
+
+#: lms/static/js/instructor_dashboard/membership.js:156
+msgid "Please enter a username or email."
+msgstr "ユーザー名またはメールアドレスを入力してください。"
+
+#: lms/static/js/instructor_dashboard/membership.js:197
+#: lms/static/js/instructor_dashboard/membership.js:1026
+msgid "This role requires a divided discussions scheme."
+msgstr "この権限には分割されたディスカッションスキームが必要です。"
+
+#: lms/static/js/instructor_dashboard/membership.js:261
+#: lms/static/js/instructor_dashboard/membership.js:961
+msgid "Error changing user's permissions."
+msgstr "ユーザー権限変更エラー。"
+
+#: lms/static/js/instructor_dashboard/membership.js:271
+msgid ""
+"Could not find a user with username or email address '<%- identifier %>'."
+msgstr "'<%- identifier %>' というユーザー名またはメールアドレスのユーザーが見つかりません。"
+
+#: lms/static/js/instructor_dashboard/membership.js:276
+msgid ""
+"Error: User '<%- username %>' has not yet activated their account. Users "
+"must create and activate their accounts before they can be assigned a role."
+msgstr "エラー: ユーザー'<%- username %>' はまだアカウントを有効化していません。権限を与える前にアカウント作成して有効化してください。"
+
+#: lms/static/js/instructor_dashboard/membership.js:282
+msgid "Error: You cannot remove yourself from the Instructor group!"
+msgstr "エラー: 講師グループからあなた自身を削除することはできません！"
+
+#: lms/static/js/instructor_dashboard/membership.js:391
+msgid "Errors"
+msgstr "エラー"
+
+#: lms/static/js/instructor_dashboard/membership.js:392
+msgid "The following errors were generated:"
+msgstr "以下のエラーが発生しました: "
+
+#: lms/static/js/instructor_dashboard/membership.js:396
+msgid "Warnings"
+msgstr "警告"
+
+#: lms/static/js/instructor_dashboard/membership.js:397
+msgid "The following warnings were generated:"
+msgstr "以下の警告が発生しました: "
+
+#: lms/static/js/instructor_dashboard/membership.js:401
+#: lms/static/js/views/fields.js:56
+msgid "Success"
+msgstr "成功"
+
+#: lms/static/js/instructor_dashboard/membership.js:402
+msgid "All accounts were created successfully."
+msgstr "全てのアカウントが正常に作成されました。"
+
+#: lms/static/js/instructor_dashboard/membership.js:456
+msgid "Error adding/removing users as beta testers."
+msgstr "ユーザーのβテスターへの追加/削除エラー。"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:527
+msgid "These users were successfully added as beta testers:"
+msgstr "次のユーザーがβテスターとして正常に追加されました: "
+
+#: lms/static/js/instructor_dashboard/membership.js:532
+msgid ""
+"These users could not be added as beta testers because their accounts are "
+"not yet activated:"
+msgstr "このユーザーはまだアカウントが有効化されていないため、βテスターとして追加できませんでした。"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:538
+msgid "These users were successfully removed as beta testers:"
+msgstr "次のユーザーをβテスターから正常に削除しました: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:550
+msgid "These users were not added as beta testers:"
+msgstr "次のユーザーはβテスターとして追加されませんでした: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:562
+msgid "These users were not removed as beta testers:"
+msgstr "次のユーザーはβテスターから削除されませんでした: "
+
+#: lms/static/js/instructor_dashboard/membership.js:574
+msgid ""
+"Users must create and activate their account before they can be promoted to "
+"beta tester."
+msgstr "ユーザーはβテスターに昇格する前に、アカウントを作成し有効化する必要があります。"
+
+#: lms/static/js/instructor_dashboard/membership.js:576
+msgid "Could not find users associated with the following identifiers:"
+msgstr "次の識別子に関連するユーザーを見つけられませんでした: "
+
+#: lms/static/js/instructor_dashboard/membership.js:608
+msgid "Reason field should not be left blank."
+msgstr "理由欄は空欄ではいけません。"
+
+#: lms/static/js/instructor_dashboard/membership.js:629
+msgid "Error enrolling/unenrolling users."
+msgstr "ユーザーの受講登録/登録解除エラー。"
+
+#: lms/static/js/instructor_dashboard/membership.js:708
+msgid "The following email addresses and/or usernames are invalid:"
+msgstr "次のメールアドレスまたはユーザー名が無効です: "
+
+#: lms/static/js/instructor_dashboard/membership.js:745
+msgid "Successfully enrolled and sent email to the following users:"
+msgstr "次のユーザーの受講登録が完了し、メールが送信されました: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:757
+msgid "Successfully enrolled the following users:"
+msgstr "次のユーザーが正常に受講登録されました: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:769
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"allowed to enroll once they register:"
+msgstr "次のユーザーに受講登録メールが正常に送信されました。登録完了後に受講登録が可能になります: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:781
+msgid "These users will be allowed to enroll once they register:"
+msgstr "次のユーザーは登録完了後に受講登録が可能になります: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:793
+msgid ""
+"Successfully sent enrollment emails to the following users. They will be "
+"enrolled once they register:"
+msgstr "次のユーザーに受講登録メールが正常に送信されました。登録完了後に受講登録されます: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:805
+msgid "These users will be enrolled once they register:"
+msgstr "次のユーザーは登録完了後に受講登録されます: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:817
+msgid ""
+"Emails successfully sent. The following users are no longer enrolled in the "
+"course:"
+msgstr "メールが正常に送信されました。次のユーザーは講座に受講登録されていません: "
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:829
+msgid "The following users are no longer enrolled in the course:"
+msgstr "次のユーザーは講座に受講登録されていません: "
+
+#: lms/static/js/instructor_dashboard/membership.js:840
+msgid ""
+"These users were not affiliated with the course so could not be unenrolled:"
+msgstr "次のユーザーは講座に参加していないため受講登録解除ができませんでした: "
+
+#: lms/static/js/instructor_dashboard/send_email.js:67
+msgid "Your message must have a subject."
+msgstr "メッセージには件名が必要です。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:69
+msgid "Your message cannot be blank."
+msgstr "メッセージは空白ではいけません。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:72
+msgid "Your message must have at least one target."
+msgstr "メッセージには少なくともひとつ宛先が必要です。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:77
+msgid ""
+"There are invalid keywords in your email. Check the following keywords and "
+"try again."
+msgstr "メールに無効なキーワードが含まれています。以下のキーワードを確認して再度実行してください。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:84
+msgid "Yourself"
+msgstr "あなた自身"
+
+#: lms/static/js/instructor_dashboard/send_email.js:86
+msgid "Everyone who has staff privileges in this course"
+msgstr "この講座のスタッフ権限をお持ちの方"
+
+#: lms/static/js/instructor_dashboard/send_email.js:88
+msgid "All learners who are enrolled in this course"
+msgstr "この講座の全受講登録者"
+
+#: lms/static/js/instructor_dashboard/send_email.js:90
+msgid "All learners in the {cohort_name} cohort"
+msgstr " {cohort_name} の全受講者"
+
+#: lms/static/js/instructor_dashboard/send_email.js:93
+msgid "All learners in the {track_name} track"
+msgstr "{track_name} の全受講者"
+
+#: lms/static/js/instructor_dashboard/send_email.js:97
+msgid ""
+"Your email message was successfully queued for sending. In courses with a "
+"large number of learners, email messages to learners might take up to an "
+"hour to be sent."
+msgstr "あなたのメッセージが送信待ちリストに加えられました。受講者の多い講座では、メッセージが届くまでに１時間程度かかることがあります。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:99
+msgid ""
+"You are sending an email message with the subject {subject} to the following"
+" recipients."
+msgstr "以下の宛先に件名 {subject} のメールを送信中です。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:104
+msgid "Is this OK?"
+msgstr "よろしいですか？"
+
+#: lms/static/js/instructor_dashboard/send_email.js:122
+msgid "Error sending email."
+msgstr "メールの送信エラー。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:142
+#: lms/static/js/instructor_dashboard/send_email.js:170
+msgid "There is no email history for this course."
+msgstr "この講座のメール履歴はありません。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:151
+msgid "There was an error obtaining email task history for this course."
+msgstr "この講座のメール履歴を取得する際にエラーが発生しました。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:179
+msgid "There was an error obtaining email content history for this course."
+msgstr "この講座のメールコンテンツ履歴の取得時にエラーが発生しました。"
+
+#: lms/static/js/instructor_dashboard/send_email.js:206
+msgid "Send to:"
+msgstr "宛先: "
+
+#: lms/static/js/instructor_dashboard/student_admin.js:78
+#: lms/static/js/instructor_dashboard/student_admin.js:108
+#: lms/static/js/instructor_dashboard/student_admin.js:149
+#: lms/static/js/instructor_dashboard/student_admin.js:201
+#: lms/static/js/instructor_dashboard/student_admin.js:236
+#: lms/static/js/instructor_dashboard/student_admin.js:308
+#: lms/static/js/instructor_dashboard/student_admin.js:453
+#: lms/static/js/instructor_dashboard/student_admin.js:502
+#: lms/static/js/instructor_dashboard/student_admin.js:553
+msgid "Please enter a student email address or username."
+msgstr "受講者のメールアドレスまたはユーザー名を入力してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:81
+msgid ""
+"Error getting student progress url for '<%- student_id %>'. Make sure that "
+"the student identifier is spelled correctly."
+msgstr "受講者 '<%- student_id %>' の進捗表示URL を取得する際、エラーが発生しました。受講者の識別子が正しく入力されているか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:112
+#: lms/static/js/instructor_dashboard/student_admin.js:154
+#: lms/static/js/instructor_dashboard/student_admin.js:206
+#: lms/static/js/instructor_dashboard/student_admin.js:373
+#: lms/static/js/instructor_dashboard/student_admin.js:425
+#: lms/static/js/instructor_dashboard/student_admin.js:458
+#: lms/static/js/instructor_dashboard/student_admin.js:507
+#: lms/static/js/instructor_dashboard/student_admin.js:592
+msgid "Please enter a problem location."
+msgstr "問題のロケーションを入力してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:119
+msgid ""
+"Success! Problem attempts reset for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'."
+msgstr "成功！受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答をリセットしました。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:120
+msgid ""
+"Error resetting problem attempts for problem '<%= problem_id %>' and student"
+" '<%- student_id %>'. Make sure that the problem and student identifiers are"
+" complete and correct."
+msgstr "受講者 '<%- student_id %>' の問題' <%= problem_id %>' の回答リセットの際、エラーが発生しました。問題と受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:157
+msgid ""
+"Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
+msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答を削除してよろしいですか？"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:168
+msgid ""
+"Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
+" %>'. Make sure that the problem and student identifiers are complete and "
+"correct."
+msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答の削除エラー。問題と受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:179
+msgid "Module state successfully deleted."
+msgstr "モジュールの状態の削除に成功しました。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:213
+msgid ""
+"Error getting task history for problem '<%- problem_id %>' and student '<%- "
+"student_id %>'. Make sure that the problem and student identifiers are "
+"complete and correct."
+msgstr "受講者 '<%- student_id %>' と問題 '<%- problem_id %>' のタスク履歴の取得エラー。問題と受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:250
+msgid "Entrance exam attempts is being reset for student '{student_id}'."
+msgstr "受講者'{student_id}'の入学試験の解答をリセットしています。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:258
+msgid ""
+"Error resetting entrance exam attempts for student '{student_id}'. Make sure"
+" student identifier is correct."
+msgstr "受講者'{student_id}'の入学試験の解答をリセットする際のエラー。受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:276
+#: lms/static/js/instructor_dashboard/student_admin.js:343
+msgid "Enter a student's username or email address."
+msgstr "受講者のユーザー名またはメールアドレスを入力してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:278
+msgid ""
+"Do you want to allow this student ('{student_id}') to skip the entrance "
+"exam?"
+msgstr "受講者('{student_id}')が入学試験をスキップすることを許可しますか？"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:296
+msgid ""
+"An error occurred. Make sure that the student's username or email address is"
+" correct and try again."
+msgstr "エラーが発生しました。受講者のユーザー名またはメールアドレスが正しいか確認して再試行してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:322
+msgid "Entrance exam state is being deleted for student '{student_id}'."
+msgstr "受講者'{student_id}'の入学試験状況を削除しています。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:330
+msgid ""
+"Error deleting entrance exam state for student '{student_id}'. Make sure "
+"student identifier is correct."
+msgstr "受講者'{student_id}'の入学試験状況の削除エラー。受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:359
+msgid ""
+"Error getting entrance exam task history for student '{student_id}'. Make "
+"sure student identifier is correct."
+msgstr "受講者'{student_id}'の入学試験タスク履歴の取得エラー。受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:376
+msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
+msgstr "問題 '<%- problem_id %>' の全受講者の解答をリセットしますか?"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:385
+msgid ""
+"Successfully started task to reset attempts for problem '<%- problem_id %>'."
+" Click the 'Show Task Status' button to see the status of the task."
+msgstr "問題 '<%- problem_id %>' の解答のリセット作業を問題なく開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:389
+msgid ""
+"Error starting a task to reset attempts for all students on problem '<%- "
+"problem_id %>'. Make sure that the problem identifier is complete and "
+"correct."
+msgstr "問題 '<%- problem_id %>' の全受講者の解答リセット作業を開始する際、エラーが発生しました。問題の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:438
+msgid "Error listing task history for this student and problem."
+msgstr "この受講者と問題のタスク履歴のリスト表示エラー。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:466
+msgid ""
+"Started rescore problem task for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
+"of the task."
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:471
+msgid ""
+"Error starting a task to rescore problem '<%- problem_id %>' for student "
+"'<%- student_id %>'. Make sure that the the problem and student identifiers "
+"are complete and correct."
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:512
+msgid "Please enter a score."
+msgstr "点数を入力してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:520
+msgid ""
+"Started task to override the score for problem '<%- problem_id %>' and "
+"student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
+"status of the task."
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数を無効にする作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:525
+msgid ""
+"Error starting a task to override score for problem '<%- problem_id %>' for "
+"student '<%- student_id %>'. Make sure that the the score and the problem "
+"and student identifiers are complete and correct."
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数無効化の作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:567
+msgid ""
+"Started entrance exam rescore task for student '{student_id}'. Click the "
+"'Show Task Status' button to see the status of the task."
+msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:575
+msgid ""
+"Error starting a task to rescore entrance exam for student '{student_id}'. "
+"Make sure that entrance exam has problems in it and student identifier is "
+"correct."
+msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始する際のエラー。入学試験に問題があること及び受講者の識別子が正しいことを確認してください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:595
+msgid "Rescore problem '<%- problem_id %>' for all students?"
+msgstr "全受講者の問題 '<%- problem_id %>' を再採点しますか？"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:605
+msgid ""
+"Successfully started task to rescore problem '<%- problem_id %>' for all "
+"students. Click the 'Show Task Status' button to see the status of the task."
+msgstr "全受講者の問題 '<%- problem_id %>' の再採点作業を問題なく開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+
+#: lms/static/js/instructor_dashboard/student_admin.js:609
+msgid ""
+"Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
+" the problem identifier is complete and correct."
+msgstr "問題 '<%- problem_id %>' の再採点作業開始の際のエラー。問題の識別子が正しいか確認してください。"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:63
+msgid "Task Type"
+msgstr "タスク・タイプ"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:72
+msgid "Task inputs"
+msgstr "タスク入力"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:81
+msgid "Task ID"
+msgstr "タスクID"
+
+#. Translators: a "Requester" is a username that requested a task such as
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:90
+msgid "Requester"
+msgstr "リクエストする人"
+
+#. Translators: A timestamp of when a task (eg, sending email) was submitted
+#. appears after this
+#: lms/static/js/instructor_dashboard/util.js:99
+msgid "Submitted"
+msgstr "提出済"
+
+#. Translators: The length of a task (eg, sending email) in seconds appears
+#. this
+#: lms/static/js/instructor_dashboard/util.js:108
+msgid "Duration (sec)"
+msgstr "継続時間 (秒)"
+
+#. Translators: The state (eg, "In progress") of a task (eg, sending email)
+#. appears after this.
+#: lms/static/js/instructor_dashboard/util.js:117
+msgid "State"
+msgstr "状況"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:126
+msgid "Task Status"
+msgstr "作業状況"
+
+#. Translators: a "Task" is a background process such as grading students or
+#. sending email
+#: lms/static/js/instructor_dashboard/util.js:135
+msgid "Task Progress"
+msgstr "タスク進捗"
+
+#: lms/static/js/instructor_dashboard/util.js:150
+msgid ""
+"An error occurred retrieving your email. Please try again later, and contact"
+" technical support if the problem persists."
+msgstr "メールを復旧する際にエラーが発生しました。後ほど再試行してください。問題が続くようであれば、テクニカルサポートにお問い合わせください。"
+
+#: lms/static/js/instructor_dashboard/util.js:199
+msgid "Subject"
+msgstr "件名"
+
+#: lms/static/js/instructor_dashboard/util.js:206
+msgid "Sent By"
+msgstr "送信者"
+
+#: lms/static/js/instructor_dashboard/util.js:214
+msgid "Sent To"
+msgstr "宛先"
+
+#: lms/static/js/instructor_dashboard/util.js:222
+msgid "Time Sent"
+msgstr "送信時刻"
+
+#: lms/static/js/instructor_dashboard/util.js:229
+msgid "Number Sent"
+msgstr "送信数"
+
+#: lms/static/js/instructor_dashboard/util.js:270
+msgid "Copy Email To Editor"
+msgstr "エディタにメールをコピー"
+
+#: lms/static/js/instructor_dashboard/util.js:286
+msgid "Subject:"
+msgstr "件名: "
+
+#: lms/static/js/instructor_dashboard/util.js:287
+msgid "Sent By:"
+msgstr "送信者: "
+
+#: lms/static/js/instructor_dashboard/util.js:288
+msgid "Time Sent:"
+msgstr "送信時刻: "
+
+#: lms/static/js/instructor_dashboard/util.js:289
+msgid "Sent To:"
+msgstr "宛先: "
+
+#: lms/static/js/instructor_dashboard/util.js:301
+msgid "Message:"
+msgstr "メッセージ: "
+
+#: lms/static/js/instructor_dashboard/util.js:388
+msgid "No tasks currently running."
+msgstr "現在稼働中のタスクはありません。"
+
+#: lms/static/js/instructor_dashboard/util.js:484
+msgid "File Name"
+msgstr "ファイル名"
+
+#: lms/static/js/instructor_dashboard/util.js:485
+msgid ""
+"Links are generated on demand and expire within 5 minutes due to the "
+"sensitive nature of student information."
+msgstr "リンクは随時生成されますが、受講者の個人情報に関わるため5分以内で無効になります。 "
+
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:50
+msgid "{type} Progress"
+msgstr "{type} の進捗"
+
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:53
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:71
+msgid "Earned Certificates"
+msgstr "取得済み修了証"
+
+#: lms/static/js/learner_dashboard/views/program_details_view.js:114
+msgid "Enrolled"
+msgstr "受講登録済"
+
+#: lms/static/js/staff_debug_actions.js:79
+msgid "Successfully reset the attempts for user {user}"
+msgstr "ユーザー {user} の解答を問題なくリセット済"
+
+#: lms/static/js/staff_debug_actions.js:80
+msgid "Failed to reset attempts for user."
+msgstr "ユーザーの回答のリセットに失敗。"
+
+#: lms/static/js/staff_debug_actions.js:90
+msgid "Successfully deleted student state for user {user}"
+msgstr "ユーザー  {user} の受講者状況を問題なく削除済"
+
+#: lms/static/js/staff_debug_actions.js:91
+msgid "Failed to delete student state for user."
+msgstr "ユーザーの受講者状況の削除に失敗。"
+
+#: lms/static/js/staff_debug_actions.js:101
+msgid "Successfully rescored problem for user {user}"
+msgstr "ユーザー {user} は問題なく再採点済"
+
+#: lms/static/js/staff_debug_actions.js:102
+msgid "Failed to rescore problem for user."
+msgstr "ユーザーの再採点に失敗。"
+
+#: lms/static/js/staff_debug_actions.js:112
+msgid "Successfully rescored problem to improve score for user {user}"
+msgstr "ユーザー {user} は問題なく再採点済"
+
+#: lms/static/js/staff_debug_actions.js:113
+msgid "Failed to rescore problem to improve score for user."
+msgstr "ユーザーの再採点に失敗。"
+
+#: lms/static/js/staff_debug_actions.js:123
+msgid "Successfully overrode problem score for {user}"
+msgstr "ユーザー {user} の点数は問題なく無効化完了"
+
+#: lms/static/js/staff_debug_actions.js:124
+msgid "Could not override problem score for {user}."
+msgstr "ユーザー {user} の点数を無効化できませんでした。"
+
+#: lms/static/js/student_account/account.js:47
+msgid "The data could not be saved."
+msgstr "データは保存できませんでした。"
+
+#: lms/static/js/student_account/account.js:58
+msgid "Please enter a valid email address"
+msgstr "正しいメールアドレスを入力してください。"
+
+#: lms/static/js/student_account/account.js:61
+msgid "Please enter a valid password"
+msgstr "正しいパスワードを入力してください。"
+
+#: lms/static/js/student_account/account.js:128
+msgid ""
+"Password reset email sent. Follow the link in the email to change your "
+"password."
+msgstr "パスワードリセットメールが送信されました。そのメールにあるリンクへアクセスするとパスワードが変更できます。"
+
+#: lms/static/js/student_account/account.js:133
+msgid "We weren't able to send you a password reset email."
+msgstr "パスワードリセットメールの送信ができませんでした。"
+
+#: lms/static/js/student_account/account.js:162
+msgid "Please check your email to confirm the change"
+msgstr "変更確認のメールをチェックしてください。"
+
+#: lms/static/js/student_account/tos_modal.js:47
+msgid "Terms of Service and Honor Code"
+msgstr "利用規約および倫理規定"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:107
+msgid "Saving your email preference"
+msgstr "メールの環境設定を保存中"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:125
+msgid "Enrolling you in the selected course"
+msgstr "選択した講座に受講登録中"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:157
+msgid "Adding the selected course to your cart"
+msgstr "カートに選択した講座を追加中"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:170
+msgid "Loading your courses"
+msgstr "講座を読込中"
+
+#: lms/static/js/student_account/views/FormView.js:19
+#: lms/static/js/student_account/views/RegisterView.js:70
+msgid "An error occurred."
+msgstr "エラーが発生しました。"
+
+#. Translators: This string is appended to optional field labels on the
+#. student login, registration, and
+#. profile forms.
+#: lms/static/js/student_account/views/FormView.js:32
+msgid "(optional)"
+msgstr "(オプション)"
+
+#: lms/static/js/student_account/views/LoginView.js:36
+msgid "We couldn't sign you in."
+msgstr "サインインできませんでした。"
+
+#: lms/static/js/student_account/views/LoginView.js:87
+#, javascript-format
+msgid "An error occurred when signing you in to %s."
+msgstr "%sにサインインする際にエラーが発生しました。"
+
+#: lms/static/js/student_account/views/LoginView.js:127
+msgid "Check Your Email"
+msgstr "メールをチェック"
+
+#: lms/static/js/student_account/views/LoginView.js:129
+msgid ""
+"{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
+"address is associated with your {platform_name} account, we will send a "
+"message with password reset instructions to this email "
+"address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
+" message, verify that you entered the correct email address, or check your "
+"spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
+"{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr "{paragraphStart} あなたは {boldStart}{email}{boldEnd}と入力しました。このメールアドレスを {platform_name} アカウントに登録していれば、このメールアドレスにパスワード再設定に関するメッセージが届きます。{paragraphEnd}{paragraphStart}メールが届かない場合は、正しいメールアドレスが入力できているか、あるいは迷惑メールフォルダに入っていないか確認してください。{paragraphEnd}{paragraphStart}ヘルプが必要な場合は、{anchorStart}テクニカルサポートへお問い合わせください{anchorEnd}。{paragraphEnd}"
+
+#: lms/static/js/student_account/views/LoginView.js:177
+msgid ""
+"An error has occurred. Try refreshing the page, or check your Internet "
+"connection."
+msgstr "エラーが発生しました。画面を再読込するか、インターネット接続を確認してください。"
+
+#: lms/static/js/student_account/views/LoginView.js:209
+msgid ""
+"You have successfully signed into %(currentProvider)s, but your "
+"%(currentProvider)s account does not have a linked %(platformName)s account."
+" To link your accounts, sign in now using your %(platformName)s password."
+msgstr "%(currentProvider)sに無事サインインしましたが、%(currentProvider)sのアカウントは%(platformName)sアカウントとの連携設定はしていません。アカウントとの連携設定をするには、%(platformName)sのパスワードでサインインしてください。"
+
+#: lms/static/js/student_account/views/RegisterView.js:41
+msgid "We couldn't create your account."
+msgstr "アカウントを作成することができませんでした。"
+
+#: lms/static/js/student_account/views/RegisterView.js:62
+msgid "Create Account"
+msgstr "アカウント作成"
+
+#: lms/static/js/student_account/views/RegisterView.js:138
+msgid "(required)"
+msgstr "(必須)"
+
+#: lms/static/js/student_account/views/RegisterView.js:291
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "%(currentProvider)sへのサインインに成功しました。"
+
+#: lms/static/js/student_account/views/RegisterView.js:293
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr "%(platformName)sでの学習を始めるにあたって、もう少し情報が必要です。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:43
+#: lms/static/js/student_account/views/account_settings_factory.js:56
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:46
+msgid ""
+"The email address you use to sign in. Communications from {platform_name} "
+"and your courses are sent to this address."
+msgstr "サインインの際に使うメールアドレス。{platform_name}や講座からのお知らせはこのメールアドレスに届きます。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:59
+msgid ""
+"The email address you use to sign in. Communications from {platform_name} "
+"and your courses are sent to this address.  To change the email address, "
+"please contact {contact_email}."
+msgstr "サインインの際に使うメールアドレス。{platform_name}や講座からのメールはこのメールアドレスに届きます。メールアドレスを変更するには{contact_email}へお問い合わせください。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:68
+#: lms/static/js/student_account/views/account_settings_factory.js:235
+msgid "Basic Account Information"
+msgstr "アカウント基本情報"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:69
+msgid "These settings include basic information about your account."
+msgstr "この設定にはあなたのアカウントの基本情報が含まれています。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:77
+msgid ""
+"The name that identifies you throughout {platform_name}. You cannot change "
+"your username."
+msgstr "{platform_name}内であなたを特定する名前。ユーザー名を変更することはできません。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:85
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:105
+msgid "Full Name"
+msgstr "氏名"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:88
+msgid ""
+"The name that is used for ID verification and that appears on your "
+"certificates. Other learners see your full name if you have selected "
+"{bold_start}Full Profile{bold_end} for profile visibility. Make sure to "
+"enter your name exactly as it appears on your photo ID, including any non-"
+"Roman characters."
+msgstr ""
+
+#: lms/static/js/student_account/views/account_settings_factory.js:101
+msgid "Password"
+msgstr "パスワード"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:102
+#: lms/static/js/student_account/views/account_settings_factory.js:106
+msgid "Reset Your Password"
+msgstr "パスワードを再設定"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:109
+msgid ""
+"When you select \"Reset Your Password\", a message will be sent to the email"
+" address for your {platform_name} account. Click the link in the message to "
+"reset your password."
+msgstr "'パスワードを再設定' を押すと、{platform_name}アカウントに登録しているメールアドレスへメッセージが届きます。メッセージ内のリンクをクリックして、パスワードを再設定してください。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:122
+msgid ""
+"The language used throughout this site. This site is currently available in "
+"a limited number of languages."
+msgstr "このサイトで使われている言語。現在このサイトで利用可能な言語は限られています。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:133
+msgid "Country or Region of Residence"
+msgstr "居住国・地域"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:137
+msgid "The country or region where you live."
+msgstr "お住まいの国・地域。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:144
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:146
+msgid ""
+"Select the time zone for displaying course dates. If you do not specify a "
+"time zone, course dates, including assignment deadlines, will be displayed "
+"in your browser's local time zone."
+msgstr "講座の日付情報を表示する際のタイムゾーンを選択してください。タイムゾーンを指定していない場合、締切などの講座の日付情報はあなたのブラウザのローカルタイムゾーンで表示されます。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:148
+msgid "All Time Zones"
+msgstr "全てのタイムゾーン"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:150
+msgid "Default (Local Time Zone)"
+msgstr "既定値 (地域別タイムゾーン)"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:158
+msgid "Additional Information"
+msgstr "追加情報"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:163
+msgid "Education Completed"
+msgstr "最終学歴"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:172
+msgid "Gender"
+msgstr "性別"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:181
+msgid "Year of Birth"
+msgstr "誕生年"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:190
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:148
+msgid "Preferred Language"
+msgstr "希望言語"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:202
+msgid "Social Media Links"
+msgstr "ソーシャルメディアリンク"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:203
+msgid ""
+"Optionally, link your personal accounts to the social media icons on your "
+"edX profile."
+msgstr "任意ですが、あなたの個人アカウントをedXプロフィールのソーシャルメディアアイコンにリンクしてください。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:213
+msgid " Link"
+msgstr "リンク"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:216
+msgid "Enter your "
+msgstr "入力してください"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:243
+#: lms/static/js/student_account/views/account_settings_view.js:29
+msgid "Linked Accounts"
+msgstr "リンクされているアカウント"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:245
+msgid ""
+"You can link your social media accounts to simplify signing in to "
+"{platform_name}."
+msgstr " {platform_name}へのサインインを簡便化するために、ソーシャルメディアのアカウントをリンクすることができます。"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:267
+msgid "ORDER NAME"
+msgstr "注文名"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:268
+msgid "ORDER PLACED"
+msgstr "注文地"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:269
+msgid "TOTAL"
+msgstr "合計"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:270
+msgid "ORDER NUMBER"
+msgstr "注文番号"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:276
+msgid "My Orders"
+msgstr "注文一覧"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:278
+msgid ""
+"This page contains information about orders that you have placed with "
+"{platform_name}."
+msgstr "この画面には{platform_name}内での注文に関する情報が含まれています。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:45
+msgid ""
+"We've sent a confirmation message to {new_email_address}. Click the link in "
+"the message to update your email address."
+msgstr "{new_email_address}へ確認メッセージを送りました。メールアドレスを更新するにはメッセージの中にあるリンクをクリックしてください。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:71
+msgid ""
+"You must sign out and sign back in before your language changes take effect."
+msgstr "言語の変更を有効にするには、一旦サインアウトしてから再度サインインする必要があります。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:192
+msgid ""
+"We've sent a message to {email}. Click the link in the message to reset your"
+" password. Didn't receive the message? Contact {anchorStart}technical "
+"support{anchorEnd}."
+msgstr " {email} へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd}へお問い合わせください。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:275
+msgid "Link your {accountName} account"
+msgstr " {accountName}アカウントをリンク"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:279
+msgid "Unlink This Account"
+msgstr "このアカウントをリンク解除"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:282
+msgid ""
+"You can use your {accountName} account to sign in to your {platformName} "
+"account."
+msgstr " {platformName}のアカウントにサインするために{accountName}のアカウントを使うことができます。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:286
+msgid "Unlink your {accountName} account"
+msgstr " {accountName}アカウントをリンク解除"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:290
+msgid "Link Your Account"
+msgstr "アカウントをリンク"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:293
+msgid ""
+"Link your {accountName} account to your {platformName} account and use "
+"{accountName} to sign in to {platformName}."
+msgstr "{platformName}アカウントに{accountName}アカウントをリンクし、{platformName}にサインインするために{accountName}を使用してください。"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:350
+msgid "Unlinking"
+msgstr "リンク解除中"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:350
+msgid "Linking"
+msgstr "リンク中"
+
+#: lms/static/js/student_account/views/account_settings_fields.js:354
+msgid "Successfully unlinked."
+msgstr "リンク解除完了。"
+
+#: lms/static/js/student_account/views/account_settings_view.js:20
+msgid "Account Information"
+msgstr "アカウント情報"
+
+#: lms/static/js/student_account/views/account_settings_view.js:37
+msgid "Order History"
+msgstr "注文履歴"
+
+#: lms/static/js/verify_student/views/image_input_view.js:91
+msgid "Image Upload Error"
+msgstr "画像アップロードエラー"
+
+#: lms/static/js/verify_student/views/image_input_view.js:92
+msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
+msgstr "正しい画像ファイル (PNGおよびJPEG) をアップロードしたか確認してください。"
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js:83
+#: lms/static/js/verify_student/views/review_photos_step_view.js:71
+msgid "An error has occurred. Please try again later."
+msgstr "エラーが発生しました。後ほど再試行してください。"
+
+#: lms/static/js/verify_student/views/incourse_reverify_view.js:93
+#: lms/static/js/verify_student/views/review_photos_step_view.js:81
+msgid "Could not submit photos"
+msgstr "写真を提出できませんでした"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:50
+msgid "Professional Education Verified Certificate"
+msgstr "Professional Education認証付き修了証"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:52
+msgid "Professional Education"
+msgstr "Professional Education"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:55
+msgid "Verified Certificate upgrade"
+msgstr "認証付き修了証のアップグレード"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:57
+msgid "Verified Certificate"
+msgstr "認証付き修了証"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:64
+msgid "Checkout"
+msgstr "支払手続き"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:66
+msgid "Checkout with PayPal"
+msgstr "PayPalによる支払手続き"
+
+#. Translators: 'processor' is the name of a third-party payment processing
+#. vendor (example: "PayPal")
+#: lms/static/js/verify_student/views/make_payment_step_view.js:70
+msgid "Checkout with {processor}"
+msgstr "{processor} による支払手続き"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:124
+msgid "All payment options are currently unavailable."
+msgstr "全ての支払オプションが現在有効ではありません。"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:125
+msgid "Try the transaction again in a few minutes."
+msgstr "数分後に再度手続きしてみてください。"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:214
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:7
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:22
+msgid "An error has occurred. Please try again."
+msgstr "エラーが発生しました。再試行してください。"
+
+#: lms/static/js/verify_student/views/make_payment_step_view.js:221
+msgid "Could not submit order"
+msgstr "注文を送信できませんでした"
+
+#: lms/static/js/verify_student/views/payment_confirmation_step_view.js:64
+msgid "Could not retrieve payment information"
+msgstr "支払情報を復元できませんでした"
+
+#: lms/static/js/verify_student/views/reverify_view.js:48
+msgid "Take a photo of your ID"
+msgstr "あなたのIDの写真を撮影する"
+
+#: lms/static/js/verify_student/views/reverify_view.js:49
+msgid "Review your info"
+msgstr "情報をレビュー"
+
+#: lms/static/js/verify_student/views/step_view.js:51
+msgid "An error has occurred. Please try reloading the page."
+msgstr "エラーが発生しました。画面を再読込してください。"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:103
+msgid "Video Capture Error"
+msgstr "ビデオキャプチャエラー"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:104
+msgid ""
+"Please verify that your webcam is connected and that you have allowed your "
+"browser to access it."
+msgstr "Webカメラが接続されているか確認し、ブラウザからのアクセスが許可されていることを確認してください。"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:196
+msgid "No Webcam Detected"
+msgstr "Webカメラが認識されません"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:197
+msgid "You don't seem to have a webcam connected."
+msgstr "Webカメラが接続されていないようです。"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:198
+msgid "Double-check that your webcam is connected and working to continue."
+msgstr "Webカメラが接続され、作動していることを再確認してください。"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:346
+msgid "Photo Captured successfully."
+msgstr "問題なく写真キャプチャ完了。"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:387
+msgid "No Flash Detected"
+msgstr "Flashが認識されません"
+
+#: lms/static/js/verify_student/views/webcam_photo_view.js:388
+msgid ""
+"You don't seem to have Flash installed. Get Flash to continue your "
+"verification."
+msgstr "Flashがインストールされていないようです。認証を続けるためにFlashをインストールしてください。"
+
+#: lms/static/js/views/fields.js:36
+msgid "Editable"
+msgstr "編集可能"
+
+#: lms/static/js/views/fields.js:46
+msgid "Validation Error"
+msgstr "確認エラー"
+
+#: lms/static/js/views/fields.js:51
+msgid "In Progress"
+msgstr "進行中"
+
+#: lms/static/js/views/fields.js:61
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: lms/static/js/views/file_uploader.js:85
+msgid "Your upload of '{file}' succeeded."
+msgstr "'{file}' のアップロードに成功しました。"
+
+#: lms/static/js/views/file_uploader.js:110
+msgid "Your upload of '{file}' failed."
+msgstr "'{file}' のアップロードに失敗しました。"
+
+#: lms/static/js/views/image_field.js:15
+msgid "Upload an image"
+msgstr "画像をアップロード"
+
+#: lms/static/js/views/image_field.js:16
+msgid "Change image"
+msgstr "画像を変更"
+
+#: lms/static/js/views/image_field.js:29
+msgid "An error has occurred. Refresh the page, and then try again."
+msgstr "エラーが発生しました。この画面を再読込して、再度実行してください。"
+
+#: lms/static/js/views/image_field.js:169
+msgid "The file must be at least {size} in size."
+msgstr "ファイル容量は少なくとも{size}必要です。"
+
+#: lms/static/js/views/image_field.js:177
+msgid "The file must be smaller than {size} in size."
+msgstr "ファイル容量は{size}以下でなければいけません。"
+
+#: lms/static/js/views/image_field.js:212
+msgid ""
+"Upload is in progress. To avoid errors, stay on this page until the process "
+"is complete."
+msgstr "アップロード中です。エラーを防ぐため、処理が完了するまでこのページから移動しないでください。"
+
+#: lms/static/js/views/image_field.js:214
+msgid ""
+"Removal is in progress. To avoid errors, stay on this page until the process"
+" is complete."
+msgstr "削除中です。エラーを防ぐため、処理が完了するまでこのページから移動しないでください。"
+
+#: lms/static/js/views/image_field.js:219
+msgid "bytes"
+msgstr "バイト"
+
+#: lms/static/js/views/image_field.js:219
+msgid "KB"
+msgstr "KB"
+
+#: lms/static/js/views/image_field.js:219
+msgid "MB"
+msgstr "MB"
+
+#: lms/static/lms/js/preview/preview_factory.js:13
+msgid "Course is not yet visible to students."
+msgstr "講座はまだ受講者に表示されていません。"
+
+#: lms/static/lms/js/preview/preview_factory.js:24
+msgid ""
+"You cannot view the course as a student or beta tester before the course "
+"release date."
+msgstr "開講日までは受講者またはβテスターとして講座を見ることはできません。"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js:354
+msgid "%(num_students)s student opened Subsection"
+msgid_plural "%(num_students)s students opened Subsection"
+msgstr[0] "%(num_students)s名の受講者がサブセクションを開きました"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js:358
+msgid "%(num_students)s student"
+msgid_plural "%(num_students)s students"
+msgstr[0] "%(num_students)s名の受講者"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js:360
+msgid "%(num_questions)s question"
+msgid_plural "%(num_questions)s questions"
+msgstr[0] "%(num_questions)s件の質問"
+
+#: lms/templates/class_dashboard/d3_stacked_bar_graph.js:441
+msgid "Number of Students"
+msgstr "受講者数"
+
+#: lms/templates/courseware/progress_graph.js:290
+msgid "Overall Score"
+msgstr "総得点"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:9
+msgid "Bookmark this page"
+msgstr "この画面をブックマークする"
+
+#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:67
+msgid "{total_results} result"
+msgid_plural "{total_results} results"
+msgstr[0] "結果 {total_results}件"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:74
+msgid "Profile Visibility:"
+msgstr "プロフィール表示:"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:77
+msgid "Limited Profile"
+msgstr "限定プロフィール"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:78
+msgid "Full Profile"
+msgstr "全プロフィール"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:118
+msgid "Joined"
+msgstr "参加済"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:121
+msgid "Joined Date"
+msgstr "参加日"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:130
+msgid "Location"
+msgstr "ロケーション"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:137
+msgid "Add Country"
+msgstr "国を入力"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:152
+msgid "Add language"
+msgstr "言語を入力"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:165
+msgid "About me"
+msgstr "自己紹介"
+
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:167
+msgid ""
+"Tell other learners a little about yourself: where you live, what your "
+"interests are, why you're taking courses, or what you hope to learn."
+msgstr "自己紹介をしてください: どこに住んでいるのか、何に興味があるのか、なぜ受講することにしたのか、何を学びたいかなど。"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/badge_list_container.js:23
+msgid "Accomplishments Pagination"
+msgstr "業績のページ"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:33
+msgid "Account Settings page."
+msgstr "アカウント設定ページ。"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:39
+msgid ""
+"You must specify your birth year before you can share your full profile. To "
+"specify your birth year, go to the {account_settings_page_link}"
+msgstr "全プロフィールを公開するためには、誕生年を指定してください。誕生年を入力するには {account_settings_page_link}へ移動します。"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:46
+msgid ""
+"You must be over 13 to share a full profile. If you are over 13, make sure "
+"that you have specified a birth year on the {account_settings_page_link}"
+msgstr "全プロフィールを公開するには13 歳以上である必要があります。もし 13 歳以上なら、{account_settings_page_link}にてあなたの誕生年が正しく設定されているか確認してください。"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:65
+msgid "Profile Image"
+msgstr "プロフィール画像"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:73
+msgid "Profile image for {username}"
+msgstr "{username}のプロフィール画像"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:69
+msgid "About Me"
+msgstr "自己紹介"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:72
+msgid "Accomplishments"
+msgstr "業績"
+
+#: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:87
+msgid "Profile"
+msgstr "プロフィール"
