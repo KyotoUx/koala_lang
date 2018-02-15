@@ -40,7 +40,7 @@ msgstr ""
 #: lms/djangoapps/discussion/plugins.py:21
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py:172
 msgid "Discussion"
-msgstr "ディスカッション"
+msgstr "ディスカッショ"
 
 #: cms/djangoapps/contentstore/views/component.py:242
 #: lms/djangoapps/class_dashboard/dashboard_data.py:563
