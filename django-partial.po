@@ -123,7 +123,7 @@ msgstr "認証保留中"
 
 #: common/djangoapps/course_modes/helpers.py:35
 msgid "Verified: Pending Verification"
-msgstr "認証: 保留中"
+msgstr "認証：保留中"
 
 #: common/djangoapps/course_modes/helpers.py:37
 msgid "ID verification pending"
@@ -143,7 +143,7 @@ msgstr "ID認証リボン/バッジ"
 
 #: common/djangoapps/course_modes/helpers.py:44
 msgid "You're enrolled as an honor code student"
-msgstr "honor code受講者として受講登録されています"
+msgstr "Honor Code 受講者として受講登録されています"
 
 #: common/djangoapps/course_modes/helpers.py:45
 #: lms/djangoapps/branding/api.py:210
@@ -153,11 +153,11 @@ msgstr "Honor Code"
 
 #: common/djangoapps/course_modes/helpers.py:47
 msgid "You're enrolled as a professional education student"
-msgstr "professional education 受講者として受講登録されています"
+msgstr "Professional Education 受講者として受講登録されています"
 
 #: common/djangoapps/course_modes/helpers.py:48
 msgid "Professional Ed"
-msgstr "Professional Ed"
+msgstr "Professional Education"
 
 #: common/djangoapps/course_modes/models.py:69
 #: common/lib/xmodule/xmodule/annotatable_module.py:41
@@ -179,7 +179,7 @@ msgstr "表示名"
 
 #: common/djangoapps/course_modes/models.py:75
 msgid "Price"
-msgstr "価格"
+msgstr "料金"
 
 #: common/djangoapps/course_modes/models.py:87
 msgid "Upgrade Deadline"
