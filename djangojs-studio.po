@@ -128,13 +128,13 @@ msgstr "エクスポート失敗。"
 
 #: cms/static/js/factories/manage_users.js:10
 msgid "Already a course team member"
-msgstr "既に講座チームメンバーです"
+msgstr "既に講義チームメンバーです"
 
 #: cms/static/js/factories/manage_users.js:12
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
-msgstr "{email}を“{container}”の講座チームから削除しようとしていますが、よろしいですか？"
+msgstr "{email}を“{container}”の講義チームから削除しようとしていますが、よろしいですか？"
 
 #: cms/static/js/factories/manage_users.js:19
 #: cms/static/js/factories/manage_users_lib.js:21
@@ -211,7 +211,7 @@ msgstr "名前を指定する必要があります"
 
 #: cms/static/js/models/course_update.js:14
 msgid "Action required: Enter a valid date."
-msgstr "必須: 正しい日付を入力してください。"
+msgstr "必須：正しい日付を入力してください。"
 
 #: cms/static/js/models/group.js:40
 msgid "Group name is required"
@@ -243,15 +243,15 @@ msgstr "全てのグループに固有の名前が必要です。"
 
 #: cms/static/js/models/settings/course_details.js:48
 msgid "The course must have an assigned start date."
-msgstr "講座開始日を設定する必要があります。"
+msgstr "講義開始日を設定する必要があります。"
 
 #: cms/static/js/models/settings/course_details.js:52
 msgid "The course end date must be later than the course start date."
-msgstr "講座終了日は、講座開始日より後でなければなりません。"
+msgstr "講義終了日は、講義開始日より後でなければなりません。"
 
 #: cms/static/js/models/settings/course_details.js:55
 msgid "The course start date must be later than the enrollment start date."
-msgstr "講座開始日は、受講登録開始日より後でなければなりません。"
+msgstr "講義開始日は、受講登録開始日より後でなければなりません。"
 
 #: cms/static/js/models/settings/course_details.js:58
 msgid "The enrollment start date cannot be after the enrollment end date."
@@ -259,11 +259,11 @@ msgstr "受講登録開始日は、受講登録終了日より後にはできま
 
 #: cms/static/js/models/settings/course_details.js:61
 msgid "The enrollment end date cannot be after the course end date."
-msgstr "受講登録終了日は、講座終了日より後にはできません。"
+msgstr "受講登録終了日は、講義終了日より後にはできません。"
 
 #: cms/static/js/models/settings/course_details.js:66
 msgid "The certificate available date must be later than the course end date."
-msgstr "修了証受領日は講座終了日より後でなければいけません。"
+msgstr "修了証受領日は講義終了日より後でなければいけません。"
 
 #: cms/static/js/models/settings/course_details.js:71
 msgid "Key should only contain letters, numbers, _, or -"
@@ -377,7 +377,7 @@ msgstr "{filename} のファイル形式はサポートされていません。�
 
 #: cms/static/js/views/active_video_upload_list.js:388
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
-msgstr "{filename}は最大サイズ {maxFileSizeInGB} GBを超えています。"
+msgstr "{filename}は最大サイズ {maxFileSizeInGB}GBを超えています。"
 
 #: cms/static/js/views/active_video_upload_list.js:423
 msgid ": video upload complete."
@@ -455,32 +455,32 @@ msgstr "なし"
 
 #: cms/static/js/views/course_video_settings.js:242
 msgid "Select turnaround"
-msgstr ""
+msgstr "turnaround を選択"
 
 #: cms/static/js/views/course_video_settings.js:270
 msgid "Select fidelity"
-msgstr ""
+msgstr "fidelity を選択"
 
 #: cms/static/js/views/course_video_settings.js:318
 #: cms/static/js/views/course_video_settings.js:354
 msgid "Select language"
-msgstr ""
+msgstr "言語を選択"
 
 #: cms/static/js/views/course_video_settings.js:414
 msgid "Press Remove to remove language"
-msgstr ""
+msgstr "削除を押して言語を削除する"
 
 #: cms/static/js/views/course_video_settings.js:432
 msgid "Last updated"
-msgstr ""
+msgstr "最終更新日"
 
 #: cms/static/js/views/course_video_settings.js:439
 msgid "Settings updated"
-msgstr ""
+msgstr "最終設定日"
 
 #: cms/static/js/views/course_video_settings.js:452
 msgid "Error saving data"
-msgstr ""
+msgstr "エラー保存日"
 
 #: cms/static/js/views/course_video_settings.js:493
 msgid "Required"
@@ -488,7 +488,7 @@ msgstr "必須"
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%= name %>”"
-msgstr "“<%= name %>”に新しい PDF をアップロード"
+msgstr "“<%= name %>”に新しいPDFをアップロード"
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -534,7 +534,7 @@ msgstr "コースをXMLにエクスポートできませんでした。失敗し
 
 #: cms/static/js/views/export.js:344
 msgid "Take me to the main course page"
-msgstr "メイン講座ページへ"
+msgstr "メインコースページへ"
 
 #: cms/static/js/views/export.js:346
 msgid "The raw error message is:"
@@ -726,7 +726,7 @@ msgstr "公開"
 
 #: cms/static/js/views/modals/course_outline_modals.js:220
 msgid "Highlights for {display_name}"
-msgstr ""
+msgstr "{display_name}のハイライト"
 
 #: cms/static/js/views/modals/course_outline_modals.js:228
 msgid ""
@@ -734,7 +734,7 @@ msgid ""
 "Each {item}'s highlights are emailed at the time that we expect the learner "
 "to start working on that {item}. At this time, we assume that each {item} "
 "will take 1 week to complete."
-msgstr ""
+msgstr "ここに記入したハイライトは受講者にメールで送られます。各{item}のハイライトはその{item}が出てくる時にメールされます。今回は、各{item}を完了させるのに1週間かかると想定しています。""
 
 #: cms/static/js/views/modals/course_outline_modals.js:683
 msgid "All Learners and Staff"
@@ -807,11 +807,11 @@ msgstr "グループ"
 
 #: cms/static/js/views/move_xblock_list.js:179
 msgid "This {parentCategory} has no {childCategory}"
-msgstr "この{parentCategory} には {childCategory} がありません"
+msgstr "この{parentCategory}には{childCategory}がありません"
 
 #: cms/static/js/views/move_xblock_list.js:196
 msgid "Course Outline"
-msgstr "講座アウトライン"
+msgstr "講義アウトライン"
 
 #: cms/static/js/views/paged_container.js:256
 msgid "Date added"
@@ -949,7 +949,7 @@ msgstr "この動画をリストから削除してよろしいですか？"
 msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
-msgstr "動画をリストから削除しても講座コンテンツには影響しません。以前にアップロードされた動画IDを使用しているコンテンツは引き続き表示されます。"
+msgstr "動画をリストから削除しても講義コンテンツには影響しません。以前にアップロードされた動画IDを使用しているコンテンツは引き続き表示されます。"
 
 #: cms/static/js/views/settings/advanced.js:68
 msgid ""
@@ -965,24 +965,24 @@ msgstr "ポリシーの変更が保存されました。"
 msgid ""
 "No validation is performed on policy keys or value pairs. If you are having "
 "difficulties, check your formatting."
-msgstr "ポリシーキーまたは値のペアに対して認証は行われません。問題がある場合は、形式を確認してください。"
+msgstr "ポリシーキーまたは値のペアに対して認証は行われません。問題がある場合はフォーマットを確認してください。"
 
 #: cms/static/js/views/settings/grader.js:58
 msgid ""
 "For grading to work, you must change all {oldName} subsections to {newName}."
-msgstr "採点できるようにするには、 {oldName}サブセクションを全て{newName}に変更しなければいけません。"
+msgstr "採点できるようにするには、{oldName}サブセクションを全て{newName}に変更しなければいけません。"
 
 #: cms/static/js/views/settings/main.js:59
 msgid "Course Credit Requirements"
-msgstr "講座単位認定条件"
+msgstr "講義単位認定条件"
 
 #: cms/static/js/views/settings/main.js:60
 msgid "The minimum grade for course credit is not set."
-msgstr "講座単位認定に必要な最低点が設定されていません。"
+msgstr "講義単位認定に必要な最低点が設定されていません。"
 
 #: cms/static/js/views/settings/main.js:148
 msgid "Course pacing cannot be changed once a course has started."
-msgstr "講座のタイプは一旦開講すると変更できません。"
+msgstr "講義タイプは一旦開講すると変更できません。"
 
 #: cms/static/js/views/settings/main.js:213
 msgid "{hours}:{minutes} (current UTC time)"
@@ -990,7 +990,7 @@ msgstr "{hours}:{minutes} (現在のUTC時間)"
 
 #: cms/static/js/views/settings/main.js:419
 msgid "Upload your course image."
-msgstr "講座画像をアップロードしてください。"
+msgstr "講義画像をアップロードしてください。"
 
 #: cms/static/js/views/settings/main.js:425
 msgid "Upload your banner image."
@@ -1002,7 +1002,7 @@ msgstr "動画サムネイル画像をアップロードしてください。"
 
 #: cms/static/js/views/show_textbook.js:32
 msgid "Delete “<%= name %>”?"
-msgstr "“<%= name %>” を削除しますか?"
+msgstr "“<%= name %>”を削除しますか?"
 
 #: cms/static/js/views/show_textbook.js:35
 msgid ""
@@ -1031,7 +1031,7 @@ msgstr "申し訳ありませんが、エラーが発生しました"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%=limit%> characters."
-msgstr "組織名、講座番号、course run欄の合計文字数は<%=limit%>文字までです。"
+msgstr "組織名、講義番号、course run欄の合計文字数は<%=limit%>文字までです。"
 
 #: cms/static/js/views/utils/create_library_utils.js:8
 msgid ""
@@ -1041,13 +1041,13 @@ msgstr "組織名、ライブラリコード欄の合計文字数は<%=limit%>�
 
 #: cms/static/js/views/utils/move_xblock_utils.js:31
 msgid "Success! \"{displayName}\" has been moved."
-msgstr "完了！\"{displayName}\" を移動しました。"
+msgstr "完了！\"{displayName}\"を移動しました。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:56
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
-msgstr "移動をキャンセル。\"{sourceDisplayName}\" は元の場所に戻されました。"
+msgstr "移動をキャンセル。\"{sourceDisplayName}\"は元の場所に戻されました。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:74
 msgid "Undo move"
@@ -1086,11 +1086,11 @@ msgstr "この {xblock_type} (および必須条件) を削除しますか？"
 #: cms/static/js/views/utils/xblock_utils.js:162
 #: cms/static/js/views/utils/xblock_utils.js:177
 msgid "Yes, delete this {xblock_type}"
-msgstr "はい、この {xblock_type} を削除してください"
+msgstr "はい、この{xblock_type}を削除してください"
 
 #: cms/static/js/views/utils/xblock_utils.js:171
 msgid "Delete this {xblock_type}?"
-msgstr "この {xblock_type} を削除しますか？"
+msgstr "この{xblock_type}を削除しますか？"
 
 #: cms/static/js/views/utils/xblock_utils.js:263
 msgid "section"
@@ -1131,24 +1131,24 @@ msgstr ".srtファイルを選択してください。"
 
 #: cms/static/js/views/video/transcripts/file_uploader.js:188
 msgid "Error: Uploading failed."
-msgstr "エラー: アップロード失敗。"
+msgstr "エラー：アップロード失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:147
 msgid "Error: Import failed."
-msgstr "エラー: インポート失敗。"
+msgstr "エラー：インポート失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:161
 msgid "Error: Replacing failed."
-msgstr "エラー: 置換失敗。"
+msgstr "エラー：置換失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:177
 #: cms/static/js/views/video/transcripts/message_manager.js:191
 msgid "Error: Choosing failed."
-msgstr "エラー: 選択失敗。"
+msgstr "エラー：選択失敗。"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:66
 msgid "Error: Connection with server failed."
-msgstr "エラー: サーバーへの接続失敗。"
+msgstr "エラー：サーバーへの接続失敗。"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:82
 msgid "No sources"
@@ -1205,7 +1205,7 @@ msgstr "{ReqTextSpanStart}必須{spanEnd}{lineBreak}{InstructionsSpanStart}{vide
 #. Translators: message will be like 1280x720 pixels
 #: cms/static/js/views/video_thumbnail.js:130
 msgid "{maxWidth}x{maxHeight} pixels"
-msgstr "{maxWidth}x{maxHeight} ピクセル"
+msgstr "{maxWidth}x{maxHeight}ピクセル"
 
 #. Translators: message will be like Thumbnail for Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:138
@@ -1221,7 +1221,7 @@ msgstr "サムネイル追加 - {videoName}"
 #. minutes etc
 #: cms/static/js/views/video_thumbnail.js:172
 msgid "Video duration is {humanizeDuration}"
-msgstr "動画の長さは {humanizeDuration}"
+msgstr "動画の長さは{humanizeDuration}"
 
 #: cms/static/js/views/video_thumbnail.js:189
 msgid "minutes"
@@ -1253,7 +1253,7 @@ msgstr "{seconds} {unit}"
 #. `13 minutes and 45 seconds`
 #: cms/static/js/views/video_thumbnail.js:207
 msgid " and "
-msgstr "と"
+msgstr " "
 
 #: cms/static/js/views/video_thumbnail.js:234
 msgid "Video image upload started"
@@ -1267,17 +1267,17 @@ msgstr "動画画像アップロード完了"
 msgid ""
 "This image file type is not supported. Supported file types are "
 "{supportedFileFormats}."
-msgstr "この画像ファイルの種類はサポートされていません。対応できるファイルの種類は {supportedFileFormats} です。"
+msgstr "この画像ファイルの種類はサポートされていません。対応できるファイルの種類は{supportedFileFormats}です。"
 
 #. Translators: maxFileSizeInMB will be like 2 MB.
 #: cms/static/js/views/video_thumbnail.js:330
 msgid "The selected image must be smaller than {maxFileSizeInMB}."
-msgstr "選択する画像は {maxFileSizeInMB} を超えてはいけません。"
+msgstr "選択する画像は{maxFileSizeInMB}を超えてはいけません。"
 
 #. Translators: minFileSizeInKB will be like 2 KB.
 #: cms/static/js/views/video_thumbnail.js:338
 msgid "The selected image must be larger than {minFileSizeInKB}."
-msgstr "選択する画像は {minFileSizeInKB} 以上でなければいけません。"
+msgstr "選択する画像は{minFileSizeInKB}以上でなければいけません。"
 
 #: cms/static/js/views/video_thumbnail.js:366
 msgid "Could not upload the video image file"
