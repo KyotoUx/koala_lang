@@ -53,11 +53,11 @@ msgstr "最低１つグループが必要です"
 #: cms/djangoapps/contentstore/course_info_model.py:71
 #: cms/djangoapps/contentstore/course_info_model.py:146
 msgid "Invalid course update id."
-msgstr "無効な講座更新ID。"
+msgstr "無効なコース更新ID。"
 
 #: cms/djangoapps/contentstore/course_info_model.py:111
 msgid "Course update not found."
-msgstr "講座更新がありません。"
+msgstr "コース更新がありません。"
 
 #: cms/djangoapps/contentstore/courseware_index.py:249
 msgid "Could not index item: {}"
@@ -76,19 +76,19 @@ msgstr "(名称未設定)"
 msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
-msgstr "GIT_REPO_EXPORT_DIR が設定されていないか、パス {0} が存在しません。作成するか、GIT_REPO_EXPORT_DIR に違うパスを設定してください"
+msgstr "GIT_REPO_EXPORT_DIR が設定されていないか、パス{0}が存在しません。新たに作成するか、GIT_REPO_EXPORT_DIRに別のパスを設定してください"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:40
 msgid ""
 "Non writable git url provided. Expecting something like: "
 "git@github.com:mitocw/edx4edx_lite.git"
-msgstr "書き込みの出来ないgit urlです。期待値の例: git@github.com:mitocw/edx4edx_lite.git"
+msgstr "書き込みの出来ないgit urlです。想定される値の例: git@github.com:mitocw/edx4edx_lite.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:42
 msgid ""
 "If using http urls, you must provide the username and password in the url. "
 "Similar to https://user:pass@github.com/user/course."
-msgstr "httpのURLを使用している場合、ユーザー名とパスワードをURLに含めてください。https://user:pass@github.com/user/course のような形式です。"
+msgstr "httpのURLを使用している場合、ユーザー名とパスワードをURLに含めてください。https://user:pass@github.com/user/courseのような形式です。"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:45
 msgid "Unable to determine branch, repo in detached HEAD mode"
@@ -181,7 +181,7 @@ msgstr "アップロード完了"
 #, python-brace-format
 msgid ""
 "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
-msgstr ""
+msgstr "ファイル{filename}は最大サイズ{maximum_size_in_megabytes}MBを超えています。"
 
 #: cms/djangoapps/contentstore/views/certificates.py:157
 msgid "must have name of the certificate"
@@ -217,7 +217,7 @@ msgstr "空欄"
 
 #: cms/djangoapps/contentstore/views/course.py:325
 msgid "Course has been successfully reindexed."
-msgstr "講座の見出し再作成が完了しました。"
+msgstr "コースの見出し再作成が完了しました。"
 
 #: cms/djangoapps/contentstore/views/course.py:619
 msgid "Unscheduled"
@@ -227,19 +227,19 @@ msgstr "未定"
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
-msgstr "組織、講座番号、course runでは特殊記号を使用することができません。"
+msgstr "組織、講義番号、course runでは特殊記号を使用することができません。"
 
 #: cms/djangoapps/contentstore/views/course.py:817
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
-msgstr "既に同一の組織および講座番号で定義されている講座があります。組織または講座番号を変更してください。"
+msgstr "既に同一の組織および講義番号で定義されている講義があります。組織または講義番号を変更してください。"
 
 #: cms/djangoapps/contentstore/views/course.py:822
 #: cms/djangoapps/contentstore/views/course.py:825
 msgid ""
 "Please change either the organization or course number so that it is unique."
-msgstr "他と重複しないように、組織または講座番号を変更してください。"
+msgstr "他と重複しないように、組織または講義番号を変更してください。"
 
 #: cms/djangoapps/contentstore/views/course.py:830
 #, python-brace-format
@@ -247,14 +247,14 @@ msgid ""
 "Unable to create course '{name}'.\n"
 "\n"
 "{err}"
-msgstr "講座'{name}を作成できません。\n\n{err}"
+msgstr "'{name}'を作成できません。\n\n{err}"
 
 #: cms/djangoapps/contentstore/views/course.py:843
 msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add"
 " it to the system"
-msgstr "続けるためには、この講座を組織にリンクさせる必要があります。選択された組織はこのシステムに登録されていませんので、追加登録する必要があります。"
+msgstr "続けるためには、本講義を組織にリンクさせる必要があります。選択された組織はこのシステムに登録されていませんので、追加登録する必要があります。"
 
 #: cms/djangoapps/contentstore/views/course.py:1114
 msgid "Invalid prerequisite course key"
@@ -298,7 +298,7 @@ msgstr "空"
 
 #: cms/djangoapps/contentstore/views/import_export.py:171
 msgid "File upload corrupted. Please try again"
-msgstr "ファイルアップロードが失敗しました。再度お試しください"
+msgstr "ファイルアップロードが失敗しました。再試行してください"
 
 #: cms/djangoapps/contentstore/views/item.py:571
 msgid "Invalid data"
@@ -349,12 +349,12 @@ msgstr "target_index ({target_index}) は整数でなければいけません。
 #: cms/djangoapps/contentstore/views/item.py:833
 #, python-brace-format
 msgid "Duplicate of {0}"
-msgstr "'{0}' の重複"
+msgstr "{0}の重複"
 
 #: cms/djangoapps/contentstore/views/item.py:835
 #, python-brace-format
 msgid "Duplicate of '{0}'"
-msgstr "'{0}' の重複"
+msgstr "'{0}'の重複"
 
 #. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
 #. in many languages. This is used to avoid Transifex's misinterpreting of
@@ -363,7 +363,7 @@ msgstr "'{0}' の重複"
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
-msgstr "受講者が教材にアクセスするには {score}{pct_sign}以上の得点が必要です。"
+msgstr "受講者が教材にアクセスするには{score}{pct_sign}以上の得点が必要です。"
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
@@ -420,7 +420,7 @@ msgstr "権限が不十分です"
 #: cms/djangoapps/contentstore/views/user.py:116
 #, python-brace-format
 msgid "Could not find user by email address '{email}'."
-msgstr "メールアドレス '{email}' でユーザーを見つけることができませんでした。"
+msgstr "メールアドレス'{email}'でユーザーを見つけることができませんでした。"
 
 #: cms/djangoapps/contentstore/views/user.py:155
 msgid "No `role` specified."
@@ -506,12 +506,12 @@ msgstr "不明"
 #. transcription in progress on servers
 #: cms/djangoapps/contentstore/views/videos.py:111
 msgid "Transcription in Progress"
-msgstr ""
+msgstr "字幕作成中"
 
 #. Translators: This is the status for a video whose transcription is complete
 #: cms/djangoapps/contentstore/views/videos.py:113
 msgid "Transcript Ready"
-msgstr ""
+msgstr "字幕が使用できます"
 
 #: cms/djangoapps/contentstore/views/videos.py:194
 msgid "The image must have name, content type, and size information."
@@ -532,7 +532,7 @@ msgstr "この画像ファイルサイズは {image_max_size} を超えてはい
 #: cms/djangoapps/contentstore/views/videos.py:204
 #, python-brace-format
 msgid "This image file must be larger than {image_min_size}."
-msgstr "この画像ファイルサイズは{image_min_size} 以上でなければなりません。。"
+msgstr "この画像ファイルサイズは {image_min_size} 以上でなければなりません。。"
 
 #: cms/djangoapps/contentstore/views/videos.py:211
 msgid ""
@@ -552,7 +552,7 @@ msgstr "推奨される画像解像度は{image_file_max_width}x{image_file_max_
 msgid ""
 "This image file must have an aspect ratio of "
 "{video_image_aspect_ratio_text}."
-msgstr "この画像ファイルの縦横比は{video_image_aspect_ratio_text}でなければなりません。 "
+msgstr "この画像ファイルの縦横比は{video_image_aspect_ratio_text}でなければなりません。"
 
 #: cms/djangoapps/contentstore/views/videos.py:229
 msgid ""
@@ -589,7 +589,7 @@ msgstr "{course}_video_urls"
 
 #: cms/djangoapps/course_creators/models.py:32
 msgid "unrequested"
-msgstr "要求されていない"
+msgstr "リクエストされていない"
 
 #: cms/djangoapps/course_creators/models.py:33
 msgid "pending"
@@ -613,17 +613,17 @@ msgstr "状態の最新更新日時"
 
 #: cms/djangoapps/course_creators/models.py:42
 msgid "Current course creator state"
-msgstr "現在の講座制作状況"
+msgstr "現在のコース制作状況"
 
 #: cms/djangoapps/course_creators/models.py:43
 msgid ""
 "Optional notes about this user (for example, why course creation access was "
 "denied)"
-msgstr "このユーザーへの補足説明 (例. 講座制作画面へのアクセス拒否理由)"
+msgstr "このユーザーへの補足説明 (例. コース制作画面へのアクセス拒否理由)"
 
 #: cms/djangoapps/maintenance/views.py:28
 msgid "Force Publish Course"
-msgstr "講座強制公開"
+msgstr "コース強制公開"
 
 #: cms/djangoapps/maintenance/views.py:31
 msgid ""
@@ -631,27 +631,27 @@ msgid ""
 "Force publish course command resets the published branch of a course to "
 "point to the draft branch, effectively force publishing the course. This "
 "view dry runs the force publish command"
-msgstr "ドラフトおよび公開済ブランチは時に同期から外れることができます。講座強制公開コマンドは公開中のブランチをドラフトブランチ時点にリセットし、効果的に強制公開します。このビューは強制公開コマンドをドライランします"
+msgstr "ドラフトおよび公開済ブランチは時に同期から外れる可能性があります。コース強制公開コマンドは公開中のブランチをドラフトブランチ時点にリセットし、効果的に強制公開します。このビューは強制公開コマンドをドライランします。ます"
 
 #: cms/djangoapps/maintenance/views.py:40
 msgid "Please provide course id."
-msgstr "講座IDを入力してください。"
+msgstr "講義IDを入力してください。"
 
 #: cms/djangoapps/maintenance/views.py:41
 msgid "Invalid course key."
-msgstr "無効な講座キー。"
+msgstr "無効な講義キー。"
 
 #: cms/djangoapps/maintenance/views.py:42
 msgid "No matching course found."
-msgstr "該当する講座が見つかりません。"
+msgstr "該当する講義が見つかりません。"
 
 #: cms/djangoapps/maintenance/views.py:182
 msgid "Force publishing course is not supported with old mongo courses."
-msgstr "古いMongoの講座では、講座の強制公開はサポートされていません。"
+msgstr "古いMongoの講義では、コース強制公開はサポートされていません。"
 
 #: cms/djangoapps/maintenance/views.py:196
 msgid "Course is already in published state."
-msgstr "講座はすでに公開済みの状態です。"
+msgstr "講義はすでに公開済みの状態です。"
 
 #: cms/djangoapps/models/settings/course_metadata.py:181
 #, python-brace-format
@@ -672,4 +672,4 @@ msgstr "利用可能なタグのディクショナリ"
 
 #: cms/urls.py:12
 msgid "Studio Administration"
-msgstr ""
+msgstr "Studio管理"
