@@ -24,23 +24,23 @@ msgstr ""
 
 #: wiki/admin.py:72 wiki/models/article.py:26
 msgid "created"
-msgstr "作成された"
+msgstr "作成済"
 
 #: wiki/apps.py:9
 msgid "Wiki notifications"
-msgstr ""
+msgstr "Wiki 通知"
 
 #: wiki/apps.py:15
 msgid "Wiki images"
-msgstr ""
+msgstr "Wiki 画像"
 
 #: wiki/apps.py:21
 msgid "Wiki attachments"
-msgstr ""
+msgstr "Wiki 添付"
 
 #: wiki/forms.py:31
 msgid "Only localhost... muahahaha"
-msgstr "ローカルホストのみ…はっはっは"
+msgstr "ローカルホストのみ… はっはっは"
 
 #: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
 msgid "Title"
@@ -72,7 +72,7 @@ msgstr "サマリー"
 #: wiki/forms.py:49
 msgid ""
 "Give a short reason for your edit, which will be stated in the revision log."
-msgstr "編集するにあたって簡単な理由を記入してください。これはリビジョンログに記載されます。"
+msgstr "編集するにあたって簡単な理由を記入してください。こちらはリビジョンログに記載されます。"
 
 #: wiki/forms.py:98
 msgid ""
@@ -83,7 +83,7 @@ msgstr "あなたが編集している間に、誰かがリビジョンを変更
 
 #: wiki/forms.py:100
 msgid "No changes made. Nothing to save."
-msgstr "変更はありません。保存するものもありません。"
+msgstr "変更はありません。保存するものがありません。"
 
 #: wiki/forms.py:162
 msgid "Select an option"
@@ -131,7 +131,7 @@ msgid ""
 "Purge the article: Completely remove it (and all its contents) with no undo."
 " Purging is a good idea if you want to free the slug such that users can "
 "create new articles in its place."
-msgstr "記事抹消：記事は完全に削除され(その中のコンテンツも含めて)、元に戻すことはできません。その記事のスラグを別の新しい記事で使えるようにスラグを開放したい場合、記事抹消は良い方法です。"
+msgstr "記事抹消：記事は完全に削除され(その中のコンテンツも含めて)、元に戻すことはできません。その記事のスラグを別の新しい記事で使えるようにスラグを開放したい場合、記事抹消は良い方法ではありません。"す。"
 
 #: wiki/forms.py:256 wiki/plugins/attachments/forms.py:24
 #: wiki/plugins/images/forms.py:64
@@ -274,11 +274,11 @@ msgstr "オブジェクトID"
 
 #: wiki/models/article.py:205
 msgid "Article for object"
-msgstr "オブジェクトの記事"
+msgstr "オブジェクト記事"
 
 #: wiki/models/article.py:206
 msgid "Articles for object"
-msgstr "オブジェクトの記事"
+msgstr "オブジェクト記事"
 
 #: wiki/models/article.py:214
 msgid "revision number"
@@ -334,11 +334,11 @@ msgstr "プラグインが変更されました"
 msgid ""
 "The revision being displayed for this plugin.If you need to do a roll-back, "
 "simply change the value of this field."
-msgstr "このプラグインの表示中のリビジョン。ロールバックする必要がある場合は、この欄の値を変更してください。"
+msgstr "このプラグインのリビジョン表示中。ロールバックする必要がある場合は、この欄の値を変更してください。"
 
 #: wiki/models/urlpath.py:41
 msgid "Cache lookup value for articles"
-msgstr "この記事のキャッシュ参照値"
+msgstr "記事のキャッシュ参照値"
 
 #: wiki/models/urlpath.py:47
 msgid "slug"
@@ -395,13 +395,13 @@ msgstr "はい、問題ありません..."
 
 #: wiki/plugins/attachments/markdown_extensions.py:33
 msgid "Click to download file"
-msgstr "ファイルをダウンロードするにはクリック"
+msgstr "クリックしてファイルをダウンロードする"
 
 #: wiki/plugins/attachments/models.py:21
 msgid ""
 "The revision of this attachment currently in use (on all articles using the "
 "attachment)"
-msgstr "この添付のリビジョンは現在使用されています(この添付を使用している記事)。"
+msgstr "この添付のリビジョンは現在使用されています(添付を使用している記事)。"
 
 #: wiki/plugins/attachments/models.py:24
 msgid "original filename"
@@ -430,7 +430,7 @@ msgstr "添付リビジョン"
 #: wiki/plugins/attachments/views.py:49
 #, python-format
 msgid "%s was successfully added."
-msgstr "%s の追加に成功しました。"
+msgstr "%s が追加できました。"
 
 #: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:116
 #, python-format
@@ -452,7 +452,7 @@ msgstr "%s がアップロードされ、古い添付と置き換えます。"
 msgid ""
 "Your new file will automatically be renamed to match the file already "
 "present. Files with different extensions are not allowed."
-msgstr "新しいファイルは既存のファイルに合わせるために自動的に名前が変更されます。拡張子が違うものは許可されません。"
+msgstr "新しいファイルは既存のファイルに合わせて自動的に名前が変更されます。拡張子が異なるファイルはできません。"
 
 #: wiki/plugins/attachments/views.py:182
 #, python-format
@@ -472,7 +472,7 @@ msgstr "%s ファイルが削除されました。"
 #: wiki/plugins/attachments/views.py:236
 #, python-format
 msgid "This article is no longer related to the file %s."
-msgstr "この記事は %s に関連しなくなりました。"
+msgstr "この記事は %s ファイルと関連がなくなりました。"
 
 #: wiki/plugins/attachments/wiki_plugin.py:30
 msgid "Attachments"
@@ -497,7 +497,7 @@ msgstr "ヘルプ"
 msgid ""
 "New image %s was successfully uploaded. You can use it by selecting it from "
 "the list of available images."
-msgstr "新しい画像 %s のアップロードが完了しました。使用可能な画像の一覧から選択して使用できます。"
+msgstr "新しい画像 %s のアップロードが完了しました。使用可能な画像の一覧から選択すると使用することができます。"
 
 #: wiki/plugins/images/forms.py:59
 msgid "Are you sure?"
@@ -541,7 +541,7 @@ msgstr "%s は復元されました"
 #: wiki/plugins/images/views.py:66
 #, python-format
 msgid "%s has been marked as deleted"
-msgstr "%s は削除にマークされました"
+msgstr "%s は削除済とマークされました"
 
 #: wiki/plugins/images/views.py:120
 #, python-format
@@ -584,7 +584,7 @@ msgstr "通知設定が更新されました。"
 
 #: wiki/plugins/notifications/forms.py:43
 msgid "Your notification settings were unchanged, so nothing saved."
-msgstr "通知設定は変更されていません、そのため保存もされていません。"
+msgstr "通知設定は変更されていないため、保存するものがありません。"
 
 #: wiki/plugins/notifications/models.py:17
 #, python-format
@@ -599,16 +599,16 @@ msgstr "削除済記事：%s"
 #: wiki/plugins/notifications/models.py:41
 #, python-format
 msgid "Article modified: %s"
-msgstr "編集された記事：%s"
+msgstr "編集済記事：%s"
 
 #: wiki/plugins/notifications/models.py:44
 #, python-format
 msgid "New article created: %s"
-msgstr "作成された記事：%s"
+msgstr "作成済記事：%s"
 
 #: wiki/views/accounts.py:25
 msgid "You are now sign up... and now you can sign in!"
-msgstr "サインアップされています... そしてサインインできます!"
+msgstr "サインアップしています... そしてサインインできます!"
 
 #: wiki/views/accounts.py:32
 msgid "You are no longer logged in. Bye bye!"
@@ -635,7 +635,7 @@ msgstr "この記事を作成する際にエラーが発生しました。"
 #: wiki/views/article.py:175
 msgid ""
 "This article cannot be deleted because it has children or is a root article."
-msgstr "この記事は削除することができません。子があるかルート記事です。"
+msgstr "この記事は削除することができません。子がある又はルート記事です。"
 
 #: wiki/views/article.py:186
 msgid ""
@@ -647,7 +647,7 @@ msgstr "この記事とその内容はすべて削除されました。ありが
 msgid ""
 "The article \"%s\" is now marked as deleted! Thanks for keeping the site "
 "free from unwanted material!"
-msgstr "記事：\"%s\" は削除にマークされています。不要な材料からサイトを解放してくれてありがとうございます。"
+msgstr "記事：\"%s\" は削除済とマークされています！不要なものをサイトから削除して頂き、ありがとうございます。"
 
 #: wiki/views/article.py:276
 msgid "Your changes were saved."
@@ -655,7 +655,7 @@ msgstr "変更は保存されました。"
 
 #: wiki/views/article.py:299
 msgid "A new revision of the article was successfully added."
-msgstr "新しいリビジョンが無事追加されました。"
+msgstr "新しいリビジョンを追加できました。"
 
 #: wiki/views/article.py:356
 msgid "Restoring article"
@@ -664,13 +664,13 @@ msgstr "記事の復元"
 #: wiki/views/article.py:358
 #, python-format
 msgid "The article \"%s\" and its children are now restored."
-msgstr "記事： \"%s\" とその子は復元されました。"
+msgstr "記事 \"%s\" とその子は復元されました。"
 
 #: wiki/views/article.py:542
 #, python-format
 msgid ""
 "The article %(title)s is now set to display revision #%(revision_number)d"
-msgstr " 記事%(title)sは現在、リビジョン#%(revision_number)dを表示するよう設定されています。"
+msgstr " 記事%(title)sは現在リビジョン#%(revision_number)dを表示するよう設定されています。"
 
 #: wiki/views/article.py:607
 msgid "New title"
@@ -679,11 +679,11 @@ msgstr "新しいタイトル"
 #: wiki/views/article.py:631
 #, python-format
 msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
-msgstr "#%(r1)d と #%(r2)d のリビジョンをマージする"
+msgstr "リビジョン#%(r1)dとリビジョン#%(r2)dをマージする"
 
 #: wiki/views/article.py:635
 #, python-format
 msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
-msgstr "新しいリビジョンが作成されました：#%(r1)d と #%(r2)d のリビジョンをマージ"
+msgstr "新しいリビジョンが作成されました：リビジョン#%(r1)dとリビジョン#%(r2)dをマージ"
