@@ -210,7 +210,7 @@ msgstr "ズームアウト"
 #: common/static/common/templates/components/paging-footer.underscore:6
 #, python-format
 msgid "Page number out of %(total_pages)s"
-msgstr "%(total_pages)sページ中の頁番号"
+msgstr "全%(total_pages)sページ中の頁番号"
 
 #: common/static/common/templates/components/paging-footer.underscore:11
 msgid "Enter the page number you'd like to quickly navigate to."
@@ -241,7 +241,7 @@ msgstr "OK"
 #: common/static/common/templates/discussion/forum-action-answer.underscore:3
 #: common/static/common/templates/discussion/forum-action-answer.underscore:5
 msgid "Mark as Answer"
-msgstr "正解とマーク"
+msgstr "正解とマークする"
 
 #: common/static/common/templates/discussion/forum-action-answer.underscore:6
 msgid "Unmark as Answer"
@@ -307,16 +307,16 @@ msgstr "さらに読み込む"
 
 #: common/static/common/templates/discussion/new-post-alert.underscore:6
 msgid "Error posting your message."
-msgstr "メッセージの投稿エラー。"
+msgstr "メッセージ投稿エラー。"
 
 #: common/static/common/templates/discussion/new-post-visibility.underscore:4
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
-msgstr ""
+msgstr "この投稿を見ることができるのは%(group_name)sのみです。"
 
 #: common/static/common/templates/discussion/new-post-visibility.underscore:10
 msgid "This post will be visible to everyone."
-msgstr ""
+msgstr "この投稿は全員に公開されます。"
 
 #: common/static/common/templates/discussion/new-post.underscore:2
 msgid "Add a Post"
@@ -324,13 +324,13 @@ msgstr "投稿を追加"
 
 #: common/static/common/templates/discussion/new-post.underscore:17
 msgid "Visible to"
-msgstr "次の人に表示"
+msgstr "公開対象"
 
 #: common/static/common/templates/discussion/new-post.underscore:20
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
-msgstr "ディスカッション管理者、モデレーター、TAは全受講者あるいは特定のグループのみに投稿を表示可能にできます。"
+msgstr "ディスカッション管理者、モデレーター、TAは全受講者あるいは特定のグループに対して投稿を表示できます。"
 
 #: common/static/common/templates/discussion/new-post.underscore:24
 msgid "All Groups"
@@ -340,7 +340,7 @@ msgstr "全グループ"
 #: common/static/common/templates/discussion/thread-edit.underscore:8
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
-msgstr "受講を促すような、分かりやすく内容を表すタイトルを入力してください。(必須)"
+msgstr "受講を促すような分かりやすく内容を表すタイトルを入力してください。(必須)"
 
 #: common/static/common/templates/discussion/new-post.underscore:47
 msgid "Your question or idea (required)"
@@ -394,11 +394,11 @@ msgstr "ディスカッションを見る"
 
 #: common/static/common/templates/discussion/response-comment-edit.underscore:2
 msgid "Editing comment"
-msgstr "コメントを編集中"
+msgstr "コメント編集中"
 
 #: common/static/common/templates/discussion/response-comment-edit.underscore:7
 msgid "Update comment"
-msgstr "コメントを更新"
+msgstr "コメント更新"
 
 #: common/static/common/templates/discussion/response-comment-show.underscore:25
 #, python-format
@@ -413,7 +413,7 @@ msgstr "報告済"
 
 #: common/static/common/templates/discussion/thread-edit.underscore:1
 msgid "Editing post"
-msgstr "投稿を編集中"
+msgstr "投稿編集中"
 
 #: common/static/common/templates/discussion/thread-edit.underscore:14
 msgid "Edit your post below."
@@ -421,7 +421,7 @@ msgstr "以下の投稿を編集してください。"
 
 #: common/static/common/templates/discussion/thread-edit.underscore:17
 msgid "Update post"
-msgstr "投稿を更新する"
+msgstr "投稿更新"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:9
 msgid "discussion"
@@ -454,7 +454,7 @@ msgstr "コミュニティTA"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:82
 msgid "{unread_comments_count} new"
-msgstr "新規未読コメント{unread_comments_count}件"
+msgstr "新規{unread_comments_count}件"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:101
 #, python-format
@@ -470,11 +470,11 @@ msgstr "コメント%(comments_count)s %(span_sr_open)s件 %(span_close)s"
 
 #: common/static/common/templates/discussion/thread-response-edit.underscore:2
 msgid "Editing response"
-msgstr "返信を編集中"
+msgstr "レスポンス編集中"
 
 #: common/static/common/templates/discussion/thread-response-edit.underscore:7
 msgid "Update response"
-msgstr "返信を更新"
+msgstr "レスポンス更新"
 
 #: common/static/common/templates/discussion/thread-response-show.underscore:14
 #, python-format
@@ -505,7 +505,7 @@ msgstr[0] "コメント表示 (%(num_comments)s)"
 #: common/static/common/templates/discussion/thread-response.underscore:14
 #: common/static/common/templates/discussion/thread-response.underscore:16
 msgid "Add a comment"
-msgstr "コメントを入力"
+msgstr "コメント入力"
 
 #: common/static/common/templates/discussion/thread-show.underscore:33
 #, python-format
@@ -544,7 +544,7 @@ msgstr "投稿タイプ"
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
-msgstr "'質問'は解答を必要とする議題に用います。'ディスカッション'は考えを共有したり、会話するためのものです。(必須)"
+msgstr "'質問'は回答を必要とする場合に用います。'ディスカッション'は考えを共有したり会話するためのものです。(必須)"
 
 #: common/static/common/templates/discussion/thread-type.underscore:18
 msgid "Question"
@@ -556,11 +556,11 @@ msgstr "ディスカッション"
 
 #: common/static/common/templates/discussion/thread.underscore:14
 msgid "Add a Response"
-msgstr "返信を入力"
+msgstr "レスポンス入力"
 
 #: common/static/common/templates/discussion/thread.underscore:27
 msgid "Add a response:"
-msgstr "返信を入力:"
+msgstr "レスポンス入力:"
 
 #: common/static/common/templates/discussion/topic.underscore:3
 msgid "Topic area"
@@ -568,7 +568,7 @@ msgstr "カテゴリ"
 
 #: common/static/common/templates/discussion/topic.underscore:6
 msgid "Add your post to a relevant topic to help others find it. (Required)"
-msgstr "他の受講者があなたの投稿を見つけやすくなるように、適切なトピックに投稿してください。(必須)"
+msgstr "他の受講者があなたの投稿を見つけやすくするよう、適切なトピックに投稿してください。(必須)"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
 msgid "Discussion Home"
@@ -577,7 +577,7 @@ msgstr "ディスカッション・ホーム"
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:12
 #, python-format
 msgid "How to use %(platform_name)s discussions"
-msgstr "%(platform_name)s のディスカッションの使い方"
+msgstr "%(platform_name)s ディスカッションの使い方"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:18
 msgid "Find discussions"
@@ -591,7 +591,7 @@ msgstr "特定のトピックを見つけるには'全トピック'メニュー�
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:1
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:7
 msgid "Search all posts"
-msgstr "全ての投稿を検索"
+msgstr "全投稿を検索"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
 msgid "Filter and sort topics"
@@ -603,11 +603,11 @@ msgstr "投稿での参加"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:36
 msgid "Vote for good posts and responses"
-msgstr "良い投稿や解答に投票する"
+msgstr "良い投稿やレスポンスに投票する"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:40
 msgid "Report abuse, topics, and responses"
-msgstr "不適切なトピックや解答を報告する"
+msgstr "不適切なトピックやレスポンスを報告する"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:44
 msgid "Follow or unfollow posts"
@@ -625,7 +625,7 @@ msgstr "通知設定を表示"
 msgid ""
 "Check this box to receive an email digest once a day notifying you about "
 "new, unread activity from posts you are following."
-msgstr "このボックスをチェックすると毎日ダイジェストメールが届きます。あなたがフォローしている投稿の新着情報や未読の動きを知ることができます。"
+msgstr "こちらをチェックすると毎日ダイジェストメールが届き、あなたがフォローしている投稿の新着情報を知ることができます。"
 
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
 msgid "All Topics"
@@ -633,7 +633,7 @@ msgstr "全トピック"
 
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
 msgid "All Posts"
-msgstr "全ての投稿"
+msgstr "全投稿"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:10
 msgid "username or email"
@@ -641,7 +641,7 @@ msgstr "ユーザー名またはメール"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:17
 msgid "course id"
-msgstr "講座ID"
+msgstr "講義ID"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:23
@@ -651,7 +651,7 @@ msgstr "結果なし"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
 msgid "Course Key"
-msgstr "講座キー"
+msgstr "講義キー"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
 msgid "Download URL"
@@ -721,15 +721,15 @@ msgstr "ユーザー名またはメールアドレス"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
 msgid "Course ID"
-msgstr "講座ID"
+msgstr "講義ID"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
 msgid "Course Start"
-msgstr "講座開始"
+msgstr "講義開始"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
 msgid "Course End"
-msgstr "講座終了"
+msgstr "講義終了"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
 msgid "Upgrade Deadline"
@@ -749,7 +749,7 @@ msgstr "受講登録モード"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:27
 msgid "Verified mode price"
-msgstr "認証モード価格"
+msgstr "認証モード料金"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:28
 msgid "Reason"
@@ -785,14 +785,14 @@ msgstr "チームを説明する情報を入力してください。チーム作
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:35
 msgid "Optional Characteristics"
-msgstr "オプションの特徴"
+msgstr "特徴"
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:38
 msgid ""
 "Help other learners decide whether to join your team by specifying some "
 "characteristics for your team. Choose carefully, because fewer people might "
 "be interested in joining your team if it seems too restrictive."
-msgstr "他の受講者があなたのチームに参加するよう、チームの特徴を明記してください。ただし、特定の人に限ってしまうと興味をなくしてしまう人がいる可能性がありますので、ご注意ください。"
+msgstr "他の受講者のチーム参加を促すため、チームの特徴を明記してください。制約が多いと興味を持つ人が少なくなってしまいますのでご注意ください。"
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:49
 msgid "Create team."
@@ -852,12 +852,12 @@ msgstr "チーム定員"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:31
 msgid "The country that team members primarily identify with."
-msgstr "チームの主なメンバーの国。"
+msgstr "チームメンバーの主な出身国。"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:40
 msgid ""
 "The language that team members primarily use to communicate with each other."
-msgstr "チームのメンバーがお互いにコミュニケーションをする際に主として使う言語。"
+msgstr "チームメンバーがコミュニケーションをする際に主に使用する言語。"
 
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:50
 msgid "Leave Team"
@@ -876,7 +876,7 @@ msgstr "本カタログのプレビュー結果を復元する際エラーが発
 
 #: lms/templates/api_admin/catalog-results.underscore:1
 msgid "This catalog's courses:"
-msgstr "本カタログの講座:"
+msgstr "本カタログの講義:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
@@ -916,7 +916,7 @@ msgstr "セクション"
 #: lms/templates/ccx/schedule.underscore:65
 #: lms/templates/ccx/schedule.underscore:71
 msgid "Click to change"
-msgstr "クリックで変更"
+msgstr "クリックして変更"
 
 #: lms/templates/ccx/schedule.underscore:45
 #, python-format
@@ -953,7 +953,7 @@ msgstr "ユニット%(unitName)sを削除"
 msgid ""
 "You still need to visit the %(display_name)s website to complete the credit "
 "process."
-msgstr "単位認定処理を完了するには引き続き%(display_name)sを見てください。"
+msgstr "単位認定処理を完了するには、引き続き%(display_name)sを見てください。"
 
 #: lms/templates/commerce/provider.underscore:10
 #, python-format
@@ -1025,7 +1025,7 @@ msgid ""
 "If you don't verify your identity now, you can still explore your course "
 "from your dashboard. You will receive periodic reminders from {platformName}"
 " to verify your identity."
-msgstr "すぐに本人認証を行わない場合でも、ダッシュボードで講座を探すことができます。定期的に{platformName}から本人認証を行うよう通知があります。"
+msgstr "すぐに本人認証を行わない場合でも、ダッシュボードで講義を探すことができます。定期的に{platformName}から本人認証を行うよう通知があります。"
 
 #: lms/templates/commerce/receipt.underscore:95
 #: lms/templates/verify_student/payment_confirmation_step.underscore:143
@@ -1198,7 +1198,7 @@ msgid ""
 "username or email address in the first comma separated field. You can "
 "include an optional note describing the reason for the exception in the "
 "second comma separated field."
-msgstr "例外とされた受講者のユーザー名またはメールアドレスを含むカンマ区切りの(.csv)ファイルをアップロードしてください。カンマ区切りの最初の項目をユーザー名またはメールアドレスにしてください。2番目に例外とした理由を書くこともできます。"
+msgstr "例外とされた受講者のユーザー名またはメールアドレスを含むカンマ区切りの(.csv)ファイルをアップロードしてください。カンマ区切りの最初の項目をユーザー名またはメールアドレスにしてください。２番目に例外とした理由を書くこともできます。す。"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:8
 msgid "Upload a CSV file"
@@ -1206,7 +1206,7 @@ msgstr "CSVファイルをアップロード"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:11
 msgid "Browse"
-msgstr "拾い読み"
+msgstr "見る"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:12
@@ -1321,13 +1321,13 @@ msgstr "このコホートに受講者を追加"
 msgid ""
 "Note: Learners can be in only one cohort. Adding learners to this group "
 "overrides any previous group assignment."
-msgstr "注意: 受講者は１つのコホートのみに所属できます。このグループに受講者を追加すると、以前の所属グループを無効にすることになります。"
+msgstr "注意：受講者は１つのコホートのみに所属できます。このグループに受講者を追加すると、以前の所属グループを無効にすることになります。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the learners you want to add. *"
-msgstr "受講者を追加するには、メールアドレスおよび/もしくはユーザー名を改行またはカンマ区切りで入力してください。*"
+msgstr "受講者を追加するにはメールアドレスおよび／またはユーザー名を改行またはコンマ区切りで入力してください。*"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
@@ -1342,15 +1342,15 @@ msgstr "例：johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
 "your spelling."
-msgstr "戻ってくるメールに関する通知は届きませんので、綴りはダブルチェックしてください。"
+msgstr "戻ってくるメールの通知は届きませんので、綴りをダブルチェックしてください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
 msgid "Add Learners"
-msgstr "受講者を追加"
+msgstr "受講者追加"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
 msgid "Add a New Cohort"
-msgstr "新規コホートを追加"
+msgstr "新規コホート追加"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
 msgid "Enter the name of the cohort"
@@ -1399,7 +1399,7 @@ msgstr "未選択"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:91
 msgid "Deleted Content Group"
-msgstr "削除されたコンテンツグループ"
+msgstr "削除済コンテンツグループ"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:102
 msgid ""
@@ -1418,7 +1418,7 @@ msgstr "CCXの親講座のスタッフのみコンテンツグループを作成
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
 msgid "Create a content group"
-msgstr "コンテンツグループを作成"
+msgstr "コンテンツグループ作成"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
 #, python-format
@@ -1435,7 +1435,7 @@ msgstr "このページでメールアドレスまたはユーザー名を入力
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
 msgid "What does this mean?"
-msgstr "これは何を意味する？"
+msgstr "これは何を意味しますか？"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
 msgid "Learners are added to this cohort automatically."
@@ -1475,7 +1475,7 @@ msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
 "{link_start}Data Download{link_end} page."
-msgstr "受講者のコホート振り分けやCSVファイルのアップロード結果を確認するには、{link_start}データダウンロード{link_end} ページで講座プロフィール情報またはコホート結果をダウンロードしてください。 "
+msgstr "受講者のコホート振り分けやCSVファイルのアップロード結果を確認するには、{link_start}データダウンロード{link_end} ページで講義プロフィール情報またはコホート結果をダウンロードしてください。 "
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
 msgid "Specify whether discussion topics are divided"
@@ -1483,11 +1483,11 @@ msgstr "ディスカッショントピックを分割するかどうか指定し
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
 msgid "Course-Wide Discussion Topics"
-msgstr "講座全般のディスカッショントピック"
+msgstr "講義全般のディスカッショントピック"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
-msgstr "分割したい講座全体のディスカッショントピックを選択してください。"
+msgstr "分割したい講義全体のディスカッショントピックを選択してください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
@@ -1532,19 +1532,19 @@ msgstr "購入済修了証"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:3
 msgid "Final Grade"
-msgstr ""
+msgstr "最終成績"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:3
 msgid "for {courseName}"
-msgstr ""
+msgstr "{courseName}講義"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:9
 msgid "View Archived Course"
-msgstr "アーカイブ済講座を見る"
+msgstr "アーカイブ済講義を見る"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:11
 msgid "View Course"
-msgstr "講座を見る"
+msgstr "講義を見る"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:19
 msgid "Choose a course run:"
@@ -1578,7 +1578,7 @@ msgstr "プログラムを探す"
 msgid ""
 "Browse recently launched courses and see what\\'s new in your favorite "
 "subjects"
-msgstr "最近開始した講座を閲覧して、お気に入りの分野の最新情報をご覧ください。"
+msgstr "最近開始した講義を閲覧して、お気に入りの分野の最新情報をご覧ください。"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:7
 msgid "Explore New Programs"
@@ -1590,7 +1590,7 @@ msgstr "新規プログラムを探す"
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] "講座"
+msgstr[0] "講義"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -1616,7 +1616,7 @@ msgstr "あなたの{program}修了証"
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
-msgstr "%(title)s プログラムで授与された修了書を開けてください。"
+msgstr "%(title)sプログラムで授与された修了書を開けてください。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:5
 msgid "Congratulations!"
@@ -1630,11 +1630,11 @@ msgstr "プログラムの行程"
 msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
-msgstr "プログラムを修了するには、各講座の認証付き修了証を獲得しなければなりません。"
+msgstr "プログラムを修了するには各講義の認証付き修了証を獲得しなければなりません。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:25
 msgid "Upgrade All Remaining Courses ("
-msgstr "残りの全講座をアップグレード ("
+msgstr "残りの全講義をアップグレード ("
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:29
 msgid "${listPrice}"
@@ -1646,24 +1646,24 @@ msgstr " ${price} {currency} )"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:46
 msgid "COURSES IN PROGRESS"
-msgstr "受講中の講座"
+msgstr "受講中の講義"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:55
 msgid "REMAINING COURSES"
-msgstr "残りの講座"
+msgstr "残りの講義"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:63
 msgid "COMPLETED COURSES"
-msgstr "修了済の講座"
+msgstr "修了済の講義"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:70
 msgid "As you complete courses, you will see them listed here."
-msgstr "講座を修了すると、ここにリストアップされます。"
+msgstr "講義を修了すると、ここにリストアップされます。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:71
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
-msgstr "ご自身の分野でアピールできるようスケジュール通りに講座を修了させましょう！"
+msgstr "あなた専門分野をアピールできるよう、スケジュールに沿って講義を修了しましょう！"
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:14
 msgid "{organization}\\'s logo"
@@ -1732,7 +1732,7 @@ msgstr "サインインまたは登録する他の方法を探す"
 
 #: lms/templates/student_account/institution_login.underscore:5
 msgid "Sign in with Institution/Campus Credentials"
-msgstr "組織/学校の証明書でサインイン"
+msgstr "組織／学校の証明書でサインイン"
 
 #: lms/templates/student_account/institution_login.underscore:10
 #: lms/templates/student_account/institution_register.underscore:10
@@ -1745,7 +1745,7 @@ msgstr "サインインへ戻る"
 
 #: lms/templates/student_account/institution_register.underscore:5
 msgid "Register with Institution/Campus Credentials"
-msgstr "機関/学校の証明書で登録"
+msgstr "機関／学校の証明書で登録"
 
 #: lms/templates/student_account/institution_register.underscore:29
 msgid "Register through edX"
@@ -1789,7 +1789,7 @@ msgstr "%(providerName)sでサインイン"
 #: lms/templates/student_account/login.underscore:52
 #: lms/templates/student_account/register.underscore:38
 msgid "Use my institution/campus credentials"
-msgstr "機関/学校の証明書を使う"
+msgstr "機関／学校の証明書を使う"
 
 #: lms/templates/student_account/password_reset.underscore:4
 msgid "Password assistance"
@@ -1807,7 +1807,7 @@ msgstr "パスワードを変更する"
 
 #: lms/templates/student_account/register.underscore:5
 msgid "Already have an {platformName} account?"
-msgstr "既に{platformName} のアカウントをお持ちですか？"
+msgstr "既に{platformName}のアカウントをお持ちですか？"
 
 #: lms/templates/student_account/register.underscore:6
 msgid "Sign in."
@@ -1819,7 +1819,7 @@ msgstr "アカウントを作成"
 
 #: lms/templates/student_account/register.underscore:18
 msgid "Create an account using"
-msgstr "次を使用してアカウントを作成"
+msgstr "次のプロバイダを使ってアカウントを作成"
 
 #: lms/templates/student_account/register.underscore:31
 #, python-format
@@ -1828,7 +1828,7 @@ msgstr "%(providerName)sを使ってアカウントを作成。"
 
 #: lms/templates/student_account/register.underscore:44
 msgid "or create a new one here"
-msgstr "またはここで新しく作成する"
+msgstr "または新規作成する"
 
 #: lms/templates/student_account/register.underscore:55
 msgid "Create Account"
@@ -1837,7 +1837,7 @@ msgstr "アカウントを作成"
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
 #, python-format
 msgid "Congratulations! You are now verified on %(platformName)s!"
-msgstr "おめでとうございます！ %(platformName)s で認証されました！"
+msgstr "おめでとうございます！ %(platformName)sで認証されました！"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
 msgid "You are now enrolled as a verified student for:"
@@ -1845,11 +1845,11 @@ msgstr "あなたは認証付き受講者として受講登録されています
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr "認証付き受講者として受講登録した講座の一覧"
+msgstr "認証付き受講者として受講登録した講義の一覧"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
 msgid "Explore your course!"
-msgstr "講座を探そう！"
+msgstr "講義を探そう！"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
 msgid "Go to your Dashboard"
@@ -1866,7 +1866,7 @@ msgid ""
 "now sign up for any %(platformName)s course that offers verified "
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
-msgstr "写真をご提出いただき、ありがとうございます。まもなく確認いたします。%(platformName)sの認証付き修了証を発行している講座に登録することができます。認証は１年間有効です。１年後に再び認証用写真の提出が必要となります。"
+msgstr "写真をご提出いただき、ありがとうございます。まもなく確認いたします。%(platformName)sの認証付き修了証を発行している講義に登録することができます。認証は１年間有効です。１年後に再び認証用写真の提出が必要となります。"
 
 #: lms/templates/verify_student/error.underscore:6
 msgid "Error:"
@@ -1971,7 +1971,7 @@ msgid ""
 "send it to our authorization service for review. Your photo and information "
 "are not saved or visible anywhere on %(platformName)s after the verification"
 " process is complete."
-msgstr "最高レベルのセキュリティで写真を暗号化し、認証サービスへ送ります。認証手続が完了した後は、写真や情報を%(platformName)sで保存したり閲覧することはできません。"
+msgstr "写真は最高レベルのセキュリティで暗号化され、認証サービスへ送られます。認証手続完了後、写真や情報は%(platformName)sで保存も閲覧もされません。"
 
 #: lms/templates/verify_student/face_photo_step.underscore:63
 #: lms/templates/verify_student/id_photo_step.underscore:53
@@ -2025,7 +2025,7 @@ msgstr "アップロードされた画像のプレビュー"
 
 #: lms/templates/verify_student/image_input.underscore:3
 msgid "Upload an image or capture one with your web or phone camera."
-msgstr "画像をアップロードするか、Webカメラまたは携帯電話のカメラで撮影してください。"
+msgstr "画像をアップロードするか、ウェブまたは携帯電話のカメラで撮影してください。"
 
 #: lms/templates/verify_student/incourse_reverify.underscore:5
 msgid ""
@@ -2051,14 +2051,14 @@ msgstr "今回撮影した写真とIDの写真を照合してもよいでしょ�
 
 #: lms/templates/verify_student/intro_step.underscore:6
 msgid "Thanks for returning to verify your ID in: {courseName}"
-msgstr "本講座のID認証にお越しいただき、ありがとうございます: {courseName}"
+msgstr "本講義のID認証にお越しいただき、ありがとうございます: {courseName}"
 
 #: lms/templates/verify_student/intro_step.underscore:19
 msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email. After you complete activation you can "
 "return and refresh this page."
-msgstr "講座の受講登録を始める前に、アカウントを有効化させる必要があります。有効化に関するメールが届いているかご確認ください。有効化が完了したら、この画面に戻り再読込してください。"
+msgstr "講義の受講登録を始める前にアカウントを有効化させる必要があります。有効化に関するメールが届いているかご確認ください。有効化が完了したら、この画面に戻り再読込してください。"
 
 #: lms/templates/verify_student/intro_step.underscore:31
 #: lms/templates/verify_student/payment_confirmation_step.underscore:94
@@ -2116,7 +2116,7 @@ msgstr "なぜ有効化するの？"
 msgid ""
 "We ask you to activate your account to ensure it is really you creating the "
 "account and to prevent fraud."
-msgstr "あなた自身が間違いなくアカウントを作成しているのか確認し、不正利用を防ぐため、アカウントの有効化をお願いしています。"
+msgstr "間違いなくあなた自身がアカウントを作成しているのかを確認し、不正利用を防ぐため、アカウントの有効化をお願いしています。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:53
 msgid ""
@@ -2131,13 +2131,13 @@ msgstr "政府発行の写真付き身分証明書"
 #: lms/templates/verify_student/make_payment_step.underscore:92
 msgid ""
 "ID-Verification is not required for this Professional Education course."
-msgstr "この専門家教育講座では、ID認証は必要ありません。"
+msgstr "このProfessional Education講義ではID認証は必要ありません。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:93
 msgid ""
 "All professional education courses are fee-based, and require payment to "
 "complete the enrollment process."
-msgstr "専門家教育講座はすべて有料で、受講登録手続の完了には支払が必要です。"
+msgstr "Professional Education講義はすべて有料で、受講登録手続の完了には支払が必要です。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:97
 msgid "You have already verified your ID!"
@@ -2149,7 +2149,7 @@ msgstr "認証状態は{verificationGoodUntil}まで有効です。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:112
 msgid "price"
-msgstr "価格"
+msgstr "料金"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
 msgid "Account Not Activated"
@@ -2162,7 +2162,7 @@ msgstr "{courseName}を認証付き修了証にアップグレード"
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
 msgid ""
 "Before you upgrade to a certificate track, you must activate your account."
-msgstr "修了証をアップグレードする前に、アカウントを有効化しなければなりません。"
+msgstr "修了証をアップグレードする前にアカウントを有効化しなければなりません。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
 msgid "Check your email for an activation message."
@@ -2170,11 +2170,11 @@ msgstr "有効化に関するメールを確認してください。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
 msgid "Professional Certificate for {courseName}"
-msgstr "{courseName}講座のProfessional Certificate"
+msgstr "{courseName}講義のProfessional Certificate"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
 msgid "Verified Certificate for {courseName}"
-msgstr "{courseName}講座の認証付き修了証"
+msgstr "{courseName}講義の認証付き修了証"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
 msgid ""
@@ -2188,22 +2188,22 @@ msgstr "修了証を取得するためには、本人認証をしなければな
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
 msgid ""
 "To verify your identity, you need a webcam and a government-issued photo ID."
-msgstr "本人認証をするために、webカメラおよび政府発行の写真付きIDが必要です。"
+msgstr "本人認証をするために、ウェブカメラおよび政府発行の写真付き身分証明書が必要です。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
 msgid ""
 "Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr "IDは顔がはっきりと分かる政府発行の写真付きIDでなければいけません。"
+msgstr "IDは顔がはっきりと分かる政府発行の写真付き身分証明書でなければいけません。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
 msgid ""
 "You will use your webcam to take a picture of your face and of your "
 "government-issued photo ID."
-msgstr "顔写真および政府発行の写真付きIDの写真を撮るためにwebカメラを使用してください。"
+msgstr "顔写真および政府発行の写真付きIDの写真を撮る際はwebカメラを使用してください。"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:5
 msgid "Thank you! We have received your payment for {courseName}."
-msgstr "ありがとうございました！ {courseName}講座の支払を受領しました。"
+msgstr "ありがとうございました！ {courseName}講義の支払を受領しました。"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:88
 msgid "Next Step: Confirm your identity"
@@ -2217,7 +2217,7 @@ msgstr "メールをチェックしてください"
 msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email."
-msgstr "講座の受講登録を始める前に、アカウントを有効化させる必要があります。有効化に関するメールが届いているかご確認ください。"
+msgstr "受講登録を始める前にアカウントを有効化させる必要があります。有効化に関するメールが届いているかご確認ください。"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:120
 msgid ""
@@ -2231,7 +2231,7 @@ msgid ""
 "If you don't verify your identity now, you can still explore your course "
 "from your dashboard. You will receive periodic reminders from "
 "%(platformName)s to verify your identity."
-msgstr "いますぐ本人認証を行わなくてもダッシュボードで講座を探すことはできます。定期的に%(platformName)sから本人認証を行うように通知があります。"
+msgstr "いますぐ本人認証を行わなくてもダッシュボードで講義を探すことはできます。定期的に%(platformName)sから本人認証を行うよう通知があります。"
 
 #: lms/templates/verify_student/reverify_success_step.underscore:2
 msgid "Identity Verification In Progress"
@@ -2243,7 +2243,7 @@ msgid ""
 "see a message on your dashboard when the verification process is complete "
 "(usually within 1-2 days). In the meantime, you can still access all "
 "available course content."
-msgstr "あなたの情報を受け取り、本人認証中です。認証手続が完了しましたらダッシュボードにメッセージが表示されます(通常1～2日以内)。その間も講座コンテンツにはアクセスできます。"
+msgstr "あなたの情報を受け取り、本人認証中です。認証手続が完了しましたらダッシュボードにメッセージが表示されます(通常1～2日以内)。その間も講義コンテンツにはアクセスできます。"
 
 #: lms/templates/verify_student/reverify_success_step.underscore:9
 msgid "Return to Your Dashboard"
@@ -2262,12 +2262,12 @@ msgstr "以下の写真と情報で、あなたの本人確認ができること
 #: lms/templates/verify_student/review_photos_step.underscore:13
 #, python-format
 msgid "Photo of %(fullName)s"
-msgstr "%(fullName)s の写真"
+msgstr "%(fullName)s様の写真"
 
 #: lms/templates/verify_student/review_photos_step.underscore:18
 #, python-format
 msgid "Photo of %(fullName)s's ID"
-msgstr "%(fullName)sの身分証明書の写真"
+msgstr "%(fullName)s様の身分証明書の写真"
 
 #: lms/templates/verify_student/review_photos_step.underscore:25
 msgid "Photo requirements:"
@@ -2279,7 +2279,7 @@ msgstr "写真にあなたの顔全体が写っていますか？"
 
 #: lms/templates/verify_student/review_photos_step.underscore:28
 msgid "Does the photo of you match your ID photo?"
-msgstr "身分証明書の写真とあなたの写真は一致しますか？"
+msgstr "身分証明書の写真とあなたの写真は一致していますか？"
 
 #: lms/templates/verify_student/review_photos_step.underscore:29
 msgid "Is your name on your ID readable?"
@@ -2301,7 +2301,7 @@ msgstr "あなたの身分証明書の氏名がアカウントの氏名と一致
 
 #: lms/templates/verify_student/review_photos_step.underscore:51
 msgid "Photos don't meet the requirements?"
-msgstr "写真が必要条件を満たしていませんか？"
+msgstr "写真が必要条件を満たしていますか？"
 
 #: lms/templates/verify_student/review_photos_step.underscore:53
 msgid "Retake Your Photos"
@@ -2309,7 +2309,7 @@ msgstr "再撮影する"
 
 #: lms/templates/verify_student/review_photos_step.underscore:64
 msgid "Before proceeding, please confirm that your details match"
-msgstr "手続きを進める前に、詳細情報が合致しているか確認をしてください"
+msgstr "手続きを進める前に詳細が一致しているか確認してください"
 
 #: lms/templates/verify_student/review_photos_step.underscore:70
 msgid "Confirm"
@@ -2319,7 +2319,7 @@ msgstr "確認"
 msgid ""
 "Don't see your picture? Make sure to allow your browser to use your camera "
 "when it asks for permission."
-msgstr "写真が見えないですか？必要に応じて、ブラウザがカメラを使える状態か確認してください。"
+msgstr "写真が見えますか？必要に応じてブラウザがカメラを使える状態か確認してください。"
 
 #: lms/templates/verify_student/webcam_photo.underscore:7
 msgid "Live view of webcam"
@@ -2389,7 +2389,7 @@ msgstr "%(created)sを獲得済。"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:6
 msgid "What's Your Next Accomplishment?"
-msgstr "あなたの次の業績は何？"
+msgstr "あなたの次の目標は？"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:7
 msgid "Start working toward your next learning goal."
@@ -2397,15 +2397,15 @@ msgstr "次の学習目標に向けて取り組み始めましょう。"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:8
 msgid "Find a course"
-msgstr "講座を探す"
+msgstr "講義を探す"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
 msgid "You are currently sharing a limited profile."
-msgstr "現在は限定プロフィールを公開しています。"
+msgstr "現在、限定プロフィールを公開しています。"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
-msgstr "この受講者は現在限定プロフィールを公開しています。"
+msgstr "この受講者は現在、限定プロフィールを公開しています。"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:4
 msgid "Share on Mozilla Backpack"
