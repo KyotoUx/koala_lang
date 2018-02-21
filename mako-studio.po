@@ -96,7 +96,7 @@ msgstr "アカウントが有効になりました！"
 msgid ""
 "Thank you for activating your account. You may now sign in and start using "
 "{studio_name} to author courses."
-msgstr "アカウント登録ありがとうございます。さっそくサインインして、{studio_name}で講座を作成しましょう。"
+msgstr "アカウント登録ありがとうございます。さっそくサインインして、{studio_name}で講義を作成しましょう。"
 
 #: cms/templates/activation_invalid.html:26
 msgid "Your account activation is invalid"
@@ -107,13 +107,13 @@ msgid ""
 "We're sorry. Something went wrong with your activation. Check to make sure "
 "the URL you went to was correct, as e-mail programs will sometimes split it "
 "into two lines."
-msgstr "申し訳ありませんが、有効化できませんでした。メールプログラムがURLを２行に分割してしまうことがありますので、今一度URL が正しいかご確認ください。"
+msgstr "申し訳ありませんが、有効化できませんでした。メールプログラムがURLを２行に分割してしまうことがありますので、今一度URLが正しいかご確認ください。"
 
 #: cms/templates/activation_invalid.html:30
 msgid ""
 "If you still have issues, contact {platform_name} Support. In the meantime, "
 "you can also return to {link_start}the {studio_name} homepage.{link_end}"
-msgstr "不具合が解消しない場合は {platform_name}サポートにお問い合わせください。その間、{link_start}{studio_name}ホームページ{link_end}に戻ることもできます。"
+msgstr "不具合が解消しない場合は{platform_name}サポートにお問い合わせください。その間、{link_start}{studio_name}ホームページ{link_end}に戻ることもできます。"
 
 #: cms/templates/asset_index.html:10 cms/templates/asset_index.html:42
 #: cms/templates/widgets/header.html:65
@@ -130,13 +130,13 @@ msgstr "ファイル＆アップロードに関するヘルプ"
 
 #: cms/templates/asset_index.html:71
 msgid "Adding Files for Your Course"
-msgstr "講座にファイルを追加中"
+msgstr "講義にファイルを追加中"
 
 #: cms/templates/asset_index.html:73
 msgid ""
 "To add files to use in your course, click {em_start}Upload New File{em_end}."
 " Then follow the prompts to upload a file from your computer."
-msgstr "講座で使用するファイルを追加するには、{em_start}新規ファイルをアップロード{em_end}をクリックしてください。案内に従ってお使いのコンピュータからファイルをアップロードできます。"
+msgstr "講義で使用するファイルを追加するには、{em_start}新規ファイルをアップロード{em_end}をクリックしてください。案内に従ってお使いのコンピュータからファイルをアップロードできます。"
 
 #: cms/templates/asset_index.html:75
 msgid ""
@@ -149,7 +149,7 @@ msgstr "{em_start}注意{em_end}: {platform_name}はファイルサイズの上�
 msgid ""
 "The course image, textbook chapters, and files that appear on your Course "
 "Handouts sidebar also appear in this list."
-msgstr "講座ハンドアウトに掲載される講座画像、教科書およびファイルはこのリスト内にも表示されます。"
+msgstr "講義ハンドアウトに掲載される講義画像、教科書およびファイルはこのリスト内にも表示されます。"
 
 #: cms/templates/asset_index.html:80
 msgid "Using File URLs"
@@ -159,14 +159,14 @@ msgstr "ファイルURL使用中"
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
 "image from a component, a course update, or a course handout."
-msgstr "コンポーネント、講座更新情報または講座ハンドアウトのファイルや画像へリンクするには、{em_start}{studio_name} URL{em_end}をご利用ください。"
+msgstr "コンポーネント、講義更新情報または講義ハンドアウトのファイルや画像へリンクするには、{em_start}{studio_name} URL{em_end}をご利用ください。"
 
 #: cms/templates/asset_index.html:84
 msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
-msgstr "あなたの講座外のファイルや画像を参照するには、{em_start}Web URL{em_end}をご利用ください。{em_start}注: {em_end}ファイルをロックすると、Web URLはファイルへの外部アクセスとして機能しなくなります。"
+msgstr "あなたの講義外のファイルや画像を参照するには、{em_start}Web URL{em_end}をご利用ください。{em_start}注: {em_end}ファイルをロックすると、Web URLはファイルへの外部アクセスとして機能しなくなります。"
 
 #: cms/templates/asset_index.html:86
 msgid ""
@@ -204,7 +204,7 @@ msgstr "警告を閉じる"
 
 #: cms/templates/certificates.html:12
 msgid "Course Certificates"
-msgstr "講座の修了証"
+msgstr "講義の修了証"
 
 #: cms/templates/certificates.html:54 cms/templates/certificates.html:64
 #: cms/templates/certificates.html:87 cms/templates/export.html:217
@@ -218,7 +218,7 @@ msgstr "このモジュールは有効ではありません。"
 
 #: cms/templates/certificates.html:74
 msgid "This course does not use a mode that offers certificates."
-msgstr "この講座では修了証を提供するモードを使用していません。"
+msgstr "この講義では修了証を提供するモードを使用していません。"
 
 #: cms/templates/certificates.html:88
 msgid "Working with Certificates"
@@ -228,7 +228,7 @@ msgstr "修了証に関する作業中"
 msgid ""
 "Specify a course title to use on the certificate if the course's official "
 "title is too long to be displayed well."
-msgstr "講座の正式タイトルが長すぎてうまく表示されない場合には、修了証用の講座タイトルを指定してください。"
+msgstr "講義の正式タイトルが長すぎてうまく表示されない場合には、修了証用の講義タイトルを指定してください。"
 
 #: cms/templates/certificates.html:90
 msgid ""
@@ -247,7 +247,7 @@ msgstr "修了証を有効化する前に編集したり削除したりする場
 msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
-msgstr "修了証の見本を表示するには、講座モードから{em_start}修了証をプレビュー{em_end}を選択してください。"
+msgstr "修了証の見本を表示するには、講義モードから{em_start}修了証をプレビュー{em_end}を選択してください。"
 
 #: cms/templates/certificates.html:94
 msgid "Issuing Certificates to Learners"
@@ -258,14 +258,14 @@ msgid ""
 "To begin issuing course certificates, a course team member with either the "
 "Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
 "members with these roles can edit or delete an activated certificate."
-msgstr "修了証の発行を開始するには、スタッフまたは管理者である講座チームメンバーが {em_start}有効化{em_end}を選択してください。スタッフまたは管理者であるチームメンバーだけが有効化された修了証を編集したり削除したりすることができます。"
+msgstr "修了証の発行を開始するには、スタッフまたは管理者である講義チームメンバーが {em_start}有効化{em_end}を選択してください。スタッフまたは管理者であるチームメンバーだけが有効化された修了証を編集したり削除したりすることができます。"
 
 #: cms/templates/certificates.html:96
 msgid ""
 "{em_start}Do not{em_end} delete certificates after a course has started; "
 "learners who have already earned certificates will no longer be able to "
 "access them."
-msgstr "講座が開始した後に修了証を削除しては {em_start}いけません{em_end}。既に修了証を取得している受講者が修了証にアクセスすることができなくなってしまいます。"
+msgstr "講義が開始した後に修了証を削除しては{em_start}いけません{em_end}。既に修了証を取得している受講者が修了証にアクセスすることができなくなってしまいます。"
 
 #: cms/templates/certificates.html:97
 msgid "Learn more about certificates"
@@ -299,7 +299,7 @@ msgstr "採点"
 #: cms/templates/settings_graders.html:162
 #: cms/templates/widgets/header.html:93
 msgid "Course Team"
-msgstr "講座チーム"
+msgstr "講義チーム"
 
 #: cms/templates/certificates.html:114
 #: cms/templates/group_configurations.html:127 cms/templates/settings.html:642
@@ -453,11 +453,11 @@ msgstr " HTMLコンポーネントからこのユニットへのリンクを作�
 
 #: cms/templates/container.html:154
 msgid "Location in Course Outline"
-msgstr "講座アウトライン内のロケーション"
+msgstr "講義アウトライン内のロケーション"
 
 #: cms/templates/course-create-rerun.html:10
 msgid "Create a Course Rerun of:"
-msgstr "次のCourse Rerunを作成: "
+msgstr "次のCourse Rerunを作成:"
 
 #: cms/templates/course-create-rerun.html:29
 msgid "Create a re-run of a course"
@@ -472,7 +472,7 @@ msgstr "キャンセル"
 
 #: cms/templates/course-create-rerun.html:42
 msgid "You are creating a re-run from:"
-msgstr "次からre-runを作成中: "
+msgstr "次からre-runを作成中:"
 
 #: cms/templates/course-create-rerun.html:56
 msgid ""
@@ -484,7 +484,7 @@ msgstr "このコースのre-runを特定する情報を入力してください
 msgid ""
 "Note: Together, the organization, course number, and course run must "
 "uniquely identify this new course instance."
-msgstr "注: 組織、講座番号およびcourse runはこの新たなcourse instanceを特定できなければいけません。"
+msgstr "注: 組織、講義番号およびcourse runはこの新たなcourse instanceを特定できなければいけません。"
 
 #: cms/templates/course-create-rerun.html:72
 msgid "Required Information to Create a re-run of a course"
@@ -500,7 +500,7 @@ msgstr "例. コンピュータサイエンス入門"
 msgid ""
 "The public display name for the new course. (This name is often the same as "
 "the original course name.)"
-msgstr "新しい講座の公開表示名。(この名前は元の講座名と同じ場合が多いです。)"
+msgstr "新しい講義の公開表示名。(この名前は元の講義名と同じ場合が多いです。)"
 
 #: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80
 #: cms/templates/index.html:156 cms/templates/settings.html:69
@@ -521,7 +521,7 @@ msgstr "例. UniversityX または OrganizationX"
 msgid ""
 "The name of the organization sponsoring the new course. (This name is often "
 "the same as the original organization name.)"
-msgstr "新しい講座を提供する機関名。(この名前は元の組織名と同じ場合が多いです。)"
+msgstr "新しい講義を提供する機関名。(この名前は元の組織名と同じ場合が多いです。)"
 
 #: cms/templates/course-create-rerun.html:88
 #: cms/templates/course-create-rerun.html:108
@@ -541,7 +541,7 @@ msgid ""
 "The unique number that identifies the new course within the organization.  "
 "(This number will be the same as the original course number and cannot be "
 "changed.)"
-msgstr "組織内の新規講座を識別するための固有の番号。(この番号は元の講座と同じ番号になるはずです。変更できません。)"
+msgstr "組織内の新規講義を識別するための固有の番号。(この番号は元の講義と同じ番号になるはずです。変更できません。)"
 
 #: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105
 #: cms/templates/settings.html:81
@@ -559,7 +559,7 @@ msgstr "例. 2014_T1"
 msgid ""
 "The term in which the new course will run. (This value is often different "
 "than the original course run value.)"
-msgstr "新規講座の開講期間。(元のcourse runと異なる場合が多いです。)"
+msgstr "新規講義の開講期間。(元のcourse runと異なる場合が多いです。)"
 
 #: cms/templates/course-create-rerun.html:120
 msgid "Create Re-run"
@@ -571,37 +571,37 @@ msgstr "再開講はいつ始まりますか？"
 
 #: cms/templates/course-create-rerun.html:132
 msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
-msgstr "新しい講座は2030年1月1日午前0時(UTC)に開始予定です。"
+msgstr "新しい講義は2030年1月1日午前0時(UTC)に開始予定です。"
 
 #: cms/templates/course-create-rerun.html:137
 msgid "What transfers from the original course?"
-msgstr "元の講座から転送されるものは？"
+msgstr "元の講義から転送されるものは？"
 
 #: cms/templates/course-create-rerun.html:139
 msgid ""
 "The new course has the same course outline and content as the original "
 "course. All problems, videos, announcements, and other files are duplicated "
 "to the new course."
-msgstr "新しい講座は元の講座と同じ講座アウトラインとコンテンツです。すべての問題、動画、お知らせ、その他のファイルは新しい講座に複製されます。"
+msgstr "新しい講義は元の講義と同じ講義アウトラインとコンテンツです。すべての問題、動画、お知らせ、その他のファイルは新しい講義に複製されます。"
 
 #: cms/templates/course-create-rerun.html:144
 msgid "What does not transfer from the original course?"
-msgstr "元の講座から転送されないものは？"
+msgstr "元の講義から転送されないものは？"
 
 #: cms/templates/course-create-rerun.html:146
 msgid ""
 "You are the only member of the new course's staff. No students are enrolled "
 "in the course, and there is no student data. There is no content in the "
 "discussion topics or wiki."
-msgstr "あなたが唯一の講座スタッフメンバーです。受講者は登録されていませんし、受講者情報もありません。ディスカッショントピックやWikiにもコンテンツはありません。"
+msgstr "あなたが唯一の講義スタッフメンバーです。受講者は登録されていませんし、受講者情報もありません。ディスカッショントピックやWikiにもコンテンツはありません。"
 
 #: cms/templates/course-create-rerun.html:151
 msgid "Learn more about Course Re-runs"
-msgstr "講座の再開講について詳しく知る"
+msgstr "講義の再開講について詳しく知る"
 
 #: cms/templates/course_info.html:13 cms/templates/course_info.html:41
 msgid "Course Updates"
-msgstr "講座の新着情報"
+msgstr "講義の新着情報"
 
 #: cms/templates/course_info.html:48
 msgid "New Update"
@@ -612,12 +612,12 @@ msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "講座の新着情報を使用して、重要な予定や試験を通知したり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりしてください。HTMLで更新情報の追加や編集をします。"
+msgstr "講義の新着情報を使用して、重要な予定や試験を通知したり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりしてください。HTMLで更新情報の追加や編集をします。"
 
 #: cms/templates/course_outline.html:43
 msgid ""
 "This course was created as a re-run. Some manual configuration is needed."
-msgstr "この講座はre-runとして作成されました。いくつか手動で設定する必要があります。"
+msgstr "この講義はre-runとして作成されました。いくつか手動で設定する必要があります。"
 
 #: cms/templates/course_outline.html:45
 msgid ""
@@ -625,7 +625,7 @@ msgid ""
 "sure to review and reset all dates, including the Course Start Date; set up "
 "the course team; review course updates and other assets for dated material; "
 "and seed the discussions and wiki."
-msgstr "現在講座コンテンツは公開されておらず、誰も受講登録していません。講座開始日などすべての日付を確認してリセット、講座チームを設定、講座の新着情報およびその他の期日設定がある資料を確認、ディスカッションと Wiki の準備をしてください。"
+msgstr "現在講義コンテンツは公開されておらず、誰も受講登録していません。講義開始日などすべての日付を確認してリセット、講義チームを設定、講義の新着情報およびその他の期日設定がある資料を確認、ディスカッションとWikiの準備をしてください。"
 
 #: cms/templates/course_outline.html:63
 msgid "Warning"
@@ -633,7 +633,7 @@ msgstr "警告"
 
 #: cms/templates/course_outline.html:66
 msgid "This course uses features that are no longer supported."
-msgstr "この講座はサポート対象外になってしまった機能を使っています。"
+msgstr "この講義はサポート対象外になってしまった機能を使っています。"
 
 #: cms/templates/course_outline.html:70
 msgid "You must delete or replace the following components."
@@ -653,7 +653,7 @@ msgid ""
 "unsupported features from the course advanced settings. To do this, go to "
 "the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
 "Module List\" setting, and then delete the following modules from the list."
-msgstr "エラーを避けるために、 {platform_names} はサポート対象外の機能を講座の詳細設定から削除することを強くおすすめします。これを実行するには、{link_start}詳細設定{link_end} を開き、\"詳細モジュール一覧\"を表示し、その一覧から以下のモジュールを削除してください。"
+msgstr "エラーを避けるために、{platform_names}はサポート対象外の機能を講義の詳細設定から削除することを強くおすすめします。これを実行するには、{link_start}詳細設定{link_end} を開き、\"詳細モジュール一覧\"を表示し、その一覧から以下のモジュールを削除してください。"
 
 #: cms/templates/course_outline.html:96
 msgid "Unsupported Advance Modules"
