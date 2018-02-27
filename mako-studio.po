@@ -431,7 +431,7 @@ msgstr "コンテンツテスト稼働中"
 msgid ""
 "Confirm that you have properly configured content in each of your experiment"
 " groups."
-msgstr "各実験グループごとにコンテンツが適切に設定されているかを確認してください。"
+msgstr "各実験グループごとにコンテンツが適切に設定されているか確認してください。"
 
 #: cms/templates/container.html:139
 msgid "Learn more about component containers"
@@ -478,7 +478,7 @@ msgstr "次からre-runを作成中:"
 msgid ""
 "Provide identifying information for this re-run of the course. The original "
 "course is not affected in any way by a re-run."
-msgstr "このコースのre-runを特定する情報を入力してください。re-runによって元のコースに影響はありません。"
+msgstr "このコースのre-runを特定する情報を入力してください。re-runによる元のコースへの影響はありません。"
 
 #: cms/templates/course-create-rerun.html:57
 msgid ""
@@ -582,7 +582,7 @@ msgid ""
 "The new course has the same course outline and content as the original "
 "course. All problems, videos, announcements, and other files are duplicated "
 "to the new course."
-msgstr "新しい講義は元の講義と同じ講義アウトラインとコンテンツです。すべての問題、動画、お知らせ、その他のファイルは新しい講義に複製されます。"
+msgstr "新しい講義は元の講義と同じ講義アウトラインとコンテンツです。すべての問題、動画、お知らせ、その他のファイルが新しい講義に複製されます。"
 
 #: cms/templates/course-create-rerun.html:144
 msgid "What does not transfer from the original course?"
@@ -697,7 +697,7 @@ msgstr "開始日を編集"
 
 #: cms/templates/course_outline.html:169
 msgid "Course Pacing:"
-msgstr "講座のタイプ: "
+msgstr "講義のタイプ: "
 
 #: cms/templates/course_outline.html:171 cms/templates/settings.html:592
 msgid "Self-Paced"
@@ -709,11 +709,11 @@ msgstr "Instructor-Paced"
 
 #: cms/templates/course_outline.html:196
 msgid "Creating your course organization"
-msgstr "講座の構成を作成中"
+msgstr "講義の構成を作成中"
 
 #: cms/templates/course_outline.html:197
 msgid "You add sections, subsections, and units directly in the outline."
-msgstr "セクション、サブセクション、ユニットを直接講座アウトラインに入力してください。"
+msgstr "セクション、サブセクション、ユニットを直接講義アウトラインに入力してください。"
 
 #: cms/templates/course_outline.html:198
 msgid ""
@@ -723,7 +723,7 @@ msgstr "セクションを作成した後、サブセクションやユニット
 
 #: cms/templates/course_outline.html:201
 msgid "Reorganizing your course"
-msgstr "講座を再構成中"
+msgstr "講義を再構成中"
 
 #: cms/templates/course_outline.html:202
 msgid "Drag sections, subsections, and units to new locations in the outline."
@@ -731,18 +731,18 @@ msgstr "セクション、サブセクション、ユニットをアウトライ
 
 #: cms/templates/course_outline.html:204
 msgid "Learn more about the course outline"
-msgstr "講座アウトラインについて詳しく知る"
+msgstr "講義アウトラインについて詳しく知る"
 
 #: cms/templates/course_outline.html:208
 msgid "Setting release dates and grading policies"
-msgstr "リリース日と採点ポリシーを設定中"
+msgstr "公開日と採点ポリシーを設定中"
 
 #: cms/templates/course_outline.html:209
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
-msgstr "セクションまたはサブセクションのリリース日を設定するための設定アイコンを選んでください。サブセクションを設定する際、採点ポリシーと締切も設定できます。"
+msgstr "セクションまたはサブセクションの公開日を設定するための設定アイコンを選んでください。サブセクションを設定する際、採点ポリシーと締切も設定できます。"
 
 #: cms/templates/course_outline.html:211
 msgid "Learn more about grading policy settings"
@@ -772,7 +772,7 @@ msgid ""
 "date has passed, select the Configure icon for a subsection, then select "
 "{em_start}Hide content after due date{em_end}. Grades for the subsection "
 "remain included in grade calculations."
-msgstr "サブセクションの締切が過ぎた後にサブセクションのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、 {em_start}締切以降コンテンツ非表示{em_end}を設定します。このサブセクションの成績は成績計算に含まれたままです。"
+msgstr "サブセクションの締切が過ぎた後にサブセクションのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、{em_start}締切以降コンテンツ非表示{em_end}を設定します。このサブセクションの成績は成績計算に含まれたままです。"
 
 #: cms/templates/course_outline.html:220
 msgid "Learn more about content visibility settings"
@@ -794,7 +794,7 @@ msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
 "view the page even if they are not registered for or logged in to your "
 "course."
-msgstr "注: ページは一般公開されます。ページのURLを知っていれば、登録または講座にログインしていなくても閲覧することができます。"
+msgstr "注: ページは一般公開されます。ページのURLを知っていれば、登録または講義にログインしていなくても閲覧することができます。"
 
 #: cms/templates/edit-tabs.html:103
 msgid "Show this page"
@@ -810,7 +810,7 @@ msgstr "このページは並べ替えることができません。"
 
 #: cms/templates/edit-tabs.html:135
 msgid "You can add additional custom pages to your course."
-msgstr "講座にカスタムページを追加することができます。"
+msgstr "講義にカスタムページを追加することができます。"
 
 #: cms/templates/edit-tabs.html:135
 msgid "Add a New Page"
@@ -825,7 +825,7 @@ msgid ""
 "Pages are listed horizontally at the top of your course. Default pages "
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
-msgstr "講座画面上部に各種ページが一覧表示されます。既定のページ (ホーム、講座、ディスカッション、Wiki、進捗) の後に、教科書およびあなたが作成したカスタムページが表示されます。"
+msgstr "講義画面上部に各種ページが一覧表示されます。既定のページ (ホーム、講義、ディスカッション、Wiki、進捗) の後に、教科書およびあなたが作成したカスタムページが表示されます。"
 
 #: cms/templates/edit-tabs.html:147
 msgid "Custom pages"
@@ -836,7 +836,7 @@ msgid ""
 "You can create and edit custom pages to provide students with additional "
 "course content. For example, you can create pages for the grading policy, "
 "course slides, and a course calendar. "
-msgstr "補足の講座コンテンツを受講者に提供するには、カスタムページを作成・編集することができます。例えば、採点ポリシー、講座スライド、講座カレンダーなどのページを作ることができます。"
+msgstr "カスタムページを作成・編集して、講義コンテンツ追加分を受講者に提供することができます。例えば、採点ポリシー、講義スライド、講義カレンダーなどのページを作ることができます。"
 
 #: cms/templates/edit-tabs.html:151
 msgid "How do pages look to students in my course?"
@@ -846,7 +846,7 @@ msgstr "各種ページはどのように表示されますか？"
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
-msgstr "受講者には既定ページおよびカスタムページが講座画面上部に表示され、リンクを使って移動できます。"
+msgstr "受講者には既定ページおよびカスタムページが講義画面上部に表示され、リンクを使って移動できます。"
 
 #: cms/templates/edit-tabs.html:152
 msgid "See an example"
@@ -854,7 +854,7 @@ msgstr "例を見る"
 
 #: cms/templates/edit-tabs.html:160
 msgid "Pages in Your Course"
-msgstr "講座内の各種ページ"
+msgstr "講義内の各種ページ"
 
 #: cms/templates/edit-tabs.html:162
 msgid "Preview of Pages in your course"
@@ -865,7 +865,7 @@ msgid ""
 "Pages appear in your course's top navigation bar. The default pages (Home, "
 "Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
 " pages."
-msgstr "画面上部のナビゲーションバーに表示される各種ページ。既定ページ (ホーム、講座、ディスカッション、Wiki、進捗) に続けて、教科書とカスタムページが表示されます。"
+msgstr "画面上部のナビゲーションバーに表示される各種ページ。既定ページ (ホーム、講義、ディスカッション、Wiki、進捗) に続けて、教科書とカスタムページが表示されます。"
 
 #: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
 #: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
@@ -899,7 +899,7 @@ msgid ""
 "try this request again. If you are still having problems accessing things, "
 "please feel free to {link_start}contact {studio_name} support{link_end} for "
 "further help."
-msgstr "申し訳ございません。リクエスト処理中にサーバーエラーが発生しました。{studio_name}のダッシュボードに戻り、再実行してください。アクセスの問題が解決しない場合は、お気軽に{link_start}{studio_name}サポート{link_end} へご連絡ください。"
+msgstr "申し訳ございません。リクエスト処理中にサーバーエラーが発生しました。{studio_name}のダッシュボードに戻り、このリクエストを再試行してください。アクセスの問題が解決しない場合は、お気軽に{link_start}{studio_name}サポート{link_end} へご連絡ください。"
 
 #: cms/templates/error.html:39
 msgid "Back to dashboard"
@@ -930,7 +930,7 @@ msgid ""
 "exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
 "Zip) that contains the library structure and content. You can also re-import"
 " libraries that you've exported."
-msgstr "ライブラリはエクスポートして{studio_name}の外で編集することができます。エクスポートされるファイルはライブラリ構造やコンテンツを含む .tar.gzファイル (GNU Zipで圧縮された.tarファイル)です。エクスポートされたライブラリは再インポートすることができます。"
+msgstr "ライブラリをエクスポートして{studio_name}の外で編集することができます。エクスポートされるファイルはライブラリ構造やコンテンツを含む .tar.gzファイル (GNU Zipで圧縮された.tarファイル)です。エクスポートされたライブラリは再インポートすることができます。"
 
 #: cms/templates/export.html:68
 msgid "About Exporting Courses"
@@ -943,7 +943,7 @@ msgid ""
 "file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
 "contains the course structure and content. You can also re-import courses "
 "that you've exported."
-msgstr "コースはエクスポートして{studio_name}の外で編集することができます。エクスポートされるファイルはコース構成やコンテンツを含む .tar.gzファイル (GNU Zipで圧縮された.tarファイル)です。エクスポートされたコースは再インポートすることができます。"
+msgstr "コースをエクスポートして{studio_name}の外で編集することができます。エクスポートされるファイルはコース構成やコンテンツを含む .tar.gzファイル (GNU Zipで圧縮された.tarファイル)です。エクスポートされたコースは再インポートすることができます。"
 
 #: cms/templates/export.html:74
 msgid ""
@@ -1035,7 +1035,7 @@ msgstr "MATLAB APIキーおよびLTIパスポートなどの詳細設定の値"
 
 #: cms/templates/export.html:198
 msgid "Course Content (all Sections, Sub-sections, and Units)"
-msgstr "講座コンテンツ (すべてのセクション、サブセクションおよびユニット)"
+msgstr "講義コンテンツ (すべてのセクション、サブセクションおよびユニット)"
 
 #: cms/templates/export.html:199
 msgid "Course Structure"
@@ -1063,7 +1063,7 @@ msgstr "ユーザー情報"
 
 #: cms/templates/export.html:215
 msgid "Course Team Data"
-msgstr "講座チームデータ"
+msgstr "講義チームデータ"
 
 #: cms/templates/export.html:216
 msgid "Forum/discussion Data"
@@ -1079,7 +1079,7 @@ msgid ""
 "{studio_name}. You may want to create a backup copy of your library. Or, you"
 " may want to create a copy of your library that you can later import into "
 "another library instance and customize."
-msgstr "{studio_name}以外で直接ライブラリ内のXMLを編集することがあります。ライブラリのバックアップコピーを作成したり、別のライブラリ instance へインポートしてカスタマイズすることができます。"
+msgstr "{studio_name}以外で直接ライブラリ内のXMLが編集できます。ライブラリのバックアップコピーを作成したり、別のライブラリinstanceへインポートしてカスタマイズすることができます。"
 
 #: cms/templates/export.html:233 cms/templates/export.html:257
 msgid "Opening the downloaded file"
@@ -1107,7 +1107,7 @@ msgid ""
 "{studio_name}. You may want to create a backup copy of your course. Or, you "
 "may want to create a copy of your course that you can later import into "
 "another course instance and customize."
-msgstr "{studio_name}以外で直接コース内のXMLを編集することがあります。コースのバックアップコピーを作成したり、別のコースinstanceにインポートしてカスタマイズすることができます。"
+msgstr "{studio_name}以外で直接コース内のXMLを編集できます。コースのバックアップコピーを作成したり、別のコースinstanceにインポートしてカスタマイズすることができます。"
 
 #: cms/templates/export.html:251
 msgid "What content is exported?"
@@ -1120,7 +1120,7 @@ msgid ""
 "keys and LTI passports, are also exported. Other data, including student "
 "data, grading information, discussion forum data, course settings, and "
 "course team information, is not exported."
-msgstr "講座コンテンツとコース構成 (セクション、サブセクション、ユニットなど) がエクスポートされます。MATLAB APIキーおよびLTIパスポートなどの詳細設定の値も含まれます。受講者情報、成績情報、ディスカッションフォーラムデータ、コース設定、講座チーム情報などのその他のデータはエクスポートされません。"
+msgstr "講義コンテンツとコース構成 (セクション、サブセクション、ユニットなど) がエクスポートされます。MATLAB APIキーおよびLTIパスポートなどの詳細設定の値も含まれます。受講者情報、成績情報、ディスカッションフォーラムデータ、コース設定、講義チーム情報などのその他のデータはエクスポートされません。"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:259
@@ -1156,7 +1156,7 @@ msgid ""
 "This will then trigger an automatic update of the main LMS site and update "
 "the contents of your course visible there to students if automatic git "
 "imports are configured."
-msgstr "自動Gitインポートが設定されている場合は、LMSサイトの自動アップデートが行われ、受講者に表示される講座コンテンツが更新されます。"
+msgstr "自動Gitインポートが設定されている場合は、LMSサイトの自動アップデートが行われ、受講者に表示される講義コンテンツが更新されます。"
 
 #: cms/templates/export_git.html:35
 msgid "Export Course to Git:"
@@ -1177,11 +1177,11 @@ msgstr "エクスポート成功"
 
 #: cms/templates/export_git.html:63
 msgid "Your course:"
-msgstr "コース: "
+msgstr "コース:"
 
 #: cms/templates/export_git.html:65
 msgid "Course git url:"
-msgstr "コースgit url: "
+msgstr "コースgit url:"
 
 #: cms/templates/group_configurations.html:66
 #: cms/templates/group_configurations.html:105
@@ -1202,20 +1202,20 @@ msgid ""
 "learners in each enrollment track. Learners enrolled in each enrollment "
 "track in your course are automatically included in the corresponding "
 "enrollment track group."
-msgstr "受講登録トラックグループによって、各受講登録トラックの受講者に別々の講座コンテンツを提供することができます。それぞれの受講登録トラックに受講登録することにより、受講者は自動的に該当する受講登録トラックグループに含まれます。"
+msgstr "受講登録トラックグループによって、各受講登録トラックの受講者に別々の講義コンテンツを提供することができます。それぞれの受講登録トラックに受講登録することにより、受講者は自動的に該当する受講登録トラックグループに含まれます。"
 
 #: cms/templates/group_configurations.html:87
 msgid ""
 "On unit pages in the course outline, you can restrict access to components "
 "to learners based on their enrollment track."
-msgstr "講座アウトラインのユニットページでは、受講者の受講登録トラックに基づいてコンポーネントへのアクセスを制限することができます。"
+msgstr "講義アウトラインのユニットページでは、受講者の受講登録トラックに基づいてコンポーネントへのアクセスを制限することができます。"
 
 #: cms/templates/group_configurations.html:88
 msgid ""
 "You cannot edit enrollment track groups, but you can expand each group to "
 "view details of the course content that is designated for learners in the "
 "group."
-msgstr "受講登録トラックグループを編集することはできませんが、それぞれのグループの受講者向け講座コンテンツの詳細を閲覧できるように設定することができます。"
+msgstr "受講登録トラックグループを編集することはできませんが、それぞれのグループの受講者向け講義コンテンツの詳細を閲覧できるように設定することができます。"
 
 #: cms/templates/group_configurations.html:95
 msgid "Content Groups"
@@ -1235,7 +1235,7 @@ msgid ""
 " can restrict access to some content to learners in specific content groups."
 " Only learners in the cohorts that are associated with the specified content"
 " groups see the additional content."
-msgstr "作成したコンテンツグループごとに１つ以上のコホートと連携することができます。講座コンテンツを全受講者に表示できるだけでなく、特定のコンテンツグループの受講者に対してあるコンテンツにアクセスできるよう制限することもできます。指定されたコンテンツグループに連携しているコホートの受講者のみ追加コンテンツを見ることができます。"
+msgstr "作成したコンテンツグループごとに１つ以上のコホートと連携することができます。講義コンテンツを全受講者に表示できるだけでなく、特定のコンテンツグループの受講者に対してあるコンテンツにアクセスできるよう制限することもできます。指定されたコンテンツグループに連携しているコホートの受講者のみ追加コンテンツを見ることができます。"
 
 #: cms/templates/group_configurations.html:98
 msgid ""
@@ -1281,7 +1281,7 @@ msgstr "{studio_name}へようこそ"
 msgid ""
 "{studio_name} helps manage your online courses, so you can focus on teaching"
 " them"
-msgstr "{studio_name}はあなたが指導に集中できるよう、オンライン講座の管理をお手伝いします。"
+msgstr "{studio_name}はあなたが指導に集中できるよう、オンライン講義の管理をお手伝いします。"
 
 #: cms/templates/howitworks.html:32
 msgid "{studio_name}'s Many Features"
@@ -1289,7 +1289,7 @@ msgstr "{studio_name}の特徴"
 
 #: cms/templates/howitworks.html:39 cms/templates/howitworks.html:40
 msgid "{studio_name} Helps You Keep Your Courses Organized"
-msgstr "{studio_name}はあなたの講座運営を維持するお手伝いをします"
+msgstr "{studio_name}はあなたの講義運営を維持するお手伝いをします"
 
 #: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87
 #: cms/templates/howitworks.html:121
@@ -1298,14 +1298,14 @@ msgstr "イメージを広げる"
 
 #: cms/templates/howitworks.html:48
 msgid "Keeping Your Course Organized"
-msgstr "講座運営を維持する"
+msgstr "講義運営を維持する"
 
 #: cms/templates/howitworks.html:49
 msgid ""
 "The backbone of your course is how it is organized. {studio_name} offers an "
 "{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
 "easy drag and drop to help you and your students stay organized."
-msgstr "大事なのは、講座をいかに構成するかです。{studio_name}では、シンプルな階層構造と簡単なドラッグ＆ドロップで構成できる{strong_start}アウトライン{strong_end}エディターを提供しています。"
+msgstr "大事なのは講義をいかに構成するかです。{studio_name}では、シンプルな階層構造と簡単なドラッグ＆ドロップで構成できる{strong_start}アウトライン{strong_end}エディターを提供しています。"
 
 #: cms/templates/howitworks.html:57
 msgid "Simple Organization For Content"
