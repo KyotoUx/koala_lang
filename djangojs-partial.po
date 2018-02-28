@@ -3020,11 +3020,11 @@ msgstr "受講者が講義に受講登録していないため、例外一覧に
 msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
-msgstr " <%= user %> の修了証は既に無効になっています。綴りをチェックして再試行してください。"
+msgstr "<%= user %>の修了証は既に無効になっています。綴りをチェックして再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
-msgstr " <%= user %>の修了証は既に無効になっています。"
+msgstr "<%= user %>の修了証は既に無効になっています。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:70
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:100
@@ -3093,12 +3093,12 @@ msgstr "お支払いいただいた金額は返金されません。"
 msgid ""
 "Are you sure you want to unenroll from the purchased course %(courseName)s "
 "(%(courseNumber)s)?"
-msgstr "支払済の講座 %(courseName)s(%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
+msgstr "支払済の講義%(courseName)s(%(courseNumber)s)を受講取消しようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:100
 msgid ""
 "Are you sure you want to unenroll from %(courseName)s (%(courseNumber)s)?"
-msgstr "%(courseName)s (%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s)を受講取消しようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:103
 msgid ""
@@ -3179,11 +3179,11 @@ msgstr "この講義のディスカッション・トピックは分割されて
 
 #: lms/static/js/discussions_management/views/discussions.js:184
 msgid "Any divided discussion topics are divided based on enrollment track."
-msgstr "ディスカッション・トピックは、受講登録トラックを基に分割されています。"
+msgstr "ディスカッション・トピックは受講登録トラックを基に分割されています。"
 
 #: lms/static/js/discussions_management/views/discussions.js:187
 msgid "Any divided discussion topics are divided based on cohort."
-msgstr "分割されているディスカッション・トピックは、コホートを基に分割されています。"
+msgstr "分割されているディスカッション・トピックはコホートを基に分割されています。"
 
 #: lms/static/js/discussions_management/views/discussions.js:194
 msgid "Your changes have been saved. {details}"
@@ -3724,24 +3724,24 @@ msgstr "この講義の全受講登録者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:90
 msgid "All learners in the {cohort_name} cohort"
-msgstr " {cohort_name} の全受講者"
+msgstr "{cohort_name}の全受講者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:93
 msgid "All learners in the {track_name} track"
-msgstr "{track_name} の全受講者"
+msgstr "{track_name}の全受講者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:97
 msgid ""
 "Your email message was successfully queued for sending. In courses with a "
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
-msgstr "あなたのメッセージが送信待ちリストに加えられました。受講者の多い講義では、メッセージが届くまでに１時間程度かかることがあります。"
+msgstr "あなたのメッセージが送信待ちリストに加えられました。受講者の多い講義ではメッセージが届くまでに１時間程度かかることがあります。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:99
 msgid ""
 "You are sending an email message with the subject {subject} to the following"
 " recipients."
-msgstr "以下の宛先に件名 {subject} のメールを送信中です。"
+msgstr "以下の宛先に件名{subject}のメールを送信中です。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:104
 msgid "Is this OK?"
@@ -3754,19 +3754,19 @@ msgstr "メールの送信エラー。"
 #: lms/static/js/instructor_dashboard/send_email.js:142
 #: lms/static/js/instructor_dashboard/send_email.js:170
 msgid "There is no email history for this course."
-msgstr "この講座のメール履歴はありません。"
+msgstr "この講義のメール履歴はありません。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:151
 msgid "There was an error obtaining email task history for this course."
-msgstr "この講座のメール履歴を取得する際にエラーが発生しました。"
+msgstr "この講義のメール履歴を取得する際にエラーが発生しました。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:179
 msgid "There was an error obtaining email content history for this course."
-msgstr "この講座のメールコンテンツ履歴の取得時にエラーが発生しました。"
+msgstr "この講義のメールコンテンツ履歴の取得時にエラーが発生しました。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:206
 msgid "Send to:"
-msgstr "宛先: "
+msgstr "宛先:"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:78
 #: lms/static/js/instructor_dashboard/student_admin.js:108
@@ -3784,7 +3784,7 @@ msgstr "受講者のメールアドレスまたはユーザー名を入力して
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
-msgstr "受講者 '<%- student_id %>' の進捗表示URL を取得する際、エラーが発生しました。受講者の識別子が正しく入力されているか確認してください。"
+msgstr "受講者'<%- student_id %>'の進捗表示URLを取得する際、エラーが発生しました。受講者の識別子が正しく入力されているか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:112
 #: lms/static/js/instructor_dashboard/student_admin.js:154
@@ -3801,26 +3801,26 @@ msgstr "問題のロケーションを入力してください。"
 msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
-msgstr "成功！受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答をリセットしました。"
+msgstr "成功！受講者'<%- student_id %>'の問題'<%- problem_id %>'の解答をリセットしました。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:120
 msgid ""
 "Error resetting problem attempts for problem '<%= problem_id %>' and student"
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
-msgstr "受講者 '<%- student_id %>' の問題' <%= problem_id %>' の回答リセットの際、エラーが発生しました。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者'<%- student_id %>'の問題'<%= problem_id %>'の解答リセットの際、エラーが発生しました。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:157
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
-msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答を削除してよろしいですか？"
+msgstr "受講者'<%- student_id %>'の問題'<%- problem_id %>'の回答を削除してよろしいですか？"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:168
 msgid ""
 "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
 " %>'. Make sure that the problem and student identifiers are complete and "
 "correct."
-msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答の削除エラー。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者'<%- student_id %>'の問題'<%- problem_id %>'の解答の削除エラー。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:179
 msgid "Module state successfully deleted."
@@ -3831,7 +3831,7 @@ msgid ""
 "Error getting task history for problem '<%- problem_id %>' and student '<%- "
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
-msgstr "受講者 '<%- student_id %>' と問題 '<%- problem_id %>' のタスク履歴の取得エラー。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者'<%- student_id %>'と問題'<%- problem_id %>'のタスク履歴の取得エラー。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:250
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
@@ -3878,20 +3878,20 @@ msgstr "受講者'{student_id}'の入学試験タスク履歴の取得エラー�
 
 #: lms/static/js/instructor_dashboard/student_admin.js:376
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
-msgstr "問題 '<%- problem_id %>' の全受講者の解答をリセットしますか?"
+msgstr "問題'<%- problem_id %>'の全受講者の解答をリセットしますか?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:385
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
-msgstr "問題 '<%- problem_id %>' の解答のリセット作業を問題なく開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
+msgstr "問題'<%- problem_id %>'の解答のリセット作業を問題なく開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:389
 msgid ""
 "Error starting a task to reset attempts for all students on problem '<%- "
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
-msgstr "問題 '<%- problem_id %>' の全受講者の解答リセット作業を開始する際、エラーが発生しました。問題の識別子が正しいか確認してください。"
+msgstr "問題'<%- problem_id %>'の全受講者の解答リセット作業を開始する際、エラーが発生しました。問題の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:438
 msgid "Error listing task history for this student and problem."
@@ -3902,14 +3902,14 @@ msgid ""
 "Started rescore problem task for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
-msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の再採点作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:471
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>' for student "
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
-msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の再採点作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:512
 msgid "Please enter a score."
@@ -3920,43 +3920,43 @@ msgid ""
 "Started task to override the score for problem '<%- problem_id %>' and "
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
 "status of the task."
-msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数を無効にする作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の点数を無効にする作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:525
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for "
 "student '<%- student_id %>'. Make sure that the the score and the problem "
 "and student identifiers are complete and correct."
-msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数無効化の作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の点数無効化の作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:567
 msgid ""
 "Started entrance exam rescore task for student '{student_id}'. Click the "
 "'Show Task Status' button to see the status of the task."
-msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+msgstr "受講者'{student_id}'の入学試験の再採点作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:575
 msgid ""
 "Error starting a task to rescore entrance exam for student '{student_id}'. "
 "Make sure that entrance exam has problems in it and student identifier is "
 "correct."
-msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始する際のエラー。入学試験に問題があること及び受講者の識別子が正しいことを確認してください。"
+msgstr "受講者'{student_id}'の入学試験の再採点作業を開始する際のエラー。入学試験に問題があること及び受講者の識別子が正しいことを確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:595
 msgid "Rescore problem '<%- problem_id %>' for all students?"
-msgstr "全受講者の問題 '<%- problem_id %>' を再採点しますか？"
+msgstr "全受講者の問題'<%- problem_id %>'を再採点しますか？"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:605
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
-msgstr "全受講者の問題 '<%- problem_id %>' の再採点作業を問題なく開始しました。 作業状況を見るには '作業状況を見る' をクリックしてください。"
+msgstr "全受講者の問題'<%- problem_id %>'の再採点作業を正常に開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:609
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
-msgstr "問題 '<%- problem_id %>' の再採点作業開始の際のエラー。問題の識別子が正しいか確認してください。"
+msgstr "問題'<%- problem_id %>'の再採点作業開始の際のエラー。問題の識別子が正しいか確認してください。"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -4044,23 +4044,23 @@ msgstr "エディタにメールをコピー"
 
 #: lms/static/js/instructor_dashboard/util.js:286
 msgid "Subject:"
-msgstr "件名: "
+msgstr "件名:"
 
 #: lms/static/js/instructor_dashboard/util.js:287
 msgid "Sent By:"
-msgstr "送信者: "
+msgstr "送信者:"
 
 #: lms/static/js/instructor_dashboard/util.js:288
 msgid "Time Sent:"
-msgstr "送信時刻: "
+msgstr "送信時刻:"
 
 #: lms/static/js/instructor_dashboard/util.js:289
 msgid "Sent To:"
-msgstr "宛先: "
+msgstr "宛先:"
 
 #: lms/static/js/instructor_dashboard/util.js:301
 msgid "Message:"
-msgstr "メッセージ: "
+msgstr "メッセージ:"
 
 #: lms/static/js/instructor_dashboard/util.js:388
 msgid "No tasks currently running."
@@ -4074,11 +4074,11 @@ msgstr "ファイル名"
 msgid ""
 "Links are generated on demand and expire within 5 minutes due to the "
 "sensitive nature of student information."
-msgstr "リンクは随時生成されますが、受講者の個人情報に関わるため5分以内で無効になります。 "
+msgstr "リンクは随時生成されますが、受講者の個人情報に関わるため5分以内に無効になります。 "
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:50
 msgid "{type} Progress"
-msgstr "{type} の進捗"
+msgstr "{type}の進捗"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:53
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:71
@@ -4091,7 +4091,7 @@ msgstr "受講登録済"
 
 #: lms/static/js/staff_debug_actions.js:79
 msgid "Successfully reset the attempts for user {user}"
-msgstr "ユーザー {user} の解答を問題なくリセット済"
+msgstr "ユーザー{user}の解答を正常にリセット済"
 
 #: lms/static/js/staff_debug_actions.js:80
 msgid "Failed to reset attempts for user."
@@ -4099,7 +4099,7 @@ msgstr "ユーザーの回答のリセットに失敗。"
 
 #: lms/static/js/staff_debug_actions.js:90
 msgid "Successfully deleted student state for user {user}"
-msgstr "ユーザー  {user} の受講者状況を問題なく削除済"
+msgstr "ユーザー{user}の受講者状況を正常に削除済"
 
 #: lms/static/js/staff_debug_actions.js:91
 msgid "Failed to delete student state for user."
@@ -4107,7 +4107,7 @@ msgstr "ユーザーの受講者状況の削除に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:101
 msgid "Successfully rescored problem for user {user}"
-msgstr "ユーザー {user} は問題なく再採点済"
+msgstr "ユーザー{user}は正常に再採点済"
 
 #: lms/static/js/staff_debug_actions.js:102
 msgid "Failed to rescore problem for user."
@@ -4115,7 +4115,7 @@ msgstr "ユーザーの再採点に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:112
 msgid "Successfully rescored problem to improve score for user {user}"
-msgstr "ユーザー {user} は問題なく再採点済"
+msgstr "ユーザー{user}は正常に再採点済"
 
 #: lms/static/js/staff_debug_actions.js:113
 msgid "Failed to rescore problem to improve score for user."
@@ -4123,11 +4123,11 @@ msgstr "ユーザーの再採点に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:123
 msgid "Successfully overrode problem score for {user}"
-msgstr "ユーザー {user} の点数は問題なく無効化完了"
+msgstr "ユーザー{user}の点数は正常に無効化完了"
 
 #: lms/static/js/staff_debug_actions.js:124
 msgid "Could not override problem score for {user}."
-msgstr "ユーザー {user} の点数を無効化できませんでした。"
+msgstr "ユーザー{user}の点数を無効化できませんでした。"
 
 #: lms/static/js/student_account/account.js:47
 msgid "The data could not be saved."
@@ -4165,15 +4165,15 @@ msgstr "メールの環境設定を保存中"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:125
 msgid "Enrolling you in the selected course"
-msgstr "選択した講座に受講登録中"
+msgstr "選択した講義に受講登録中"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:157
 msgid "Adding the selected course to your cart"
-msgstr "カートに選択した講座を追加中"
+msgstr "カートに選択した講義を追加中"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:170
 msgid "Loading your courses"
-msgstr "講座を読込中"
+msgstr "講義を読込中"
 
 #: lms/static/js/student_account/views/FormView.js:19
 #: lms/static/js/student_account/views/RegisterView.js:70
@@ -4209,7 +4209,7 @@ msgid ""
 " message, verify that you entered the correct email address, or check your "
 "spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
 "{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
-msgstr "{paragraphStart} あなたは {boldStart}{email}{boldEnd}と入力しました。このメールアドレスを {platform_name} アカウントに登録していれば、このメールアドレスにパスワード再設定に関するメッセージが届きます。{paragraphEnd}{paragraphStart}メールが届かない場合は、正しいメールアドレスが入力できているか、あるいは迷惑メールフォルダに入っていないか確認してください。{paragraphEnd}{paragraphStart}ヘルプが必要な場合は、{anchorStart}テクニカルサポートへお問い合わせください{anchorEnd}。{paragraphEnd}"
+msgstr "{paragraphStart}あなたは{boldStart}{email}{boldEnd}と入力しました。このメールアドレスを{platform_name}アカウントに登録していれば、このメールアドレスにパスワード再設定に関するメッセージが届きます。{paragraphEnd}{paragraphStart}メールが届かない場合は、正しいメールアドレスが入力できているか、あるいは迷惑メールフォルダに入っていないか確認してください。{paragraphEnd}{paragraphStart}ヘルプが必要な場合は、{anchorStart}テクニカルサポートへお問い合わせください{anchorEnd}。{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js:177
 msgid ""
@@ -4222,7 +4222,7 @@ msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account."
 " To link your accounts, sign in now using your %(platformName)s password."
-msgstr "%(currentProvider)sに無事サインインしましたが、%(currentProvider)sのアカウントは%(platformName)sアカウントとの連携設定はしていません。アカウントとの連携設定をするには、%(platformName)sのパスワードでサインインしてください。"
+msgstr "%(currentProvider)sに正常にサインインしましたが、%(currentProvider)sのアカウントは%(platformName)sアカウントとの連携設定はしていません。アカウントとの連携設定をするには、%(platformName)sのパスワードでサインインしてください。"
 
 #: lms/static/js/student_account/views/RegisterView.js:41
 msgid "We couldn't create your account."
@@ -4238,7 +4238,7 @@ msgstr "(必須)"
 
 #: lms/static/js/student_account/views/RegisterView.js:291
 msgid "You've successfully signed into %(currentProvider)s."
-msgstr "%(currentProvider)sへのサインインに成功しました。"
+msgstr "%(currentProvider)sへサインインできました。"
 
 #: lms/static/js/student_account/views/RegisterView.js:293
 msgid ""
@@ -4255,14 +4255,14 @@ msgstr "メールアドレス"
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address."
-msgstr "サインインの際に使うメールアドレス。{platform_name}や講座からのお知らせはこのメールアドレスに届きます。"
+msgstr "サインインの際に使うメールアドレス。{platform_name}や講義からのお知らせはこのメールアドレスに届きます。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:59
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address.  To change the email address, "
 "please contact {contact_email}."
-msgstr "サインインの際に使うメールアドレス。{platform_name}や講座からのメールはこのメールアドレスに届きます。メールアドレスを変更するには{contact_email}へお問い合わせください。"
+msgstr "サインインの際に使うメールアドレス。{platform_name}や講義からのメールはこのメールアドレスに届きます。メールアドレスを変更するには{contact_email}へお問い合わせください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:68
 #: lms/static/js/student_account/views/account_settings_factory.js:235
@@ -4291,7 +4291,7 @@ msgid ""
 "{bold_start}Full Profile{bold_end} for profile visibility. Make sure to "
 "enter your name exactly as it appears on your photo ID, including any non-"
 "Roman characters."
-msgstr ""
+msgstr "ローマ字以外の文字を含め、写真付きIDに記載されている通りに氏名を入力してください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:101
 msgid "Password"
@@ -4307,7 +4307,7 @@ msgid ""
 "When you select \"Reset Your Password\", a message will be sent to the email"
 " address for your {platform_name} account. Click the link in the message to "
 "reset your password."
-msgstr "'パスワードを再設定' を押すと、{platform_name}アカウントに登録しているメールアドレスへメッセージが届きます。メッセージ内のリンクをクリックして、パスワードを再設定してください。"
+msgstr "'パスワードを再設定'を押すと、{platform_name}アカウントに登録しているメールアドレスへメッセージが届きます。メッセージ内のリンクをクリックして、パスワードを再設定してください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:122
 msgid ""
@@ -4332,7 +4332,7 @@ msgid ""
 "Select the time zone for displaying course dates. If you do not specify a "
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
-msgstr "講座の日付情報を表示する際のタイムゾーンを選択してください。タイムゾーンを指定していない場合、締切などの講座の日付情報はあなたのブラウザのローカルタイムゾーンで表示されます。"
+msgstr "講義の日付情報を表示する際のタイムゾーンを選択してください。タイムゾーンを指定していない場合、締切などの講義の日付情報はあなたのブラウザのローカルタイムゾーンで表示されます。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:148
 msgid "All Time Zones"
@@ -4434,7 +4434,7 @@ msgid ""
 "We've sent a message to {email}. Click the link in the message to reset your"
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
-msgstr " {email} へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd}へお問い合わせください。"
+msgstr "{email}へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd}へお問い合わせください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:275
 msgid "Link your {accountName} account"
@@ -4448,7 +4448,7 @@ msgstr "このアカウントをリンク解除"
 msgid ""
 "You can use your {accountName} account to sign in to your {platformName} "
 "account."
-msgstr " {platformName}のアカウントにサインするために{accountName}のアカウントを使うことができます。"
+msgstr "{accountName}のアカウントを使って{platformName}のアカウントにサインインできます。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:286
 msgid "Unlink your {accountName} account"
@@ -4462,7 +4462,7 @@ msgstr "アカウントをリンク"
 msgid ""
 "Link your {accountName} account to your {platformName} account and use "
 "{accountName} to sign in to {platformName}."
-msgstr "{platformName}アカウントに{accountName}アカウントをリンクし、{platformName}にサインインするために{accountName}を使用してください。"
+msgstr "{platformName}アカウントに{accountName}アカウントをリンクし、{accountName}を使って{platformName}にサインインしてください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:350
 msgid "Unlinking"
@@ -4538,7 +4538,7 @@ msgstr "全ての支払オプションが現在有効ではありません。"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:125
 msgid "Try the transaction again in a few minutes."
-msgstr "数分後に再度手続きしてみてください。"
+msgstr "数分後に再度手続きしてください。"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:214
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:7
@@ -4636,7 +4636,7 @@ msgstr "画像を変更"
 
 #: lms/static/js/views/image_field.js:29
 msgid "An error has occurred. Refresh the page, and then try again."
-msgstr "エラーが発生しました。この画面を再読込して、再度実行してください。"
+msgstr "エラーが発生しました。この画面を再読込して、再試行してください。"
 
 #: lms/static/js/views/image_field.js:169
 msgid "The file must be at least {size} in size."
@@ -4672,13 +4672,13 @@ msgstr "MB"
 
 #: lms/static/lms/js/preview/preview_factory.js:13
 msgid "Course is not yet visible to students."
-msgstr "講座はまだ受講者に表示されていません。"
+msgstr "講義はまだ受講者に表示されていません。"
 
 #: lms/static/lms/js/preview/preview_factory.js:24
 msgid ""
 "You cannot view the course as a student or beta tester before the course "
 "release date."
-msgstr "開講日までは受講者またはβテスターとして講座を見ることはできません。"
+msgstr "公開日まで受講者やβテスターとして講義を見ることができません。"
 
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js:354
 msgid "%(num_students)s student opened Subsection"
@@ -4752,7 +4752,7 @@ msgstr "自己紹介"
 msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
-msgstr "自己紹介をしてください: どこに住んでいるのか、何に興味があるのか、なぜ受講することにしたのか、何を学びたいかなど。"
+msgstr "自己紹介をしてください：どこに住んでいるのか、何に興味があるのか、なぜ受講することにしたのか、何を学びたいかなど。"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/badge_list_container.js:23
 msgid "Accomplishments Pagination"
@@ -4772,7 +4772,7 @@ msgstr "全プロフィールを公開するためには、誕生年を指定し
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
-msgstr "全プロフィールを公開するには13 歳以上である必要があります。もし 13 歳以上なら、{account_settings_page_link}にてあなたの誕生年が正しく設定されているか確認してください。"
+msgstr "全プロフィールを公開するには13歳以上である必要があります。13歳以上なら、{account_settings_page_link}であなたの誕生年が正しく設定されているか確認してください。"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:65
 msgid "Profile Image"
