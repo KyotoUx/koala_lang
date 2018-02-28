@@ -361,11 +361,11 @@ msgstr "提出が中断されました！申し訳ありませんが、お使い
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:542
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
-msgstr "{filename}は提出済です。{allowedFiles} のみ可能です。"
+msgstr "{filename}は提出済です。{allowedFiles}のみ可能です。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:555
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
-msgstr " {filename} ファイルは大きすぎます (最大: {maxSize}MBまで)。"
+msgstr "{filename}ファイルは大きすぎます (最大: {maxSize}MBまで)。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:570
 msgid "You did not submit the required files: {requiredFiles}."
@@ -631,7 +631,7 @@ msgstr "列"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:289
 msgid "Constrain proportions"
-msgstr "形状を規制する"
+msgstr "比率を制限する"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -776,7 +776,7 @@ msgstr "ファイル"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:409
 msgid "Find and replace"
-msgstr "検索と置換"
+msgstr "検索および置換"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -933,7 +933,7 @@ msgstr "高さ"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:559
 msgid "Horizontal line"
-msgstr "水平線"
+msgstr "横線"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1261,13 +1261,13 @@ msgstr "リンクを削除"
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:849
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:854
 msgid "Replace all"
-msgstr "全置換"
+msgstr "全て置換"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:859
 msgid "Replace with"
-msgstr "次のもので置換"
+msgstr "次のものと置換"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1280,7 +1280,7 @@ msgstr "置換"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:874
 msgid "Restore last draft"
-msgstr "最終ドラフトを復元"
+msgstr "最新ドラフトを復元"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1470,7 +1470,7 @@ msgstr "テキストを表示"
 msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
-msgstr "入力されたURLはメールアドレスのように見えます。mailto: prefixを追加しますか？"
+msgstr "入力されたURLはメールアドレスのようです。mailto: を追加しますか？"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1478,7 +1478,7 @@ msgstr "入力されたURLはメールアドレスのように見えます。mai
 msgid ""
 "The URL you entered seems to be an external link. Do you want to add the "
 "required http:// prefix?"
-msgstr "入力されたURLは外部リンクのように見えます。http:// prefixを追加しますか？"
+msgstr "入力されたURLは外部リンクのようです。http:// を追加しますか？"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1514,13 +1514,13 @@ msgstr "戻る"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:1069
 msgid "Upper Alpha"
-msgstr "大文字のアルファベット"
+msgstr "アルファベット大文字"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:1074
 msgid "Upper Roman"
-msgstr "大文字のローマ字"
+msgstr "ローマ字大文字"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1582,7 +1582,7 @@ msgstr "保存されていない変更があります。このページから移
 msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
 "Ctrl+X/C/V keyboard shortcuts instead."
-msgstr "このブラウザはクリップボードへのアクセスがサポートされていません。代わりに、Ctrl+X/C/Vといったキーボードショートカットを使ってください。"
+msgstr "このブラウザはクリップボードへのアクセスがサポートされていません。代わりに、キーボードショートカットCtrl+X/C/Vを使ってください。"
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js:20
 msgid ""
@@ -1640,7 +1640,7 @@ msgstr "説明"
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
-msgstr "シーケンスエラー！このシーケンスモジュールでは%(tab_name)sを操作できません。講座スタッフにお問い合わせください。"
+msgstr "シーケンスエラー！このシーケンスモジュールでは%(tab_name)sを操作できません。講義スタッフにお問い合わせください。"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js:417
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
@@ -1787,7 +1787,7 @@ msgid ""
 "Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
 "navigate the different speeds, then press ENTER to change to the selected "
 "speed."
-msgstr "UP を押して再生速度メニュー画面に入り、 上下の矢印キーを使って再生速度を調整しENTER を押すと、選択した速度に変更します。"
+msgstr "UP を押して再生速度メニュー画面に入り、上下の矢印キーを使って再生速度を調整しENTER を押すと、選択した速度に変更します。"
 
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:39
 msgid "Adjust video speed"
@@ -1865,57 +1865,57 @@ msgstr "字幕を非表示"
 #: common/static/bundles/CourseGoals.b56f05f27734759a3a6a.js:1
 #: common/static/bundles/CourseGoals.js:35
 msgid "Thank you for setting your course goal to "
-msgstr ""
+msgstr "講義目標を設定"
 
 #: common/static/bundles/CourseGoals.b56f05f27734759a3a6a.js:1
 #: common/static/bundles/CourseGoals.js:45
 msgid ""
 "There was an error in setting your goal, please reload the page and try "
 "again."
-msgstr ""
+msgstr "目標設定時にエラーが発生しましたので、再読込して再試行してください。"
 
 #: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
 #: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
 #: common/static/bundles/CourseHome.js:93
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:84
 msgid "You have successfully updated your goal."
-msgstr ""
+msgstr "目標が更新されました。"
 
 #: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
 #: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
 #: common/static/bundles/CourseHome.js:98
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:89
 msgid "There was an error updating your goal."
-msgstr ""
+msgstr 目標の更新時にエラーが発生しました。"
 
 #: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
 #: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
 #: common/static/bundles/CourseHome.js:191
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:181
 msgid "Show more"
-msgstr ""
+msgstr "さらに見る"
 
 #: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
 #: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
 #: common/static/bundles/CourseHome.js:212
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:202
 msgid "Show less"
-msgstr ""
+msgstr "表示しない"
 
 #: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
 #: common/static/bundles/StudioIndex.js:55
 msgid "Organization:"
-msgstr "組織: "
+msgstr "組織:"
 
 #: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
 #: common/static/bundles/StudioIndex.js:69
 msgid "Course Number:"
-msgstr "講座番号: "
+msgstr "講義番号:"
 
 #: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
 #: common/static/bundles/StudioIndex.js:83
 msgid "Course Run:"
-msgstr "Course Run: "
+msgstr "Course Run:"
 
 #: common/static/bundles/StudioIndex.ae56ffd9f272143aaf03.js:1
 #: common/static/bundles/StudioIndex.js:94
@@ -1957,11 +1957,11 @@ msgstr "リクエストの実行は完了していません。再読込して再
 
 #: common/static/common/js/components/views/paging_header.js:37
 msgid "Showing {firstIndex} out of {numItems} total"
-msgstr "全 {numItems} 個のうち {firstIndex} 番目を表示中"
+msgstr "全{numItems}個のうち{firstIndex}番目を表示中"
 
 #: common/static/common/js/components/views/paging_header.js:42
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
-msgstr "全 {numItems}個のうち {firstIndex}-{lastIndex} 番目を表示中"
+msgstr "全{numItems}個のうち{firstIndex}-{lastIndex}番目を表示中"
 
 #: common/static/common/js/discussion/utils.js:142
 msgid "Loading content"
@@ -1969,7 +1969,7 @@ msgstr "コンテンツ読込中"
 
 #: common/static/common/js/discussion/utils.js:199
 msgid "Your request could not be processed. Refresh the page and try again."
-msgstr "リクエストの実行を完了できませんでした。この画面を再読込して再度実行してください。"
+msgstr "リクエストの実行を完了できませんでした。この画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/utils.js:469
 #: common/static/common/js/discussion/utils.js:493
@@ -1982,80 +1982,80 @@ msgstr "本投稿の画像は省略されました。"
 
 #: common/static/common/js/discussion/utils.js:512
 msgid "image omitted"
-msgstr "映像省略"
+msgstr "画像省略"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:280
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] "現在 {numVotes} 票"
+msgstr[0] "現在 {numVotes}票"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:286
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
-msgstr[0] "{numVotes} 票"
+msgstr[0] "{numVotes}票"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:354
 msgid ""
 "You could not be subscribed to this post. Refresh the page and try again."
-msgstr "この投稿を署名できませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿に署名できませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:356
 msgid ""
 "You could not be unsubscribed from this post. Refresh the page and try "
 "again."
-msgstr "この投稿から署名を解除できませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿から署名を解除できませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:383
 msgid ""
 "This response could not be marked as an answer. Refresh the page and try "
 "again."
-msgstr "この返信は解答としてマークできませんでした。画面を再読込して再度実行してください。"
+msgstr "この返信は解答としてマークできませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:385
 msgid ""
 "This response could not be unmarked as an answer. Refresh the page and try "
 "again."
-msgstr "この返信は解答のマークを外すことができませんでした。画面を再読込して再度実行してください。"
+msgstr "この返信から解答のマークを外すことができませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:389
 msgid ""
 "This response could not be marked as endorsed. Refresh the page and try "
 "again."
-msgstr "この返信にいいね！ができませんでした。画面を再読込して再度実行してください。"
+msgstr "この返信にいいね！ができませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:391
 msgid "This response could not be unendorsed. Refresh the page and try again."
-msgstr "この返信のいいね！が解除できませんでした。画面を再読込して再度実行してください。"
+msgstr "この返信のいいね！が解除できませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:423
 msgid "This vote could not be processed. Refresh the page and try again."
-msgstr "この投票は処理できませんでした。画面を再読込して再度実行してください。"
+msgstr "この投票は処理できませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:439
 msgid "This post could not be pinned. Refresh the page and try again."
-msgstr "この投稿はピン止めできませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿はピン止めできませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:441
 msgid "This post could not be unpinned. Refresh the page and try again."
-msgstr "この投稿はピン止めを外せませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿からピン止めを外せませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:457
 msgid ""
 "This post could not be flagged for abuse. Refresh the page and try again."
-msgstr "この投稿は不正投稿としてフラグがつけられませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿は不正投稿としてフラグがつけられませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:460
 msgid ""
 "This post could not be unflagged for abuse. Refresh the page and try again."
-msgstr "この投稿は不正投稿のフラグを外せませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿から不正投稿のフラグを外せませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:480
 msgid "This post could not be closed. Refresh the page and try again."
-msgstr "この投稿を終了することができませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿を終了することができませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:482
 msgid "This post could not be reopened. Refresh the page and try again."
-msgstr "この投稿を再開することができませんでした。画面を再読込して再度実行してください。"
+msgstr "この投稿を再開することができませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:191
 #: common/static/common/js/discussion/views/discussion_inline_view.js:229
@@ -2064,7 +2064,7 @@ msgstr "ディスカッションを非表示"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:200
 msgid "This discussion could not be loaded. Refresh the page and try again."
-msgstr "このディスカッションは読み込めませんでした。画面を再読込して再度実行してください。"
+msgstr "このディスカッションは読み込めませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:211
 msgid "Show Discussion"
@@ -2076,7 +2076,7 @@ msgstr "追加のスレッドを読込中"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:321
 msgid "Additional posts could not be loaded. Refresh the page and try again."
-msgstr "追加の投稿を読み込めませんでした。画面を再読込して再度実行してください。"
+msgstr "追加の投稿を読み込めませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:382
 msgid "Current conversation"
@@ -2090,7 +2090,7 @@ msgstr "投稿リストを読込中"
 msgid ""
 "No results found for {original_query}. Showing results for "
 "{suggested_query}."
-msgstr "{original_query} に該当する結果が見つかりませんでした。 {suggested_query} の結果を表示しています。 "
+msgstr "{original_query} に該当する結果が見つかりませんでした。 {suggested_query}の結果を表示しています。 "
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:535
 msgid "No posts matched your query."
@@ -2106,22 +2106,22 @@ msgstr "あなたが選択した投稿は削除されています。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:223
 msgid "Responses could not be loaded. Refresh the page and try again."
-msgstr "返信を読み込めませんでした。画面を再読込して再度実行してください。"
+msgstr "返信を読み込めませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:228
 msgid ""
 "Additional responses could not be loaded. Refresh the page and try again."
-msgstr "追加の返信を読み込めませんでした。画面を再読込して再度実行してください。"
+msgstr "追加の返信を読み込めませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:244
 msgid "{numResponses} other response"
 msgid_plural "{numResponses} other responses"
-msgstr[0] "{numResponses} 件の投稿"
+msgstr[0] "{numResponses}件の投稿"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:251
 msgid "{numResponses} response"
 msgid_plural "{numResponses} responses"
-msgstr[0] "{numResponses} 件の投稿"
+msgstr[0] "{numResponses}件の投稿"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:263
 msgid "Showing all responses"
@@ -2130,7 +2130,7 @@ msgstr "すべての返信を表示中"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:268
 msgid "Showing first response"
 msgid_plural "Showing first {numResponses} responses"
-msgstr[0] "最初の {numResponses} 件の返信を表示中"
+msgstr[0] "最初の {numResponses}件の返信を表示中"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:281
 msgid "Load all responses"
@@ -2138,7 +2138,7 @@ msgstr "すべての返信を読込"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:284
 msgid "Load next {numResponses} responses"
-msgstr "次の {numResponses} 件の返信を読込"
+msgstr "次の {numResponses}件の返信を読込"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:449
 msgid "Are you sure you want to delete this post?"
@@ -2158,7 +2158,7 @@ msgstr "このコメントを削除してもよろしいですか？"
 
 #: common/static/common/js/discussion/views/response_comment_view.js:120
 msgid "This comment could not be deleted. Refresh the page and try again."
-msgstr "このコメントは削除できませんでした。画面を再読込して再度実行してください。"
+msgstr "このコメントは削除できませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/thread_response_view.js:229
 msgid "Are you sure you want to delete this response?"
@@ -2170,15 +2170,15 @@ msgstr "メールアドレスの書式が正しくありません。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:28
 msgid "%(field)s must have at least %(count)d characters."
-msgstr "%(field)s には最低 %(count)d 文字必要です。"
+msgstr "%(field)sには最低%(count)d文字必要です。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:29
 msgid "%(field)s can only contain up to %(count)d characters."
-msgstr "%(field)s は最大 %(count)d 文字までです。"
+msgstr "%(field)sは最大%(count)d文字までです。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:30
 msgid "Please enter your %(field)s."
-msgstr "%(field)s を入力して下さい。"
+msgstr "%(field)sを入力して下さい。"
 
 #: common/static/js/capa/drag_and_drop/base_image.js:21
 msgid "Drop target image"
@@ -2362,26 +2362,26 @@ msgstr "返信"
 
 #: common/static/js/vendor/ova/catch/js/catch.js:261
 msgid "Tags:"
-msgstr "タグ："
+msgstr "タグ:"
 
 #. Translators: please note that this is not a literal flag, but rather a
 #. report
 #: common/static/js/vendor/ova/flagging-annotator.js:48
 msgid "Check the box to remove all flags."
-msgstr "全てのフラグを解除するにはチェックをいれます。"
+msgstr "全てのフラグを解除するにはチェックしてください。"
 
 #. Translators: 'totalFlags' is the number of flags solely for that annotation
 #: common/static/js/vendor/ova/flagging-annotator.js:93
 msgid "Check the box to remove %(totalFlags)s flag."
 msgid_plural "Check the box to remove %(totalFlags)s flags."
-msgstr[0] "全%(totalFlags)s件のフラグを解除するにはチェックをいれます。"
+msgstr[0] "全%(totalFlags)s件のフラグを解除するにはチェックしてください。"
 
 #. Translators: 'count' is the number of flags solely for that annotation that
 #. will be removed
 #: common/static/js/vendor/ova/flagging-annotator.js:102
 msgid "Check the box to remove %(count)s flag."
 msgid_plural "Check the box to remove %(count)s flags."
-msgstr[0] "%(totalFlags)s件のフラグを解除するにはチェックをいれます。"
+msgstr[0] "%(totalFlags)s件のフラグを解除するにはチェックしてください。"
 
 #: common/static/js/vendor/ova/flagging-annotator.js:105
 msgid "All flags have been removed. To undo, uncheck the box."
@@ -2464,7 +2464,7 @@ msgstr "チーム名 (必須) *"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:45
 msgid "A name that identifies your team (maximum 255 characters)."
-msgstr "チームを特定するための名称 (最大 255文字まで) 。"
+msgstr "チームを特定するための名称 (最大255文字まで) 。"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:50
 msgid "Team Description (Required) *"
@@ -2474,7 +2474,7 @@ msgstr "チームの説明 (必須) *"
 msgid ""
 "A short description of the team to help other learners understand the goals "
 "or direction of the team (maximum 300 characters)."
-msgstr "他の受講者にチームの目的や方向性を理解してもらうための短文解説 (最大 300文字まで)。"
+msgstr "他の受講者にチームの目的や方向性を理解してもらうための短文解説 (最大300文字まで)。"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:59
 #: lms/static/js/student_account/views/account_settings_factory.js:117
@@ -2511,7 +2511,7 @@ msgstr "チーム名を入力してください。"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:169
 msgid "Team name cannot have more than 255 characters."
-msgstr "チーム名は 255 文字以下にしてください。"
+msgstr "チーム名は255文字以下にしてください。"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:177
 msgid "Enter team description."
@@ -2598,7 +2598,7 @@ msgstr "このチームを辞めますか？"
 msgid ""
 "If you leave, you can no longer post in this team's discussions. Your place "
 "will be available to another learner."
-msgstr "もし辞めると、このチームのディスカッションに投稿することができなくなります。使用していた環境は他の受講者が利用できるようになります。"
+msgstr "辞めると、このチームのディスカッションに投稿することができなくなります。使用していた環境は他の受講者が利用できるようになります。"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js:94
 #: lms/static/js/verify_student/views/reverify_view.js:50
@@ -2634,7 +2634,7 @@ msgstr "トピックス"
 msgid ""
 "See all teams in your course, organized by topic. Join a team to collaborate"
 " with other learners who are interested in the same topic as you are."
-msgstr "講座の全チームをトピック別に整理して表示します。同じトピックに興味を持っている他の受講者と協同学習するために、チームに参加しましょう。"
+msgstr "講義の全チームをトピック別に整理して表示します。同じトピックに興味を持っている他の受講者と協同学習するために、チームに参加しましょう。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:139
 msgid "My Team"
@@ -2646,14 +2646,14 @@ msgstr "ブラウズ"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:175
 msgid "Your request could not be completed. Reload the page and try again."
-msgstr "リクエストの実行を完了できませんでした。画面を再読込して再度実行してください。"
+msgstr "リクエストの実行を完了できませんでした。画面を再読込して再試行してください。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:180
 msgid ""
 "Your request could not be completed due to a server problem. Reload the page"
 " and try again. If the issue persists, click the Help tab to report the "
 "problem."
-msgstr "サーバーの問題によりリクエストの実行を完了できませんでした。画面を再読込して再度実行してください。この問題が解決しない場合はヘルプタブをクリックして問題を報告してください。"
+msgstr "サーバーの問題によりリクエストの実行を完了できませんでした。画面を再読込して再試行してください。この問題が解決しない場合はヘルプタブをクリックして問題を報告してください。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:217
 msgid "Team Search"
@@ -2756,7 +2756,7 @@ msgstr "計算機を閉じる"
 
 #: lms/static/coffee/src/customwmd.js:157
 msgid "HTML preview of post"
-msgstr "投稿の HTML プレビュー"
+msgstr "投稿のHTMLプレビュー"
 
 #: lms/static/coffee/src/customwmd.js:158
 msgid "Post body"
@@ -2834,7 +2834,7 @@ msgstr "正しいURLを入力してください。"
 #: lms/static/js/Markdown.Editor.js:1076
 msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
-msgstr[0] "フォームに %(errorCount)s 個エラーがありました。"
+msgstr[0] "フォームに %(errorCount)s個エラーがありました。"
 
 #: lms/static/js/Markdown.Editor.js:1471
 msgid "Bold (Ctrl+B)"
@@ -2949,7 +2949,7 @@ msgstr "正しい開始日時を入力してください。"
 
 #: lms/static/js/ccx/schedule.js:301
 msgid "Due date cannot be before start date."
-msgstr "締切は、開始日以前にはできません。"
+msgstr "締切は開始日以前にはできません。"
 
 #: lms/static/js/ccx/schedule.js:429
 msgid "Enter Due Date and Time"
@@ -2993,11 +2993,11 @@ msgstr "レコードが正しいフォーマットになっていないため、
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:171
 msgid " learners do not exist in LMS and not added to the exception list"
-msgstr "受講者が LMS にいないため、例外一覧に追加されません"
+msgstr "受講者がLMSにいないため、例外一覧に追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:173
 msgid " learner does not exist in LMS and not added to the exception list"
-msgstr "受講者が LMS にいないため、例外一覧に追加されません"
+msgstr "受講者がLMSにいないため、例外一覧に追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:177
 msgid " learners are already white listed and not added to the exception list"
@@ -3010,17 +3010,17 @@ msgstr "受講者は既にホワイトリスト化されているため、例外
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:184
 msgid ""
 " learners are not enrolled in course and not added to the exception list"
-msgstr "受講者が講座に受講登録していないため、例外一覧に追加されません"
+msgstr "受講者が講義に受講登録していないため、例外一覧に追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:186
 msgid " learner is not enrolled in course and not added to the exception list"
-msgstr "受講者が講座に受講登録していないため、例外一覧に追加されません"
+msgstr "受講者が講義に受講登録していないため、例外一覧に追加されません"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:49
 msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
-msgstr " <%= user %> の修了証は既に無効になっています。綴りをチェックして再度実行してください。"
+msgstr " <%= user %> の修了証は既に無効になっています。綴りをチェックして再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
@@ -3031,7 +3031,7 @@ msgstr " <%= user %>の修了証は既に無効になっています。"
 #: lms/static/js/certificates/views/certificate_whitelist.js:102
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js:112
 msgid "Server Error, Please refresh the page and try again."
-msgstr "サーバーエラーが発生しました。画面を再読込して再度実行してください。"
+msgstr "サーバーエラーが発生しました。画面を再読込して再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:90
 msgid ""
@@ -3043,7 +3043,7 @@ msgstr "この受講者の修了証は再度有効となりましたので、シ
 msgid ""
 "Could not find Certificate Invalidation in the list. Please refresh the page"
 " and try again"
-msgstr "一覧に修了証失効はありませんでした。画面を再読込して再度実行してください。"
+msgstr "一覧に修了証失効はありませんでした。画面を再読込して再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_whitelist.js:59
 msgid "Student Removed from certificate white list successfully."
@@ -3053,7 +3053,7 @@ msgstr "修了証ホワイトリストからの受講者削除を正常に実行
 msgid ""
 "Could not find Certificate Exception in white list. Please refresh the page "
 "and try again"
-msgstr "ホワイトリストに修了証の例外はありませんでした。画面を再読込して再度実行してください。"
+msgstr "ホワイトリストに修了証の例外はありませんでした。画面を再読込して再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js:61
 msgid "<%= user %> already in exception list."
@@ -3104,32 +3104,32 @@ msgstr "%(courseName)s (%(courseNumber)s) を受講取消しようとしてい�
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s  track "
 "of %(courseName)s  (%(courseNumber)s)?"
-msgstr "%(courseName)s(%(courseNumber)s)の認証付き %(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s(%(courseNumber)s)の認証付き%(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:107
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s track "
 "of %(courseName)s (%(courseNumber)s)?"
-msgstr "%(courseName)s(%(courseNumber)s)の認証付き %(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s(%(courseNumber)s)の認証付き%(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:109
 msgid ""
 "The refund deadline for this course has passed,so you will not receive a "
 "refund."
-msgstr "この講座の払い戻し期限が過ぎましたので、払い戻しを受けられません。"
+msgstr "この講義の払い戻し期限が過ぎましたので、払い戻しを受けられません。"
 
 #: lms/static/js/dashboard/legacy.js:173 lms/static/js/dashboard/legacy.js:183
 #: lms/static/js/learner_dashboard/views/unenroll_view.js:61
 msgid ""
 "Unable to determine whether we should give you a refund because of System "
 "Error. Please try again later."
-msgstr "システムエラーのため払い戻しができるかどうか決定できませんでした。後ほど再操作してください。"
+msgstr "システムエラーのため払い戻しができるかどうか決定できませんでした。後ほど再試行してください。"
 
 #: lms/static/js/discovery/views/search_form.js:48
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "%s 講座を見る"
+msgstr[0] "%s 講義を見る"
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
@@ -3148,7 +3148,7 @@ msgstr "分割されていません"
 msgid ""
 "Discussions are unified; all learners interact with posts from other "
 "learners, regardless of the group they are in."
-msgstr "ディスカッションは統合されています; 参加グループに関係なく、全受講者は投稿によって他の受講者と交流することができます。"
+msgstr "ディスカッションは統合されています。参加グループに関係なく、全受講者は投稿によって他の受講者と交流することができます。"
 
 #: lms/static/js/discussions_management/views/discussions.js:66
 msgid "Enrollment Tracks"
@@ -3175,7 +3175,7 @@ msgstr "ディスカッションを分割する基準としてコホートを利
 
 #: lms/static/js/discussions_management/views/discussions.js:181
 msgid "Discussion topics in the course are not divided."
-msgstr "この講座のディスカッション・トピックは分割されていません。"
+msgstr "この講義のディスカッション・トピックは分割されていません。"
 
 #: lms/static/js/discussions_management/views/discussions.js:184
 msgid "Any divided discussion topics are divided based on enrollment track."
@@ -3226,7 +3226,7 @@ msgstr "ノート非表示"
 
 #: lms/static/js/edxnotes/views/search_box.js:20
 msgid "Please enter a term in the {anchorStart} search field{anchorEnd}."
-msgstr "{anchorStart} 検索欄 {anchorEnd} に用語を入力してください。"
+msgstr "{anchorStart}検索欄{anchorEnd}に用語を入力してください。"
 
 #: lms/static/js/edxnotes/views/tab_item.js:25
 msgid "Current tab"
@@ -3234,7 +3234,7 @@ msgstr "現在のタブ"
 
 #: lms/static/js/edxnotes/views/tabs/course_structure.js:49
 msgid "Location in Course"
-msgstr "講座中のロケーション"
+msgstr "講義内のロケーション"
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js:25
 msgid "Recent Activity"
@@ -3311,7 +3311,7 @@ msgid ""
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
-msgstr[0] "このコホートには{numPreassigned}名の受講者が予備登録されています。これらの受講者は、講座の受講登録をすると自動的にこのコホートに追加されます。"
+msgstr[0] "このコホートには{numPreassigned}名の受講者が予備登録されています。これらの受講者は、講義の受講登録をすると自動的にこのコホートに追加されます。"
 
 #: lms/static/js/groups/views/cohort_editor.js:274
 msgid "Unknown username: {user}"
@@ -3399,32 +3399,32 @@ msgid ""
 " disable cohorts, and you cannot rename the manual cohort named "
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
-msgstr "この講座では、認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX partner managerにお問い合わせください。"
+msgstr "この講義では認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX partner managerにお問い合わせください。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js:44
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " the required cohort does not exist. You must create a manually-assigned "
 "cohort named '{verifiedCohortName}' for the feature to work."
-msgstr "この講座では、認証付きコースの受講者に対して自動コホートが設定されていますが、必要なコホートがありません。作業を進めるには '{verifiedCohortName}' という名称の手動振り分けコホートを作成してください。"
+msgstr "この講義では認証付きコースの受講者に対して自動コホートが設定されていますが、必要なコホートがありません。作業を進めるには '{verifiedCohortName}' という名称の手動振り分けコホートを作成してください。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js:54
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " cohorts are disabled. You must enable cohorts for the feature to work."
-msgstr "この講座では、認証付きコースの受講者に対して自動コホートが設定されていますが、コホートが無効になっています。作業を進めるにはコホートを有効にしてください。"
+msgstr "この講義では認証付きコースの受講者に対して自動コホートが設定されていますが、コホートが無効になっています。作業を進めるにはコホートを有効にしてください。"
 
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
-msgstr "受講者にこの講座の修了証の生成を許可しますか？"
+msgstr "受講者にこの講義の修了証の生成を許可しますか？"
 
 #: lms/static/js/instructor_dashboard/certificates.js:22
 msgid "Prevent students from generating certificates in this course?"
-msgstr "受講者にこの講座の修了証の生成を禁止しますか？"
+msgstr "受講者にこの講義の修了証の生成を禁止しますか？"
 
 #: lms/static/js/instructor_dashboard/certificates.js:44
 msgid "Start generating certificates for all students in this course?"
-msgstr "この講座の全受講者の修了証生成を開始しますか？"
+msgstr "この講義の全受講者の修了証生成を開始しますか？"
 
 #: lms/static/js/instructor_dashboard/certificates.js:59
 msgid "Error while generating certificates. Please try again."
@@ -3432,7 +3432,7 @@ msgstr "修了証生成中にエラーが発生しました。再試行してく
 
 #: lms/static/js/instructor_dashboard/certificates.js:68
 msgid "Start regenerating certificates for students in this course?"
-msgstr "この講座の受講者の修了証の再生成を開始しますか？"
+msgstr "この講義の受講者の修了証の再生成を開始しますか？"
 
 #: lms/static/js/instructor_dashboard/certificates.js:96
 msgid "Error while regenerating certificates. Please try again."
@@ -3680,17 +3680,17 @@ msgstr "次のユーザーは登録完了後に受講登録されます: "
 msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
-msgstr "メールが正常に送信されました。次のユーザーは講座に受講登録されていません: "
+msgstr "メールが正常に送信されました。次のユーザーは講義に受講登録されていません: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:829
 msgid "The following users are no longer enrolled in the course:"
-msgstr "次のユーザーは講座に受講登録されていません: "
+msgstr "次のユーザーは講義に受講登録されていません: "
 
 #: lms/static/js/instructor_dashboard/membership.js:840
 msgid ""
 "These users were not affiliated with the course so could not be unenrolled:"
-msgstr "次のユーザーは講座に参加していないため受講登録解除ができませんでした: "
+msgstr "次のユーザーは講義に参加していないため受講登録解除ができませんでした: "
 
 #: lms/static/js/instructor_dashboard/send_email.js:67
 msgid "Your message must have a subject."
@@ -3708,7 +3708,7 @@ msgstr "メッセージには少なくともひとつ宛先が必要です。"
 msgid ""
 "There are invalid keywords in your email. Check the following keywords and "
 "try again."
-msgstr "メールに無効なキーワードが含まれています。以下のキーワードを確認して再度実行してください。"
+msgstr "メールに無効なキーワードが含まれています。以下のキーワードを確認して再試行してください。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:84
 msgid "Yourself"
@@ -3716,11 +3716,11 @@ msgstr "あなた自身"
 
 #: lms/static/js/instructor_dashboard/send_email.js:86
 msgid "Everyone who has staff privileges in this course"
-msgstr "この講座のスタッフ権限をお持ちの方"
+msgstr "この講義のスタッフ権限をお持ちの方"
 
 #: lms/static/js/instructor_dashboard/send_email.js:88
 msgid "All learners who are enrolled in this course"
-msgstr "この講座の全受講登録者"
+msgstr "この講義の全受講登録者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:90
 msgid "All learners in the {cohort_name} cohort"
@@ -3735,7 +3735,7 @@ msgid ""
 "Your email message was successfully queued for sending. In courses with a "
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
-msgstr "あなたのメッセージが送信待ちリストに加えられました。受講者の多い講座では、メッセージが届くまでに１時間程度かかることがあります。"
+msgstr "あなたのメッセージが送信待ちリストに加えられました。受講者の多い講義では、メッセージが届くまでに１時間程度かかることがあります。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:99
 msgid ""
