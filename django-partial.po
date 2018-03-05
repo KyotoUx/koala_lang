@@ -132,7 +132,7 @@ msgstr "認証：保留中"
 
 #: common/djangoapps/course_modes/helpers.py:37
 msgid "ID verification pending"
-msgstr "ID認証保留中"
+msgstr "ID 認証保留中"
 
 #: common/djangoapps/course_modes/helpers.py:39
 msgid "You're enrolled as a verified student"
@@ -144,7 +144,7 @@ msgstr "認証付き"
 
 #: common/djangoapps/course_modes/helpers.py:42
 msgid "ID Verified Ribbon/Badge"
-msgstr "ID認証リボン／バッジ"
+msgstr "ID 認証リボン／バッジ"
 
 #: common/djangoapps/course_modes/helpers.py:44
 msgid "You're enrolled as an honor code student"
@@ -247,7 +247,7 @@ msgstr "講義モードが無効になる講義終了までの期間"
 #: common/djangoapps/course_modes/views.py:167
 #, python-brace-format
 msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "おめでとうございます！{course_name}に受講登録されました"
+msgstr "おめでとうございます！{course_name} に受講登録されました"
 
 #: common/djangoapps/course_modes/views.py:226
 msgid "Enrollment is closed"
@@ -403,12 +403,12 @@ msgstr "既存のグループです: \"{}\""
 #: common/djangoapps/student/management/commands/manage_group.py:71
 #, python-brace-format
 msgid "Adding {codenames} permissions to group \"{group}\""
-msgstr "\"{group}\"に{codenames}の権限を追加"
+msgstr "\"{group}\" に {codenames} の権限を追加"
 
 #: common/djangoapps/student/management/commands/manage_group.py:79
 #, python-brace-format
 msgid "Removing {codenames} permissions from group \"{group}\""
-msgstr "\"{group}\"から{codenames}の権限を削除"
+msgstr "\"{group}\" から {codenames} の権限を削除"
 
 #: common/djangoapps/student/management/commands/manage_group.py:98
 msgid ""
@@ -436,7 +436,7 @@ msgstr "指定されたものと登録されているメールアドレスが一
 
 #: common/djangoapps/student/management/commands/manage_user.py:67
 msgid "Did not find a user with username \"{}\" - skipping."
-msgstr "ユーザー名\"{}\"のユーザーが見つかりませんースキップします。"
+msgstr "ユーザー名 \"{}\" のユーザーが見つかりませんースキップします。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:70
 msgid "Removing user: \"{}\""
@@ -460,24 +460,24 @@ msgstr "ユーザーの新規プロフィール作成: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:126
 msgid "Could not find a group named \"{}\" - skipping."
-msgstr "\"{}\"という名称のグループが見つかりませんでした - スキップします。"
+msgstr "\"{}\" という名称のグループが見つかりませんでした - スキップします。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:133
 #, python-brace-format
 msgid "Adding user \"{username}\" to groups {group_names}"
-msgstr "\"{username}\"をグループ{group_names}に追加"
+msgstr "\"{username}\" をグループ{group_names}に追加"
 
 #: common/djangoapps/student/management/commands/manage_user.py:141
 #, python-brace-format
 msgid "Removing user \"{username}\" from groups {group_names}"
-msgstr "\"{username}\"をグループ{group_names}から削除"
+msgstr "\"{username}\" をグループ{group_names}から削除"
 
 #: common/djangoapps/student/middleware.py:28
 #, python-brace-format
 msgid ""
 "Your account has been disabled. If you believe this was done in error, "
 "please contact us at {support_email}"
-msgstr "このアカウントは無効です。エラーと思われる場合には、{support_email}へお問い合わせください"
+msgstr "このアカウントは無効です。エラーと思われる場合には、{support_email} へお問い合わせください"
 
 #: common/djangoapps/student/middleware.py:34
 msgid "Disabled Account"
@@ -537,18 +537,18 @@ msgstr "その他"
 #: common/djangoapps/student/models.py:2228
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr "{course_name}講義の{platform_name} Honor Code 修了証"
+msgstr "{course_name} 講義の {platform_name} Honor Code 修了証"
 
 #: common/djangoapps/student/models.py:2229
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr "{course_name}講義の{platform_name} 認証付き修了証"
+msgstr "{course_name} 講義の {platform_name} 認証付き修了証"
 
 #: common/djangoapps/student/models.py:2230
 #: common/djangoapps/student/models.py:2232
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr "{course_name}講義の{platform_name} Professional Certificate"
+msgstr "{course_name} 講義の {platform_name} Professional Certificate"
 
 #: common/djangoapps/student/models.py:2238
 msgid ""
@@ -566,7 +566,7 @@ msgstr "LinkedInパートナーがトラッキングコードで使用する短�
 #: common/djangoapps/student/models.py:2300
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
-msgstr "{course_name}講義の{platform_name}修了証"
+msgstr "{course_name} 講義の {platform_name} 修了証"
 
 #: common/djangoapps/student/models.py:2398
 #: common/djangoapps/student/models.py:2427
@@ -610,12 +610,12 @@ msgstr "このユーザーの属性の値。"
 #: common/djangoapps/student/views.py:834
 #, python-brace-format
 msgid "The course you are looking for does not start until {date}."
-msgstr "お探しの講義は{date}まで開講しません。"
+msgstr "お探しの講義は {date} まで開講しません。"
 
 #: common/djangoapps/student/views.py:838
 #, python-brace-format
 msgid "The course you are looking for is closed for enrollment as of {date}."
-msgstr "お探しの講義は{date}に受講申込受付を終了しています。"
+msgstr "お探しの講義は {date} に受講申込受付を終了しています。"
 
 #: common/djangoapps/student/views.py:930
 msgid "Photos are mismatched"
@@ -689,14 +689,14 @@ msgid ""
 "sent an activation link to <strong>{email}</strong>.  If you do not receive "
 "an email, check your spam folders or <a href=\"{support_url}\">contact "
 "{platform} Support</a>."
-msgstr "サインインするにはアカウントを有効化してください。<br /><br /><strong>{email}</strong>に有効化するリンクを送りました。メールが届かない場合は、迷惑メールフォルダを確認するか、<a href=\"{support_url}\">{platform}サポートへお問い合わせください</a>。"
+msgstr "サインインするにはアカウントを有効化してください。<br /><br /><strong>{email}</strong>に有効化するリンクを送りました。メールが届かない場合は、迷惑メールフォルダを確認するか、 <a href=\"{support_url}\"> {platform} サポートへお問い合わせください</a>。"
 
 #: common/djangoapps/student/views.py:1391
 #, python-brace-format
 msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
-msgstr "{provider_name}アカウントへのログインは成功しましたが、このアカウントはまだ{platform_name}アカウントに連動していません。"
+msgstr "{provider_name} アカウントへのログインは成功しましたが、このアカウントはまだ {platform_name} アカウントに連動していません。"
 
 #: common/djangoapps/student/views.py:1399
 #, python-brace-format
@@ -704,14 +704,14 @@ msgid ""
 "Use your {platform_name} username and password to log into {platform_name} "
 "below, and then link your {platform_name} account with {provider_name} from "
 "your dashboard."
-msgstr "{platform_name}のユーザー名とパスワードを用いて、{platform_name}にログインしてください。そして、ダッシュボードからあなたの{platform_name}アカウントを{provider_name}に連動させてください。"
+msgstr "{platform_name} のユーザー名とパスワードを用いて、{platform_name} にログインしてください。そして、ダッシュボードからあなたの {platform_name} アカウントを {provider_name} に連動させてください。"
 
 #: common/djangoapps/student/views.py:1407
 #, python-brace-format
 msgid ""
 "If you don't have an {platform_name} account yet, click "
 "<strong>Register</strong> at the top of the page."
-msgstr "{platform_name}アカウントをお持ちでない場合、ページ上部の<strong>登録</strong>をクリック！"
+msgstr "{platform_name} アカウントをお持ちでない場合、ページ上部の <strong>登録</strong> をクリック！"
 
 #: common/djangoapps/student/views.py:1421
 msgid "There was an error receiving your login information. Please email us."
@@ -748,15 +748,15 @@ msgstr "オプションを選択してください"
 
 #: common/djangoapps/student/views.py:1667
 msgid "User with username {} does not exist"
-msgstr "ユーザー名{}は存在しません"
+msgstr "ユーザー名 {} は存在しません"
 
 #: common/djangoapps/student/views.py:1675
 msgid "Successfully disabled {}'s account"
-msgstr "{}のアカウント無効化完了"
+msgstr " {} のアカウント無効化完了"
 
 #: common/djangoapps/student/views.py:1679
 msgid "Successfully reenabled {}'s account"
-msgstr "{}のアカウント再有効化完了"
+msgstr " {} のアカウント再有効化完了"
 
 #: common/djangoapps/student/views.py:1682
 msgid "Unexpected account status"
@@ -765,29 +765,29 @@ msgstr "予期せぬアカウントステータス"
 #: common/djangoapps/student/views.py:1777
 #, python-brace-format
 msgid "An account with the Public Username '{username}' already exists."
-msgstr "ユーザー名'{username}'のアカウントは既に存在しています。"
+msgstr "ユーザー名 '{username}' のアカウントは既に存在しています。"
 
 #: common/djangoapps/student/views.py:1782
 #, python-brace-format
 msgid "An account with the Email '{email}' already exists."
-msgstr "メール'{email}'のアカウントは既に存在しています。"
+msgstr "メール '{email}' のアカウントは既に存在しています。"
 
 #: common/djangoapps/student/views.py:1884
 #, python-brace-format
 msgid "Registration using {provider} has timed out."
-msgstr "{provider}を利用した登録は時間切れです。"
+msgstr " {provider} を利用した登録は時間切れです。"
 
 #: common/djangoapps/student/views.py:1953
 msgid "An access_token is required when passing value ({}) for provider."
-msgstr "access_tokenはプロバイダに値({})を渡す際に必要です。"
+msgstr "access_tokenはプロバイダに値 ({}) を渡す際に必要です。"
 
 #: common/djangoapps/student/views.py:1964
 msgid "The provided access_token is already associated with another user."
-msgstr "入力されたaccess_tokenは既に別のユーザーと連動しています。"
+msgstr "入力された access_token は既に別のユーザーと連動しています。"
 
 #: common/djangoapps/student/views.py:1966
 msgid "The provided access_token is not valid."
-msgstr "入力されたaccess_tokenは有効ではありません。"
+msgstr "入力された access_token は有効ではありません。"
 
 #: common/djangoapps/student/views.py:2180
 #: common/djangoapps/student/views.py:2306
@@ -802,7 +802,7 @@ msgid ""
 "{html_start}Your account could not be activated{html_end}Something went "
 "wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
 "issue."
-msgstr "{html_start}アカウントが有効化できませんでした。{html_end}問題が発生していますので、<a href=\"{support_url}\">サポートへお問い合わせください</a>。"
+msgstr "{html_start} アカウントが有効化できませんでした。 {html_end} 問題が発生していますので、<a href=\"{support_url}\"> サポートへお問い合わせください </a>。"
 
 #: common/djangoapps/student/views.py:2402
 #, python-brace-format
@@ -815,7 +815,7 @@ msgid ""
 "{html_start}Success! You have activated your account.{html_end}You will now "
 "receive email updates and alerts from us related to the courses you are "
 "enrolled in. Sign In to continue."
-msgstr "{html_start}完了！アカウントが有効化されました。{html_end}今後、受講登録した講義に関するアップデートや警告メールが届きます。続けるにはサインインしてください。"
+msgstr "{html_start} 完了！アカウントが有効化されました。{html_end} 今後、受講登録した講義に関するアップデートや警告メールが届きます。続けるにはサインインしてください。"
 
 #: common/djangoapps/student/views.py:2424
 #, python-brace-format
@@ -830,7 +830,7 @@ msgid ""
 msgid_plural ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct passwords before reusing a previous password."
-msgstr[0] "最近使用していたパスワードが再入力されています。以前と同じパスワードを使用するには、その前に別のパスワードを{num}回使用しなければいけません。"
+msgstr[0] "最近使用していたパスワードが再入力されています。以前と同じパスワードを使用するには、その前に別のパスワードを {num} 回使用しなければいけません。"
 
 #: common/djangoapps/student/views.py:2581
 #, python-brace-format
@@ -840,7 +840,7 @@ msgid ""
 msgid_plural ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "days must elapse between password resets."
-msgstr[0] "パスワードを頻繁に変更しすぎています。セキュリティポリシーではパスワード変更の間隔を{num}日間空ける必要があります。"
+msgstr[0] "パスワードを頻繁に変更しすぎています。セキュリティポリシーではパスワード変更の間隔を {num} 日間空ける必要があります。"
 
 #: common/djangoapps/student/views.py:2628
 msgid "Password reset unsuccessful"
@@ -877,13 +877,13 @@ msgstr "有効化するリンクを送信できません。後ほど再試行し
 
 #: common/djangoapps/third_party_auth/models.py:81
 msgid "Authentication with {} is currently unavailable."
-msgstr "{}の認証は現在できません。"
+msgstr "{} の認証は現在できません。"
 
 #: common/djangoapps/third_party_auth/models.py:114
 msgid ""
 "Secondary providers are displayed less prominently, in a separate list of "
 "\"Institution\" login providers."
-msgstr "\"機関\"ログインプロバイダのリスト内で、二次プロバイダはより目立たない表示となります。"
+msgstr "\"機関\" ログインプロバイダのリスト内で、二次プロバイダはより目立たない表示となります。"
 
 #: common/djangoapps/third_party_auth/models.py:123
 msgid "The Site that this provider configuration belongs to."
@@ -922,7 +922,7 @@ msgid ""
 "Whether to drop an existing session when accessing a view decorated with "
 "third_party_auth.decorators.tpa_hint_ends_existing_session when a tpa_hint "
 "URL query parameter mapping to this provider is included in the request."
-msgstr "本プロバイダへのtpa_hint URL 問合パラメータのマッピングがリクエストに含まれている場合、third_party_auth.decorators.tpa_hint_ends_existing_sessionで装飾されているビューにアクセスする際の既存セッションをドロップするかどうか。"
+msgstr "本プロバイダへの tpa_hint URL 問合パラメータのマッピングがリクエストに含まれている場合、third_party_auth.decorators.tpa_hint_ends_existing_session で装飾されているビューにアクセスする際の既存セッションをドロップするかどうか。"
 
 #: common/djangoapps/third_party_auth/models.py:171
 msgid ""
@@ -946,7 +946,7 @@ msgstr "このSAML設定が属しているサイト。"
 #: common/djangoapps/third_party_auth/models.py:579
 #, python-brace-format
 msgid "{platform_name} Support"
-msgstr "{platform_name}サポート"
+msgstr "{platform_name} サポート"
 
 #: common/djangoapps/third_party_auth/templates/third_party_auth/post_custom_auth_entry.html:5
 msgid "Please wait"
@@ -1117,7 +1117,7 @@ msgstr "日"
 #: common/djangoapps/util/date_utils.py:297
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr "１月"
+msgstr "1月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Feb 10, 2014". It is used for the %b
@@ -1125,7 +1125,7 @@ msgstr "１月"
 #: common/djangoapps/util/date_utils.py:301
 msgctxt "abbreviated month name"
 msgid "Feb"
-msgstr "２月"
+msgstr "2月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Mar 10, 2014". It is used for the %b
@@ -1133,7 +1133,7 @@ msgstr "２月"
 #: common/djangoapps/util/date_utils.py:305
 msgctxt "abbreviated month name"
 msgid "Mar"
-msgstr "３月"
+msgstr "3月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Apr 10, 2014". It is used for the %b
@@ -1141,7 +1141,7 @@ msgstr "３月"
 #: common/djangoapps/util/date_utils.py:309
 msgctxt "abbreviated month name"
 msgid "Apr"
-msgstr "４月"
+msgstr "4月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "May 10, 2014". It is used for the %b
@@ -1149,7 +1149,7 @@ msgstr "４月"
 #: common/djangoapps/util/date_utils.py:313
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr "５月"
+msgstr "5月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jun 10, 2014". It is used for the %b
@@ -1157,7 +1157,7 @@ msgstr "５月"
 #: common/djangoapps/util/date_utils.py:317
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr "６月"
+msgstr "6月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
@@ -1165,7 +1165,7 @@ msgstr "６月"
 #: common/djangoapps/util/date_utils.py:321
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr "７月"
+msgstr "7月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -1173,7 +1173,7 @@ msgstr "７月"
 #: common/djangoapps/util/date_utils.py:325
 msgctxt "abbreviated month name"
 msgid "Aug"
-msgstr "８月"
+msgstr "8月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Sep 10, 2014". It is used for the %b
@@ -1181,7 +1181,7 @@ msgstr "８月"
 #: common/djangoapps/util/date_utils.py:329
 msgctxt "abbreviated month name"
 msgid "Sep"
-msgstr "９月"
+msgstr "9月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Oct 10, 2014". It is used for the %b
@@ -1189,7 +1189,7 @@ msgstr "９月"
 #: common/djangoapps/util/date_utils.py:333
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr "１０月"
+msgstr "10月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Nov 10, 2014". It is used for the %b
@@ -1197,7 +1197,7 @@ msgstr "１０月"
 #: common/djangoapps/util/date_utils.py:337
 msgctxt "abbreviated month name"
 msgid "Nov"
-msgstr "１１月"
+msgstr "11月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Dec 10, 2014". It is used for the %b
@@ -1205,7 +1205,7 @@ msgstr "１１月"
 #: common/djangoapps/util/date_utils.py:341
 msgctxt "abbreviated month name"
 msgid "Dec"
-msgstr "１２月"
+msgstr "12月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "January 10, 2014". It is used for the %B directive in
@@ -1213,7 +1213,7 @@ msgstr "１２月"
 #: common/djangoapps/util/date_utils.py:348
 msgctxt "month name"
 msgid "January"
-msgstr "１月"
+msgstr "1月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "February 10, 2014". It is used for the %B directive in
@@ -1221,7 +1221,7 @@ msgstr "１月"
 #: common/djangoapps/util/date_utils.py:352
 msgctxt "month name"
 msgid "February"
-msgstr "２月"
+msgstr "2月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "March 10, 2014". It is used for the %B directive in
@@ -1229,7 +1229,7 @@ msgstr "２月"
 #: common/djangoapps/util/date_utils.py:356
 msgctxt "month name"
 msgid "March"
-msgstr "３月"
+msgstr "3月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "April 10, 2014". It is used for the %B directive in
@@ -1237,7 +1237,7 @@ msgstr "３月"
 #: common/djangoapps/util/date_utils.py:360
 msgctxt "month name"
 msgid "April"
-msgstr "４月"
+msgstr "4月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "May 10, 2014". It is used for the %B directive in
@@ -1245,7 +1245,7 @@ msgstr "４月"
 #: common/djangoapps/util/date_utils.py:364
 msgctxt "month name"
 msgid "May"
-msgstr "５月"
+msgstr "5月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "June 10, 2014". It is used for the %B directive in
@@ -1253,7 +1253,7 @@ msgstr "５月"
 #: common/djangoapps/util/date_utils.py:368
 msgctxt "month name"
 msgid "June"
-msgstr "６月"
+msgstr "6月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "July 10, 2014". It is used for the %B directive in
@@ -1261,7 +1261,7 @@ msgstr "６月"
 #: common/djangoapps/util/date_utils.py:372
 msgctxt "month name"
 msgid "July"
-msgstr "７月"
+msgstr "7月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "August 10, 2014". It is used for the %B directive in
@@ -1269,7 +1269,7 @@ msgstr "７月"
 #: common/djangoapps/util/date_utils.py:376
 msgctxt "month name"
 msgid "August"
-msgstr "８月"
+msgstr "8月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "September 10, 2014". It is used for the %B directive in
@@ -1277,7 +1277,7 @@ msgstr "８月"
 #: common/djangoapps/util/date_utils.py:380
 msgctxt "month name"
 msgid "September"
-msgstr "９月"
+msgstr "9月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "October 10, 2014". It is used for the %B directive in
@@ -1285,7 +1285,7 @@ msgstr "９月"
 #: common/djangoapps/util/date_utils.py:384
 msgctxt "month name"
 msgid "October"
-msgstr "１０月"
+msgstr "10月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "November 10, 2014". It is used for the %B directive in
@@ -1293,7 +1293,7 @@ msgstr "１０月"
 #: common/djangoapps/util/date_utils.py:388
 msgctxt "month name"
 msgid "November"
-msgstr "１１月"
+msgstr "11月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "December 10, 2014". It is used for the %B directive in
@@ -1301,7 +1301,7 @@ msgstr "１１月"
 #: common/djangoapps/util/date_utils.py:392
 msgctxt "month name"
 msgid "December"
-msgstr "１２月"
+msgstr "12月"
 
 #: common/djangoapps/util/file.py:61
 #, python-brace-format
@@ -1318,7 +1318,7 @@ msgstr "アップロード可能な最大サイズは{file_size}バイトです�
 #: common/djangoapps/util/milestones_helpers.py:56
 #, python-brace-format
 msgid "Course {course_id} requires {prerequisite_course_id}"
-msgstr "講義{course_id}には{prerequisite_course_id}が必要です"
+msgstr "講義 {course_id} には {prerequisite_course_id} が必要です"
 
 #: common/djangoapps/util/milestones_helpers.py:63
 #: openedx/core/lib/gating/api.py:181
@@ -1328,17 +1328,17 @@ msgstr "システムで定義されたマイルストーン"
 #: common/djangoapps/util/password_policy_validators.py:42
 #, python-brace-format
 msgid "Invalid Length ({0})"
-msgstr "無効な長さ({0})"
+msgstr "無効な長さ ({0})"
 
 #: common/djangoapps/util/password_policy_validators.py:49
 #, python-brace-format
 msgid "must be {0} characters or more"
-msgstr "{0}文字以上でなければいけません"
+msgstr "{0} 文字以上でなければいけません"
 
 #: common/djangoapps/util/password_policy_validators.py:51
 #, python-brace-format
 msgid "must be {0} characters or fewer"
-msgstr "{0}文字以下でなければいけません"
+msgstr "{0} 文字以下でなければいけません"
 
 #: common/djangoapps/util/password_policy_validators.py:58
 #, python-brace-format
@@ -1348,32 +1348,32 @@ msgstr "より複雑なものにしてください ({0})"
 #: common/djangoapps/util/password_policy_validators.py:84
 #, python-brace-format
 msgid "must contain {0} or more uppercase characters"
-msgstr "大文字を{0}文字以上含めてください"
+msgstr "大文字を {0} 文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:86
 #, python-brace-format
 msgid "must contain {0} or more lowercase characters"
-msgstr "小文字を{0}文字以上含めてください"
+msgstr "小文字を {0} 文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:88
 #, python-brace-format
 msgid "must contain {0} or more digits"
-msgstr "{0}桁以上にしてください"
+msgstr "{0} 桁以上にしてください"
 
 #: common/djangoapps/util/password_policy_validators.py:90
 #, python-brace-format
 msgid "must contain {0} or more punctuation characters"
-msgstr "句読点を{0}個以上含めてください"
+msgstr "句読点を {0} 個以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:92
 #, python-brace-format
 msgid "must contain {0} or more non ascii characters"
-msgstr "ASCII文字以外を{0}文字以上含めてください"
+msgstr "ASCII文字以外を {0} 文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:94
 #, python-brace-format
 msgid "must contain {0} or more unique words"
-msgstr "ユニークワードを{0}個以上含めてください"
+msgstr "ユニークワードを {0} 個以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:111
 msgid "Too similar to a restricted dictionary word."
@@ -1384,7 +1384,7 @@ msgid ""
 "To disable the XBlock and prevent rendering in the LMS, leave \"Enabled\" "
 "deselected; for clarity, update XBlockStudioConfiguration support state "
 "accordingly."
-msgstr "XBlockを無効にし、LMSでのレンダリングを避けるには、\"有効化\"を未選択にしてください。XBlockStudioConfiguration サポート状況を適宜アップデートしてください。"
+msgstr "XBlockを無効にし、LMSでのレンダリングを避けるには、\"有効化\" を未選択にしてください。XBlockStudioConfiguration サポート状況を適宜アップデートしてください。"
 
 #: common/djangoapps/xblock_django/admin.py:26
 msgid ""
@@ -1508,7 +1508,7 @@ msgstr "解答受取済。"
 #: common/lib/capa/capa/inputtypes.py:542
 #, python-brace-format
 msgid "Expected a <choice> or <compoundhint> tag; got {given_tag} instead"
-msgstr "<choice>または<compoundhint>タグが期待されていましたが、{given_tag}を取得しました"
+msgstr "<choice> または <compoundhint> タグが期待されていましたが、{given_tag} を取得しました"
 
 #: common/lib/capa/capa/inputtypes.py:725
 msgid ""
@@ -1525,7 +1525,7 @@ msgstr "解答を提出しました。採点が完了次第、採点者からの
 #: common/lib/capa/capa/inputtypes.py:810
 #, python-brace-format
 msgid "{programming_language} editor"
-msgstr "{programming_language}エディタ"
+msgstr "{programming_language} エディタ"
 
 #: common/lib/capa/capa/inputtypes.py:813
 msgid "Press ESC then TAB or click outside of the code editor to exit"
@@ -1540,7 +1540,7 @@ msgstr "提出済。応答があり次第、フィードバックが届きます
 #: common/lib/capa/capa/inputtypes.py:866
 #, python-brace-format
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
-msgstr "{xqueue_timeout}秒間、Xqueueからの応答がありません。中断します。"
+msgstr "{xqueue_timeout} 秒間、Xqueueからの応答がありません。中断します。"
 
 #: common/lib/capa/capa/inputtypes.py:931
 msgid "Error running code."
@@ -1578,7 +1578,7 @@ msgstr "{input_type}: 予期せぬタグ {tag_name}"
 #: common/lib/capa/capa/inputtypes.py:1785
 #, python-brace-format
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr " {expected_tag}タグが期待されていましたが、{given_tag}を取得しました"
+msgstr " {expected_tag} タグが期待されていましたが、{given_tag} を取得しました"
 
 #. Translators: index here could be 1,2,3 and so on
 #: common/lib/capa/capa/responsetypes.py:264
@@ -1601,7 +1601,7 @@ msgstr "解答"
 #: common/lib/capa/capa/responsetypes.py:493
 #, python-brace-format
 msgid "Error {err} in evaluating hint function {hintfn}."
-msgstr "ヒント機能{hintfn}にエラー{err}があります。 "
+msgstr "ヒント機能 {hintfn} にエラー {err} があります。 "
 
 #: common/lib/capa/capa/responsetypes.py:494
 msgid "(Source code line unavailable)"
@@ -1610,7 +1610,7 @@ msgstr "(ソースコード行がありません)"
 #: common/lib/capa/capa/responsetypes.py:495
 #, python-brace-format
 msgid "See XML source line {sourcenum}."
-msgstr "XMLソースライン{sourcenum}を見てください。"
+msgstr "XMLソースライン {sourcenum} を見てください。"
 
 #: common/lib/capa/capa/responsetypes.py:665
 msgid "Checkboxes"
@@ -1635,7 +1635,7 @@ msgstr "answer-poolの値は整数でなければいけません"
 #. Translators: 'Choicegroup' is an input type and should not be translated.
 #: common/lib/capa/capa/responsetypes.py:1370
 msgid "Choicegroup must include at least 1 correct and 1 incorrect choice"
-msgstr "choicegroupには少なくとも正解と不正解が１つ以上必要です"
+msgstr "choicegroup には少なくとも正解と不正解が１つ以上必要です"
 
 #: common/lib/capa/capa/responsetypes.py:1394
 msgid "True/False Choice"
@@ -1662,7 +1662,7 @@ msgstr " '{student_answer}'を数字として読み取れませんでした。"
 #: common/lib/capa/capa/responsetypes.py:1605
 #, python-brace-format
 msgid "You may not use variables ({bad_variables}) in numerical problems."
-msgstr "変数({bad_variables})は数の問題では使用できません。"
+msgstr "変数 ({bad_variables}) は数の問題では使用できません。"
 
 #: common/lib/capa/capa/responsetypes.py:1616
 #, python-brace-format
@@ -1719,7 +1719,7 @@ msgstr "カスタム評価スクリプト"
 #: common/lib/capa/capa/responsetypes.py:2186
 #, python-brace-format
 msgid "error getting student answer from {student_answers}"
-msgstr "{student_answers}から受講者の解答を取得する際のエラー"
+msgstr "{student_answers} から受講者の解答を取得する際のエラー"
 
 #: common/lib/capa/capa/responsetypes.py:2210
 msgid "No answer entered!"
@@ -1787,12 +1787,12 @@ msgstr "この問題の解答には認められていない階乗機能です。
 #: common/lib/capa/capa/responsetypes.py:3133
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula."
-msgstr "無効な入力: '{bad_input}'は式として解析できませんでした。"
+msgstr "無効な入力: '{bad_input}' は式として解析できませんでした。"
 
 #: common/lib/capa/capa/responsetypes.py:3141
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula"
-msgstr "無効な入力: '{bad_input}'は式として解析できませんでした"
+msgstr "無効な入力: '{bad_input}' は式として解析できませんでした"
 
 #: common/lib/capa/capa/responsetypes.py:3249
 msgid "Circuit Schematic Builder"
@@ -1831,7 +1831,7 @@ msgstr "テキスト入力付きのチェックボックス"
 #: common/lib/capa/capa/responsetypes.py:3626
 #, python-brace-format
 msgid "Answer not provided for {input_type}"
-msgstr "{input_type}でない解答"
+msgstr "{input_type} でない解答"
 
 #: common/lib/capa/capa/responsetypes.py:3872
 msgid "The Staff answer could not be interpreted as a number."
@@ -1840,7 +1840,7 @@ msgstr "スタッフの解答が数字として読み取れませんでした。
 #: common/lib/capa/capa/responsetypes.py:3886
 #, python-brace-format
 msgid "Could not interpret '{given_answer}' as a number."
-msgstr "'{given_answer}'を数字として読み取れませんでした。"
+msgstr "'{given_answer}' を数字として読み取れませんでした。"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py:20
 #: common/lib/xmodule/xmodule/imageannotation_module.py:24
@@ -1981,7 +1981,7 @@ msgstr "ランダム化"
 msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
-msgstr "Pythonスクリプトで指定した変数をいつランダム化するかを設定します。変数をランダム化しない問題の場合は、\"なし\"と指定します。"
+msgstr "Pythonスクリプトで指定した変数をいつランダム化するかを設定します。変数をランダム化しない問題の場合は、\"なし\" と指定します。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:173
 msgid "On Reset"
@@ -2117,13 +2117,13 @@ msgstr "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li
 #: common/lib/xmodule/xmodule/capa_base.py:648
 #, python-brace-format
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr "ヒント ({hints_count}個中{hint_num}番目): "
+msgstr "ヒント ({hints_count} 個中 {hint_num} 番目): "
 
 #: common/lib/xmodule/xmodule/capa_base.py:718
 #, python-brace-format
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
-msgstr "解答は既に保存されています。採点するには'{button_name}'をクリックしてください。"
+msgstr "解答は既に保存されています。採点するには '{button_name}' をクリックしてください。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:795
 #, python-brace-format
@@ -2172,25 +2172,25 @@ msgstr " {wait} 秒以上待ってから提出してください。"
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
-msgstr "少なくとも{wait_secs}秒お待ちいただいてから提出してください。残り{remaining_secs}秒。"
+msgstr "少なくとも {wait_secs} 秒お待ちいただいてから提出してください。残り {remaining_secs}秒。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1369
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] "{num_hour}時間"
+msgstr[0] "{num_hour} 時間"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1374
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
-msgstr[0] "{num_minute}分"
+msgstr[0] "{num_minute} 分"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1380
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] "{num_second}秒"
+msgstr[0] "{num_second} 秒"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1500
 msgid "Problem needs to be reset prior to save."
@@ -2295,7 +2295,7 @@ msgstr "条件付きモジュールのコンテンツを表示する条件すべ
 #: common/lib/xmodule/xmodule/conditional_module.py:74
 #, python-brace-format
 msgid "You must complete {link} before you can access this unit."
-msgstr "このユニットにアクセスできるようになるには、まず{link}を完了しなければなりません。"
+msgstr "このユニットにアクセスできるようになるには、まず {link} を完了しなければなりません。"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:359
 msgid "This component has no source components configured yet."
@@ -2313,7 +2313,7 @@ msgstr "LTIパスポート"
 msgid ""
 "Enter the passports for course LTI tools in the following format: "
 "\"id:client_key:client_secret\"."
-msgstr "講義のLTIツールのパスポートを次のフォーマットで入力してください：\"id:client_key:client_secret\"。"
+msgstr "講義のLTIツールのパスポートを次のフォーマットで入力してください: \"id:client_key:client_secret\"。"
 
 #: common/lib/xmodule/xmodule/course_module.py:177
 msgid ""
@@ -2415,7 +2415,7 @@ msgstr "アンケート調査URL"
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
-msgstr "講義終了時アンケート調査のURLを入力してください。調査をしない場合にはnullと入力してください。"
+msgstr "講義終了時アンケート調査のURLを入力してください。調査をしない場合には null と入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:283
 msgid "Discussion Blackout Dates"
@@ -2432,7 +2432,7 @@ msgid ""
 " two blackout periods looks like this, including the outer pair of square "
 "brackets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
 "\"2015-10-08\"]] "
-msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時間も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"]という形式で入力します。日付と時間の間に\"T\"がある点に注意してください。２回以上の停止期間を設ける場合は次のように入力してください： [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
+msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時間も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"] という形式で入力します。日付と時間の間に\"T\"がある点に注意してください。２回以上の停止期間を設ける場合は次のように入力してください： [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
 
 #: common/lib/xmodule/xmodule/course_module.py:295
 msgid "Discussion Topic Mapping"
@@ -2449,7 +2449,7 @@ msgid ""
 "category as the default for new posts in the Discussion page by setting its "
 "\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": \"i4x-"
 "UniversityX-MUS101-course-2015_T1\", \"default\": true}."
-msgstr "ディスカッションカテゴリーを以下の形式で入力してください: \"カテゴリー名\": {\"id\": \"i4x-機関名-講義番号-course-CourseRun\"}。例えば、あるディスカッションカテゴリーは \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\"の値は各カテゴリー固有でなければならず、使用できる記号はアンダースコア、ハイフン、ピリオドのみです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+msgstr "ディスカッションカテゴリーを以下の形式で入力してください: \"カテゴリー名\": {\"id\": \"i4x-機関名-講義番号-course-CourseRun\"}。例えば、あるディスカッションカテゴリーは \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\" の値は各カテゴリー固有でなければならず、使用できる記号はアンダースコア、ハイフン、ピリオドのみです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 
 #: common/lib/xmodule/xmodule/course_module.py:309
 msgid "Discussion Sorting Alphabetical"
@@ -2532,7 +2532,7 @@ msgstr "PDF教科書"
 
 #: common/lib/xmodule/xmodule/course_module.py:362
 msgid "List of dictionaries containing pdf_textbook configuration"
-msgstr "pdf_textbook設定を含むディクショナリ一覧"
+msgstr "pdf_textbook 設定を含むディクショナリ一覧"
 
 #: common/lib/xmodule/xmodule/course_module.py:365
 msgid "HTML Textbooks"
@@ -2553,7 +2553,7 @@ msgstr "外部成績表"
 msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
-msgstr "外部成績表マッピングを入力してください。REMOTE_GRADEBOOK_URLが指定された時のみ、この設定を使用します。"
+msgstr "外部成績表マッピングを入力してください。REMOTE_GRADEBOOK_URL が指定された時のみ、この設定を使用します。"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -2637,7 +2637,7 @@ msgstr "講義ハンドアウト"
 msgid ""
 "True if timezones should be shown on dates in the course. Deprecated in "
 "favor of due_date_display_format."
-msgstr "講義内でタイムゾーンを表示する場合、trueにします。due_date_display_format推奨。"
+msgstr "講義内でタイムゾーンを表示する場合、trueにします。due_date_display_format 推奨。"
 
 #: common/lib/xmodule/xmodule/course_module.py:440
 msgid "Due Date Display Format"
@@ -2648,7 +2648,7 @@ msgid ""
 "Enter the format for due dates. The default is Mon DD, YYYY. Enter "
 "\"%m-%d-%Y\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for "
 "YYYY-MM-DD, or \"%Y-%d-%m\" for YYYY-DD-MM."
-msgstr "締切表示フォーマットを入力してください。 デフォルトは Mon DD, YYYY です。MM-DD-YYYY は\"%m-%d-%Y\"、DD-MM-YYYY は \"%d-%m-%Y\"、YYYY-MM-DDは\"%Y-%m-%d\"、YYYY-DD-MMは\"%Y-%d-%m\"と入力してください。"
+msgstr "締切表示フォーマットを入力してください。 デフォルトは Mon DD, YYYY です。MM-DD-YYYY は\"%m-%d-%Y\"、DD-MM-YYYY は \"%d-%m-%Y\"、YYYY-MM-DDは\"%Y-%m-%d\"、YYYY-DD-MMは\"%Y-%d-%m\" と入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:448
 msgid "External Login Domain"
@@ -2682,7 +2682,7 @@ msgid ""
 "to all students as soon as certificates are generated, enter "
 "early_with_info. To display only the links to passing students as soon as "
 "certificates are generated, enter early_no_info."
-msgstr "'end'、'early_with_info'、'early_no_info'のいずれかを入力してください。修了証が発行されると、合格した受講者はダッシュボードで修了証へのリンクを、不合格の受講者は採点に関する情報を確認できます。デフォルトは'end'で、閉講後にこの情報が表示されます。修了証が発行されてすぐに全受講者に情報を表示するには'early_with_info'と入力してください。合格した受講者にのみリンクを表示するには'early_no_info'と入力してください。"
+msgstr "'end'、'early_with_info'、'early_no_info' のいずれかを入力してください。修了証が発行されると、合格した受講者はダッシュボードで修了証へのリンクを、不合格の受講者は採点に関する情報を確認できます。デフォルトは'end'で、閉講後にこの情報が表示されます。修了証が発行されてすぐに全受講者に情報を表示するには 'early_with_info' と入力してください。合格した受講者にのみリンクを表示するには 'early_no_info' と入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:477
 msgid "Course About Page Image"
@@ -2968,7 +2968,7 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr "波括弧内にチームの最大人数およびトピックを入力してください。波括弧の次にコンマを入力して角括弧内にトピックをすべて入力した後、もう一つコンマを入力してください。例えば、最大5名の参加者のチームで2つのトピックのリストを入力する場合は、以下の形式で入力してください: {example_format}。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドのみです。"
+msgstr "波括弧内にチームの最大人数およびトピックを入力してください。波括弧の次にコンマを入力して角括弧内にトピックをすべて入力した後、もう一つコンマを入力してください。例えば、最大5名の参加者のチームで2つのトピックのリストを入力する場合は、以下の形式で入力してください: {example_format} 。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドのみです。"
 
 #: common/lib/xmodule/xmodule/course_module.py:748
 msgid "Enable Proctored Exams"
@@ -3035,7 +3035,7 @@ msgid ""
 "Set this to \"true\" to mark this course as self-paced. Self-paced courses "
 "do not have due dates for assignments, and students can progress through the"
 " course at any rate before the course ends."
-msgstr "これを\"true\"と設定すると、本講義はSelf Pacedと表示されます。Self Paced 講義では課題の締切日はなく、受講者は講義終了日まで好きなペースで学習を進めることができます。"
+msgstr "これを\"true\" と設定すると、本講義はSelf Pacedと表示されます。Self Paced 講義では課題の締切日はなく、受講者は講義終了日まで好きなペースで学習を進めることができます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:809
 msgid "Bypass Course Home"
@@ -3274,7 +3274,7 @@ msgstr "問題タイプ"
 msgid ""
 "Choose a problem type to fetch from the library. If \"Any Type\" is selected"
 " no filtering is applied."
-msgstr "ライブラリから取得する問題タイプを選んでください。\"全タイプ\"を選択するとフィルタリングは適用されません。"
+msgstr "ライブラリから取得する問題タイプを選んでください。\"全タイプ\" を選択するとフィルタリングは適用されません。"
 
 #: common/lib/xmodule/xmodule/library_content_module.py:472
 msgid "This component is out of date. The library has new content."
@@ -3321,13 +3321,13 @@ msgstr "別の問題タイプを選択してください。"
 #, python-brace-format
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] "指定されたライブラリは{count}個の問題を取得するよう設定されています。"
+msgstr[0] "指定されたライブラリは {count} 個の問題を取得するよう設定されています。"
 
 #: common/lib/xmodule/xmodule/library_content_module.py:558
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] "しかし{actual}個しか合致する問題がありません。"
+msgstr[0] "しかし {actual} 個しか合致する問題がありません。"
 
 #: common/lib/xmodule/xmodule/library_content_module.py:564
 msgid "Edit the library configuration."
@@ -3366,7 +3366,7 @@ msgid ""
 " LTI ID that you entered in the LTI Passports setting on the Advanced "
 "Settings page.<br />See {docs_anchor_open}the edX LTI "
 "documentation{anchor_close} for more details on this setting."
-msgstr "外部LTIプロバイダ用のLTI IDを入力してください。この値は詳細設定ページのLTIパスポートに入力されたものと同じである必要があります。<br />詳細は{docs_anchor_open}edX LTIドキュメント{anchor_close}を参照してください。"
+msgstr "外部LTIプロバイダ用のLTI IDを入力してください。この値は詳細設定ページのLTIパスポートに入力されたものと同じである必要があります。<br />詳細は {docs_anchor_open} edX LTIドキュメント {anchor_close} を参照してください。"
 
 #: common/lib/xmodule/xmodule/lti_module.py:134
 msgid "LTI URL"
@@ -3379,7 +3379,7 @@ msgid ""
 "setting is only used when Hide External Tool is set to False.<br />See "
 "{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
 "on this setting."
-msgstr "本コンポーネントが起動する外部ツールのURLを入力してください。この設定は外部ツール非表示設定をFalseにした時のみ使用されます。<br />詳細は{docs_anchor_open}edX LTIドキュメント{anchor_close}を参照してください。"
+msgstr "本コンポーネントが起動する外部ツールのURLを入力してください。この設定は外部ツール非表示設定をFalseにした時のみ使用されます。<br />詳細は {docs_anchor_open} edX LTIドキュメント {anchor_close} を参照してください。"
 
 #: common/lib/xmodule/xmodule/lti_module.py:146
 msgid "Custom Parameters"
@@ -3392,7 +3392,7 @@ msgid ""
 "e-book should open to or the background color for this component.<br />See "
 "{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
 "on this setting."
-msgstr "カスタムパラメータ用のキー／値のペアを入力してください。パラメータの例としては、e-bookで開くページや、本コンポーネントの背景色などがあります。<br />詳細は{docs_anchor_open}edX LTIドキュメント{anchor_close}を参照してください。"
+msgstr "カスタムパラメータ用のキー／値のペアを入力してください。パラメータの例としては、e-bookで開くページや、本コンポーネントの背景色などがあります。<br />詳細は {docs_anchor_open} edX LTIドキュメント {anchor_close} を参照してください。"
 
 #: common/lib/xmodule/xmodule/lti_module.py:157
 msgid "Open in New Page"
@@ -3567,7 +3567,7 @@ msgid ""
 "Specify when the Show Answer button appears for each problem. Valid values "
 "are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
 "\"past_due\", \"correct_or_past_due\", and \"never\"."
-msgstr "'解答を見る'ボタンが各問題にいつ表示されるか指定してください。有効値は \"always\"、\"answered\"、\"attempted\"、\"closed\"、\"finished\"、\"past_due\"、\"correct_or_past_due\"、そして\"never\"です。"
+msgstr "'解答を見る'ボタンが各問題にいつ表示されるか指定してください。有効値は \"always\"、\"answered\"、\"attempted\"、\"closed\"、\"finished\"、\"past_due\"、\"correct_or_past_due\"、そして \"never\" です。"
 
 #. Translators: DO NOT translate the words in quotes here, they are
 #. specific words for the acceptable values.
@@ -3575,7 +3575,7 @@ msgstr "'解答を見る'ボタンが各問題にいつ表示されるか指定�
 msgid ""
 "Specify when to show answer correctness and score to learners. Valid values "
 "are \"always\", \"never\", and \"past_due\"."
-msgstr "解答の正確さおよび点数をいつ受講者に表示するか指定してください。有効な値は\"always\"、\"never\"、そして\"past_due\"です。"
+msgstr "解答の正確さおよび点数をいつ受講者に表示するか指定してください。有効な値は\"always\"、\"never\"、そして \"past_due\" です。"
 
 #. Translators: DO NOT translate the words in quotes here, they are
 #. specific words for the acceptable values.
@@ -3636,7 +3636,7 @@ msgid ""
 "MathWorks immediately if you believe the key is exposed or compromised. To "
 "obtain a key for your course, or to report an issue, please contact "
 "moocsupport@mathworks.com"
-msgstr "MATLABのホスティングサービスにアクセスするため、MathWorks社から提供されたAPIキーを入力します。このキーは本講義の期間中のみ限定的に利用できるものです。他の講義とAPIキーを共有しないでください。このキーが漏れたり毀損されたと考えられる場合には、すぐにMathWorks社へお知らせください。あなたの講義でキーを入手したい場合もしくは問題を報告する場合は、moocsupport@mathworks.comへご連絡ください。"
+msgstr "MATLABのホスティングサービスにアクセスするため、MathWorks社から提供されたAPIキーを入力します。このキーは本講義の期間中のみ限定的に利用できるものです。他の講義とAPIキーを共有しないでください。このキーが漏れたり毀損されたと考えられる場合には、すぐにMathWorks社へお知らせください。あなたの講義でキーを入手したい場合もしくは問題を報告する場合は、moocsupport@mathworks.com へご連絡ください。"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:164
 msgid "Group Configurations"
@@ -3943,7 +3943,7 @@ msgstr "ソース／引用"
 msgid ""
 "Optional for citing source of any material used. Automatic citation can be "
 "done using <a href=\"http://easybib.com\">EasyBib</a>"
-msgstr "使用教材のソースの引用に関するオプション。自動引用は<a href=\"http://easybib.com\">EasyBib</a>を使って行うことができます。"
+msgstr "使用教材のソースの引用に関するオプション。自動引用は <a href=\"http://easybib.com\">EasyBib</a> を使って行うことができます。"
 
 #: common/lib/xmodule/xmodule/textannotation_module.py:55
 msgid "Diacritic Marks"
@@ -3960,7 +3960,7 @@ msgstr "コンマ区切りのフォームを使用してテキストに付加記
 msgid ""
 "Can't receive transcripts from Youtube for {youtube_id}. Status code: "
 "{status_code}."
-msgstr "{youtube_id}の字幕を受け取ることができません。ステータスコード: {status_code}"
+msgstr "{youtube_id} の字幕を受け取ることができません。ステータスコード: {status_code}"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py:224
 msgid "We support only SubRip (*.srt) transcripts format."
@@ -3995,7 +3995,7 @@ msgstr "基本"
 msgid "There is no transcript file associated with the {lang} language."
 msgid_plural ""
 "There are no transcript files associated with the {lang} languages."
-msgstr[0] "{lang}に関する字幕ファイルはありません。"
+msgstr[0] " {lang} に関する字幕ファイルはありません。"
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py:734
 msgid ""
@@ -4180,7 +4180,7 @@ msgstr "SubRip (.srt) ファイル"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:138
 msgid "Text (.txt) file"
-msgstr "Text (.txt)ファイル"
+msgstr "Text (.txt) ファイル"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:143
 msgid "The last speed that the user specified for the video."
@@ -4308,12 +4308,12 @@ msgstr "ワードクラウド用のトップワード"
 msgid ""
 "Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
 "{end_date})"
-msgstr "講義\"{course_name}\" ({course_mode}, {start_date} - {end_date}) を修了"
+msgstr "講義 \"{course_name}\" ({course_mode}, {start_date} - {end_date}) を修了"
 
 #: lms/djangoapps/badges/events/course_complete.py:49
 #, python-brace-format
 msgid "Completed the course \"{course_name}\" ({course_mode})"
-msgstr "講義\"{course_name}\" ({course_mode}) を修了"
+msgstr "講義 \"{course_name}\" ({course_mode}) を修了"
 
 #: lms/djangoapps/badges/models.py:28
 msgid "The badge image must be square."
@@ -4352,14 +4352,14 @@ msgid ""
 "On each line, put the number of completed courses to award a badge for, a "
 "comma, and the slug of a badge class you have created that has the issuing "
 "component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr "各行にバッジを授与した修了講義数、コンマ、発行コンポーネント 'openedx__course'のあなたが作成したバッジクラスのスラグを入れてください。例: 3,enrolled_3_courses"
+msgstr "各行にバッジを授与した修了講義数、コンマ、発行コンポーネント 'openedx__course' のあなたが作成したバッジクラスのスラグを入れてください。例: 3,enrolled_3_courses"
 
 #: lms/djangoapps/badges/models.py:244
 msgid ""
 "On each line, put the number of enrolled courses to award a badge for, a "
 "comma, and the slug of a badge class you have created that has the issuing "
 "component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr "各行にバッジを授与した登録講義数、コンマ、発行コンポーネント 'openedx__course'のあなたが作成したバッジクラスのスラグを入力してください。例: 3,enrolled_3_courses"
+msgstr "各行にバッジを授与した登録講義数、コンマ、発行コンポーネント 'openedx__course' のあなたが作成したバッジクラスのスラグを入力してください。例: 3,enrolled_3_courses"
 
 #: lms/djangoapps/badges/models.py:252
 msgid ""
@@ -4368,7 +4368,7 @@ msgid ""
 "'openedx__course'. The remaining items in each line are the course keys the "
 "learner needs to complete to be awarded the badge. For example: "
 "slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
-msgstr "各行はコンマで区切られたリストになっています。各行の最初の項目が、発行コンポーネント'openedx__course'のあなたが作成したバッジクラスのスラグです。残りの項目はバッジが授与されるために受講者が修了する必要のある講義キーです。例: slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
+msgstr "各行はコンマで区切られたリストになっています。各行の最初の項目が、発行コンポーネント 'openedx__course' のあなたが作成したバッジクラスのスラグです。残りの項目はバッジが授与されるために受講者が修了する必要のある講義キーです。例: slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
 
 #: lms/djangoapps/badges/models.py:297
 msgid "Please check the syntax of your entry."
@@ -4455,12 +4455,12 @@ msgstr "利用規約"
 #: lms/djangoapps/branding/api.py:241
 #, python-brace-format
 msgid "Download the {platform_name} mobile app from the Apple App Store"
-msgstr "{platform_name}モバイルアプリをApple App Storeからダウンロード"
+msgstr "{platform_name} モバイルアプリをApple App Storeからダウンロード"
 
 #: lms/djangoapps/branding/api.py:249
 #, python-brace-format
 msgid "Download the {platform_name} mobile app from Google Play"
-msgstr "{platform_name}モバイルアプリをGoogle Playからダウンロード"
+msgstr "{platform_name} モバイルアプリをGoogle Playからダウンロード"
 
 #. Translators: Bulk email from address e.g. ("Physics 101" Course Staff)
 #: lms/djangoapps/bulk_email/tasks.py:385
@@ -4481,7 +4481,7 @@ msgstr "CCXは外部サービスを通して本講義に作成することがで
 #: lms/djangoapps/ccx/utils.py:250
 #, python-brace-format
 msgid "The course is full: the limit is {max_student_enrollments_allowed}"
-msgstr "本講義は定員に達しています：定員{max_student_enrollments_allowed}名"
+msgstr "本講義は定員に達しています：定員 {max_student_enrollments_allowed} 名"
 
 #: lms/djangoapps/ccx/views.py:100
 msgid "You must be a CCX Coach to access this view."
@@ -4534,7 +4534,7 @@ msgstr "例外"
 msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
-msgstr "人が判読できる修了証例の説明。例えば、修了証タイプを区別する\"認証付き\"または\"Honor\"。"
+msgstr "人が判読できる修了証例の説明。例えば、修了証タイプを区別する \"認証付き\"または\"Honor\"。"
 
 #: lms/djangoapps/certificates/models.py:722
 msgid ""
@@ -4615,39 +4615,39 @@ msgstr "ユーザーが入力されていません。"
 #: lms/djangoapps/certificates/views/support.py:91
 #, python-brace-format
 msgid "user '{user}' does not exist"
-msgstr "ユーザー'{user}'は存在しません。"
+msgstr "ユーザー '{user}' は存在しません。"
 
 #: lms/djangoapps/certificates/views/support.py:105
 #, python-brace-format
 msgid "Course id '{course_id}' is not valid"
-msgstr "講義ID'{course_id}'は無効です"
+msgstr "講義ID '{course_id}' は無効です"
 
 #: lms/djangoapps/certificates/views/support.py:114
 #, python-brace-format
 msgid "The course does not exist against the given key '{course_key}'"
-msgstr "ご指定の'{course_key}'には講義が存在しません。"
+msgstr "ご指定の '{course_key}' には講義が存在しません。"
 
 #: lms/djangoapps/certificates/views/support.py:135
 #, python-brace-format
 msgid "User {username} does not exist"
-msgstr "ユーザー{username}は存在しません"
+msgstr "ユーザー {username} は存在しません"
 
 #: lms/djangoapps/certificates/views/support.py:142
 #, python-brace-format
 msgid "{course_key} is not a valid course key"
-msgstr "{course_key}は有効な講義キーではありません"
+msgstr "{course_key} は有効な講義キーではありません"
 
 #: lms/djangoapps/certificates/views/support.py:181
 #: lms/djangoapps/certificates/views/support.py:249
 #, python-brace-format
 msgid "The course {course_key} does not exist"
-msgstr "{course_key}の講義は存在しません"
+msgstr "{course_key} の講義は存在しません"
 
 #: lms/djangoapps/certificates/views/support.py:186
 #: lms/djangoapps/certificates/views/support.py:254
 #, python-brace-format
 msgid "User {username} is not enrolled in the course {course_key}"
-msgstr "ユーザー{username}は、{course_key}講義に受講登録していません"
+msgstr "ユーザー {username} は、{course_key} 講義に受講登録していません"
 
 #: lms/djangoapps/certificates/views/support.py:204
 msgid "An unexpected error occurred while regenerating certificates."
@@ -4660,7 +4660,7 @@ msgid ""
 "An {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
-msgstr "{cert_type}修了証は、受講者が{platform_name}のHonor Codeに従うことに同意し、そのガイドラインのもと本講義に必要なタスクをすべて完了したことを表します。"
+msgstr "{cert_type} 修了証は、受講者が {platform_name} のHonor Codeに従うことに同意し、そのガイドラインのもと本講義に必要なタスクをすべて完了したことを表します。"
 
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
@@ -4674,7 +4674,7 @@ msgid ""
 "required tasks for this course under its guidelines. A {cert_type} "
 "certificate also indicates that the identity of the learner has been checked"
 " and is valid."
-msgstr "{cert_type}修了証は、受講者が{platform_name}のHonor Codeに従うことに同意し、そのガイドラインのもと本講義に必要なタスクをすべて完了したことを表します。また、{cert_type}修了証は、受講者の個人認証を行い、有効であったことを表します。"
+msgstr "{cert_type} 修了証は、受講者が {platform_name} の Honor Code に従うことに同意し、そのガイドラインのもと本講義に必要なタスクをすべて完了したことを表します。また、 {cert_type} 修了証は、受講者の個人認証を行い、有効であったことを表します。"
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -4685,12 +4685,12 @@ msgstr "{cert_type}修了証は、受講者が{platform_name}のHonor Codeに従
 msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
-msgstr "{cert_type}修了証は優秀な成績をおさめたことを表し、受講者の本人認証も含んでいます。"
+msgstr "{cert_type} 修了証は優秀な成績をおさめたことを表し、受講者の本人認証も含んでいます。"
 
 #: lms/djangoapps/certificates/views/webview.py:105
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{year}年{month}月{day}日"
+msgstr "{year} 年 {month} 月 {day} 日"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:112
@@ -4698,7 +4698,7 @@ msgstr "{year}年{month}月{day}日"
 msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
-msgstr "これは{partner_short_name} {course_number}を受講した{user_name}さんの{platform_name}の有効な修了証です。"
+msgstr "これは {partner_short_name} {course_number} を受講した {user_name} さんの {platform_name} の有効な修了証です。"
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears in the browser title bar
@@ -4725,7 +4725,7 @@ msgstr "講義を修了し、合格点を獲得して、{platform_name} {certifi
 msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
 "awarded for course activities that {platform_name} students complete."
-msgstr "{platform_name}は、{platform_name}受講者の学習への取組を称え、修了証を授与します。"
+msgstr "{platform_name} は、{platform_name} 受講者の学習への取組を称え、修了証を授与します。"
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
@@ -4759,7 +4759,7 @@ msgstr "修了証の有効化"
 #: lms/djangoapps/certificates/views/webview.py:181
 #, python-brace-format
 msgid "About {platform_name} Accomplishments"
-msgstr " {platform_name}での成果について"
+msgstr " {platform_name} での成果について"
 
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
@@ -4776,12 +4776,12 @@ msgstr "修了証番号"
 #: lms/djangoapps/certificates/views/webview.py:191
 #, python-brace-format
 msgid "About {platform_name} Certificates"
-msgstr "{platform_name}修了証について"
+msgstr "{platform_name} 修了証について"
 
 #: lms/djangoapps/certificates/views/webview.py:195
 #, python-brace-format
 msgid "How {platform_name} Validates Student Certificates"
-msgstr "{platform_name}の受講者修了証の有効化方法"
+msgstr "{platform_name} の受講者修了証の有効化方法"
 
 #. Translators:  This text describes the validation mechanism for a
 #. certificate file (known as GPG security)
@@ -4792,7 +4792,7 @@ msgid ""
 "can be validated independently by anyone with the {platform_name} public "
 "key. For independent verification, {platform_name} uses what is called a "
 "\"detached signature\"&quot;\"."
-msgstr "{platform_name}が発行する修了証はgpgキーで署名されており、{platform_name}公開鍵をもつ人なら誰でも個別に認証できます。その際、{platform_name}はいわゆる \"detached signature\"&quot;\" を使用しています。"
+msgstr "{platform_name} が発行する修了証はgpgキーで署名されており、{platform_name} 公開鍵をもつ人なら誰でも個別に認証できます。その際、{platform_name} はいわゆる \"detached signature\"&quot;\" を使用しています。"
 
 #: lms/djangoapps/certificates/views/webview.py:206
 msgid "Validate this certificate for yourself"
@@ -4808,34 +4808,34 @@ msgstr "{platform_name} はインタラクティブオンライン授業およ�
 #: lms/djangoapps/certificates/views/webview.py:212
 #, python-brace-format
 msgid "About {platform_name}"
-msgstr "{platform_name}について"
+msgstr "{platform_name} について"
 
 #: lms/djangoapps/certificates/views/webview.py:214
 #, python-brace-format
 msgid "Learn more about {platform_name}"
-msgstr "{platform_name}についてもっと学ぶ"
+msgstr "{platform_name} についてもっと学ぶ"
 
 #: lms/djangoapps/certificates/views/webview.py:216
 #, python-brace-format
 msgid "Learn with {platform_name}"
-msgstr "{platform_name}を使って学ぶ"
+msgstr "{platform_name} を使って学ぶ"
 
 #: lms/djangoapps/certificates/views/webview.py:218
 #, python-brace-format
 msgid "Work at {platform_name}"
-msgstr "{platform_name}で学ぶ"
+msgstr "{platform_name} で学ぶ"
 
 #: lms/djangoapps/certificates/views/webview.py:220
 #, python-brace-format
 msgid "Contact {platform_name}"
-msgstr "{platform_name}への問い合わせ"
+msgstr "{platform_name} への問い合わせ"
 
 #. Translators:  This text appears near the top of the certficate and
 #. describes the guarantee provided by edX
 #: lms/djangoapps/certificates/views/webview.py:223
 #, python-brace-format
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr "{platform_name}は以下の受講者の取組を称えます"
+msgstr "{platform_name} は以下の受講者の取組を称えます"
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:240
@@ -4843,36 +4843,36 @@ msgstr "{platform_name}は以下の受講者の取組を称えます"
 msgid ""
 "a course of study offered by {partner_short_name}, an online learning "
 "initiative of {partner_long_name}."
-msgstr "{partner_short_name}, オンライン学習実践の{partner_long_name}提供の講義。"
+msgstr "{partner_short_name}, オンライン学習実践の {partner_long_name} 提供の講義。"
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:248
 #, python-brace-format
 msgid "a course of study offered by {partner_short_name}."
-msgstr " {partner_short_name}提供の講義。"
+msgstr " {partner_short_name} 提供の講義。"
 
 #: lms/djangoapps/certificates/views/webview.py:286
 #, python-brace-format
 msgid "I completed the {course_title} course on {platform_name}."
-msgstr "わたしは{platform_name}の講義{course_title}を修了しました。"
+msgstr "わたしは {platform_name} の講義 {course_title} を修了しました。"
 
 #: lms/djangoapps/certificates/views/webview.py:294
 #, python-brace-format
 msgid ""
 "I completed a course at {platform_name}. Take a look at my certificate."
-msgstr " 私は{platform_name}の講義を修了しました。修了書をご覧ください。"
+msgstr " 私は {platform_name} の講義を修了しました。修了書をご覧ください。"
 
 #: lms/djangoapps/certificates/views/webview.py:334
 #, python-brace-format
 msgid "More Information About {user_name}'s Certificate:"
-msgstr "{user_name}の修了証に関する追加情報："
+msgstr "{user_name} の修了証に関する追加情報："
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
 #: lms/djangoapps/certificates/views/webview.py:338
 #, python-brace-format
 msgid "{fullname}, you earned a certificate!"
-msgstr "{fullname}さん、あなたは修了書を取得しました！"
+msgstr "{fullname} さん、あなたは修了書を取得しました！"
 
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
@@ -4887,7 +4887,7 @@ msgstr "おめでとうございます！このページはあなたが達成し
 #: lms/djangoapps/certificates/views/webview.py:348
 #, python-brace-format
 msgid "More about {fullname}'s accomplishment"
-msgstr "{fullname}の成果についてもっと見る"
+msgstr "{fullname} の成果についてもっと見る"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py:474
 #: lms/djangoapps/class_dashboard/dashboard_data.py:532
@@ -4938,7 +4938,7 @@ msgstr "{course_id} は有効な講義キーではありません。"
 #: lms/djangoapps/commerce/api/v1/serializers.py:52
 #, python-brace-format
 msgid "Course {course_id} does not exist."
-msgstr "{course_id}講義は存在しません。"
+msgstr "{course_id} 講義は存在しません。"
 
 #: lms/djangoapps/commerce/models.py:22
 msgid "Use the checkout page hosted by the E-Commerce service."
@@ -5014,7 +5014,7 @@ msgstr "数分待って、もう一度やり直してください。"
 #: lms/djangoapps/commerce/views.py:74
 #, python-brace-format
 msgid "For help, contact {payment_support_link}."
-msgstr "ヘルプは{payment_support_link}へお問い合わせください。"
+msgstr "ヘルプは {payment_support_link} へお問い合わせください。"
 
 #: lms/djangoapps/commerce/views.py:77
 msgid "An error occurred while creating your receipt."
@@ -5030,7 +5030,7 @@ msgstr "ダッシュボードに受講講義が表示されていない場合は
 #: lms/djangoapps/completion/models.py:30
 #, python-brace-format
 msgid "{value} must be between 0.0 and 1.0"
-msgstr "{value}は0.0から1.0の範囲でなければなりません"
+msgstr "{value} は0.0から1.0の範囲でなければなりません"
 
 #: lms/djangoapps/course_goals/models.py:18
 msgid "Earn a certificate"
@@ -5058,7 +5058,7 @@ msgstr "Wiki"
 #: lms/djangoapps/course_wiki/views.py:78
 #, python-brace-format
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr "これは**{organization}**の_{course_name}_Wikiです。"
+msgstr "これは **{organization}** の _{course_name}_Wiki です。"
 
 #: lms/djangoapps/course_wiki/views.py:88
 msgid "Course page automatically created."
@@ -5105,12 +5105,12 @@ msgstr "認証付きにアップグレードする"
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
 msgid "{relative} ago - {absolute}"
-msgstr "{relative}前 - {absolute}"
+msgstr "{relative} 前 - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
 msgid "in {relative} - {absolute}"
-msgstr "{relative}後 - {absolute}"
+msgstr "{relative} 後 - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:229
 msgid "Course Starts"
@@ -5123,12 +5123,12 @@ msgstr "忘れずにカレンダーリマインダーを追加してください
 #: lms/djangoapps/courseware/date_summary.py:250
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} on {course_start_date}."
-msgstr "講義開始日{course_start_date}まであと{time_remaining_string}です。"
+msgstr "講義開始日 {course_start_date} まであと {time_remaining_string} です。"
 
 #: lms/djangoapps/courseware/date_summary.py:258
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} at {course_start_time}."
-msgstr "講義開始時刻{course_start_date}まであと{time_remaining_string}です。"
+msgstr "講義開始時刻 {course_start_date} まであと {time_remaining_string} です。"
 
 #: lms/djangoapps/courseware/date_summary.py:270
 msgid "Course End"
@@ -5152,12 +5152,12 @@ msgstr "本講義はアーカイブされており、講義コンテンツを参
 #: lms/djangoapps/courseware/date_summary.py:303
 #, python-brace-format
 msgid "This course is ending in {time_remaining_string} on {course_end_date}."
-msgstr "講義終了日{course_end_date}まであと{time_remaining_string}です。"
+msgstr "講義終了日 {course_end_date} まであと {time_remaining_string} です。"
 
 #: lms/djangoapps/courseware/date_summary.py:312
 #, python-brace-format
 msgid "This course is ending in {time_remaining_string} at {course_end_time}."
-msgstr "講義終了時刻{course_end_time}まであと{time_remaining_string}です。"
+msgstr "講義終了時刻 {course_end_time} まであと {time_remaining_string} です。"
 
 #: lms/djangoapps/courseware/date_summary.py:324
 msgid "Certificate Available"
@@ -5173,7 +5173,7 @@ msgid ""
 "If you have earned a certificate, you will be able to access it "
 "{time_remaining_string} from now. You will also be able to view your "
 "certificates on your {learner_profile_link}."
-msgstr "修了証を取得すると、{time_remaining_string}後に修了証にアクセスできるようになります。また{learner_profile_link}で閲覧することもできるようになります。"
+msgstr "修了証を取得すると、 {time_remaining_string} 後に修了証にアクセスできるようになります。また {learner_profile_link} で閲覧することもできるようになります。"
 
 #: lms/djangoapps/courseware/date_summary.py:378
 msgid "Learner Profile"
@@ -5211,14 +5211,14 @@ msgstr "認証付き修了証へのアップグレードはまだ可能です！
 #: lms/djangoapps/courseware/date_summary.py:516
 #, python-brace-format
 msgid "by {date}"
-msgstr "{date}まで"
+msgstr "{date} まで"
 
 #: lms/djangoapps/courseware/date_summary.py:528
 #, python-brace-format
 msgid ""
 "Don't forget, you have {time_remaining_string} left to upgrade to a Verified"
 " Certificate."
-msgstr "認証付き修了証へのアップグレード締切まであと{time_remaining_string}。"
+msgstr "認証付き修了証へのアップグレード締切まであと {time_remaining_string}。"
 
 #: lms/djangoapps/courseware/date_summary.py:532
 #, python-brace-format
@@ -5232,7 +5232,7 @@ msgid ""
 "requirements, upgrade before the course deadline, and successfully verify "
 "your identity on {platform_name} if you have not done so "
 "already.{button_panel}"
-msgstr "修了証の受領資格を満たすためには、合格基準をクリアし、締切日より前にアップグレードしてください。{platform_name}の本人認証が完了していない場合はそれも確認する必要があります。{button_panel}"
+msgstr "修了証の受領資格を満たすためには、合格基準をクリアし、締切日より前にアップグレードしてください。 {platform_name} の本人認証が完了していない場合はそれも確認する必要があります。 {button_panel} "
 
 #: lms/djangoapps/courseware/date_summary.py:550
 #, python-brace-format
@@ -5272,7 +5272,7 @@ msgstr "認証付き修了証を取得するためにはこの日付までに認
 msgid ""
 "There is no user with the username or email address {user_name} enrolled in "
 "this course."
-msgstr "{user_name}というユーザー名またはメールアドレスの受講登録者は本講義にはいません。"
+msgstr "{user_name} というユーザー名またはメールアドレスの受講登録者は本講義にはいません。"
 
 #: lms/djangoapps/courseware/masquerade.py:260
 msgid ""
@@ -5355,7 +5355,7 @@ msgstr "修了証は取得できません"
 msgid ""
 "You have not received a certificate because you do not have a current "
 "{platform_name} verified identity."
-msgstr "現在{platform_name}の本人認証がないため、修了証が受理できません。"
+msgstr "現在 {platform_name} の本人認証がないため、修了証が受理できません。"
 
 #: lms/djangoapps/courseware/views/views.py:169
 msgid "Your certificate is available"
@@ -5364,7 +5364,7 @@ msgstr "修了証は入手可能です"
 #: lms/djangoapps/courseware/views/views.py:493
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
-msgstr "講義コンテンツを見るには、{sign_in_link}または{register_link}へ。"
+msgstr "講義コンテンツを見るには、 {sign_in_link} または {register_link} へ。"
 
 #: lms/djangoapps/courseware/views/views.py:495
 msgid "sign in"
@@ -5380,7 +5380,7 @@ msgstr "登録"
 msgid ""
 "You must be enrolled in the course to see course content."
 "                             {enroll_link_start}Enroll now{enroll_link_end}."
-msgstr "講義コンテンツを見るには講義の受講登録をしなければいけません。{enroll_link_start}今すぐ受講登録をしましょう{enroll_link_end}。"
+msgstr "講義コンテンツを見るには講義の受講登録をしなければいけません。 {enroll_link_start} 今すぐ受講登録をしましょう {enroll_link_end} 。"
 
 #: lms/djangoapps/courseware/views/views.py:520
 #: openedx/features/course_experience/views/course_home_messages.py:118
@@ -5394,12 +5394,12 @@ msgstr "無効なロケーション。"
 #: lms/djangoapps/courseware/views/views.py:1124
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
-msgstr "{username}は問題{location}にアクセスしたことがありません。 "
+msgstr "{username} は問題 {location} にアクセスしたことがありません。 "
 
 #: lms/djangoapps/courseware/views/views.py:1333
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
-msgstr "修了証を作成するには{platform_name}にサインインしなければいけません。"
+msgstr "修了証を作成するには {platform_name} にサインインしなければいけません。"
 
 #: lms/djangoapps/courseware/views/views.py:1343
 msgid "Course is not valid"
@@ -5423,7 +5423,7 @@ msgid ""
 "{platform_name} now offers financial assistance for learners who want to earn Verified Certificates but who may not be able to pay the Verified Certificate fee. Eligible learners may receive up to 90{percent_sign} off the Verified Certificate fee for a course.\n"
 "To apply for financial assistance, enroll in the audit track for a course that offers Verified Certificates, and then complete this application. Note that you must complete a separate application for each course you take.\n"
 " We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program."
-msgstr "現在認証付き修了証の取得を希望していながら料金の支払が困難な受講者に対して、 {platform_name}は経済援助を提供しています。最大90{percent_sign}の援助を受けることができます。\n経済援助を受けるためには、認証付き修了証が提供される講義の聴講登録をして、申請をしてください。１講義ごとに申請しなければならない点に注意してください。\n申請の情報は経済援助の申請書評価のため及び更なる経済援助プログラムの開発のために利用させていただきます。"
+msgstr "現在認証付き修了証の取得を希望していながら料金の支払が困難な受講者に対して、 {platform_name} は経済援助を提供しています。最大90{percent_sign}の援助を受けることができます。\n経済援助を受けるためには、認証付き修了証が提供される講義の聴講登録をして、申請をしてください。１講義ごとに申請しなければならない点に注意してください。\n申請の情報は経済援助の申請書評価のため及び更なる経済援助プログラムの開発のために利用させていただきます。"
 
 #: lms/djangoapps/courseware/views/views.py:1458
 msgid "Annual Household Income"
@@ -5472,21 +5472,21 @@ msgstr "私はedXがこの申請書に記入した情報(経済情報を除く)�
 msgid ""
 "Path {0} doesn't exist, please create it, or configure a different path with"
 " GIT_REPO_DIR"
-msgstr "パス{0}は存在しませんので、作成またはGIT_REPO_DIRで別のパスを設定してください。"
+msgstr "パス {0} は存在しませんので、作成または GIT_REPO_DIR で別のパスを設定してください。"
 
 #: lms/djangoapps/dashboard/git_import.py:58
 msgid ""
 "Non usable git url provided. Expecting something like: "
 "git@github.com:mitocw/edx4edx_lite.git"
-msgstr "使用可能ではないgit urlです。想定されるのはgit@github.com:mitocw/edx4edx_lite.gitのような値です。"
+msgstr "使用可能ではない git url です。想定されるのは git@github.com:mitocw/edx4edx_lite.git のような値です。"
 
 #: lms/djangoapps/dashboard/git_import.py:67
 msgid "Unable to get git log"
-msgstr "git logの取得に失敗"
+msgstr "git log の取得に失敗"
 
 #: lms/djangoapps/dashboard/git_import.py:74
 msgid "git clone or pull failed!"
-msgstr "git cloneもしくはgit pullに失敗！"
+msgstr "git clone もしくは git pull に失敗！"
 
 #: lms/djangoapps/dashboard/git_import.py:81
 msgid "Unable to run import command."
@@ -5523,7 +5523,7 @@ msgstr "指定のgitレポジトリとオプションのブランチをモジュ
 #: lms/djangoapps/dashboard/sysadmin.py:132
 #, python-brace-format
 msgid "Failed in authenticating {username}, error {error}\n"
-msgstr "{username}の認証に失敗しました。エラー{error}\n"
+msgstr "{username} の認証に失敗しました。エラー {error}\n"
 
 #. Translators: This message means that the user could not be authenticated
 #. (that is, we could
@@ -5532,7 +5532,7 @@ msgstr "{username}の認証に失敗しました。エラー{error}\n"
 #: lms/djangoapps/dashboard/sysadmin.py:140
 #, python-brace-format
 msgid "Failed in authenticating {username}\n"
-msgstr "{username}の認証に失敗\n"
+msgstr "{username} の認証に失敗 \n"
 
 #. Translators: this means that the password has been corrected (sometimes the
 #. database needs to be resynchronized)
@@ -5560,12 +5560,12 @@ msgstr "氏名は必須です"
 #: lms/djangoapps/dashboard/sysadmin.py:170
 #, python-brace-format
 msgid "Email address must end in {domain}"
-msgstr "メールアドレスは{domain}で終わる必要があります"
+msgstr "メールアドレスは {domain} で終わる必要があります"
 
 #: lms/djangoapps/dashboard/sysadmin.py:175
 #, python-brace-format
 msgid "Failed - email {email_addr} already exists as {external_id}"
-msgstr "失敗 - メール{email_addr}は{external_id}として既に存在します"
+msgstr "失敗 - メール {email_addr} は {external_id} として既に存在します"
 
 #: lms/djangoapps/dashboard/sysadmin.py:183
 msgid "Password must be supplied if not using certificates"
@@ -5680,7 +5680,7 @@ msgstr "全講義に関する情報"
 #: lms/djangoapps/dashboard/sysadmin.py:486
 #, python-brace-format
 msgid "Error - cannot get course with ID {0}<br/><pre>{1}</pre>"
-msgstr "エラー - ID{0}の講義を取得できません<br/><pre>{1}</pre>"
+msgstr "エラー - ID {0}の講義を取得できません<br/><pre>{1}</pre>"
 
 #: lms/djangoapps/dashboard/sysadmin.py:498
 msgid "Deleted"
@@ -5843,7 +5843,7 @@ msgstr "SailthruからCookie値を得るための待ち時間/時間切れの秒
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:40
 #, python-brace-format
 msgid "{platform_name} Staff"
-msgstr "{platform_name}スタッフ"
+msgstr "{platform_name} スタッフ"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:42
 msgid "Course Staff"
@@ -5896,7 +5896,7 @@ msgstr "ユーザー名ごとの {course_name}の{exam_name}試験の監督付�
 msgid ""
 "The {report_type} report is being created. To view the status of the report,"
 " see Pending Tasks below."
-msgstr "{report_type}のレポートを作成しています。レポートのステータスを見るには、以下の保留中タスクを参照してください。"
+msgstr "{report_type} のレポートを作成しています。レポートのステータスを見るには、以下の保留中タスクを参照してください。"
 
 #: lms/djangoapps/instructor/views/api.py:151
 msgid "User does not exist."
@@ -5919,19 +5919,19 @@ msgstr "アップロードファイルが読み込めませんでした。"
 msgid ""
 "Data in row #{row_num} must have exactly four columns: email, username, full"
 " name, and country"
-msgstr "#{row_num}のデータには次の４つの列が必要です: メール、ユーザー名、氏名、国"
+msgstr "#{row_num} のデータには次の４つの列が必要です: メール、ユーザー名、氏名、国"
 
 #: lms/djangoapps/instructor/views/api.py:374
 #, python-brace-format
 msgid "Invalid email {email_address}."
-msgstr "無効なメール{email_address} です。"
+msgstr "無効なメール {email_address} です。"
 
 #: lms/djangoapps/instructor/views/api.py:385
 #, python-brace-format
 msgid ""
 "An account with email {email} exists but the provided username {username} is"
 " different. Enrolling anyway with {email}."
-msgstr "メール{email}のアカウントはありますが、ユーザー名{username}が違います。ひとまず{email}で受講登録しましょう。"
+msgstr "メール {email} のアカウントはありますが、ユーザー名 {username} が違います。ひとまず {email} で受講登録しましょう。"
 
 #: lms/djangoapps/instructor/views/api.py:424
 #: lms/djangoapps/instructor/views/api.py:3234
@@ -5941,7 +5941,7 @@ msgstr "ファイルが添付されていません。"
 #: lms/djangoapps/instructor/views/api.py:545
 #, python-brace-format
 msgid "Username {user} already exists."
-msgstr "ユーザー名{user}は既に利用されています。"
+msgstr "ユーザー名 {user} は既に利用されています。"
 
 #: lms/djangoapps/instructor/views/api.py:570
 #, python-brace-format
@@ -5949,7 +5949,7 @@ msgid ""
 "Error '{error}' while sending email to new user (user email={email}). "
 "Without the email student would not be able to login. Please contact support"
 " for further information."
-msgstr "新規ユーザー(メール={email})へメールを送信する際のエラー'{error}'。メールがないと受講者はログインできません。詳細をサポートへお問い合わせください。"
+msgstr "新規ユーザー(メール= {email} )へメールを送信する際のエラー '{error}'。メールがないと受講者はログインできません。詳細をサポートへお問い合わせください。"
 
 #: lms/djangoapps/instructor/views/api.py:983
 #: lms/djangoapps/instructor_task/api_helper.py:106
@@ -5963,7 +5963,7 @@ msgstr "このロケーションの問題を見つけることができません
 #: lms/djangoapps/instructor/views/api.py:1127
 #, python-brace-format
 msgid "Invoice number '{num}' does not exist."
-msgstr "請求書番号'{num}'は存在しません。"
+msgstr "請求書番号 '{num}' は存在しません。"
 
 #: lms/djangoapps/instructor/views/api.py:1140
 msgid "The sale associated with this invoice has already been invalidated."
@@ -5972,7 +5972,7 @@ msgstr "この請求書に関連する売上は既に無効です。"
 #: lms/djangoapps/instructor/views/api.py:1143
 #, python-brace-format
 msgid "Invoice number {0} has been invalidated."
-msgstr "請求書番号{0}は既に無効です。"
+msgstr "請求書番号 {0} は既に無効です。"
 
 #: lms/djangoapps/instructor/views/api.py:1152
 msgid "This invoice is already active."
@@ -5981,7 +5981,7 @@ msgstr "この請求書は既に有効です。"
 #: lms/djangoapps/instructor/views/api.py:1156
 #, python-brace-format
 msgid "The registration codes for invoice {0} have been re-activated."
-msgstr "請求書{0}の登録コードは再有効化されました。"
+msgstr "請求書 {0} の登録コードは再有効化されました。"
 
 #: lms/djangoapps/instructor/views/api.py:1178
 msgid "CourseID"
@@ -6187,11 +6187,11 @@ msgstr "講義に受講前試験セクションがありません。"
 
 #: lms/djangoapps/instructor/views/api.py:2004
 msgid "all_students and unique_student_identifier are mutually exclusive."
-msgstr "all_studentsとunique_student_identifierは互いに矛盾します。"
+msgstr "all_students と unique_student_identifier は互いに矛盾します。"
 
 #: lms/djangoapps/instructor/views/api.py:2008
 msgid "all_students and delete_module are mutually exclusive."
-msgstr "all_studentsとdelete_moduleは互いに矛盾します。"
+msgstr "all_students と delete_module は互いに矛盾します。"
 
 #: lms/djangoapps/instructor/views/api.py:2014
 msgid "Requires instructor access."
@@ -6210,7 +6210,7 @@ msgstr "全受講者"
 
 #: lms/djangoapps/instructor/views/api.py:2203
 msgid "Cannot rescore with all_students and unique_student_identifier."
-msgstr "all_studentsとunique_student_identifierで再採点することはできません。"
+msgstr "all_students と unique_student_identifier で再採点することはできません。"
 
 #: lms/djangoapps/instructor/views/api.py:2405
 #: lms/djangoapps/instructor_task/api_helper.py:113
@@ -6230,7 +6230,7 @@ msgstr "問題成績"
 #: lms/djangoapps/instructor/views/api.py:2709
 #, python-brace-format
 msgid "Successfully changed due date for student {0} for {1} to {2}"
-msgstr "受講者{0}の締切を{1}から{2}に変更しました"
+msgstr "受講者 {0} の締切を {1} から {2} に変更しました"
 
 #: lms/djangoapps/instructor/views/api.py:2731
 msgid ""
@@ -6240,17 +6240,17 @@ msgstr "無効な締切延長を削除しました (ユニットには締切設�
 #: lms/djangoapps/instructor/views/api.py:2736
 #, python-brace-format
 msgid "Successfully reset due date for student {0} for {1} to {2}"
-msgstr "受講者{0}の締切を{1}から{2}にリセットしました"
+msgstr "受講者 {0} の締切を {1} から {2} にリセットしました"
 
 #: lms/djangoapps/instructor/views/api.py:2860
 #, python-format
 msgid "This student (%s) will skip the entrance exam."
-msgstr "この受講者(%s)は受講前試験をスキップします。"
+msgstr "この受講者 (%s) は受講前試験をスキップします。"
 
 #: lms/djangoapps/instructor/views/api.py:2862
 #, python-format
 msgid "This student (%s) is already allowed to skip the entrance exam."
-msgstr "この受講者(%s)はすでに受講前試験のスキップを許可されています。"
+msgstr "この受講者 (%s) はすでに受講前試験のスキップを許可されています。"
 
 #: lms/djangoapps/instructor/views/api.py:2881
 msgid ""
@@ -6313,7 +6313,7 @@ msgstr "{user} は本講義に受講登録されていません。綴りをチ�
 
 #: lms/djangoapps/instructor/views/api.py:3138
 msgid "Invalid data, generate_for must be \"new\" or \"all\"."
-msgstr "無効なデータです。generate_for は \"新規\" または \"すべて\"でなければいけません。"
+msgstr "無効なデータです。generate_for は \"新規\" または \"すべて\" でなければいけません。"
 
 #: lms/djangoapps/instructor/views/api.py:3146
 msgid "Certificate generation started for white listed students."
@@ -6334,14 +6334,14 @@ msgstr "row# {row} のユーザー \"{username}\""
 msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
-msgstr " {user}の修了証は既に無効です。綴りをチェックして再試行してください。"
+msgstr " {user} の修了証は既に無効です。綴りをチェックして再試行してください。"
 
 #: lms/djangoapps/instructor/views/api.py:3306
 #, python-brace-format
 msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
-msgstr " {user}の修了証は既に無効になっています。修了証が生成されたか確認して続けてください。"
+msgstr " {user} の修了証は既に無効になっています。修了証が生成されたか確認して続けてください。"
 
 #: lms/djangoapps/instructor/views/api.py:3345
 msgid ""
@@ -6361,7 +6361,7 @@ msgid ""
 "The student {student} does not have certificate for the course {course}. "
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
-msgstr "{student}は{course}講義の修了証を持っていません。ユーザー名/メールおよび選択した講義が正しいかを確認して、再試行してください。"
+msgstr "{student} は {course} 講義の修了証を持っていません。ユーザー名/メールおよび選択した講義が正しいかを確認して、再試行してください。"
 
 #: lms/djangoapps/instructor/views/coupons.py:30
 msgid "coupon id is None"
@@ -6391,7 +6391,7 @@ msgstr "クーポンID ({coupon_id}) はアップデート成功"
 msgid ""
 "The code ({code}) that you have tried to define is already in use as a "
 "registration code"
-msgstr "定義しようとされたコード({code})は登録用コードとして既に使用中です"
+msgstr "定義しようとされたコード({code}) は登録用コードとして既に使用中です"
 
 #: lms/djangoapps/instructor/views/coupons.py:76
 msgid "Please Enter the Integer Value for Coupon Discount"
@@ -6434,7 +6434,7 @@ msgstr "講師"
 msgid ""
 "To gain insights into student enrollment and participation {link_start}visit"
 " {analytics_dashboard_name}, our new course analytics product{link_end}."
-msgstr "受講者の受講状況、活動状況の情報を入手するには、{link_start}新しい分析サービス{analytics_dashboard_name}{link_end}をご利用ください。"
+msgstr "受講者の受講状況、活動状況の情報を入手するには、 {link_start}新しい分析サービス {analytics_dashboard_name} {link_end} をご利用ください。"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:272
 msgid "E-Commerce"
@@ -6469,7 +6469,7 @@ msgstr "講義情報"
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:460
 #, python-brace-format
 msgid "Enrollment data is now available in {dashboard_link}."
-msgstr "受講登録データは{dashboard_link}にて利用可能です。"
+msgstr "受講登録データは {dashboard_link} にて利用可能です。"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:487
 msgid "Membership"
@@ -6516,13 +6516,13 @@ msgstr "送信0件"
 #, python-brace-format
 msgid "{num_emails} sent"
 msgid_plural "{num_emails} sent"
-msgstr[0] "{num_emails}件送信"
+msgstr[0] "{num_emails} 件送信"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py:91
 #, python-brace-format
 msgid "{num_emails} failed"
 msgid_plural "{num_emails} failed"
-msgstr[0] "{num_emails}件失敗"
+msgstr[0] "{num_emails} 件失敗"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py:132
 msgid "Complete"
@@ -6537,7 +6537,7 @@ msgstr "未完了"
 #, python-brace-format
 msgid ""
 "The enrollment code ({code}) was not found for the {course_name} course."
-msgstr "講義{course_name}の受講登録コード ({code}) が見つかりませんでした。"
+msgstr "講義 {course_name} の受講登録コード ({code}) が見つかりませんでした。"
 
 #: lms/djangoapps/instructor/views/registration_codes.py:73
 msgid "This enrollment code has been canceled. It can no longer be used."
@@ -6573,7 +6573,7 @@ msgstr "URLのモジュールを見つけることができませんでした: {
 #: lms/djangoapps/instructor/views/tools.py:168
 #, python-brace-format
 msgid "Unit {0} has no due date to extend."
-msgstr "ユニット{0}には延長できる期日がありません。"
+msgstr "ユニット {0} には延長できる期日がありません。"
 
 #: lms/djangoapps/instructor/views/tools.py:170
 msgid "An extended due date must be later than the original due date."
@@ -6620,7 +6620,7 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report,"
 " see Pending Tasks below. You will be able to download the report when it is"
 " complete."
-msgstr "{report_type}のレポートを作成しています。レポートのステータスは、以下の保留中タスクを見てください。タスクが完了するとレポートをダウンロードできます。"
+msgstr "{report_type} のレポートを作成しています。レポートのステータスは、以下の保留中タスクを見てください。タスクが完了するとレポートをダウンロードできます。"
 
 #: lms/djangoapps/instructor_task/api_helper.py:335
 msgid "This component cannot be rescored."
@@ -6867,48 +6867,48 @@ msgstr "{action} の提出物がある受講者は見つかりません"
 #: lms/djangoapps/instructor_task/views.py:186
 #, python-brace-format
 msgid "Problem failed to be {action} for any of {attempted} students"
-msgstr "{attempted} 名の受講者が{action}できなかった問題"
+msgstr "{attempted} 名の受講者が {action} できなかった問題"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:190
 #, python-brace-format
 msgid "Problem successfully {action} for {attempted} students"
-msgstr "{attempted}名の受講者が{action}できた問題"
+msgstr "{attempted} 名の受講者が {action} できた問題"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py:193
 #, python-brace-format
 msgid "Problem {action} for {succeeded} of {attempted} students"
-msgstr "受講者{attempted}名中{succeeded}名が{action}の問題"
+msgstr "受講者 {attempted} 名中 {succeeded} 名が {action} の問題"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:198
 #, python-brace-format
 msgid "Unable to find any recipients to be {action}"
-msgstr "{action}の受信者は見つかりません"
+msgstr "{action} の受信者は見つかりません"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:201
 #, python-brace-format
 msgid "Message failed to be {action} for any of {attempted} recipients "
-msgstr "{attempted}名の受信者が{action}できなかったメッセージ"
+msgstr "{attempted} 名の受信者が {action} できなかったメッセージ"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:205
 #, python-brace-format
 msgid "Message successfully {action} for {attempted} recipients"
-msgstr "{attempted}名の受信者が{action}できたメッセージ"
+msgstr "{attempted} 名の受信者が {action} できたメッセージ"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py:208
 #, python-brace-format
 msgid "Message {action} for {succeeded} of {attempted} recipients"
-msgstr "{attempted}名中{succeeded}名の受信者が{action}できたメッセージ"
+msgstr "{attempted} 名中 {succeeded} 名の受信者が {action} できたメッセージ"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
@@ -6929,7 +6929,7 @@ msgstr " ({skipped} スキップ)"
 #: lms/djangoapps/instructor_task/views.py:220
 #, python-brace-format
 msgid " (out of {total})"
-msgstr " (合計{total}中)"
+msgstr " (合計 {total} 中)"
 
 #: lms/djangoapps/lms_xblock/mixin.py:20
 msgid ""
@@ -6980,7 +6980,7 @@ msgid ""
 "\"tabs\" -- to use tabs only; \n"
 "\"accordion\" -- to use the accordion only; or \n"
 "\"tabs,accordion\" -- to use tabs and the accordion."
-msgstr "LMSのxBlockで使用するために、Chromeまたはナビゲーションツールを入力してください。正しい値は以下の通りです:\n\"chromeless\" -- タブもしくはアコーディオンを使わない\n\"tabs\" -- タブのみを使う;\n\"accordion\" -- アコーディオンのみを使う\n\"tabs,accordion\" -- タブもアコーディオンも使う"
+msgstr "LMSのxBlockで使用するために、Chromeまたはナビゲーションツールを入力してください。正しい値は以下の通りです: \n\"chromeless\" -- タブもしくはアコーディオンを使わない \n\"tabs\" -- タブのみを使う;\n\"accordion\" -- アコーディオンのみを使う \n\"tabs,accordion\" -- タブもアコーディオンも使う"
 
 #: lms/djangoapps/lms_xblock/mixin.py:73
 msgid "Default Tab"
@@ -7007,7 +7007,7 @@ msgid ""
 "no key for a group configuration or if the set of group IDs is empty then "
 "the block is considered visible to all. Note that this field is ignored if "
 "the block is visible_to_staff_only."
-msgstr "どのグループにこのブロックを表示するかをマッピングするディクショナリ。キーはグループ設定IDで、値はグループIDのリストです。グループ設定のキーがない、またはグループID設定が空欄の場合、ブロックは全員に表示されると判断されます。ブロックがvisible_to_staff_onlyの場合、この欄は無視されることに注意してください。"
+msgstr "どのグループにこのブロックを表示するかをマッピングするディクショナリ。キーはグループ設定IDで、値はグループIDのリストです。グループ設定のキーがない、またはグループID設定が空欄の場合、ブロックは全員に表示されると判断されます。ブロックが visible_to_staff_only の場合、この欄は無視されることに注意してください。"
 
 #: lms/djangoapps/notes/views.py:48
 msgid "My Notes"
@@ -7022,7 +7022,7 @@ msgstr "注文支払確認"
 msgid ""
 "Confirmation and Registration Codes for the following courses: "
 "{course_name_list}"
-msgstr "以下の講義の確認および登録コード：{course_name_list}"
+msgstr "以下の講義の確認および登録コード: {course_name_list}"
 
 #: lms/djangoapps/shoppingcart/models.py:683
 msgid "Trying to add a different currency into the cart"
@@ -7057,7 +7057,7 @@ msgid ""
 "expected, but money has not yet been transferred. 'completed' means that the"
 " payment or refund was received. 'cancelled' means that payment or refund "
 "was expected, but was cancelled before money was transferred. "
-msgstr "支払または払い戻しのステータス。'started'は支払が予定されているが、送金処理が完了していないことを意味します。'completed'は支払または払い戻し完了、'cancelled'は支払または払い戻しが予定されていたが、送金前にキャンセルされたことを意味します。"
+msgstr "支払または払い戻しのステータス。'started' は支払が予定されているが、送金処理が完了していないことを意味します。'completed' は支払または払い戻し完了、'cancelled'は支払または払い戻しが予定されていたが、送金前にキャンセルされたことを意味します。"
 
 #: lms/djangoapps/shoppingcart/models.py:1088
 msgid "The number of items sold."
@@ -7076,7 +7076,7 @@ msgstr "講義登録: {course_name}"
 #, python-brace-format
 msgid ""
 "Please visit your {link_start}dashboard{link_end} to see your new course."
-msgstr "新規講義を確認するには{link_start} ダッシュボード {link_end} に移動してください"
+msgstr "新規講義を確認するには {link_start} ダッシュボード {link_end} に移動してください"
 
 #: lms/djangoapps/shoppingcart/models.py:1767
 #, python-brace-format
@@ -7094,7 +7094,7 @@ msgstr "{mode} モードは {course_id} にはありません"
 #: lms/djangoapps/shoppingcart/models.py:1981
 #, python-brace-format
 msgid "{mode_name} for course {course}"
-msgstr "講義{course} の {mode_name}"
+msgstr "講義 {course} の {mode_name}"
 
 #: lms/djangoapps/shoppingcart/models.py:2005
 msgid ""
@@ -7130,27 +7130,27 @@ msgid ""
 "{platform_name} mission.  This receipt was prepared to support charitable "
 "contributions for tax purposes.  We confirm that neither goods nor services "
 "were provided in exchange for this gift."
-msgstr "私たちは{platform_name}の使命への偉大な貢献とご支援に大変感謝しております。この領収書は税務のため慈善寄付を対象にご用意致しました。この寄付に対して物品およびサービスを提供していないことを確認しています。"
+msgstr "私たちは {platform_name} の使命への偉大な貢献とご支援に大変感謝しております。この領収書は税務のため慈善寄付を対象にご用意致しました。この寄付に対して物品およびサービスを提供していないことを確認しています。"
 
 #: lms/djangoapps/shoppingcart/models.py:2229
 #, python-brace-format
 msgid "Could not find a course with the ID '{course_id}'"
-msgstr "'{course_id}'の講義が見つかりませんでした"
+msgstr "'{course_id}' の講義が見つかりませんでした"
 
 #: lms/djangoapps/shoppingcart/models.py:2232
 #, python-brace-format
 msgid "Donation for {course}"
-msgstr "{course}への寄付"
+msgstr "{course} への寄付"
 
 #: lms/djangoapps/shoppingcart/models.py:2236
 #, python-brace-format
 msgid "Donation for {platform_name}"
-msgstr "{platform_name}への寄付"
+msgstr "{platform_name} への寄付"
 
 #: lms/djangoapps/shoppingcart/pdf.py:67
 #, python-brace-format
 msgid "Page {page_number} of {page_count}"
-msgstr "{page_count}ページ中{page_number}ページ目"
+msgstr "{page_count} ページ中 {page_number} ページ目"
 
 #: lms/djangoapps/shoppingcart/pdf.py:228
 #: lms/djangoapps/shoppingcart/pdf.py:229
@@ -7180,13 +7180,13 @@ msgstr "量"
 msgid ""
 "List Price\n"
 "per item"
-msgstr "定価\n（単価）"
+msgstr "定価 \n（単価）"
 
 #: lms/djangoapps/shoppingcart/pdf.py:262
 msgid ""
 "Discount\n"
 "per item"
-msgstr "割引\n（単価）"
+msgstr "割引 \n（単価）"
 
 #: lms/djangoapps/shoppingcart/pdf.py:263
 msgid "Amount"
@@ -7247,7 +7247,7 @@ msgid ""
 "returned was {decision_text}, and the reason was {reason_text}. You were not"
 " charged. Please try a different form of payment. Contact us with payment-"
 "related questions at {email}."
-msgstr "申し訳ありません。支払システムがあなたの支払を受け付けられませんでした。応答: {decision_text}、理由: {reason_text}。課金されていません。別の支払方法をお試しください。支払に関するご質問は{email}へご連絡ください。"
+msgstr "申し訳ありません。支払システムがあなたの支払を受け付けられませんでした。応答: {decision_text}、理由: {reason_text}。課金されていません。別の支払方法をお試しください。支払に関するご質問は {email} へご連絡ください。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:276
 #, python-brace-format
@@ -7257,7 +7257,7 @@ msgid ""
 " through and take further action on your order.The specific error message "
 "is: {error_message}. Your credit card may possibly have been charged. "
 "Contact us with payment-specific questions at {email}."
-msgstr "申し訳ありません。支払システムが矛盾するデータを応答してきました。支払手続の結果を確認することができません。エラーメッセージ: {error_message}。あなたのクレジットカードに課金された可能性があります。支払に関するご質問は{email}へご連絡ください。"
+msgstr "申し訳ありません。支払システムが矛盾するデータを応答してきました。支払手続の結果を確認することができません。エラーメッセージ: {error_message}。あなたのクレジットカードに課金された可能性があります。支払に関するご質問は {email} へご連絡ください。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:293
 #, python-brace-format
@@ -7266,7 +7266,7 @@ msgid ""
 " the order total! The specific error message is: {error_message}. Your "
 "credit card has probably been charged. Contact us with payment-specific "
 "questions at {email}."
-msgstr "申し訳ありません。エラーのため、注文総額とは異なる金額が課金されました。エラーメッセージ: {error_message}。おそらくあなたのクレジットカードに課金されています。支払に関するご質問は{email}へご連絡ください。"
+msgstr "申し訳ありません。エラーのため、注文総額とは異なる金額が課金されました。エラーメッセージ: {error_message}。おそらくあなたのクレジットカードに課金されています。支払に関するご質問は {email} へご連絡ください。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:308
 #, python-brace-format
@@ -7277,7 +7277,7 @@ msgid ""
 "apologize that we cannot verify whether the charge went through and take "
 "further action on your order. Your credit card may possibly have been "
 "charged. Contact us with payment-specific questions at {email}."
-msgstr "申し訳ありません。支払システムからあなたの課金に関する判読できないメッセージが届き、こちらでは内容を判断することができません。エラーメッセージ: {error_message}。大変申し訳ございませんが、支払手続の結果を確認することができません。 あなたのクレジットカードに課金された可能性があります。支払に関するご質問は{email}へご連絡ください。"
+msgstr "申し訳ありません。支払システムからあなたの課金に関する判読できないメッセージが届き、こちらでは内容を判断することができません。エラーメッセージ: {error_message}。大変申し訳ございませんが、支払手続の結果を確認することができません。 あなたのクレジットカードに課金された可能性があります。支払に関するご質問は {email} へご連絡ください。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:356
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:597
@@ -7409,7 +7409,7 @@ msgstr "システムにより拒否されました。解決方法: 別の支払�
 msgid ""
 "There is a problem with our CyberSource merchant configuration.  Please let "
 "us know at {0}"
-msgstr "CyberSourceの取引設定に問題があります。{0}へお知らせください。"
+msgstr "CyberSourceの取引設定に問題があります。 {0} へお知らせください。"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:414
 msgid "The requested amount exceeds the originally authorized amount."
@@ -7526,7 +7526,7 @@ msgid ""
 "went through and take further action on your order. The specific error "
 "message is: {msg} Your credit card may possibly have been charged.  Contact "
 "us with payment-specific questions at {email}."
-msgstr "申し訳ありません。 支払システムが矛盾するデータの支払情報を応答してきました。大変申し訳ございませんが、支払手続の結果を確認することができません。エラーメッセージ: {msg} あなたのクレジットカードに課金された可能性があります。支払に関するご質問は {email} へご連絡ください。 "
+msgstr "申し訳ありません。支払システムが矛盾するデータの支払情報を応答してきました。大変申し訳ございませんが、支払手続の結果を確認することができません。エラーメッセージ: {msg} あなたのクレジットカードに課金された可能性があります。支払に関するご質問は {email} へご連絡ください。 "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:513
 #, python-brace-format
@@ -7922,12 +7922,12 @@ msgstr "リクエストされた講義は存在しません。"
 #: lms/djangoapps/shoppingcart/views.py:120
 #, python-brace-format
 msgid "The course {course_id} is already in your cart."
-msgstr "講義{course_id}は既にカートに入っています。"
+msgstr "講義 {course_id} は既にカートに入っています。"
 
 #: lms/djangoapps/shoppingcart/views.py:123
 #, python-brace-format
 msgid "You are already registered in course {course_id}."
-msgstr "既に講義{course_id}に登録済です。"
+msgstr "既に講義 {course_id} に登録済です。"
 
 #: lms/djangoapps/shoppingcart/views.py:135
 msgid "Course added to cart."
@@ -7937,23 +7937,23 @@ msgstr "カート追加済講義。"
 #: lms/djangoapps/shoppingcart/views.py:519
 #, python-brace-format
 msgid "Discount does not exist against code '{code}'."
-msgstr "コード'{code}'に対する値引はありません。"
+msgstr "コード '{code}' に対する値引はありません。"
 
 #: lms/djangoapps/shoppingcart/views.py:463
 #, python-brace-format
 msgid "This enrollment code ({enrollment_code}) is no longer valid."
-msgstr "この受講登録コード({enrollment_code})はもう有効ではありません。"
+msgstr "この受講登録コード ({enrollment_code}) はもう有効ではありません。"
 
 #: lms/djangoapps/shoppingcart/views.py:471
 #, python-brace-format
 msgid "This enrollment code ({enrollment_code}) is not valid."
-msgstr "この受講登録コード({enrollment_code})は無効です。"
+msgstr "この受講登録コード ({enrollment_code}) は無効です。"
 
 #: lms/djangoapps/shoppingcart/views.py:481
 #, python-brace-format
 msgid ""
 "Code '{registration_code}' is not valid for any course in the shopping cart."
-msgstr "カート内の講座にコード'{registration_code}'は無効です。"
+msgstr "カート内の講座にコード '{registration_code}' は無効です。"
 
 #: lms/djangoapps/shoppingcart/views.py:494
 msgid ""
@@ -8021,7 +8021,7 @@ msgstr "ユーザーが見つかりません"
 #: lms/djangoapps/support/views/refund.py:72
 #, python-brace-format
 msgid "Course {course_id} not past the refund window."
-msgstr "講義{course_id}は返金ウィンドウを過ぎていません。"
+msgstr "講義 {course_id} は返金ウィンドウを過ぎていません。"
 
 #: lms/djangoapps/support/views/refund.py:80
 #, python-brace-format
@@ -8116,7 +8116,7 @@ msgstr "ユーザー {username} はこのチームが連携している講義に
 #: lms/djangoapps/verify_student/models.py:353
 #, python-brace-format
 msgid "Your {platform_name} verification has expired."
-msgstr "{platform_name}の認証が期限切れです。"
+msgstr "{platform_name} の認証が期限切れです。"
 
 #: lms/djangoapps/verify_student/models.py:1030
 msgid "The course for which this deadline applies"
@@ -8220,7 +8220,7 @@ msgstr "Facebook"
 #: lms/envs/common.py:2390
 #, python-brace-format
 msgid "Like {platform_name} on Facebook"
-msgstr "Facebookで{platform_name}にいいね！する"
+msgstr "Facebookで {platform_name} にいいね！する"
 
 #. Translators: This is the website name of www.twitter.com.  Please
 #. translate this the way that Twitter advertises in your language.
@@ -8231,7 +8231,7 @@ msgstr "Twitter"
 #: lms/envs/common.py:2397
 #, python-brace-format
 msgid "Follow {platform_name} on Twitter"
-msgstr "Twitter で{platform_name}をフォローする"
+msgstr "Twitterで {platform_name} をフォローする"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
@@ -8242,7 +8242,7 @@ msgstr "LinkedIn"
 #: lms/envs/common.py:2404
 #, python-brace-format
 msgid "Follow {platform_name} on LinkedIn"
-msgstr "LinkedInで{platform_name}をフォローする"
+msgstr "LinkedInで {platform_name} をフォローする"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
@@ -8253,7 +8253,7 @@ msgstr "Google+"
 #: lms/envs/common.py:2411
 #, python-brace-format
 msgid "Follow {platform_name} on Google+"
-msgstr "Google+で{platform_name}をフォローする"
+msgstr "Google+で {platform_name} をフォローする"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
@@ -8276,7 +8276,7 @@ msgstr "Reddit"
 #: lms/envs/common.py:2430
 #, python-brace-format
 msgid "Subscribe to the {platform_name} subreddit"
-msgstr "{platform_name}のsubredditに登録する"
+msgstr "{platform_name} のsubredditに登録する"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
@@ -8299,7 +8299,7 @@ msgstr "Youtube"
 #: lms/envs/common.py:2449
 #, python-brace-format
 msgid "Subscribe to the {platform_name} YouTube channel"
-msgstr "{platform_name}のYouTubeチャンネルに登録する"
+msgstr "{platform_name} のYouTubeチャンネルに登録する"
 
 #: lms/envs/common.py:2894
 msgid "Your Platform Insights"
@@ -8312,7 +8312,7 @@ msgstr "コソボ"
 #: lms/envs/common.py:3303
 #, python-brace-format
 msgid "Welcome to {platform_name}."
-msgstr "{platform_name}へようこそ。"
+msgstr "{platform_name} へようこそ。"
 
 #: lms/envs/common.py:3305
 #, python-brace-format
@@ -8325,7 +8325,7 @@ msgstr "{start_bold}{enterprise_name}{end_bold} は {start_bold}{platform_name}{
 #: lms/templates/emails/password_reset_subject.txt:3
 #, python-format
 msgid "Password reset on %(platform_name)s"
-msgstr "%(platform_name)sのパスワード変更"
+msgstr "%(platform_name)s のパスワード変更"
 
 #: lms/templates/logout.html:4
 msgid "Signed Out"
@@ -8381,7 +8381,7 @@ msgstr "エラー"
 msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at %(platform_name)s."
-msgstr "%(platform_name)sのユーザーアカウントのパスワード変更をリクエストされた為、このメールを送信しました。"
+msgstr "%(platform_name)s のユーザーアカウントのパスワード変更をリクエストされた為、このメールを送信しました。"
 
 #: lms/templates/registration/password_reset_email.html:4
 msgid "Please go to the following page and choose a new password:"
@@ -8400,7 +8400,7 @@ msgstr "ご利用いただき、ありがとうございます。"
 #: lms/templates/registration/password_reset_email.html:13
 #, python-format
 msgid "The %(platform_name)s Team"
-msgstr "%(platform_name)sチーム"
+msgstr "%(platform_name)s チーム"
 
 #: lms/templates/wiki/article.html:30
 msgid "Last modified:"
@@ -8573,7 +8573,7 @@ msgid ""
 "\n"
 "  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
 "  "
-msgstr "\nこの機能を利用するには<a href=\"%(login_url)s\">ログイン</a>もしくは<a href=\"%(signup_url)s\">登録</a>が必要です。"
+msgstr " \nこの機能を利用するには <a href=\"%(login_url)s\">ログイン</a> もしくは <a href=\"%(signup_url)s\">登録</a> が必要です。"
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:10
 msgid "You need to log in or sign up to use this function."
@@ -8685,7 +8685,7 @@ msgid ""
 "\n"
 "        Markdown syntax is allowed. See the %(start_link)scheatsheet%(end_link)s for help.\n"
 "    "
-msgstr "\n        Markdown syntax が使えます。ヘルプが必要であれば、%(start_link)s虎の巻%(end_link)sをご覧ください。\n    "
+msgstr "\n        Markdown syntax が使えます。ヘルプが必要であれば、 %(start_link)s虎の巻%(end_link)s をご覧ください。\n    "
 
 #: lms/templates/wiki/plugins/attachments/index.html:4
 msgid "Attachments"
@@ -8865,7 +8865,7 @@ msgstr "API アクセスリクエスト"
 msgid ""
 "I, and my company, accept the {link_start}{platform_name} API Terms of "
 "Service{link_end}."
-msgstr "私および私の会社は{link_start}{platform_name} API 利用規約{link_end}に同意します。"
+msgstr "私および私の会社は {link_start}{platform_name} API 利用規約{link_end} に同意します。"
 
 #: openedx/core/djangoapps/bookmarks/views.py:35
 msgid "An error has occurred. Please try again."
@@ -8877,7 +8877,7 @@ msgstr "データがありません。"
 
 #: openedx/core/djangoapps/bookmarks/views.py:232
 msgid "Parameter usage_id not provided."
-msgstr "usage_idパラメータがありません。"
+msgstr "usage_id パラメータがありません。"
 
 #: openedx/core/djangoapps/bookmarks/views.py:237
 #: openedx/core/djangoapps/bookmarks/views.py:317
@@ -8888,20 +8888,20 @@ msgstr "無効な usage_id: {usage_id}。"
 #: openedx/core/djangoapps/bookmarks/views.py:244
 #, python-brace-format
 msgid "Block with usage_id: {usage_id} not found."
-msgstr "usage_idによるブロック: {usage_id} が見つかりません。"
+msgstr "usage_id によるブロック: {usage_id} が見つかりません。"
 
 #: openedx/core/djangoapps/bookmarks/views.py:249
 #, python-brace-format
 msgid ""
 "You can create up to {max_num_bookmarks_per_course} bookmarks. You must "
 "remove some bookmarks before you can add new ones."
-msgstr "最大{max_num_bookmarks_per_course}個のブックマークを作成することができます。新規追加する際はいくつか削除してください。"
+msgstr "最大 {max_num_bookmarks_per_course} 個のブックマークを作成することができます。新規追加する際はいくつか削除してください。"
 
 #: openedx/core/djangoapps/bookmarks/views.py:338
 #: openedx/core/djangoapps/bookmarks/views.py:358
 #, python-brace-format
 msgid "Bookmark with usage_id: {usage_id} does not exist."
-msgstr "usage_idによるブックマーク: {usage_id} が存在しません。"
+msgstr "usage_id によるブックマーク: {usage_id} が存在しません。"
 
 #: openedx/core/djangoapps/catalog/models.py:18
 msgid "Internal API URL"
@@ -8987,7 +8987,7 @@ msgstr "講義単位認定資格"
 #: openedx/core/djangoapps/credit/email_utils.py:91
 #, python-brace-format
 msgid "You are eligible for credit from {providers_string}"
-msgstr "{providers_string}から単位を授与される資格があります"
+msgstr "{providers_string} から単位を授与される資格があります"
 
 #. Translators: The join of two university names (e.g., Harvard and MIT).
 #: openedx/core/djangoapps/credit/email_utils.py:268
@@ -9097,7 +9097,7 @@ msgstr "提供されていない言語"
 #: openedx/core/djangoapps/dark_lang/views.py:97
 #, python-brace-format
 msgid "Language set to {preview_language}"
-msgstr "{preview_language}に設定された言語"
+msgstr "{preview_language} に設定された言語"
 
 #: openedx/core/djangoapps/dark_lang/views.py:111
 msgid "Language reset to the default"
@@ -9165,19 +9165,19 @@ msgstr "このルールを適用する国。"
 #: openedx/core/djangoapps/embargo/models.py:510
 #, python-brace-format
 msgid "Whitelist {country} for {course}"
-msgstr "{course}講義のホワイトリスト{country}"
+msgstr "{course} 講義のホワイトリスト {country}"
 
 #: openedx/core/djangoapps/embargo/models.py:515
 #, python-brace-format
 msgid "Blacklist {country} for {course}"
-msgstr "{course}講義のブラックリスト{country}"
+msgstr "{course} 講義のブラックリスト {country}"
 
 #: openedx/core/djangoapps/external_auth/views.py:171
 #, python-brace-format
 msgid ""
 "You have already created an account using an external login like WebAuth or "
 "Shibboleth. Please contact {tech_support_email} for support."
-msgstr "WebAuthやShibbolethのような外部ログインを使用して既にアカウントを作成しました。サポートが必要な場合は{tech_support_email}へお問い合わせください。"
+msgstr "WebAuthやShibbolethのような外部ログインを使用して既にアカウントを作成しました。サポートが必要な場合は {tech_support_email} へお問い合わせください。"
 
 #: openedx/core/djangoapps/external_auth/views.py:496
 msgid ""
@@ -9206,7 +9206,7 @@ msgstr "ファイルは以下のいずれかのタイプでなければいけま
 msgid ""
 "The Content-Type header for this file does not match the file data. The file"
 " may be corrupted."
-msgstr "このファイルのContent-Typeヘッダーがファイルデータと一致していません。ファイルが破損したかもしれません。"
+msgstr "このファイルの Content-Type ヘッダーがファイルデータと一致していません。ファイルが破損したかもしれません。"
 
 #: openedx/core/djangoapps/profile_images/images.py:130
 msgid ""
@@ -9267,27 +9267,27 @@ msgstr "サインイン"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:92
 #, python-format
 msgid "%(platform_name)s on LinkedIn"
-msgstr "LinkedIn上の%(platform_name)s"
+msgstr "LinkedIn上の %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:100
 #, python-format
 msgid "%(platform_name)s on Twitter"
-msgstr "Twitter上の%(platform_name)s"
+msgstr "Twitter上の %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:108
 #, python-format
 msgid "%(platform_name)s on Facebook"
-msgstr "Facebook上の%(platform_name)s"
+msgstr "Facebook上の %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:116
 #, python-format
 msgid "%(platform_name)s on Google Plus"
-msgstr "Google Plus上の%(platform_name)s"
+msgstr "Google Plus上の %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:124
 #, python-format
 msgid "%(platform_name)s on Reddit"
-msgstr "Reddit上の%(platform_name)s"
+msgstr "Reddit上の %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/base_body.html:138
 msgid "Download the iOS app on the Apple Store"
@@ -9319,7 +9319,7 @@ msgid ""
 "Don't miss the opportunity to highlight your new knowledge and skills by "
 "earning a verified certificate. Upgrade by "
 "%(user_schedule_upgrade_deadline_time)s."
-msgstr "認証付き修了証を取得して新たな知識とスキルをアピールしましょう。%(user_schedule_upgrade_deadline_time)sまでにアップグレードしてください。"
+msgstr "認証付き修了証を取得して新たな知識とスキルをアピールしましょう。 %(user_schedule_upgrade_deadline_time)s までにアップグレードしてください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/common/upsell_cta.html:23
 msgid "Upgrade Now"
@@ -9331,17 +9331,17 @@ msgid ""
 "Don't miss the opportunity to highlight your new knowledge and skills by "
 "earning a verified certificate. Upgrade by "
 "%(user_schedule_upgrade_deadline_time)s. Upgrade Now! <%(upsell_link)s>"
-msgstr "認証付き修了証を取得して新たな知識とスキルをアピールしましょう。アップグレード締切は%(user_schedule_upgrade_deadline_time)sまでです。いますぐアップグレードしましょう！<%(upsell_link)s>"
+msgstr "認証付き修了証を取得して新たな知識とスキルをアピールしましょう。アップグレード締切は %(user_schedule_upgrade_deadline_time)s までです。いますぐアップグレードしましょう！<%(upsell_link)s>"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:6
 #, python-format
 msgid "Welcome to week %(week_num)s of our %(course_name)s course!"
-msgstr "%(course_name)s講義の第%(week_num)s週へようこそ！"
+msgstr "%(course_name)s 講義の第 %(week_num)s 週へようこそ！"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:16
 #, python-format
 msgid "Welcome to week %(week_num)s of <strong>%(course_name)s</strong>!"
-msgstr "<strong>%(course_name)s</strong>の第%(week_num)s週へようこそ！"
+msgstr "<strong>%(course_name)s</strong> の第 %(week_num)s 週へようこそ！"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:21
 msgid "Here is what you can look forward to learning this week:"
@@ -9356,12 +9356,12 @@ msgstr "いますぐ講義を始める"
 msgid ""
 "Welcome to week %(week_num)s of our %(course_name)s course! Here is what you"
 " can look forward to learning this week: %(week_summary)s"
-msgstr "%(course_name)s講義の第%(week_num)s週へようこそ！今週の学習内容：%(week_summary)s"
+msgstr "%(course_name)s 講義の第 %(week_num)s 週へようこそ！今週の学習内容：%(week_summary)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/subject.txt:3
 #, python-format
 msgid "%(course_name)s - Welcome to Week %(week_num)s "
-msgstr "%(course_name)s - 第%(week_num)s週へようこそ"
+msgstr "%(course_name)s - 第 %(week_num)s 週へようこそ"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:6
 #, python-format
@@ -9369,7 +9369,7 @@ msgid ""
 "Many %(platform_name)s learners are completing more problems every week, and"
 " participating in the discussion forums. What do you want to do to keep "
 "learning?"
-msgstr "多くの%(platform_name)s受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
+msgstr "多くの %(platform_name)s 受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:11
 #, python-format
@@ -9377,7 +9377,7 @@ msgid ""
 "Many %(platform_name)s learners in %(course_name)s are completing more "
 "problems every week, and participating in the discussion forums. What do you"
 " want to do to keep learning?"
-msgstr "%(course_name)sで多くの%(platform_name)s受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
+msgstr "%(course_name)s で多くの %(platform_name)s 受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:22
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/subject.txt:2
@@ -9397,7 +9397,7 @@ msgid ""
 "Many edX learners in <strong>%(course_name)s</strong> are completing more "
 "problems every week, and participating in the discussion forums. What do you"
 " want to do to keep learning?"
-msgstr "<strong>%(course_name)s</strong>の多くのedX受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
+msgstr "<strong>%(course_name)s</strong> の多くのedX受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:38
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:7
@@ -9411,7 +9411,7 @@ msgid ""
 "Many edX learners in %(course_name)s are completing more problems every "
 "week, and participating in the discussion forums. What do you want to do to "
 "keep learning?"
-msgstr "%(course_name)sの多くのedX受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
+msgstr "%(course_name)s の多くのedX受講者が毎週多くの問題に取り組み、ディスカッションフォーラムに参加しています。学習を継続するにあたってどんなことをしていきたいですか？"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:6
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:4
@@ -9419,7 +9419,7 @@ msgstr "%(course_name)sの多くのedX受講者が毎週多くの問題に取り
 msgid ""
 "Remember when you enrolled in %(course_name)s, and other courses on edX.org?"
 " We do, and we’re glad to have you! Come see what everyone is learning."
-msgstr "%(course_name)sやその他のedX.org講義に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
+msgstr "%(course_name)s やその他のedX.org講義に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:11
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:11
@@ -9427,7 +9427,7 @@ msgstr "%(course_name)sやその他のedX.org講義に受講登録した時の�
 msgid ""
 "Remember when you enrolled in %(course_name)s on edX.org? We do, and we’re "
 "glad to have you! Come see what everyone is learning."
-msgstr "edX.orgで%(course_name)sに受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。""
+msgstr "edX.orgで %(course_name)s に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。""
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
 msgid "Keep learning today"
@@ -9439,14 +9439,14 @@ msgid ""
 "Remember when you enrolled in <strong>%(course_name)s</strong>, and other "
 "courses on edX.org? We do, and we’re glad to have you! Come see what "
 "everyone is learning."
-msgstr "<strong>%(course_name)s</strong>やその他のedX.org講義に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
+msgstr "<strong>%(course_name)s</strong> やその他のedX.org講義に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
 #, python-format
 msgid ""
 "Remember when you enrolled in <strong>%(course_name)s</strong> on edX.org? "
 "We do, and we’re glad to have you! Come see what everyone is learning."
-msgstr "edX.orgで<strong>%(course_name)s</strong>に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
+msgstr "edX.orgで<strong>%(course_name)s</strong> に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:38
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:9
@@ -9457,12 +9457,12 @@ msgstr "いますぐ始めましょう"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:3
 #, python-format
 msgid "Keep learning on %(platform_name)s"
-msgstr "%(platform_name)sでの学習を継続しましょう"
+msgstr "%(platform_name)s での学習を継続しましょう"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:5
 #, python-format
 msgid "Keep learning in %(course_name)s"
-msgstr "%(course_name)sの受講を継続しましょう"
+msgstr "%(course_name)s の受講を継続しましょう"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:7
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:4
@@ -9472,7 +9472,7 @@ msgid ""
 "verified certificate allows you to highlight your new knowledge and skills. "
 "An %(platform_name)s certificate is official and easily shareable. Upgrade "
 "by %(user_schedule_upgrade_deadline_time)s."
-msgstr "%(platform_name)sで楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)sの修了証は公式なもので簡単にシェアできます。アップグレード締切は%(user_schedule_upgrade_deadline_time)sまでです。"
+msgstr "%(platform_name)s で楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)s の修了証は公式なもので簡単にシェアできます。アップグレード締切は %(user_schedule_upgrade_deadline_time)s までです。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:15
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:20
@@ -9482,7 +9482,7 @@ msgid ""
 " verified certificate allows you to highlight your new knowledge and skills."
 " An %(platform_name)s certificate is official and easily shareable. Upgrade "
 "by %(user_schedule_upgrade_deadline_time)s."
-msgstr "%(first_course_name)sを楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)sの修了証は公式なもので簡単にシェアできます。アップグレード締切は%(user_schedule_upgrade_deadline_time)sまでです。"
+msgstr "%(first_course_name)s を楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)s の修了証は公式なもので簡単にシェアできます。アップグレード締切は %(user_schedule_upgrade_deadline_time)s までです。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:29
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:103
@@ -9496,7 +9496,7 @@ msgid ""
 "<strong>%(platform_name)s</strong>! A verified certificate allows you to "
 "highlight your new knowledge and skills. An %(platform_name)s certificate is"
 " official and easily shareable."
-msgstr "<strong>%(platform_name)s</strong>を楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)sの修了証は公式なもので簡単にシェアできます。"
+msgstr "<strong>%(platform_name)s</strong> を楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)s の修了証は公式なもので簡単にシェアできます。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:39
 #, python-format
@@ -9505,12 +9505,12 @@ msgid ""
 "<strong>%(first_course_name)s</strong>! A verified certificate allows you to"
 " highlight your new knowledge and skills. An %(platform_name)s certificate "
 "is official and easily shareable."
-msgstr "<strong>%(first_course_name)s</strong>を楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)sの修了証は公式なもので簡単にシェアできます。"
+msgstr "<strong>%(first_course_name)s</strong> を楽しく学んでいただけているでしょうか。認証付き修了証があれば、新たに得た知識やスキルをアピールすることができます。%(platform_name)s の修了証は公式なもので簡単にシェアできます。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:47
 #, python-format
 msgid "Upgrade by <strong>%(user_schedule_upgrade_deadline_time)s</strong>."
-msgstr "<strong>%(user_schedule_upgrade_deadline_time)s</strong>までにアップグレードしましょう。"
+msgstr "<strong>%(user_schedule_upgrade_deadline_time)s</strong> までにアップグレードしましょう。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:54
 msgid "You are eligible to upgrade in these courses:"
@@ -9528,12 +9528,12 @@ msgstr "いますぐアップグレードしましょう"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:4
 #, python-format
 msgid "Upgrade to earn a verified certificate on %(platform_name)s"
-msgstr "アップグレードして%(platform_name)sの認証付き修了証を取得しましょう"
+msgstr "アップグレードして %(platform_name)s の認証付き修了証を取得しましょう"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:6
 #, python-format
 msgid "Upgrade to earn a verified certificate in %(first_course_name)s"
-msgstr "アップグレードして%(first_course_name)sの認証付き修了証を取得しましょう"
+msgstr "アップグレードして %(first_course_name)s の認証付き修了証を取得しましょう"
 
 #: openedx/core/djangoapps/self_paced/models.py:17
 msgid "Enable course home page improvements."
@@ -9542,7 +9542,7 @@ msgstr "講義ホームページの改善を有効にする。"
 #: openedx/core/djangoapps/theming/views.py:75
 #, python-brace-format
 msgid "Site theme changed to {site_theme}"
-msgstr "サイトテーマを{site_theme}へ変更"
+msgstr "サイトテーマを {site_theme} へ変更"
 
 #: openedx/core/djangoapps/theming/views.py:80
 #, python-brace-format
@@ -9673,7 +9673,7 @@ msgstr "'{field_name}' 欄は編集できません。"
 #: openedx/core/djangoapps/user_api/accounts/utils.py:26
 msgid ""
 " Make sure that you are providing a valid username or a URL that contains \""
-msgstr "正しいユーザー名または \"を含むURLが入力されているか確認してください。"
+msgstr "正しいユーザー名または \" を含むURLが入力されているか確認してください。"
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the password reset form meant to hold the user's email address.
@@ -9695,7 +9695,7 @@ msgstr "username@domain.com"
 #: openedx/core/djangoapps/user_api/api.py:90
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
-msgstr "{platform_name}で登録に使用したメールアドレス"
+msgstr "{platform_name} で登録に使用したメールアドレス"
 
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's password.
@@ -9791,7 +9791,7 @@ msgstr "住所"
 #: openedx/core/djangoapps/user_api/api.py:582
 #, python-brace-format
 msgid "Tell us why you're interested in {platform_name}"
-msgstr "なぜ{platform_name}に興味を持ったのか教えてください。"
+msgstr "なぜ {platform_name} に興味を持ったのか教えてください。"
 
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the State/Province/Region in which they
@@ -9841,7 +9841,7 @@ msgstr "利用規約およびHonor Codeを見る"
 #: openedx/core/djangoapps/user_api/api.py:806
 #, python-brace-format
 msgid "I agree to the {platform_name} {terms_of_service}"
-msgstr " {platform_name} {terms_of_service}に同意します"
+msgstr " {platform_name} {terms_of_service} に同意します"
 
 #. Translators: "Terms of Service" is a legal document users must agree to
 #. in order to register a new account.
@@ -9851,7 +9851,7 @@ msgstr " {platform_name} {terms_of_service}に同意します"
 #: openedx/core/djangoapps/user_api/api.py:813
 #, python-brace-format
 msgid "You must agree to the {platform_name} {terms_of_service}"
-msgstr " {platform_name} {terms_of_service}に同意しなければなりません"
+msgstr " {platform_name} {terms_of_service} に同意しなければなりません"
 
 #: openedx/core/djangoapps/user_api/api.py:802
 msgid "Review the Terms of Service"
@@ -9884,17 +9884,17 @@ msgstr "ユーザー設定 '{preference_key}' の値 '{preference_value}' は有
 msgid ""
 "Value '{preference_value}' not valid for preference '{preference_key}': Not "
 "in timezone set."
-msgstr "'{preference_value}'は'{preference_key}'の設定には無効です: タイムゾーン設定にはありません。"
+msgstr "'{preference_value}' は '{preference_key}' の設定には無効です: タイムゾーン設定にはありません。"
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:404
 #, python-brace-format
 msgid "Value '{preference_value}' is not a valid time zone selection."
-msgstr "'{preference_value}'の値は有効なタイムゾーン選択ではありません。"
+msgstr "'{preference_value}' の値は有効なタイムゾーン選択ではありません。"
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:421
 #, python-brace-format
 msgid "Save failed for user preference '{key}' with value '{value}'."
-msgstr "'{value}'の値のユーザー設定 '{key}' の保存に失敗しました。"
+msgstr "'{value}' の値のユーザー設定 '{key}' の保存に失敗しました。"
 
 #: openedx/core/djangoapps/user_api/preferences/views.py:110
 msgid "No data provided for user preference update"
@@ -9942,7 +9942,7 @@ msgstr "%(min_score)s は有効な成績％ではありません。"
 #: openedx/core/lib/gating/api.py:176
 #, python-brace-format
 msgid "Gating milestone for {usage_key}"
-msgstr "{usage_key}用のゲート・マイルストーン"
+msgstr "{usage_key} 用のゲート・マイルストーン"
 
 #: openedx/core/lib/license/mixin.py:24
 msgid "License"
@@ -9993,7 +9993,7 @@ msgstr "レビュー"
 #: openedx/features/course_experience/views/course_home_messages.py:107
 #, python-brace-format
 msgid "{sign_in_link} or {register_link} and then enroll in this course."
-msgstr ""
+  msgstr "{sign_in_link} または {register_link} で受講登録をしてください。"
 
 #: openedx/features/course_experience/views/course_home_messages.py:110
 msgid "Sign in"
@@ -10003,13 +10003,13 @@ msgstr "サインイン"
 #, python-brace-format
 msgid ""
 "{open_enroll_link}Enroll now{close_enroll_link} to access the full course."
-msgstr "{open_enroll_link}いますぐ受講登録{close_enroll_link}して、講義内容すべてにアクセスできるようにしましょう。"
+msgstr "{open_enroll_link}いますぐ受講登録{close_enroll_link} して、講義内容すべてにアクセスできるようにしましょう。"
 
 #: openedx/features/course_experience/views/course_home_messages.py:129
 #: openedx/features/course_experience/views/course_home_messages.py:193
 #, python-brace-format
 msgid "Welcome to {course_display_name}"
-msgstr "{course_display_name}へようこそ"
+msgstr "{course_display_name} へようこそ"
 
 #: openedx/features/course_experience/views/course_home_messages.py:141
 #, python-brace-format
@@ -10038,12 +10038,12 @@ msgstr "目標設定: {goal_text}"
 msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise_customer_name}."
-msgstr "データのシェアについて気になる点があれば、{enterprise_customer_name}で管理者へお問い合わせください。"
+msgstr "データのシェアについて気になる点があれば、{enterprise_customer_name} で管理者へお問い合わせください。"
 
 #: openedx/features/enterprise_support/api.py:534
 #, python-brace-format
 msgid "Enrollment in {course_name} was not complete."
-msgstr "{course_name}への受講登録が完了していません。"
+msgstr "{course_name} への受講登録が完了していません。"
 
 #: openedx/features/learner_profile/views/learner_profile.py:56
 #, python-brace-format
@@ -10051,5 +10051,5 @@ msgid ""
 "Welcome to the new learner profile page. Your full profile now displays more"
 " information to other learners. You can instead choose to display a limited "
 "profile. {learn_more_link_start}Learn more{learn_more_link_end}"
-msgstr "新規受講者のプロフィールページへようこそ。現在は全プロフィールで他の受講者に多くの情報を提示しています。代わりに限定プロフィールを選択することもできます。{learn_more_link_start}詳しくはこちら{learn_more_link_end}"
+msgstr "新規受講者のプロフィールページへようこそ。現在は全プロフィールで他の受講者に多くの情報を提示しています。代わりに限定プロフィールを選択することもできます。 {learn_more_link_start}詳しくはこちら{learn_more_link_end} "
 
