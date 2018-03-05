@@ -183,15 +183,15 @@ msgstr "サインイン"
 #: themes/red-theme/cms/templates/login.html:16
 #: themes/red-theme/cms/templates/login.html:42
 msgid "Sign In to {studio_name}"
-msgstr "{studio_name}にサインイン"
+msgstr " {studio_name} にサインイン"
 
 #: cms/templates/login.html:20 themes/red-theme/cms/templates/login.html:17
 msgid "Don't have a {studio_name} Account? Sign up!"
-msgstr "{studio_name}アカウントをお持ちでない？新規登録しよう！"
+msgstr "{studio_name} アカウントをお持ちでない？新規登録しよう！"
 
 #: cms/templates/login.html:28 themes/red-theme/cms/templates/login.html:24
 msgid "Required Information to Sign In to {studio_name}"
-msgstr "{studio_name}へのサインインに必要な情報"
+msgstr "{studio_name} へのサインインに必要な情報"
 
 #: cms/templates/login.html:33 cms/templates/register.html:32
 #: lms/templates/help_modal.html:99 lms/templates/login.html:181
@@ -397,17 +397,17 @@ msgstr "ヘルプ"
 #: cms/templates/widgets/sock.html:10
 #: themes/edx.org/cms/templates/widgets/sock.html:10
 msgid "Looking for help with {studio_name}?"
-msgstr "{studio_name}用ヘルプを探していますか？"
+msgstr "{studio_name} 用ヘルプを探していますか？"
 
 #: cms/templates/widgets/sock.html:11
 #: themes/edx.org/cms/templates/widgets/sock.html:11
 msgid "Hide {studio_name} Help"
-msgstr "{studio_name}のヘルプを非表示"
+msgstr "{studio_name} のヘルプを非表示"
 
 #: cms/templates/widgets/sock.html:18
 #: themes/edx.org/cms/templates/widgets/sock.html:19
 msgid "{studio_name} Documentation"
-msgstr "{studio_name}ドキュメント"
+msgstr "{studio_name} ドキュメント"
 
 #: cms/templates/widgets/sock.html:27
 #: themes/edx.org/cms/templates/widgets/sock.html:30
@@ -442,7 +442,7 @@ msgstr "StudioXに受講登録する"
 #: cms/templates/widgets/sock.html:47
 #: themes/edx.org/cms/templates/widgets/sock.html:50
 msgid "Send an email to {email}"
-msgstr "{email}にメールを送る"
+msgstr "{email} にメールを送る"
 
 #: cms/templates/widgets/sock.html:48
 #: themes/edx.org/cms/templates/widgets/sock.html:51
@@ -694,7 +694,7 @@ msgstr "閉じる"
 #: lms/templates/dashboard.html:230
 #: themes/edx.org/lms/templates/dashboard.html:241
 msgid "Email Settings for {course_number}"
-msgstr "{course_number}のメール設定"
+msgstr "{course_number} のメール設定"
 
 #. Translators: this text gives status on if the modal interface (a menu or
 #. piece of UI that takes the full focus of the screen) is open or not
@@ -733,12 +733,12 @@ msgstr "メールの変更失敗"
 
 #: lms/templates/email_change_failed.html:11
 msgid "We were unable to send a confirmation email to {email}"
-msgstr "{email}に確認メールを送信できませんでした"
+msgstr "{email} に確認メールを送信できませんでした"
 
 #: lms/templates/email_change_failed.html:13
 #: lms/templates/email_exists.html:13 lms/templates/invalid_email_key.html:15
 msgid "Go back to the {link_start}home page{link_end}."
-msgstr "{link_start}ホームページ{link_end}へ戻る。"
+msgstr "{link_start} ホームページ {link_end}へ戻る。"
 
 #: lms/templates/email_change_successful.html:10
 msgid "E-mail change successful!"
@@ -746,7 +746,7 @@ msgstr "メール変更完了！"
 
 #: lms/templates/email_change_successful.html:13
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
-msgstr "{link_start}ダッシュボード{link_end}で新しいメールを確認して下さい。"
+msgstr "{link_start} ダッシュボード {link_end}で新しいメールを確認して下さい。"
 
 #: lms/templates/email_exists.html:11
 msgid "An account with the new e-mail address already exists."
@@ -839,7 +839,7 @@ msgstr "あなたのメールアドレス"
 
 #: lms/templates/forgot_password_modal.html:35 lms/templates/login.html:183
 msgid "This is the e-mail address you used to register with {platform}"
-msgstr "これは{platform}に以前登録されたメールアドレスです。"
+msgstr "これは {platform} に以前登録されたメールアドレスです。"
 
 #: lms/templates/forgot_password_modal.html:41
 #: lms/templates/registration/password_reset_confirm.html:63
@@ -856,27 +856,27 @@ msgstr "サポート"
 
 #: lms/templates/help_modal.html:35
 msgid "{platform_name} Support"
-msgstr "{platform_name}のサポート"
+msgstr "{platform_name} のサポート"
 
 #: lms/templates/help_modal.html:48
 msgid ""
 "For {strong_start}questions on course lectures, homework, tools, or "
 "materials for this course{strong_end}, post in the {link_start}course "
 "discussion forum{link_end}."
-msgstr " {strong_start}本講義の講義内容や宿題、ツール、教材への疑問{strong_end}は、{link_start}ディスカッションフォーラム{link_end}に投稿しましょう。"
+msgstr " {strong_start} 本講義の講義内容や宿題、ツール、教材への疑問 {strong_end} は、{link_start} ディスカッションフォーラム {link_end} に投稿しましょう。"
 
 #: lms/templates/help_modal.html:59
 msgid ""
 "Have {strong_start}general questions about {platform_name}{strong_end}? You "
 "can find lots of helpful information in the {platform_name} "
 "{link_start}FAQ{link_end}."
-msgstr "{strong_start}{platform_name}に関する質問{strong_end}がある方は、{platform_name}の{link_start}FAQ{link_end}で役立つ情報を多数ご覧いただけます。"
+msgstr "{strong_start} {platform_name} に関する質問 {strong_end} がある方は、{platform_name} の {link_start} FAQ {link_end}で役立つ情報を多数ご覧いただけます。"
 
 #: lms/templates/help_modal.html:69
 msgid ""
 "Have a {strong_start}question about something specific{strong_end}? You can "
 "contact the {platform_name} general support team directly:"
-msgstr "{strong_start}特別な質問{strong_end}がある方は、{platform_name} の総合サポートチームに直接お問い合わせください: "
+msgstr "{strong_start} 特別な質問 {strong_end}がある方は、{platform_name} の総合サポートチームに直接お問い合わせください: "
 
 #: lms/templates/help_modal.html:77
 msgid "Report a problem"
@@ -895,7 +895,7 @@ msgid ""
 "Please note: The {platform_name} support team is English speaking. While we "
 "will do our best to address your inquiry in any language, our responses will"
 " be in English."
-msgstr "注意: {platform_name}のサポートチームの言語は英語です。すべての言語のお問い合わせに極力対応しますが、返信は英語となります。"
+msgstr "注意: {platform_name} のサポートチームの言語は英語です。すべての言語のお問い合わせに極力対応しますが、返信は英語となります。"
 
 #: lms/templates/help_modal.html:97
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:59
@@ -984,7 +984,7 @@ msgstr "エラーが発生しました。"
 
 #: lms/templates/help_modal.html:332
 msgid "Please {link_start}send us e-mail{link_end}."
-msgstr " {link_start}メールを送信{link_end}してください。"
+msgstr " {link_start} メールを送信 {link_end} してください。"
 
 #: lms/templates/help_modal.html:339
 msgid "Please try again later."
@@ -1003,14 +1003,14 @@ msgid ""
 "Because the course has ended, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr "講義が既に終了していますので、この課題はもう有効ではありません。{line_break}すでにこの課題を完了している場合、成績は{link_start}進捗ページ{link_end}でご覧いただけます。"
+msgstr "講義が既に終了していますので、この課題はもう有効ではありません。{line_break} すでにこの課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
 
 #: lms/templates/hidden_content.html:28
 msgid ""
 "Because the due date has passed, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr "締切が過ぎていますので、この課題はもう有効ではありません。{line_break}すでにこの課題を完了している場合、成績は{link_start}進捗ページ{link_end}でご覧いただけます。"
+msgstr "締切が過ぎていますので、この課題はもう有効ではありません。{line_break} すでにこの課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
 
 #: lms/templates/imageannotation.html:37
 msgid "Note: only instructors may annotate."
@@ -1067,7 +1067,7 @@ msgid_plural ""
 "Showing all matching content eligible to be added into {display_name}. Each "
 "student will be assigned {max_count} components drawn randomly from this "
 "list."
-msgstr[0] "{display_name}に追加される条件を満たすすべてのコンテンツを表示しています。各受講者にはリストからランダムに選ばれた{max_count}個のコンポーネントが割り当てられます。"
+msgstr[0] "{display_name} に追加される条件を満たすすべてのコンテンツを表示しています。各受講者にはリストからランダムに選ばれた {max_count} 個のコンポーネントが割り当てられます。"
 
 #: lms/templates/login-sidebar.html:7
 msgid "Helpful Information"
@@ -1081,7 +1081,7 @@ msgstr "OpenIDでログイン"
 msgid ""
 "You can now start learning with {platform_name} by logging in with your <a "
 "rel=\"external\" href=\"http://openid.net/\">OpenID account</a>."
-msgstr "<a rel=\"external\" href=\"http://openid.net/\">OpenIDアカウント</a>でログインして、{platform_name}での学習を始めましょう。"
+msgstr "<a rel=\"external\" href=\"http://openid.net/\">OpenIDアカウント</a> でログインして、{platform_name} での学習を始めましょう。"
 
 #: lms/templates/login-sidebar.html:19
 msgid "Not Enrolled?"
@@ -1089,7 +1089,7 @@ msgstr "まだ受講登録していない方へ"
 
 #: lms/templates/login-sidebar.html:20
 msgid "Sign up for {platform_name} today!"
-msgstr "今すぐ{platform_name}に受講登録しよう！"
+msgstr "今すぐ{platform_name} に受講登録しよう！"
 
 #: lms/templates/login-sidebar.html:24 lms/templates/register-sidebar.html:41
 #: themes/stanford-style/lms/templates/register-sidebar.html:32
@@ -1098,7 +1098,7 @@ msgstr "ヘルプが必要ですか？"
 
 #: lms/templates/login-sidebar.html:25
 msgid "Looking for help signing in or with your {platform_name} account?"
-msgstr "サインインまたは{platform_name}アカウントについての説明をお探しですか？"
+msgstr "サインインまたは {platform_name} アカウントについての説明をお探しですか？"
 
 #: lms/templates/login-sidebar.html:27
 msgid "View our help section for answers to commonly asked questions."
@@ -1106,11 +1106,11 @@ msgstr "ヘルプセクションでよくある質問を確認してください
 
 #: lms/templates/login.html:11
 msgid "Log into your {platform_name} Account"
-msgstr "{platform_name}アカウントにログイン"
+msgstr "{platform_name} アカウントにログイン"
 
 #: lms/templates/login.html:104
 msgid "Log into My {platform_name} Account"
-msgstr "{platform_name}アカウントにログイン"
+msgstr "{platform_name} アカウントにログイン"
 
 #: lms/templates/login.html:104
 msgid "Access My Courses"
@@ -1132,7 +1132,7 @@ msgstr "アカウントおよび講義にアクセスするために"
 
 #: lms/templates/login.html:149
 msgid "We're Sorry, {platform_name} accounts are unavailable currently"
-msgstr "申し訳ありません。{platform_name}アカウントは現在利用できません"
+msgstr "申し訳ありません。{platform_name} アカウントは現在利用できません"
 
 #: lms/templates/login.html:153
 msgid "We couldn't log you in."
@@ -1151,7 +1151,7 @@ msgid ""
 "Please provide the following information to log into your {platform_name} "
 "account. Required fields are noted by <strong class=\"indicator\">bold text "
 "and an asterisk (*)</strong>."
-msgstr "{platform_name}アカウントへログインするには以下の項目を入力してください。<strong class=\"indicator\">(*)付きの太字の項目</strong>は必須です。"
+msgstr "{platform_name} アカウントへログインするには以下の項目を入力してください。<strong class=\"indicator\">(*)付きの太字の項目</strong>は必須です。"
 
 #: lms/templates/login.html:196
 msgid "Account Preferences"
@@ -1176,7 +1176,7 @@ msgstr "または"
 
 #: lms/templates/login.html:229
 msgid "Sign in with {provider_name}"
-msgstr "{provider_name}でサインインする"
+msgstr "{provider_name} でサインインする"
 
 #. Translators:  "External resource" means that this learning module is hosted
 #. on a platform external to the edX LMS
@@ -1194,7 +1194,7 @@ msgstr "{points} / {total_points} 点"
 #. this LTI unit
 #: lms/templates/lti.html:18
 msgid "{total_points} points possible"
-msgstr "{total_points}点満点"
+msgstr "{total_points} 点満点"
 
 #: lms/templates/lti.html:37
 msgid "View resource in a new window"
@@ -1203,7 +1203,7 @@ msgstr "新しいウインドウでリソースを見る"
 #: lms/templates/lti.html:55
 msgid ""
 "Please provide launch_url. Click \"Edit\", and fill in the required fields."
-msgstr "launch_urlを入力してください。\"編集\"をクリックし、必須項目を入力してください。"
+msgstr "launch_url を入力してください。\"編集\" をクリックし、必須項目を入力してください。"
 
 #: lms/templates/lti.html:60
 msgid "Feedback on your work from the grader:"
@@ -1269,7 +1269,7 @@ msgstr "作業中"
 #: lms/templates/module-error.html:9
 #: lms/templates/courseware/courseware-error.html:21
 msgid "There has been an error on the {platform_name} servers"
-msgstr "{platform_name}サーバーにエラーが発生しました"
+msgstr "{platform_name} サーバーにエラーが発生しました"
 
 #: lms/templates/module-error.html:14
 #: lms/templates/courseware/courseware-error.html:26
@@ -1278,7 +1278,7 @@ msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
 " fix it as soon as possible. Please email us at {tech_support_email} to "
 "report any problems or downtime."
-msgstr "申し訳ありません。このモジュールは一時的に利用できません。できるだけ早く復旧できるよう作業中です。問題や中断時間の報告は{tech_support_email}へメールしてください。"
+msgstr "申し訳ありません。このモジュールは一時的に利用できません。できるだけ早く復旧できるよう作業中です。問題や中断時間の報告は {tech_support_email} へメールしてください。"
 
 #: lms/templates/module-error.html:30
 msgid "Raw data:"
@@ -1316,7 +1316,7 @@ msgstr "特定の受講者"
 
 #: lms/templates/preview_menu.html:43
 msgid "Learner in {content_group}"
-msgstr "{content_group}の受講者"
+msgstr "{content_group} の受講者"
 
 #: lms/templates/preview_menu.html:50
 msgid "Username or email:"
@@ -1328,12 +1328,12 @@ msgstr "プレビューモードにする"
 
 #: lms/templates/preview_menu.html:60
 msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
-msgstr " {i_start}{user_name}{i_end}としてこの講義を閲覧しています。"
+msgstr " {i_start}{user_name}{i_end} としてこの講義を閲覧しています。"
 
 #: lms/templates/problem.html:35
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] "全{num_total}回の内{num_used}回解答済です"
+msgstr[0] "全 {num_total} 回の内 {num_used} 回解答済です"
 
 #: lms/templates/problem.html:37
 msgid ""
@@ -1384,7 +1384,7 @@ msgid ""
 "Your username, email, and full name will be sent to {destination}, where the"
 " collection and use of this information will be governed by their terms of "
 "service and privacy policy."
-msgstr "ユーザー名、メールアドレス、氏名は{destination}に送信されます。この情報収集や利用については利用規約およびプライバシーポリシーが適用されます。"
+msgstr "ユーザー名、メールアドレス、氏名は {destination} に送信されます。この情報収集や利用については利用規約およびプライバシーポリシーが適用されます。"
 
 #: lms/templates/provider_login.html:50
 #, python-format
@@ -1408,12 +1408,12 @@ msgstr "登録処理をする際にエラーが発生しました:"
 #: lms/templates/register-form.html:35
 #: themes/stanford-style/lms/templates/register-form.html:35
 msgid "Sign up with {provider_name}"
-msgstr "{provider_name}で新規登録する"
+msgstr "{provider_name} で新規登録する"
 
 #: lms/templates/register-form.html:48
 #: themes/stanford-style/lms/templates/register-form.html:48
 msgid "Create your own {platform_name} account below"
-msgstr "{platform_name}アカウントを作成する"
+msgstr "{platform_name} アカウントを作成する"
 
 #: lms/templates/register-form.html:49 lms/templates/register-form.html:67
 #: lms/templates/register-shib.html:111
@@ -1430,14 +1430,14 @@ msgstr "<strong class=\"indicator\">(*)付きの太字の項目</strong>は必�
 #: lms/templates/register-form.html:57
 #: themes/stanford-style/lms/templates/register-form.html:57
 msgid "You've successfully signed in with {selected_provider}."
-msgstr "{selected_provider}でのサインインが完了しました。"
+msgstr "{selected_provider} でのサインインが完了しました。"
 
 #: lms/templates/register-form.html:58
 #: themes/stanford-style/lms/templates/register-form.html:58
 msgid ""
 "We just need a little more information before you start learning with "
 "{platform_name}."
-msgstr "{platform_name}での学習を始めるにあたって、あと少し情報が必要です。"
+msgstr "{platform_name} での学習を始めるにあたって、あと少し情報が必要です。"
 
 #: lms/templates/register-form.html:66
 #: themes/stanford-style/lms/templates/register-form.html:66
@@ -1467,7 +1467,7 @@ msgstr "後から変更できません"
 #: lms/templates/register-form.html:114
 #: themes/stanford-style/lms/templates/register-form.html:114
 msgid "Welcome {username}"
-msgstr "ようこそ、{username}さん"
+msgstr "ようこそ、{username} さん"
 
 #: lms/templates/register-form.html:115
 #: themes/stanford-style/lms/templates/register-form.html:115
@@ -1526,7 +1526,7 @@ msgstr "住所"
 #: lms/templates/register-form.html:226
 #: themes/stanford-style/lms/templates/register-form.html:226
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr "{platform_name}への登録理由を教えてください"
+msgstr "{platform_name} への登録理由を教えてください"
 
 #: lms/templates/register-form.html:234 lms/templates/register-shib.html:153
 #: themes/stanford-style/lms/templates/register-form.html:234
@@ -1539,14 +1539,14 @@ msgstr "アカウント認証"
 #: themes/stanford-style/lms/templates/register-form.html:242
 #: themes/stanford-style/lms/templates/register-shib.html:156
 msgid "I agree to the {link_start}Terms of Service{link_end}"
-msgstr "{link_start}利用規約{link_end}に同意します"
+msgstr "{link_start} 利用規約 {link_end} に同意します"
 
 #: lms/templates/register-form.html:256 lms/templates/register-shib.html:174
 #: lms/templates/signup_modal.html:138
 #: themes/stanford-style/lms/templates/register-form.html:254
 #: themes/stanford-style/lms/templates/register-shib.html:168
 msgid "I agree to the {link_start}Honor Code{link_end}"
-msgstr "{link_start}倫理規定{link_end}に同意します"
+msgstr "{link_start} 倫理規定 {link_end} に同意します"
 
 #: lms/templates/register-form.html:267
 #: lms/templates/header/navbar-not-authenticated.html:49
@@ -1571,17 +1571,17 @@ msgstr "アカウントを作成する"
 #: lms/templates/register-shib.html:14
 #: themes/stanford-style/lms/templates/register-shib.html:8
 msgid "Preferences for {platform_name}"
-msgstr "{platform_name}の設定"
+msgstr "{platform_name} の設定"
 
 #: lms/templates/register-shib.html:75
 #: themes/stanford-style/lms/templates/register-shib.html:69
 msgid "Update my {platform_name} Account"
-msgstr "{platform_name}アカウントを更新"
+msgstr "{platform_name} アカウントを更新"
 
 #: lms/templates/register-shib.html:90
 #: themes/stanford-style/lms/templates/register-shib.html:84
 msgid "Welcome {username}!  Please set your preferences below"
-msgstr "ようこそ、{username}さん！以下の設定をお願いします"
+msgstr "ようこそ、{username} さん！以下の設定をお願いします"
 
 #: lms/templates/register-shib.html:118 lms/templates/signup_modal.html:51
 #: themes/stanford-style/lms/templates/register-shib.html:112
@@ -1610,14 +1610,14 @@ msgstr "ログイン"
 
 #: lms/templates/register-sidebar.html:30
 msgid "Welcome to {platform_name}"
-msgstr "{platform_name}へようこそ"
+msgstr "{platform_name} へようこそ"
 
 #: lms/templates/register-sidebar.html:31
 msgid ""
 "Registering with {platform_name} gives you access to all of our current and "
 "future free courses. Not ready to take a course just yet? Registering puts "
 "you on our mailing list - we will update you as courses are added."
-msgstr "{platform_name}に登録するといつでもすべての講義にアクセスできます。受講したい講義がまだ見つかっていないという方もぜひご登録ください。登録いただいた方には、新規講義のお知らせをメールにてご連絡します。"
+msgstr "{platform_name} に登録するといつでもすべての講義にアクセスできます。受講したい講義がまだ見つかっていないという方もぜひご登録ください。登録いただいた方には、新規講義のお知らせをメールにてご連絡します。"
 
 #: lms/templates/register-sidebar.html:35
 #: themes/stanford-style/lms/templates/register-sidebar.html:26
@@ -1630,11 +1630,11 @@ msgid ""
 "instructions for activating your account. Don't see the email? Check your "
 "spam folder and mark {platform_name} emails as 'not spam'. At "
 "{platform_name}, we communicate mostly through email."
-msgstr "{platform_name}に登録するとアカウントの有効化に関するメールが送られます。メールが届いていない場合は、迷惑メールフォルダを確認して{platform_name}からのメールを「迷惑メールではない」と設定してください。{platform_name}では、ほとんどのやりとりをメールで行います。"
+msgstr "{platform_name} に登録するとアカウントの有効化に関するメールが送られます。メールが届いていない場合は、迷惑メールフォルダを確認して {platform_name} からのメールを「迷惑メールではない」と設定してください。{platform_name} では、ほとんどのやりとりをメールで行います。"
 
 #: lms/templates/register-sidebar.html:42
 msgid "Need help registering with {platform_name}?"
-msgstr "{platform_name}に登録する際のヘルプが必要ですか？"
+msgstr "{platform_name} に登録する際のヘルプが必要ですか？"
 
 #: lms/templates/register-sidebar.html:44
 #: themes/stanford-style/lms/templates/register-sidebar.html:35
@@ -1650,11 +1650,11 @@ msgstr "ほとんどの疑問への回答はFAQ（よくある質問）一覧か
 
 #: lms/templates/register.html:16
 msgid "Register for {platform_name}"
-msgstr "{platform_name}へ登録"
+msgstr "{platform_name} へ登録"
 
 #: lms/templates/register.html:89
 msgid "Create My {platform_name} Account"
-msgstr "{platform_name}アカウントを作成する"
+msgstr "{platform_name} アカウントを作成する"
 
 #: lms/templates/register.html:104
 msgid "Welcome!"
@@ -1662,7 +1662,7 @@ msgstr "ようこそ！"
 
 #: lms/templates/register.html:105
 msgid "Register below to create your {platform_name} account"
-msgstr "{platform_name}アカウント作成にあたり、以下の登録をお願いします"
+msgstr "{platform_name} アカウント作成にあたり、以下の登録をお願いします"
 
 #: lms/templates/resubscribe.html:13
 msgid "Re-subscribe Successful!"
@@ -1672,7 +1672,7 @@ msgstr "再申込完了！"
 msgid ""
 "You have re-enabled forum notification emails from {platform_name}. You may "
 "{dashboard_link_start}return to your dashboard{link_end}."
-msgstr "{platform_name} からのメール通知の再開手続をしました。ダッシュボードへは{dashboard_link_start}こちらから{link_end}戻ることができます。"
+msgstr "{platform_name} からのメール通知の再開手続をしました。ダッシュボードへは {dashboard_link_start} こちらから {link_end} 戻ることができます。"
 
 #: lms/templates/seq_module.html:18 lms/templates/seq_module.html:65
 msgid "Previous"
@@ -1688,7 +1688,7 @@ msgstr "次へ"
 
 #: lms/templates/signup_modal.html:24
 msgid "Sign Up for {platform_name}"
-msgstr "{platform_name}に登録"
+msgstr "{platform_name} に登録"
 
 #: lms/templates/signup_modal.html:39 lms/templates/signup_modal.html:58
 msgid "e.g. yourname@domain.com"
@@ -1704,7 +1704,7 @@ msgstr "例. 氏名 (修了証に記載)"
 
 #: lms/templates/signup_modal.html:50
 msgid "<i>Welcome</i> {name}"
-msgstr "<i>ようこそ</i>、{name}さん"
+msgstr "<i>ようこそ</i>、{name} さん"
 
 #: lms/templates/signup_modal.html:63
 msgid "Full Name *"
@@ -1724,7 +1724,7 @@ msgstr "住所"
 
 #: lms/templates/signup_modal.html:121
 msgid "Goals in signing up for {platform_name}"
-msgstr "{platform_name}への登録時の目標"
+msgstr "{platform_name} への登録時の目標"
 
 #: lms/templates/signup_modal.html:153
 msgid "Already have an account?"
@@ -1738,7 +1738,7 @@ msgstr "ログイン。"
 msgid ""
 "This content experiment uses group configuration "
 "'{group_configuration_name}'."
-msgstr "このコンテンツテストはグループ設定'{group_configuration_name}'を使用します。"
+msgstr "このコンテンツテストはグループ設定 '{group_configuration_name}' を使用します。"
 
 #: lms/templates/split_test_author_view.html:25
 msgid "Active Groups"
@@ -1758,7 +1758,7 @@ msgstr "提出履歴"
 
 #: lms/templates/staff_problem_info.html:37
 msgid "{platform_name} Content Quality Assessment"
-msgstr "{platform_name}コンテンツの品質評価"
+msgstr "{platform_name} コンテンツの品質評価"
 
 #: lms/templates/staff_problem_info.html:41
 msgid "Comment"
@@ -1852,7 +1852,7 @@ msgstr "履歴を見る"
 #: lms/templates/static_htmlbook.html:13 lms/templates/static_pdfbook.html:11
 #: lms/templates/staticbook.html:13
 msgid "{course_number} Textbook"
-msgstr "{course_number}の教科書"
+msgstr "{course_number} の教科書"
 
 #: lms/templates/static_htmlbook.html:125 lms/templates/static_pdfbook.html:38
 #: lms/templates/staticbook.html:82
@@ -1974,7 +1974,7 @@ msgstr "前へ"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html:42
 msgid "Page {current_page} of {total_pages}"
-msgstr "{total_pages}ページ中{current_page}ページ目"
+msgstr "{total_pages} ページ中 {current_page} ページ目"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html:49
 msgid "next"
@@ -1983,7 +1983,7 @@ msgstr "次へ"
 #. Translators: Git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html:133
 msgid "Recent git load activity for {course_id}"
-msgstr "{course_id}の最新のgit履歴"
+msgstr "{course_id} の最新のgit履歴"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html:135
 #: lms/templates/ccx/schedule.html:78
@@ -2048,7 +2048,7 @@ msgid ""
 "You will no longer receive forum notification emails from {platform_name}. "
 "You may {dashboard_link_start}return to your dashboard{link_end}. If you did"
 " not mean to do this, {undo_link_start}you can re-subscribe{link_end}."
-msgstr "今後{platform_name}からのフォーラム通知メールが届かなくなります。ダッシュボードへは{dashboard_link_start}こちらから{link_end}戻ることができます。登録したい場合は、{undo_link_start}こちらから{link_end}再登録できます。"
+msgstr "今後 {platform_name} からのフォーラム通知メールが届かなくなります。ダッシュボードへは {dashboard_link_start} こちらから {link_end} 戻ることができます。登録したい場合は、{undo_link_start} こちらから {link_end} 再登録できます。"
 
 #: lms/templates/user_dropdown.html:22 lms/templates/user_dropdown.html:43
 #: lms/templates/user_dropdown.html:65
@@ -2120,7 +2120,7 @@ msgstr "字幕"
 
 #: lms/templates/video.html:64
 msgid "Download {file}"
-msgstr "{file}をダウンロード"
+msgstr "{file} をダウンロード"
 
 #: lms/templates/video.html:70
 msgid "Download transcript"
@@ -2136,7 +2136,7 @@ msgstr "ハンドアウトをダウンロード"
 
 #: lms/templates/word_cloud.html:29
 msgid "{num} of {total}"
-msgstr "{total}個中 {num}個"
+msgstr "{total} 個中 {num} 個"
 
 #: lms/templates/word_cloud.html:47
 msgid "Your words were:"
@@ -2149,7 +2149,7 @@ msgstr "APIのアクセス要求"
 #: lms/templates/api_admin/api_access_request_form.html:12
 #: lms/templates/api_admin/status.html:16
 msgid "{platform_name} API Access Request"
-msgstr "{platform_name}のAPIアクセス要求"
+msgstr "{platform_name} のAPIアクセス要求"
 
 #: lms/templates/api_admin/api_access_request_form.html:20
 msgid "Request API Access"
@@ -2166,7 +2166,7 @@ msgid ""
 "processed. You will receive a message at the email address in your profile "
 "when processing is complete. You can also return to this page to see the "
 "status of your API access request."
-msgstr "{platform_name}講義カタログAPIへのアクセスリクエストを処理中です。処理が完了するとプロフィールに登録されているメールアドレスに通知が届きます。また、この画面へ戻ってAPIアクセスリクエストのステータスを見ることができます。"
+msgstr "{platform_name} 講義カタログAPIへのアクセスリクエストを処理中です。処理が完了するとプロフィールに登録されているメールアドレスに通知が届きます。また、この画面へ戻ってAPIアクセスリクエストのステータスを見ることができます。"
 
 #. Translators: "platform_name" is the name of this Open edX installation.
 #. "api_support_email_link" is HTML for a link to email the API support staff.
@@ -2175,13 +2175,13 @@ msgid ""
 "Your request to access the {platform_name} Course Catalog API has been "
 "denied. If you think this is an error, or for other questions about using "
 "this API, contact {api_support_email_link}."
-msgstr "{platform_name}講義カタログAPIへのアクセスリクエストが拒否されました。エラーと思われる場合やこのAPIの利用に関する質問は、{api_support_email_link}へお問い合わせください。"
+msgstr "{platform_name} 講義カタログAPIへのアクセスリクエストが拒否されました。エラーと思われる場合やこのAPIの利用に関する質問は、 {api_support_email_link} へお問い合わせください。"
 
 #: lms/templates/api_admin/status.html:33
 msgid ""
 "Your request to access the {platform_name} Course Catalog API has been "
 "approved."
-msgstr "{platform_name}講義カタログAPIへのアクセス要求が承認されました。"
+msgstr "{platform_name} 講義カタログAPIへのアクセス要求が承認されました。"
 
 #: lms/templates/api_admin/status.html:39
 msgid "Application Name"
@@ -2218,7 +2218,7 @@ msgid ""
 "To learn more about the {platform_name} Course Catalog API, visit "
 "{link_start}our API documentation page{link_end}. For questions about using "
 "this API, contact {api_support_email_link}."
-msgstr "{platform_name}講義カタログAPIについて詳しく知りたい場合は、{link_start}APIドキュメントページ{link_end}を参照してください。このAPIの使用に関する質問は{api_support_email_link}へお問い合わせください。"
+msgstr "{platform_name} 講義カタログAPIについて詳しく知りたい場合は、{link_start} APIドキュメントページ {link_end} を参照してください。このAPIの使用に関する質問は {api_support_email_link} へお問い合わせください。"
 
 #: lms/templates/api_admin/terms_of_service.html:9
 msgid "API Terms of Service"
@@ -2226,7 +2226,7 @@ msgstr "API 利用規約"
 
 #: lms/templates/api_admin/terms_of_service.html:12
 msgid "Terms of Service for {platform_name} APIs"
-msgstr "{platform_name}APIの利用規約"
+msgstr "{platform_name} APIの利用規約"
 
 #: lms/templates/api_admin/terms_of_service.html:13
 msgid "Effective Date: April 12th, 2016"
@@ -2245,7 +2245,7 @@ msgid ""
 "legally bound by the Terms, whether or not you are a registered user. If you"
 " do not understand or do not wish to be bound by the Terms, you should not "
 "use the APIs."
-msgstr "{platform_name}へようこそ。私たちが折に触れ提供している{platform_name}の講義ディスカバリAPIおよびその他のAPI (以下、\"APIs\"とします)をご利用いただき、誠にありがとうございます。APIsへのアクセスや利用の前に、利用規約をご一読ください。これらの利用規約および添付のAPIドキュメントに追記されている規定、および{platform_name}が時折追加または更新するポリシーおよびガイドラインはあなたと{platform_name}の間の合意書です (以下、\"規約\"とします)。APIsにアクセスしたり利用することにより、あなたが登録済のユーザーであるか否かに関わらず、あなたはこの規約に法的に同意しているものとします。これらの規約を理解できない、または遵守したくない場合には、APIsを使用しないでください。"
+msgstr "{platform_name} へようこそ。私たちが折に触れ提供している {platform_name} の講義ディスカバリAPIおよびその他のAPI (以下、\"APIs\"とします)をご利用いただき、誠にありがとうございます。APIsへのアクセスや利用の前に、利用規約をご一読ください。これらの利用規約および添付のAPIドキュメントに追記されている規定、および {platform_name} が時折追加または更新するポリシーおよびガイドラインはあなたと {platform_name} の間の合意書です (以下、\"規約\"とします)。APIsにアクセスしたり利用することにより、あなたが登録済のユーザーであるか否かに関わらず、あなたはこの規約に法的に同意しているものとします。これらの規約を理解できない、または遵守したくない場合には、APIsを使用しないでください。"
 
 #: lms/templates/api_admin/terms_of_service.html:17
 msgid "API Access"
@@ -2262,7 +2262,7 @@ msgid ""
 "promptly of any changes. {platform_name} will review your API request form "
 "and, upon approval in {platform_name}'s sole discretion, will provide you "
 "with instructions for obtaining your API shared secret and client ID."
-msgstr "APIにアクセスするためには、アプリケーション(私的使用を除く)のために{platform_name}のユーザーアカウントを作成する必要があります。このアカウントにより、{request_url}のAPIリクエストページにアクセスできるようになります。そのページでは、APIの使用目的の説明を含むAPIリクエストフォームに回答する必要があります。{platform_name}に届け出たアカウントおよび登録情報は最新の正確なものでなければならず、何らかの変更があった場合にはただちに届け出ることに同意しているものとします。{platform_name}はAPIリクエストフォームを審査し、{platform_name}の裁量で承認されると、APIの共有シークレット・クライアントIDを取得する方法をお伝えします。"
+msgstr "APIにアクセスするためには、アプリケーション(私的使用を除く)のために {platform_name} のユーザーアカウントを作成する必要があります。このアカウントにより、{request_url} のAPIリクエストページにアクセスできるようになります。そのページでは、APIの使用目的の説明を含むAPIリクエストフォームに回答する必要があります。{platform_name} に届け出たアカウントおよび登録情報は最新の正確なものでなければならず、何らかの変更があった場合にはただちに届け出ることに同意しているものとします。 {platform_name} はAPIリクエストフォームを審査し、 {platform_name} の裁量で承認されると、APIの共有シークレット・クライアントIDを取得する方法をお伝えします。"
 
 #: lms/templates/api_admin/terms_of_service.html:21
 msgid "Permissible Use"
@@ -2282,7 +2282,7 @@ msgid ""
 "not prompt your end users to provide their {platform_name} username, "
 "password or other {platform_name} user credentials anywhere other than the "
 "{platform_name} website at {platform_url}."
-msgstr "あなたのWebサイト、モバイルサイト、アプリケーション、ブログ、メーリングリストまたはソーシャルメディアのAPIを通じてアクセスされるコンテンツ ( 以下、\"APIコンテンツ\") を配信する目的、またはあなたがリクエストの際に記入し、ケースバイケースを基本に{platform_name}が承認した商用目的でのみAPIを使用することに同意してください。 {platform_name}は、API利用規約を遵守して使用しているかを監視し、{platform_name}が設定している要件や限度ぎりぎりまたは超過している場合には、アクセスやAPI連携を拒否する場合があります。あなたのアプリケーションやAPIまたはAPIコンテンツの承認された利用に際して、{platform_URL}の{platform_name}のWebサイト以外のいかなる場所でもエンドユーザーに{platform_name}のユーザー名、パスワードやその他の{platform_name}ユーザーの機密情報の入力を要求してはいけません。"
+msgstr "あなたのWebサイト、モバイルサイト、アプリケーション、ブログ、メーリングリストまたはソーシャルメディアのAPIを通じてアクセスされるコンテンツ ( 以下、\"APIコンテンツ\") を配信する目的、またはあなたがリクエストの際に記入し、ケースバイケースを基本に {platform_name} が承認した商用目的でのみAPIを使用することに同意してください。  {platform_name} は、API利用規約を遵守して使用しているかを監視し、 {platform_name} が設定している要件や限度ぎりぎりまたは超過している場合には、アクセスやAPI連携を拒否する場合があります。あなたのアプリケーションやAPIまたはAPIコンテンツの承認された利用に際して、 {platform_URL} の {platform_name} のWebサイト以外のいかなる場所でもエンドユーザーに {platform_name} のユーザー名、パスワードやその他の {platform_name} ユーザーの機密情報の入力を要求してはいけません。"
 
 #: lms/templates/api_admin/terms_of_service.html:25
 msgid "Prohibited Uses and Activities"
@@ -2295,7 +2295,7 @@ msgid ""
 "to revoke API access for any use that {platform_name} determines at any "
 "time, in its sole discretion, does not benefit or serve the best interests "
 "of {platform_name}, its users and its partners."
-msgstr "{platform_name}はAPIの利用が可能かどうかを決定する独占権を有します。{platform_name}は、{platform_name}の裁量により、{platform_name}やユーザー、パートナーにとって有益でないと判断した場合はいつでもAPIアクセス権を取り消す権利を有します。"
+msgstr "{platform_name} はAPIの利用が可能かどうかを決定する独占権を有します。 {platform_name} は、 {platform_name} の裁量により、 {platform_name} やユーザー、パートナーにとって有益でないと判断した場合はいつでもAPIアクセス権を取り消す権利を有します。"
 
 #: lms/templates/api_admin/terms_of_service.html:29
 msgid ""
@@ -2307,7 +2307,7 @@ msgstr "APIを使用するにあたり、以下の行為は容認できません
 msgid ""
 "collecting or storing the names, passwords, or other credentials of "
 "{platform_name} users;"
-msgstr "{platform_name}ユーザーの名前、パスワード、その他の機密情報を収集したり保存すること;"
+msgstr "{platform_name} ユーザーの名前、パスワード、その他の機密情報を収集したり保存すること;"
 
 #: lms/templates/api_admin/terms_of_service.html:33
 msgid ""
@@ -2348,7 +2348,7 @@ msgstr "あらゆるウィルス、トロイの木馬、スパイウェア、ア
 msgid ""
 "using the APIs for any purpose which or might overburden, impair or disrupt "
 "the {platform_name} platform, servers or networks."
-msgstr "{platform_name}のプラットフォーム、サーバーまたはネットワークに過負荷、破損あるいは停止させる目的でAPIを使用すること。"
+msgstr "{platform_name} のプラットフォーム、サーバーまたはネットワークに過負荷、破損あるいは停止させる目的でAPIを使用すること。"
 
 #: lms/templates/api_admin/terms_of_service.html:42
 msgid "Usage and Quotas"
@@ -2360,7 +2360,7 @@ msgid ""
 "restrictions and limitations on the number and frequency of calls made by "
 "you or your Application to the APIs. You must not attempt to circumvent any "
 "restrictions or limitations that we impose."
-msgstr "{platform_name}は、その裁量によって、あなたやアプリケーションがAPIに要求する回数や頻度を制限する権利を有します。課された制限を巧みに回避しようとしてはいけません。"
+msgstr "{platform_name} は、その裁量によって、あなたやアプリケーションがAPIに要求する回数や頻度を制限する権利を有します。課された制限を巧みに回避しようとしてはいけません。"
 
 #: lms/templates/api_admin/terms_of_service.html:46
 msgid "Compliance"
@@ -2377,7 +2377,7 @@ msgid ""
 "means described in the documentation of that API. You will not misrepresent "
 "or mask either your identity or yourApplication's identity when using the "
 "APIs."
-msgstr "適用可能な法律、規制、第三者の権利 (データまたはソフトウェアのインポートまたはエクスポートに関する法律、プライバシー、著作権、および地域法を含むが、これらに限定されない)を遵守することに同意してください。違法行為や第三者の権利の侵害を奨励、促進するためにAPIを使用しないでください。{platform_name}のその他の利用規約に違反しないでください。APIにアクセス (またはアクセスを試みることが)できるのはAPIドキュメントに記載されている方法のみです。APIを使用する際、あなたやあなたのアプリケーションのIDを誤表記したり隠したりしてはいけません。"
+msgstr "適用可能な法律、規制、第三者の権利 (データまたはソフトウェアのインポートまたはエクスポートに関する法律、プライバシー、著作権、および地域法を含むが、これらに限定されない)を遵守することに同意してください。違法行為や第三者の権利の侵害を奨励、促進するためにAPIを使用しないでください。 {platform_name} のその他の利用規約に違反しないでください。APIにアクセス (またはアクセスを試みることが)できるのはAPIドキュメントに記載されている方法のみです。APIを使用する際、あなたやあなたのアプリケーションのIDを誤表記したり隠したりしてはいけません。"
 
 #: lms/templates/api_admin/terms_of_service.html:50
 msgid "Ownership"
@@ -2398,7 +2398,7 @@ msgid ""
 "or in part on your own behalf or on behalf of any third party. You may not "
 "distribute or modify the APIs or any API Content (including adaptation, "
 "editing, excerpting, or creating derivative works)."
-msgstr "APIおよびそのコンテンツすべてが{platform_name}およびそのパートナーの貴重な知的財産を含んでいることを認め、同意してください。APIおよびそのコンテンツは米国他の著作権、商標およびその他の法律によって守られています。APIおよびそのコンテンツのすべての権利は、明記されていない場合も、保護されています。APIやそのコンテンツを利用することによって、APIやそのコンテンツの権利の所有権を得ることはありません。APIやそのコンテンツの所有権を主張あるいは主張しようとする試み、またはあなた自身やあなたの会社またはあなたのアプリケーションがAPIのコンテンツの元であるような誤情報を与えてはいけません。ライセンスの変更、二次的著作物の作成や利用、あるいは何らかの方法であなたや第三者の代理としてAPIコンテンツの全体または一部を利用してはいけません。APIまたはそのコンテンツを配布・修正(改作、編集、引用、二次的著作物の作成を含む)してはいけません。"
+msgstr "APIおよびそのコンテンツすべてが {platform_name} およびそのパートナーの貴重な知的財産を含んでいることを認め、同意してください。APIおよびそのコンテンツは米国他の著作権、商標およびその他の法律によって守られています。APIおよびそのコンテンツのすべての権利は、明記されていない場合も、保護されています。APIやそのコンテンツを利用することによって、APIやそのコンテンツの権利の所有権を得ることはありません。APIやそのコンテンツの所有権を主張あるいは主張しようとする試み、またはあなた自身やあなたの会社またはあなたのアプリケーションがAPIのコンテンツの元であるような誤情報を与えてはいけません。ライセンスの変更、二次的著作物の作成や利用、あるいは何らかの方法であなたや第三者の代理としてAPIコンテンツの全体または一部を利用してはいけません。APIまたはそのコンテンツを配布・修正(改作、編集、引用、二次的著作物の作成を含む)してはいけません。"
 
 #: lms/templates/api_admin/terms_of_service.html:54
 msgid ""
@@ -2425,7 +2425,7 @@ msgid ""
 "re-distribute, relicense and otherwise use, make available and exploit such "
 "content, in whole or in part, in any form and in any media formats and "
 "through any media channels (now known or hereafter developed)."
-msgstr "APIsまたはAPIコンテンツの使用に関連して{platform_name}に何らかのコンテンツを提出するにあたり、世界的、非独占的、移動可能、譲渡可能、再許可可能、支払済、ロイヤリティフリー、永続的で取消不可能な権利およびそのコンテンツ全体または一部を主催、移動、表示、実行、再生、修正、配布、再配布、許諾更新、あるいはあらゆる(既知あるいは今後開発する)形式、メディア形式、メディアチャンネルで利用するライセンスを{platform_name}に対してここで授与してください。"
+msgstr "APIsまたはAPIコンテンツの使用に関連して {platform_name} に何らかのコンテンツを提出するにあたり、世界的、非独占的、移動可能、譲渡可能、再許可可能、支払済、ロイヤリティフリー、永続的で取消不可能な権利およびそのコンテンツ全体または一部を主催、移動、表示、実行、再生、修正、配布、再配布、許諾更新、あるいはあらゆる(既知あるいは今後開発する)形式、メディア形式、メディアチャンネルで利用するライセンスを {platform_name} に対してここで授与してください。"
 
 #: lms/templates/api_admin/terms_of_service.html:58
 msgid "Privacy"
@@ -2439,7 +2439,7 @@ msgid ""
 "clearly and accurately describes to your end users what user information you"
 " collect and how you may use and share such information (including for "
 "advertising) with {platform_name} and other third parties."
-msgstr "適用可能なプライバシーに関する法律および規則を遵守し、エンドユーザーデータの収集および使用に関して包み隠さず公開することに同意してください。あなたのアプリケーションのプライバシーポリシーに、エンドユーザーに対してどんなユーザー情報が収集され、{platform_name}およびその他の第三者とどのように(宣伝用をはじめとする)情報を使用、共有するかを明確かつ正確に記載し、遵守してください。"
+msgstr "適用可能なプライバシーに関する法律および規則を遵守し、エンドユーザーデータの収集および使用に関して包み隠さず公開することに同意してください。あなたのアプリケーションのプライバシーポリシーに、エンドユーザーに対してどんなユーザー情報が収集され、 {platform_name} およびその他の第三者とどのように(宣伝用をはじめとする)情報を使用、共有するかを明確かつ正確に記載し、遵守してください。"
 
 #: lms/templates/api_admin/terms_of_service.html:62
 msgid "Right to Charge"
@@ -2454,7 +2454,7 @@ msgid ""
 "prospective basis to the modified Terms and all of the changes. Be sure to "
 "return to this page periodically to ensure familiarity with the most current"
 " version of the Terms."
-msgstr "{platform_name}は事前告知なくいつでも規約を変更する権利を有します。規約への変更は更新有効日の記載とともにこの画面に投稿された時から有効になります。変更後にAPIにアクセスまたは利用することにより、修正された規約および変更事項に将来的に同意したことになります。規約の最新バージョンを確認できるよう、定期的にこのページに戻ってきてください。"
+msgstr "{platform_name} は事前告知なくいつでも規約を変更する権利を有します。規約への変更は更新有効日の記載とともにこの画面に投稿された時から有効になります。変更後にAPIにアクセスまたは利用することにより、修正された規約および変更事項に将来的に同意したことになります。規約の最新バージョンを確認できるよう、定期的にこのページに戻ってきてください。"
 
 #: lms/templates/api_admin/terms_of_service.html:66
 msgid ""
@@ -2463,7 +2463,7 @@ msgid ""
 "your integration interacts with the API. If we make a change that is "
 "unacceptable to you, you should stop using the APIs. Continued use of the "
 "APIs means you accept the change."
-msgstr "{platform_name}は事前告知なくAPIを更新または修正することがあります。これらの変更がAPIの利用やAPIと連携する方法に影響を及ぼす可能性もあります。承諾できないような変更があった場合には、APIの使用を停止してください。継続してAPIを使用することにより、変更を承諾していることになります。"
+msgstr "{platform_name} は事前告知なくAPIを更新または修正することがあります。これらの変更がAPIの利用やAPIと連携する方法に影響を及ぼす可能性もあります。承諾できないような変更があった場合には、APIの使用を停止してください。継続してAPIを使用することにより、変更を承諾していることになります。"
 
 #: lms/templates/api_admin/terms_of_service.html:68
 msgid "Confidentiality"
@@ -2494,7 +2494,7 @@ msgid ""
 "of your own. You may disclose Confidential Information when compelled to do "
 "so by law if you provide {platform_name} with reasonable prior notice, "
 "unless a court orders that {platform_name} not receive notice."
-msgstr "{platform_name}が、\"機密\"と記されている、あるいは正当な人物が公開の規約のある機密あるいは独占の情報(\"機密情報\")であると思われる{platform_name}および/またはAPIに関する情報へのアクセスを提供する場合、この情報をAPIの使用目的のみに使うことに同意してください。{platform_name}の事前承認がない限り、この機密情報を他人に公開してはいけません。また、ご自身の機密情報を保護するのと同様に、この機密情報が承認なしに利用や公開されないよう保護してください。機密情報にはご自身が開発した情報は含まれず、それらは当然守秘義務なしに第三者によってあなたに与えられる、あるいは公開されてもあなたの罪ではない情報です。{platform_name}が通知を受け取らないよう裁判所が命令する場合を除いて、あなたが{platform_name}に適切な事前通知をすれば、法律によって求められた際、機密情報を公開することができます。"
+msgstr "{platform_name} が、\"機密\"と記されている、あるいは正当な人物が公開の規約のある機密あるいは独占の情報(\"機密情報\")であると思われる {platform_name} および/またはAPIに関する情報へのアクセスを提供する場合、この情報をAPIの使用目的のみに使うことに同意してください。{platform_name} の事前承認がない限り、この機密情報を他人に公開してはいけません。また、ご自身の機密情報を保護するのと同様に、この機密情報が承認なしに利用や公開されないよう保護してください。機密情報にはご自身が開発した情報は含まれず、それらは当然守秘義務なしに第三者によってあなたに与えられる、あるいは公開されてもあなたの罪ではない情報です。{platform_name} が通知を受け取らないよう裁判所が命令する場合を除いて、あなたが {platform_name} に適切な事前通知をすれば、法律によって求められた際、機密情報を公開することができます。"
 
 #: lms/templates/api_admin/terms_of_service.html:74
 msgid "Disclaimer of Warranty / Limitation of Liabilities"
@@ -2522,7 +2522,7 @@ msgid ""
 "AVAILABLE. \"{platform_name} PARTICIPANTS\" MEANS MIT, HARVARD, THE OTHER "
 "MEMBERS, THE ENTITIES PROVIDING INFORMATION, API CONTENT OR SERVICES FOR THE"
 " APIS, THE COURSE INSTRUCTORS AND THEIR STAFFS."
-msgstr "{platform_name}および{platform_name}参加者(以下に定義します)は、APIが連続的にあるいは誤りのない方法で作動すること、ウイルスやその他の有害なコンポーネントがないこと、提供されたAPIまたはAPIコンテンツがあなたのニーズや期待を満たすものであることを保証するわけではありません。また、{platform_name}および{platform_name}参加者は、APIまたはAPIコンテンツの正確性、完全性、適時性、品質、あるいは特定のAPIコンテンツが引き続き使用可能になるかどうかの保証は一切行いません。 \"{platform_name}参加者\"とは、MIT、ハーバード、その他のAPIコンテンツまたはサービスなどの情報提供者、講師およびそのスタッフを意味します。"
+msgstr "{platform_name} および {platform_name} 参加者(以下に定義します)は、APIが連続的にあるいは誤りのない方法で作動すること、ウイルスやその他の有害なコンポーネントがないこと、提供されたAPIまたはAPIコンテンツがあなたのニーズや期待を満たすものであることを保証するわけではありません。また、{platform_name} および {platform_name} 参加者は、APIまたはAPIコンテンツの正確性、完全性、適時性、品質、あるいは特定のAPIコンテンツが引き続き使用可能になるかどうかの保証は一切行いません。 \"{platform_name}参加者\"とは、MIT、ハーバード、その他のAPIコンテンツまたはサービスなどの情報提供者、講師およびそのスタッフを意味します。"
 
 #: lms/templates/api_admin/terms_of_service.html:80
 msgid ""
@@ -2533,7 +2533,7 @@ msgid ""
 " (INCLUDING YOUR COMPUTER SYSTEM) OR LOSS OF DATA THAT RESULTS FROM THE "
 "DOWNLOAD OR USE OF SUCH MATERIAL OR DATA, UNLESS OTHERWISE EXPRESSLY "
 "PROVIDED FOR IN THE {platform_name} PRIVACY POLICY."
-msgstr "APIの使用、およびAPIを通じて取得したAPIコンテンツおよびサービスは、あなた自身の責任で使用してください。APIを通じた情報、資料またはデータへのアクセスまたはダウンロードはあなた自身の裁量および危険に基づくものであり、{platform_name}プライバシーポリシーで明示的に規定されている場合を除き、あなたの(コンピュータシステムを含む)財産への損害またはダウンロードまたは資料またはデータ使用の結果生じるデータの損失にはあなた自身が全面的に責任を負うものとします。"
+msgstr "APIの使用、およびAPIを通じて取得したAPIコンテンツおよびサービスは、あなた自身の責任で使用してください。APIを通じた情報、資料またはデータへのアクセスまたはダウンロードはあなた自身の裁量および危険に基づくものであり、{platform_name} プライバシーポリシーで明示的に規定されている場合を除き、あなたの(コンピュータシステムを含む)財産への損害またはダウンロードまたは資料またはデータ使用の結果生じるデータの損失にはあなた自身が全面的に責任を負うものとします。"
 
 #: lms/templates/api_admin/terms_of_service.html:82
 msgid ""
@@ -2544,7 +2544,7 @@ msgid ""
 "INABILITY TO USE THE APIS OR ANY API CONTENT, OR YOUR RELIANCE UPON "
 "INFORMATION OBTAINED FROM OR THROUGH THE APIS, WHETHER YOUR CLAIM IS BASED "
 "IN CONTRACT, TORT, STATUTORY OR OTHER LAW."
-msgstr "該当する法律により許されている限り、あなたの主張が契約、不法行為、法令またはその他の法律に基づいているかどうかにかかわらず、あなたは、{platform_name}も{platform_name}参加者も、これらの規約またはあなた(または第三者)のAPISまたはAPIのコンテンツの使用または使用不能、あるいはAPISを介して取得した情報に対する信用から生じたまたはそれに起因するあなたの実質的または結果的な損失または被害に対して責任を負わないことに同意するものとします。"
+msgstr "該当する法律により許されている限り、あなたの主張が契約、不法行為、法令またはその他の法律に基づいているかどうかにかかわらず、あなたは、{platform_name} も {platform_name} 参加者も、これらの規約またはあなた(または第三者)のAPISまたはAPIのコンテンツの使用または使用不能、あるいはAPISを介して取得した情報に対する信用から生じたまたはそれに起因するあなたの実質的または結果的な損失または被害に対して責任を負わないことに同意するものとします。"
 
 #: lms/templates/api_admin/terms_of_service.html:84
 msgid ""
@@ -2556,7 +2556,7 @@ msgid ""
 "NEGLIGENT OR OTHERWISE AT FAULT (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR "
 "DEFAMATION, ERRORS, LOSS OF PROFITS, LOSS OF DATA OR INTERRUPTION IN "
 "AVAILABILITY OF DATA)."
-msgstr "予知できるか否かにかかわらず、および{platform_name}あるいは{platform_name}参加者が怠慢であったあるいは過失(中傷、エラー、利益の損失、データの損失またはデータの可用性の喪失などの主張を含むがこれに限定されない)があったかどうかにかかわらず、特に、該当する法律で許容される最大限の範囲で、{platform_name}も{platform_name}参加者も、結果的、間接的、懲罰的、特別な、見せしめの、あるいは偶発的な損害に対して責任を負いません。"
+msgstr "予知できるか否かにかかわらず、および {platform_name} あるいは {platform_name} 参加者が怠慢であったあるいは過失(中傷、エラー、利益の損失、データの損失またはデータの可用性の喪失などの主張を含むがこれに限定されない)があったかどうかにかかわらず、特に、該当する法律で許容される最大限の範囲で、{platform_name} も {platform_name} 参加者も、結果的、間接的、懲罰的、特別な、見せしめの、あるいは偶発的な損害に対して責任を負いません。"
 
 #: lms/templates/api_admin/terms_of_service.html:86
 msgid ""
@@ -2574,7 +2574,7 @@ msgid ""
 "endorse the contents of or use of any of the products or services that may "
 "be offered at these sites. If you decide to access linked third-party "
 "websites, you do so at your own risk."
-msgstr "APIsおよびAPIコンテンツは他者が管理しているサイトへのハイパーリンクを含んでいる可能性があります。{platform_name}および{platform_name}参加者はこれらのサイトで提供される製品やサービスの内容または使用についての責任は負っておらず、日常的にそれらを保護、承認、審査、推奨などはしていません。第三者のウェブサイトへのリンクにアクセスする際は、ご自身の責任で行ってください。"
+msgstr "APIsおよびAPIコンテンツは他者が管理しているサイトへのハイパーリンクを含んでいる可能性があります。{platform_name} および {platform_name} 参加者はこれらのサイトで提供される製品やサービスの内容または使用についての責任は負っておらず、日常的にそれらを保護、承認、審査、推奨などはしていません。第三者のウェブサイトへのリンクにアクセスする際は、ご自身の責任で行ってください。"
 
 #: lms/templates/api_admin/terms_of_service.html:92
 msgid ""
@@ -2589,7 +2589,7 @@ msgid ""
 "costs and attorneys' fees, of every kind and nature. In such a case, "
 "{platform_name} or one of the {platform_name} Participants will provide you "
 "with written notice of such claim, suit or action."
-msgstr "該当する法律で許可されている最大限の範囲で、あなたは{platform_name}および{platform_name}参加者ならびにそれぞれの子会社、関連会社、役員、教職員、学生、フェロー、運営委員、代理人および従業員を、すべての請求、損失、被害(実質的および結果的)、訴訟、審査、訴訟費用、弁護士費用などあらゆる種類の責任または費用を含むあなたのAPIおよびAPIコンテンツ使用に起因する、その結果として生じる、またはそれに関連する第三者の請求、行動、または要求から保護、免責、補償することに同意することになります。そのような場合、{platform_name}または{platform_name}参加者のいずれかが、あなたにそのような主張、訴訟または行動について書面により通知します。"
+msgstr "該当する法律で許可されている最大限の範囲で、あなたは {platform_name} および {platform_name} 参加者ならびにそれぞれの子会社、関連会社、役員、教職員、学生、フェロー、運営委員、代理人および従業員を、すべての請求、損失、被害(実質的および結果的)、訴訟、審査、訴訟費用、弁護士費用などあらゆる種類の責任または費用を含むあなたのAPIおよびAPIコンテンツ使用に起因する、その結果として生じる、またはそれに関連する第三者の請求、行動、または要求から保護、免責、補償することに同意することになります。そのような場合、{platform_name} または {platform_name} 参加者のいずれかが、あなたにそのような主張、訴訟または行動について書面により通知します。"
 
 #: lms/templates/api_admin/terms_of_service.html:94
 msgid "General Legal Terms"
@@ -2610,7 +2610,7 @@ msgid ""
 " or any agency, partnership, or joint venture. For any notice provided to "
 "you by {platform_name} under these Terms, {platform_name} may notify you via"
 " the email address associated with your {platform_name} account."
-msgstr "本規約は、APIおよびAPIコンテンツの使用に関するあなたと{platform_name}との間の合意によるものとし、あなたと{platform_name}との間の従来の合意に取って代わるものです。{platform_name}が本規約の権利または条項を行使または執行しなかった場合も、かかる権利または条項の放棄とはみなされません。管轄権を有する裁判所が本規約のいずれかの条項を無効と判断した場合でも、当事者は裁判所が当事者の意図を条項に反映させるよう努め、本規約内の他の条項は効力を継続することに同意します。本規約は、第三者受益権または代理店、パートナーシップ、または合弁事業を創設するものではありません。本規約のもと{platform_name}があなたに通知する場合、{platform_name}はあなたの{platform_name}アカウントに登録されたメールアドレスに通知する可能性があります。"
+msgstr "本規約は、APIおよびAPIコンテンツの使用に関するあなたと {platform_name} との間の合意によるものとし、あなたと {platform_name} との間の従来の合意に取って代わるものです。 {platform_name} が本規約の権利または条項を行使または執行しなかった場合も、かかる権利または条項の放棄とはみなされません。管轄権を有する裁判所が本規約のいずれかの条項を無効と判断した場合でも、当事者は裁判所が当事者の意図を条項に反映させるよう努め、本規約内の他の条項は効力を継続することに同意します。本規約は、第三者受益権または代理店、パートナーシップ、または合弁事業を創設するものではありません。本規約のもと {platform_name} があなたに通知する場合、 {platform_name} はあなたの {platform_name} アカウントに登録されたメールアドレスに通知する可能性があります。"
 
 #: lms/templates/api_admin/terms_of_service.html:98
 msgid ""
@@ -2626,7 +2626,7 @@ msgid ""
 "forum). Notwithstanding the foregoing, you agree that {platform_name} shall "
 "still be allowed to apply to injunctive remedies (or an equivalent type of "
 "urgent legal relief) in any jursdiction."
-msgstr "あなたは、本規約、API、および本規約またはAPIに起因または関連して生じるすべての申し立てまたは紛争は法律の抵触条項を除き、マサチューセッツ州の法律に準拠することに同意するものとします。あなたは、そのような申し立ておよび紛争がすべて米国マサチューセッツ州ケンブリッジに所在する連邦または州の裁判所において解決されることに同意するものとします。この目的のためにそれらの裁判所があなたの対人管轄権を有することに同意し、それらの裁判所での手続きに対し(適切な管轄権あるいは場所でないことや不便さに対しての異議を含む)異議を主張しないことに同意するものとします。上記にかかわらず、あなたは{platform_name}がいかなる管轄権においても差し止めによる救済(またはそれに相当する緊急の法的救済)を適用することに同意することとします。"
+msgstr "あなたは、本規約、API、および本規約またはAPIに起因または関連して生じるすべての申し立てまたは紛争は法律の抵触条項を除き、マサチューセッツ州の法律に準拠することに同意するものとします。あなたは、そのような申し立ておよび紛争がすべて米国マサチューセッツ州ケンブリッジに所在する連邦または州の裁判所において解決されることに同意するものとします。この目的のためにそれらの裁判所があなたの対人管轄権を有することに同意し、それらの裁判所での手続きに対し(適切な管轄権あるいは場所でないことや不便さに対しての異議を含む)異議を主張しないことに同意するものとします。上記にかかわらず、あなたは {platform_name} がいかなる管轄権においても差し止めによる救済(またはそれに相当する緊急の法的救済)を適用することに同意することとします。"
 
 #: lms/templates/api_admin/terms_of_service.html:100
 msgid "Termination"
@@ -2649,7 +2649,7 @@ msgid ""
 "services, and you agree that neither {platform_name} nor any of the "
 "{platform_name} Participants will have any liability to you for such an "
 "action."
-msgstr "{platform_name}および{platform_name}参加者は、いかなる時も独自の裁量で、{platform_name}を通じて提供されるAPIまたはAPIコンテンツのフォーマットをキャンセル、遅延、スケジュール変更または改造する権利、またはAPIまたはAPIコンテンツまたは関連サービスの一部または全部の提供を中止する権利を保持します。 あなたは、{platform_name}および{platform_name}参加者もそのような行為に対してあなたにいかなる責任も負わないことに同意するものとします。"
+msgstr "{platform_name} および {platform_name} 参加者は、いかなる時も独自の裁量で、{platform_name} を通じて提供されるAPIまたはAPIコンテンツのフォーマットをキャンセル、遅延、スケジュール変更または改造する権利、またはAPIまたはAPIコンテンツまたは関連サービスの一部または全部の提供を中止する権利を保持します。 あなたは、{platform_name} および {platform_name} 参加者もそのような行為に対してあなたにいかなる責任も負わないことに同意するものとします。"
 
 #: lms/templates/api_admin/terms_of_service.html:106
 msgid ""
@@ -2664,11 +2664,11 @@ msgid ""
 "accrusing prior to such termination or limit any liability that you "
 "otherwise may have to {platform_name}, including without limitation any "
 "indemnification obligations contained herein."
-msgstr "何らかの理由での本規約の終了またはAPIへのアクセスの中止の際は、あなたのAPIおよびAPIコンテンツの使用権は直ちに停止されます。APIの使用を直ちに停止し、キャッシュまたは格納されたAPIコンテンツを削除してください。本質的に継続しなければならない規約の全条項は、所有権条項、保証免責および責任の制限を含むがこれに限定されず、継続するものとする。 あなたのAPIおよびAPIコンテンツへのアクセスおよび使用の終了は、かかる終了前に発生した義務を免除したり、ここに含まれる補償義務を含むがこれに限らず、あなたが{platform_name}に負う可能性のある責任を制限するものではありません。"
+msgstr "何らかの理由での本規約の終了またはAPIへのアクセスの中止の際は、あなたのAPIおよびAPIコンテンツの使用権は直ちに停止されます。APIの使用を直ちに停止し、キャッシュまたは格納されたAPIコンテンツを削除してください。本質的に継続しなければならない規約の全条項は、所有権条項、保証免責および責任の制限を含むがこれに限定されず、継続するものとする。 あなたのAPIおよびAPIコンテンツへのアクセスおよび使用の終了は、かかる終了前に発生した義務を免除したり、ここに含まれる補償義務を含むがこれに限らず、あなたが {platform_name} に負う可能性のある責任を制限するものではありません。"
 
 #: lms/templates/api_admin/catalogs/edit.html:11
 msgid "Edit {catalog_name}"
-msgstr "{catalog_name}を編集"
+msgstr "{catalog_name} を編集"
 
 #: lms/templates/api_admin/catalogs/edit.html:28
 #: lms/templates/api_admin/catalogs/list.html:31
@@ -2686,7 +2686,7 @@ msgstr "カタログの更新"
 #: lms/templates/api_admin/catalogs/list.html:11
 #: lms/templates/api_admin/catalogs/list.html:24
 msgid "Catalogs for {username}"
-msgstr "{username}のカタログ"
+msgstr "{username} のカタログ"
 
 #: lms/templates/api_admin/catalogs/list.html:37
 msgid "Create new catalog:"
@@ -2735,7 +2735,7 @@ msgid ""
 "For detailed information, see {math_link_start}Entering Mathematical and "
 "Scientific Expressions{math_link_end} in the {guide_link_start}edX Guide for"
 " Students{guide_link_end}."
-msgstr "詳細情報は、{guide_link_start}edX受講者ガイド{guide_link_end}の{math_link_start}数学及び科学の表記法{math_link_end}をご覧ください。"
+msgstr "詳細情報は、{guide_link_start} edX受講者ガイド {guide_link_end} の {math_link_start} 数学及び科学の表記法 {math_link_end} をご覧ください。"
 
 #: lms/templates/calculator/toggle_calculator.html:36
 msgid "Tips"
@@ -2829,7 +2829,7 @@ msgstr "接辞"
 
 #: lms/templates/calculator/toggle_calculator.html:96
 msgid "Percent sign (%) and metric affixes (d, c, m, u, n, p, k, M, G, T)"
-msgstr "パーセント記号(%) とメートル法の接辞(d, c, m, u, n, p, k, M, G, T)"
+msgstr "パーセント記号(%) とメートル法の接辞 (d, c, m, u, n, p, k, M, G, T)"
 
 #. Translators: This refers to basic mathematical functions such as "square
 #. root"
@@ -2952,7 +2952,7 @@ msgstr "自動受講登録"
 msgid ""
 "If this option is {em_start}checked{em_end}, users who have not yet "
 "registered for {platform_name} will be automatically enrolled."
-msgstr "このオプションが{em_start}有効{em_end}の場合、{platform_name}に未登録のユーザーが自動的に受講登録されます。"
+msgstr "このオプションが {em_start} 有効 {em_end} の場合、{platform_name} に未登録のユーザーが自動的に受講登録されます。"
 
 #: lms/templates/ccx/enrollment.html:30 lms/templates/ccx/enrollment.html:113
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:31
@@ -2960,7 +2960,7 @@ msgid ""
 "If this option is left {em_start}unchecked{em_end}, users who have not yet "
 "registered for {platform_name} will not be enrolled, but will be allowed to "
 "enroll once they make an account."
-msgstr "このオプションが{em_start}無効{em_end}の場合、{platform_name}に未登録のユーザーは受講登録されませんが、アカウントを作成すれば受講登録が可能となります。"
+msgstr "このオプションが {em_start} 無効 {em_end} の場合、{platform_name} に未登録のユーザーは受講登録されませんが、アカウントを作成すれば受講登録が可能となります。"
 
 #: lms/templates/ccx/enrollment.html:36
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:33
@@ -2979,7 +2979,7 @@ msgstr "メールでユーザーに知らせる"
 msgid ""
 "If this option is {em_start}checked{em_end}, users will receive an email "
 "notification."
-msgstr "このオプションが{em_start}有効{em_end}の場合、ユーザーはメール通知を受け取ります。"
+msgstr "このオプションが {em_start} 有効 {em_end} の場合、ユーザーはメール通知を受け取ります。"
 
 #: lms/templates/ccx/enrollment.html:70
 msgid "Student List Management"
@@ -3177,7 +3177,7 @@ msgstr "以下の組織の支援を受けています"
 msgid ""
 "For tips and tricks on printing your certificate, view the {link_start}Web "
 "Certificates help documentation{link_end}."
-msgstr "修了証の印刷についてのヘルプは{link_start}Web修了証ヘルプ{link_end}をご覧ください。"
+msgstr "修了証の印刷についてのヘルプは {link_start} Web修了証ヘルプ {link_end} をご覧ください。"
 
 #: lms/templates/certificates/invalid.html:8
 msgid "Cannot Find Certificate"
@@ -3202,7 +3202,7 @@ msgstr "この修了証には問題があるようです。"
 msgid ""
 "To resolve the problem, your partner manager should verify that the "
 "following information is correct."
-msgstr "問題を解決するには、partner managerが以下の情報が正しいかどうか確認する必要があります。"
+msgstr "問題を解決するには、Partner Managerが以下の情報が正しいかどうか確認する必要があります。"
 
 #: lms/templates/certificates/server-error.html:16
 msgid "The institution&#39;s logo."
@@ -3243,7 +3243,7 @@ msgid ""
 "An error has occurred with your payment. <b>You have not been charged.</b> "
 "Please try to submit your payment again. If this problem persists, contact "
 "{email}."
-msgstr "支払時にエラーが発生しました。<b>課金請求はされません。</b>もう一度支払手続きをしてください。問題が解決しない場合は、{email} にお問い合わせください。"
+msgstr "支払時にエラーが発生しました。<b> 課金請求はされません。 </b>もう一度支払手続きをしてください。問題が解決しない場合は、 {email} にお問い合わせください。"
 
 #: lms/templates/commerce/checkout_receipt.html:56
 msgid "Loading Order Data..."
@@ -3256,7 +3256,7 @@ msgstr "注文詳細情報を復元しておりますので、お待ちくださ
 #: lms/templates/course_modes/choose.html:12
 #: themes/edx.org/lms/templates/course_modes/choose.html:13
 msgid "Enroll In {course_name} | Choose Your Track"
-msgstr "{course_name}を受講登録する | トラックを選んでください"
+msgstr "{course_name} を受講登録する | トラックを選んでください"
 
 #: lms/templates/course_modes/choose.html:61
 #: themes/edx.org/lms/templates/course_modes/choose.html:70
@@ -3289,21 +3289,21 @@ msgstr "認証付き修了証の利点"
 msgid ""
 "{b_start}Eligible for credit:{b_end} Receive academic credit after "
 "successfully completing the course"
-msgstr "{b_start}単位認定資格: {b_end}講義修了後、単位を取得する"
+msgstr "{b_start} 単位認定資格: {b_end} 講義修了後、単位を取得する"
 
 #: lms/templates/course_modes/choose.html:99
 #: themes/edx.org/lms/templates/course_modes/choose.html:141
 msgid ""
 "{b_start}Official:{b_end} Receive an instructor-signed certificate with the "
 "institution's logo"
-msgstr "{b_start}公認: {b_end}機関のロゴ付き講師の署名入り修了証を受け取る"
+msgstr "{b_start} 公認: {b_end} 機関のロゴ付き講師の署名入り修了証を受け取る"
 
 #: lms/templates/course_modes/choose.html:100
 #: themes/edx.org/lms/templates/course_modes/choose.html:142
 msgid ""
 "{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
-msgstr "{b_start}簡単にシェア可能: {b_end}修了証を履歴書やレジュメに添付したり、LinkedInに直接投稿する"
+msgstr "{b_start} 簡単にシェア可能: {b_end} 修了証を履歴書やレジュメに添付したり、LinkedInに直接投稿する"
 
 #: lms/templates/course_modes/choose.html:107
 #: lms/templates/course_modes/choose.html:115
@@ -3327,21 +3327,21 @@ msgstr "認証付き修了証で、新たな知識やスキルをアピールし
 msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
-msgstr "{b_start}公認: {b_end}機関のロゴ付き講師の署名入り修了証を受け取る"
+msgstr "{b_start} 公認: {b_end} 機関のロゴ付き講師の署名入り修了証を受け取る"
 
 #: lms/templates/course_modes/choose.html:125
 #: themes/edx.org/lms/templates/course_modes/choose.html:167
 msgid ""
 "{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
-msgstr "{b_start}簡単にシェア可能: {b_end}修了証を履歴書やレジュメに添付したり、LinkedInに直接投稿する"
+msgstr "{b_start} 簡単にシェア可能: {b_end} 修了証を履歴書やレジュメに添付したり、LinkedInに直接投稿する"
 
 #: lms/templates/course_modes/choose.html:126
 #: themes/edx.org/lms/templates/course_modes/choose.html:168
 msgid ""
 "{b_start}Motivating: {b_end}Give yourself an additional incentive to "
 "complete the course"
-msgstr "{b_start}モチベーションアップ: {b_end}講義を修了するために、更なるモチベーションを自らに与えましょう"
+msgstr "{b_start} モチベーションアップ: {b_end} 講義を修了するために、更なるモチベーションを自らに与えましょう"
 
 #: lms/templates/course_modes/choose.html:153
 #: lms/templates/course_modes/choose.html:161
@@ -3373,7 +3373,7 @@ msgid ""
 "material, activities, tests, and forums.  {b_start}Please note that this "
 "track does not offer a certificate for learners who earn a passing "
 "grade.{b_end}"
-msgstr "講義を無料で聴講。教材、アクティビティ、テスト、ディスカッションへのアクセスに制約はありません。{b_start}ただし、合格点を取得しても修了証は発行されませんのでご注意ください。{b_end}"
+msgstr "講義を無料で聴講。教材、アクティビティ、テスト、ディスカッションへのアクセスに制約はありません。{b_start} ただし、合格点を取得しても修了証は発行されませんのでご注意ください。 {b_end}"
 
 #: lms/templates/courseware/accordion.html:13
 msgid "{chapter} current chapter"
@@ -3381,7 +3381,7 @@ msgstr "{chapter} 現在のチャプター"
 
 #: lms/templates/courseware/accordion.html:30
 msgid "{span_start}current section{span_end}"
-msgstr "{span_start}現在のセクション{span_end}"
+msgstr "{span_start} 現在のセクション{span_end}"
 
 #: lms/templates/courseware/accordion.html:46
 #: lms/templates/courseware/progress.html:181
@@ -3410,7 +3410,7 @@ msgid ""
 "this course. You may need to {start_logout_tag}log out{end_tag} then try the"
 " enroll button again. Please visit the {start_help_tag}help page{end_tag} "
 "for a possible solution."
-msgstr "現在ログイン中のユーザーアカウントはこの講義を受講する権限を有していません。 {start_logout_tag}ログアウト{end_tag} し、改めて受講登録ボタンからお試しください。{start_help_tag}ヘルプページ{end_tag}に役に立つ情報があるかもしれませんのでご確認ください。"
+msgstr "現在ログイン中のユーザーアカウントはこの講義を受講する権限を有していません。 {start_logout_tag} ログアウト {end_tag} し、改めて受講登録ボタンからお試しください。{start_help_tag}ヘルプページ{end_tag}に役に立つ情報があるかもしれませんのでご確認ください。"
 
 #: lms/templates/courseware/course_about.html:126
 msgid "You are enrolled in this course"
@@ -3425,7 +3425,7 @@ msgstr "講義画面へ"
 
 #: lms/templates/courseware/course_about.html:135
 msgid "This course is in your <a href=\"{cart_link}\">cart</a>."
-msgstr "この講義は<a href=\"{cart_link}\">カート</a>に入っています。"
+msgstr "この講義は <a href=\"{cart_link}\">カート</a> に入っています。"
 
 #: lms/templates/courseware/course_about.html:139
 msgid "Course is full"
@@ -3441,11 +3441,11 @@ msgstr "受講登録は終了しました"
 
 #: lms/templates/courseware/course_about.html:162
 msgid "Add {course_name} to Cart <span>({price} USD)</span>"
-msgstr "{course_name}をカートに追加<span>({price} 米ドル)</span>"
+msgstr "{course_name} をカートに追加 <span>({price} 米ドル)</span>"
 
 #: lms/templates/courseware/course_about.html:178
 msgid "Enroll in {course_name}"
-msgstr "{course_name}に受講登録"
+msgstr "{course_name} に受講登録"
 
 #: lms/templates/courseware/course_about.html:207
 msgid "View About Page in studio"
@@ -3476,7 +3476,7 @@ msgstr "履習要件"
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before "
 "you begin this course."
-msgstr "この講義を開始する前に{link_start}{prc_display}{link_end}を完了する必要があります。"
+msgstr "この講義を開始する前に {link_start}{prc_display}{link_end} を完了する必要があります。"
 
 #: lms/templates/courseware/course_about.html:306
 msgid "Additional Resources"
@@ -3493,15 +3493,15 @@ msgstr "友人や家族とシェア！"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:24
 msgid "I just enrolled in {number} {title} through {account}: {url}"
-msgstr "{account}で{number}{title}に受講登録しました: {url}"
+msgstr "{account} で {number} {title} に受講登録しました: {url}"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:41
 msgid "Take a course with {platform} online"
-msgstr "{platform}オンラインで受講する"
+msgstr "{platform} オンラインで受講する"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:42
 msgid "I just enrolled in {number} {title} through {platform} {url}"
-msgstr "{platform} {url}で{number} {title}に受講登録しました"
+msgstr "{platform} {url} で {number} {title} に受講登録しました"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:57
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:9
@@ -3589,7 +3589,7 @@ msgstr "この講義にはコンテンツがありません"
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
 "this                     exam. Your current score is {current_score}%."
-msgstr "教材にアクセスするためには、この試験で{required_score}%以上獲得しなければなりません。あなたの現在の得点は{current_score}%です。"
+msgstr "教材にアクセスするためには、この試験で {required_score}% 以上獲得しなければなりません。あなたの現在の得点は {current_score}% です。"
 
 #: lms/templates/courseware/courseware.html:211
 msgid "Your score is {current_score}%. You have passed the entrance exam."
@@ -3625,7 +3625,7 @@ msgstr "次のページ"
 
 #: lms/templates/courseware/info.html:17
 msgid "{course_number} Course Info"
-msgstr "{course_number}講義情報"
+msgstr "{course_number} 講義情報"
 
 #: lms/templates/courseware/info.html:28
 msgid "You are not enrolled yet"
@@ -3635,11 +3635,11 @@ msgstr "まだ受講登録していません"
 msgid ""
 "You are not currently enrolled in this course. {link_start}Enroll "
 "now!{link_end}"
-msgstr "この講義にまだ受講登録していません。{link_start}いますぐ登録しよう！{link_end} "
+msgstr "この講義にまだ受講登録していません。 {link_start} いますぐ登録しよう！ {link_end} "
 
 #: lms/templates/courseware/info.html:61
 msgid "Welcome to {org}'s {course_name}!"
-msgstr "{org}の{course_name}へようこそ！"
+msgstr "{org} の {course_name} へようこそ！"
 
 #: lms/templates/courseware/info.html:67
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:50
@@ -3727,7 +3727,7 @@ msgstr "平均の長さ"
 
 #: lms/templates/courseware/program_marketing.html:161
 msgid "{weeks_to_complete} weeks per course"
-msgstr "１講義あたり{weeks_to_complete}週"
+msgstr "１講義あたり {weeks_to_complete} 週"
 
 #: lms/templates/courseware/program_marketing.html:169
 msgid "Effort"
@@ -3745,7 +3745,7 @@ msgstr "講義数"
 
 #: lms/templates/courseware/program_marketing.html:184
 msgid "{number_of_courses} courses in program"
-msgstr "プログラム内の{number_of_courses}講義"
+msgstr "プログラム内の {number_of_courses} 講義"
 
 #: lms/templates/courseware/program_marketing.html:192
 msgid "Price (USD)"
@@ -3773,15 +3773,15 @@ msgstr "${discount_value} {currency} 節約"
 
 #: lms/templates/courseware/program_marketing.html:216
 msgid "${full_program_price} for entire program"
-msgstr "プログラム全体で${full_program_price}"
+msgstr "プログラム全体で ${full_program_price}"
 
 #: lms/templates/courseware/program_marketing.html:232
 msgid "Courses in the {}"
-msgstr "{}内の講義"
+msgstr "{} 内の講義"
 
 #: lms/templates/courseware/program_marketing.html:260
 msgid "Starts on {}"
-msgstr "{}に開始"
+msgstr "{} に開始"
 
 #: lms/templates/courseware/program_marketing.html:301
 msgid "Frequently Asked Questions"
@@ -3789,7 +3789,7 @@ msgstr "よくある質問"
 
 #: lms/templates/courseware/progress.html:24
 msgid "{course_number} Progress"
-msgstr "{course_number}の進捗状況"
+msgstr "{course_number} の進捗状況"
 
 #: lms/templates/courseware/progress.html:52
 msgid "View Grading in studio"
@@ -3797,7 +3797,7 @@ msgstr "Studioで採点を見る"
 
 #: lms/templates/courseware/progress.html:56
 msgid "Course Progress for Student '{username}' ({email})"
-msgstr "'{username}'({email})の進捗状況"
+msgstr "'{username}' ({email}) の進捗状況"
 
 #: lms/templates/courseware/progress.html:71
 msgid "View Certificate"
@@ -3822,17 +3822,17 @@ msgstr "単位認定条件"
 
 #: lms/templates/courseware/progress.html:92
 msgid "{student_name}, you are no longer eligible for credit in this course."
-msgstr "{student_name}さん、あなたは本講義の単位認定対象ではなくなりました。"
+msgstr "{student_name} さん、あなたは本講義の単位認定対象ではなくなりました。"
 
 #: lms/templates/courseware/progress.html:95
 msgid ""
 "{student_name}, you have met the requirements for credit in this course. "
 "{a_start}Go to your dashboard{a_end} to purchase course credit."
-msgstr "{student_name}さん、あなたは本講義の単位認定条件を満たしています。{a_start}ダッシュボードへ行って{a_end}、単位を購入しましょう。"
+msgstr "{student_name} さん、あなたは本講義の単位認定条件を満たしています。{a_start} ダッシュボードへ行って {a_end} 、単位を購入しましょう。"
 
 #: lms/templates/courseware/progress.html:102
 msgid "{student_name}, you have not yet met the requirements for credit."
-msgstr "{student_name}さん、あなたはまだ単位認定条件を満たしていません。"
+msgstr "{student_name} さん、あなたはまだ単位認定条件を満たしていません。"
 
 #: lms/templates/courseware/progress.html:107
 msgid "Information about course credit requirements"
@@ -3856,7 +3856,7 @@ msgstr "認証拒否"
 
 #: lms/templates/courseware/progress.html:131
 msgid "Completed by {date}"
-msgstr "{date}までに完了"
+msgstr "{date} までに完了"
 
 #: lms/templates/courseware/progress.html:134
 msgid "Upcoming"
@@ -3872,12 +3872,12 @@ msgstr "各チャプターの詳細"
 
 #: lms/templates/courseware/progress.html:168
 msgid "{earned} of {total} possible points"
-msgstr "{total}点満点中 {earned}点"
+msgstr "{total} 点満点中 {earned} 点"
 
 #: lms/templates/courseware/progress.html:187
 msgid ""
 "Suspicious activity detected during proctored exam review. Exam score 0."
-msgstr "監督付き試験のレビューの際、疑わしい行為がありました。0点になります。"
+msgstr "監督付き試験のレビューの際、疑わしい行為がありました。0 点になります。"
 
 #: lms/templates/courseware/progress.html:189
 msgid "Section grade has been overridden."
@@ -3913,7 +3913,7 @@ msgstr "このセクションに問題の点数なし"
 
 #: lms/templates/courseware/syllabus.html:13
 msgid "{course.display_number_with_default} Course Info"
-msgstr "{course.display_number_with_default}の講義情報"
+msgstr "{course.display_number_with_default} の講義情報"
 
 #: lms/templates/courseware/syllabus.html:20
 msgid "Syllabus"
@@ -3923,13 +3923,13 @@ msgstr "シラバス"
 msgid ""
 "You were most recently in {section_link}.  If you're done with that, choose "
 "another section on the left."
-msgstr "前回はセクション{section_link}を学習しました。終了したら、左から別のセクションをお選びください。"
+msgstr "前回はセクション {section_link} を学習しました。終了したら、左から別のセクションをお選びください。"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:30
 #: lms/templates/emails/business_order_confirmation_email.txt:3
 #: lms/templates/emails/order_confirmation_email.txt:2
 msgid "Hi {name},"
-msgstr "こんにちは、{name}さん、"
+msgstr "こんにちは、 {name} さん、"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:32
 msgid "Hi,"
@@ -3940,14 +3940,14 @@ msgid ""
 "Congratulations! You are eligible to receive course credit from {providers} "
 "for successfully completing your {platform_name} course! {link_start}Get "
 "your credit now.{link_end}"
-msgstr "おめでとうございます！ {platform_name}の講義を無事修了しましたので、{providers}から単位を獲得することができます。{link_start}今すぐ単位を獲得しよう。{link_end}"
+msgstr "おめでとうございます！  {platform_name} の講義を無事修了しましたので、 {providers} から単位を獲得することができます。 {link_start} 今すぐ単位を獲得しよう。 {link_end}"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:48
 msgid ""
 "Congratulations! You are eligible to receive course credit for successfully "
 "completing your {platform_name} course! {link_start}Get your credit "
 "now.{link_end}"
-msgstr "おめでとうございます！ {platform_name}の講義を無事修了しましたので、単位を獲得することができます！{link_start}今すぐ単位を獲得しよう。{link_end}"
+msgstr "おめでとうございます！  {platform_name} の講義を無事修了しましたので、単位を獲得することができます！ {link_start} 今すぐ単位を獲得しよう。 {link_end}"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:59
 msgid ""
@@ -3962,29 +3962,29 @@ msgid ""
 "dashboard{link_end} and click the <b>Get Credit</b> button. After you "
 "receive your credit, you will also have an official academic transcript at "
 "the institution that granted the credit."
-msgstr "単位を取得するには、まずは{link_start}{platform_name}のダッシュボード{link_end}へ行って、<b>単位を取得</b>ボタンをクリックしよう。単位を取得したら、単位を認定した機関の正式な成績証明書も取得しよう。"
+msgstr "単位を取得するには、まずは {link_start} {platform_name} のダッシュボード {link_end} へ行って、 <b> 単位を取得 </b> ボタンをクリックしよう。単位を取得したら、単位を認定した機関の正式な成績証明書も取得しよう。"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:73
 msgid ""
 "We hope you enjoyed the course, and we hope to see you in future "
 "{platform_name} courses!"
-msgstr "本講義はご満足いただけましたでしょうか。今後も{platform_name}の講義でお会いできるのを楽しみにしています！"
+msgstr "本講義はご満足いただけましたでしょうか。今後も {platform_name} の講義でお会いできるのを楽しみにしています！"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:74
 #: lms/templates/emails/activation_email.txt:14
 #: lms/templates/emails/order_confirmation_email.txt:17
 msgid "The {platform_name} Team"
-msgstr "{platform_name}運営チーム"
+msgstr "{platform_name} 運営チーム"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:84
 msgid ""
 "{link_start}Click here for more information on credit at "
 "{platform_name}{link_end}."
-msgstr "{link_start}{platform_name}の単位について詳しく知りたい場合は、ここをクリックしてください{link_end}。"
+msgstr "{link_start} {platform_name} の単位について詳しく知りたい場合は、ここをクリックしてください {link_end}。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:39
 msgid "Your certificate will be available on or before {date}"
-msgstr "{date}までには修了証が発行されます"
+msgstr "{date} までには修了証が発行されます"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:47
 msgid "Your final grade:"
@@ -3992,7 +3992,7 @@ msgstr "最終成績:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:52
 msgid "Grade required for a {cert_name_short}:"
-msgstr "{cert_name_short}に必要な成績:"
+msgstr "{cert_name_short} に必要な成績:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:54
 msgid "Grade required to pass this course:"
@@ -4006,7 +4006,7 @@ msgid ""
 "mistakenly identified you as being connected with one of those countries, "
 "please let us know by contacting {email}. If you would like a refund on your"
 " {cert_name_long}, please contact our billing address {billing_email}"
-msgstr "あなたの認証済み{cert_name_long}の発行は保留状態となっています。{cert_name_short}の発行は、米国からのイラン、キューバ、シリア、スーダンへの貿易規制条例の法令遵守下にあります。もし、私たちのシステムが間違ってあなたを上記国家の国民と特定しているようであれば、その旨を{email}へご連絡ください。{cert_name_long}に関して返金を希望される場合は、お手数ですが課金窓口{billing_email}へお問い合わせください。"
+msgstr "あなたの認証済み {cert_name_long} の発行は保留状態となっています。 {cert_name_short} の発行は、米国からのイラン、キューバ、シリア、スーダンへの貿易規制条例の法令遵守下にあります。もし、私たちのシステムが間違ってあなたを上記国家の国民と特定しているようであれば、その旨を {email} へご連絡ください。 {cert_name_long} に関して返金を希望される場合は、お手数ですが課金窓口{billing_email}へお問い合わせください。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:63
 msgid ""
@@ -4015,13 +4015,13 @@ msgid ""
 "Iran, Cuba, Syria and Sudan. If you think our system has mistakenly "
 "identified you as being connected with one of those countries, please let us"
 " know by contacting {email}."
-msgstr "あなたの{cert_name_long}の発行は保留状態となっています。{cert_name_short}の発行は、米国からのイラン、キューバ、シリア、スーダンへの貿易規制条例の法令遵守下にあります。もし、私たちのシステムが間違ってあなたを上記国家の国民と特定しているようであれば、その旨を{email}へご連絡ください。"
+msgstr "あなたの {cert_name_long} の発行は保留状態となっています。 {cert_name_short} の発行は、米国からのイラン、キューバ、シリア、スーダンへの貿易規制条例の法令遵守下にあります。もし、私たちのシステムが間違ってあなたを上記国家の国民と特定しているようであれば、その旨を {email} へご連絡ください。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:67
 msgid ""
 "Your certificate was not issued because you do not have a current verified "
 "identity with {platform_name}. "
-msgstr "{platform_name}で本人認証がされていないため、修了証が発行されませんでした。"
+msgstr " {platform_name} で本人認証がされていないため、修了証が発行されませんでした。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:68
 msgid "Verify your identity now."
@@ -4029,7 +4029,7 @@ msgstr "今すぐ本人認証しよう。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:80
 msgid "Your {cert_name_short} is Generating"
-msgstr "あなたの{cert_name_short}を生成中"
+msgstr "あなたの {cert_name_short} を生成中"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:86
 msgid "This link will open the certificate web view"
@@ -4037,7 +4037,7 @@ msgstr "このリンクで修了証のウェブビューを開くことができ
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:87
 msgid "View {cert_name_short}"
-msgstr "{cert_name_short}を見る"
+msgstr " {cert_name_short} を見る"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:93
 #: lms/templates/dashboard/_dashboard_certificate_information.html:100
@@ -4046,21 +4046,21 @@ msgstr "このリンクでPDF文書を開く/ダウンロードできます"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:94
 msgid "Download {cert_name_short} (PDF)"
-msgstr "{cert_name_short}をダウンロード (PDF)"
+msgstr " {cert_name_short} をダウンロード (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:101
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "{cert_name_short}をダウンロード (PDF)"
+msgstr " {cert_name_short} をダウンロード (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:107
 msgid ""
 "This link will open/download a PDF document of your verified "
 "{cert_name_long}."
-msgstr "このリンクで認証付き{cert_name_long}のPDF文書を開く/ダウンロードできます。"
+msgstr "このリンクで認証付き {cert_name_long} のPDF文書を開く/ダウンロードできます。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:108
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "本人認証付き{cert_name_short}をダウンロード (PDF)"
+msgstr "本人認証付き {cert_name_short} をダウンロード (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:116
 msgid "Complete our course feedback survey"
@@ -4079,7 +4079,7 @@ msgid ""
 "Since we did not have a valid set of verification photos from you when your "
 "{cert_name_long} was generated, we could not grant you a verified "
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
-msgstr "{cert_name_long} が発行される際、本人認証用の写真が確認できなかったため、認証付き{cert_name_short}が発行できませんでした。代わりに Honor Code {cert_name_short} が発行されました。"
+msgstr "{cert_name_long} が発行される際、本人認証用の写真が確認できなかったため、認証付き {cert_name_short} が発行できませんでした。代わりに Honor Code {cert_name_short} が発行されました。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:65
 msgid "Course details"
@@ -4122,11 +4122,11 @@ msgstr "アーカイブされた講義を見る"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:169
 msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
-msgstr "私は{facebook_brand}でオンライン講義{course_name}を受講中です。チェックしてみてください！"
+msgstr "私は {facebook_brand} でオンライン講義 {course_name} を受講中です。チェックしてみてください！"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:172
 msgid "Share {course_name} on Facebook"
-msgstr "Facebookで{course_name}をシェア"
+msgstr "Facebookで {course_name} をシェア"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:175
 #: lms/templates/dashboard/_dashboard_course_listing.html:180
@@ -4136,11 +4136,11 @@ msgstr "Facebookでシェア"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:190
 msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
-msgstr "私は{twitter_brand}でオンライン講義{course_name}を受講中です。チェックしてみてください！"
+msgstr "私は {twitter_brand} でオンライン講義 {course_name} を受講中です。チェックしてみてください！"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:193
 msgid "Share {course_name} on Twitter"
-msgstr "Twitterで{course_name}をシェア"
+msgstr "Twitterで {course_name} をシェア"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:214
 msgid "Course options for"
@@ -4166,7 +4166,7 @@ msgstr "認証はまだ完了していません"
 #: lms/templates/dashboard/_dashboard_course_listing.html:298
 msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
-msgstr[0] "この講義で認証を得るには残り{days}日しかありません。"
+msgstr[0] "この講義で認証を得るには残り {days} 日しかありません。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:304
 msgid "Almost there!"
@@ -4207,7 +4207,7 @@ msgstr "edXにて本人認証が完了しました"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:320
 msgid "Your current verification is effective until {date}."
-msgstr "あなたの現在の認証は{date}まで有効です。"
+msgstr "あなたの現在の認証は {date} まで有効です。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:323
 msgid "Your current verification will expire soon."
@@ -4219,20 +4219,20 @@ msgstr "あなたの認証はまもなく期限切れです！"
 msgid ""
 "Your current verification will expire in {days} days. {start_link}Re-verify "
 "your identity now{end_link} using a webcam and a government-issued photo ID."
-msgstr "あなたの認証は{days}日後に無効になります。webカメラと政府発行の写真付き身分証明書を使って{start_link}今すぐ再認証してください{end_link}。"
+msgstr "あなたの認証は {days} 日後に無効になります。webカメラと政府発行の写真付き身分証明書を使って {start_link} 今すぐ再認証してください {end_link}。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:342
 msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
-msgstr "{cert_name_long}を獲得して、本講座で得た知識やスキルを目立たせましょう。"
+msgstr " {cert_name_long} を獲得して、本講座で得た知識やスキルを目立たせましょう。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:344
 msgid ""
 "It's official. It's easily shareable. It's a proven motivator to complete "
 "the course. {line_break}{link_start}Learn more about the verified "
 "{cert_name_long}{link_end}."
-msgstr "正式なものです。簡単にシェアできます。講義修了に向けての確かなモチベーションになります。{line_break}{link_start}認証付き{cert_name_long}について詳しく知ろう{link_end}。"
+msgstr "正式なものです。簡単にシェアできます。講義修了に向けての確かなモチベーションになります。 {line_break} {link_start} 認証付き {cert_name_long} について詳しく知ろう {link_end}。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:364
 msgid "Upgrade to Verified"
@@ -4244,7 +4244,7 @@ msgid ""
 "received. You can {contact_link_start}contact the account "
 "holder{contact_link_end} to request payment, or you can "
 "{unenroll_link_start}unenroll{unenroll_link_end} from this course"
-msgstr "お支払いがなかったため、この講義へはアクセスができません。お支払いについての{contact_link_start}問い合わせ{contact_link_end}をするか、この講義を{unenroll_link_start}受講取消{unenroll_link_end}してください"
+msgstr "お支払いがなかったため、この講義へはアクセスができません。お支払いについての {contact_link_start} 問い合わせ {contact_link_end} をするか、この講義を {unenroll_link_start} 受講取消 {unenroll_link_end} してください"
 
 #. Translators: provider_name is the name of a credit provider or university
 #. (e.g. State University)
@@ -4252,11 +4252,11 @@ msgstr "お支払いがなかったため、この講義へはアクセスがで
 msgid ""
 "You have completed this course and are eligible to purchase course credit. "
 "Select <strong>Get Credit</strong> to get started."
-msgstr "講義を修了し、単位を獲得する資格があります。<strong>単位を獲得する</strong>を選択してください。"
+msgstr "講義を修了し、単位を獲得する資格があります。 <strong> 単位を獲得する </strong> を選択してください。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:19
 msgid "You are now eligible for credit from {provider}. Congratulations!"
-msgstr "{provider}から単位を授与される資格があります。おめでとうございます！"
+msgstr " {provider} から単位を授与される資格があります。おめでとうございます！"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:23
 msgid "Get Credit"
@@ -4270,7 +4270,7 @@ msgid ""
 "Thank you for your payment. To receive course credit, you must now request "
 "credit at the {link_to_provider_site} website. Select <b>Request Credit</b> "
 "to get started."
-msgstr "お支払いいただき、ありがとうございます。単位を獲得するには、{link_to_provider_site}で単位のリクエストをしなければいけません。<b>単位をリクエストする</b>を選択してください。"
+msgstr "お支払いいただき、ありがとうございます。単位を獲得するには、 {link_to_provider_site} で単位のリクエストをしなければいけません。 <b> 単位をリクエストする </b> を選択してください。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:40
 msgid "Request Credit"
@@ -4280,7 +4280,7 @@ msgstr "単位をリクエストする"
 msgid ""
 "{provider_name} has received your course credit request. We will update you "
 "when credit processing is complete."
-msgstr "{provider_name}は講義単位リクエストを受け取りました。手続が完了次第お知らせします。"
+msgstr "{provider_name} は講義単位リクエストを受け取りました。手続が完了次第お知らせします。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:47
 msgid "View Details"
@@ -4295,7 +4295,7 @@ msgid ""
 "<b>Congratulations!</b> {provider_name} has approved your request for course"
 " credit. To see your course credit, visit the {link_to_provider_site} "
 "website."
-msgstr "<b>おめでとうございます！</b>{provider_name}はあなたの講義単位リクエストを承認しました。確認するには、{link_to_provider_site}サイトをご覧ください。"
+msgstr "<b> おめでとうございます！ </b> {provider_name} はあなたの講義単位リクエストを承認しました。確認するには、 {link_to_provider_site} サイトをご覧ください。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:58
 msgid "View Credit"
@@ -4305,12 +4305,12 @@ msgstr "単位を見る"
 msgid ""
 "{provider_name} did not approve your request for course credit. For more "
 "information, contact {link_to_provider_site} directly."
-msgstr "{provider_name}はあなたの講義単位リクエストを承認しませんでした。詳しくは、{link_to_provider_site}へ直接ご連絡ください。"
+msgstr "{provider_name} はあなたの講義単位リクエストを承認しませんでした。詳しくは、 {link_to_provider_site} へ直接ご連絡ください。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:73
 msgid ""
 "An error occurred with this transaction. For help, contact {support_email}."
-msgstr "処理中にエラーが発生しました。{support_email}へお問い合わせください。"
+msgstr "処理中にエラーが発生しました。 {support_email} へお問い合わせください。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:10
 msgid "Current Verification Status: Approved"
@@ -4378,7 +4378,7 @@ msgstr "アカウントのリンクができませんでした"
 msgid ""
 "The {provider_name} account you selected is already linked to another "
 "{platform_name} account."
-msgstr "選択された{provider_name}のアカウントは既に{platform_name}の別のアカウントにリンクされています。"
+msgstr "選択された {provider_name} のアカウントは既に {platform_name} の別のアカウントにリンクされています。"
 
 #: lms/templates/dashboard/_reason_survey.html:7
 msgid ""
@@ -4585,7 +4585,7 @@ msgstr "この講義や今後の講義で見直しするために重要な情報
 msgid ""
 "Get started by making a note in something you just read, like "
 "{section_link}."
-msgstr "{section_link}のように、あなたが読んだことについてノートを作成し始めましょう。"
+msgstr " {section_link} のように、あなたが読んだことについてノートを作成し始めましょう。"
 
 #: lms/templates/edxnotes/toggle_notes.html:18
 msgid "Hide notes"
@@ -4597,7 +4597,7 @@ msgstr "ノートを表示"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:3
 msgid "Welcome to {course_name}"
-msgstr "{course_name}へようこそ"
+msgstr " {course_name} へようこそ"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:5
 msgid ""
@@ -4607,11 +4607,11 @@ msgstr "始めるには、https://{site_name} へアクセスしてください�
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:7
 msgid "email: {email}"
-msgstr "メール: {email}"
+msgstr "メール: {email} "
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:8
 msgid "password: {password}"
-msgstr "パスワード: {password}"
+msgstr "パスワード: {password} "
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:10
 msgid "It is recommended that you change your password."
@@ -4619,71 +4619,71 @@ msgstr "パスワードを変更することが推奨されています。"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:12
 msgid "Sincerely yours,The {course_name} Team"
-msgstr "敬意を込めて、{course_name}講義チームより"
+msgstr "敬意を込めて、 {course_name} 講義チームより"
 
 #: lms/templates/emails/activation_email.txt:2
 msgid ""
 "You're almost there! Use the link to activate your account to access "
 "engaging, high-quality {platform_name} courses. Note that you will not be "
 "able to log back into your account until you have activated it."
-msgstr "もう少しです！アカウントを有効化するリンクへアクセスし、{platform_name}の質の高い講義に参加しましょう。アカウントを有効化しないとログインできませんので、ご注意ください。"
+msgstr "もう少しです！アカウントを有効化するリンクへアクセスし、 {platform_name} の質の高い講義に参加しましょう。アカウントを有効化しないとログインできませんので、ご注意ください。"
 
 #: lms/templates/emails/activation_email.txt:12
 msgid "Enjoy learning with {platform_name}."
-msgstr "{platform_name}で楽しく学びましょう。"
+msgstr " {platform_name} で楽しく学びましょう。"
 
 #: lms/templates/emails/activation_email.txt:16
 msgid ""
 "If you need help, please use our web form at {support_url} or email "
 "{support_email}."
-msgstr "ヘルプが必要でしたら、{support_url}のフォームをご使用いただくか、{support_email}までメールでご連絡ください。"
+msgstr "ヘルプが必要でしたら、 {support_url} のフォームをご使用いただくか、 {support_email} までメールでご連絡ください。"
 
 #: lms/templates/emails/activation_email.txt:20
 msgid ""
 "This email message was automatically sent by {lms_url} because someone "
 "attempted to create an account on {platform_name} using this email address."
-msgstr "どなたかが{platform_name}アカウントを作成するためにこのメールアドレスを入力したため、{lms_url}から自動的にこのメッセージが送信されました。"
+msgstr "どなたかが {platform_name} アカウントを作成するためにこのメールアドレスを入力したため、 {lms_url} から自動的にこのメッセージが送信されました。"
 
 #: lms/templates/emails/activation_email_subject.txt:2
 msgid "Action Required: Activate your {platform_name} account"
-msgstr "必要な操作: {platform_name}アカウントを有効化する"
+msgstr "必要な操作: {platform_name} アカウントを有効化する"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:3
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:3
 #: lms/templates/emails/remove_beta_tester_email_message.txt:3
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt:3
 msgid "Dear {full_name}"
-msgstr "{full_name}さん"
+msgstr " {full_name} さん"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:5
 msgid ""
 "You have been invited to be a beta tester for {course_name} at {site_name} "
 "by a member of the course staff."
-msgstr "講義スタッフのメンバーから{site_name}の{course_name}のβテスターに招待されました。"
+msgstr "講義スタッフのメンバーから {site_name} の {course_name} のβテスターに招待されました。"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:12
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:12
 msgid "To start accessing course materials, please visit {course_url}"
-msgstr "教材は{course_url}にアクセスしてください"
+msgstr "教材は {course_url} にアクセスしてください"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:16
 msgid "Visit {course_about_url} to join the course and begin the beta test."
-msgstr "講義に参加しβテストを行うには {course_about_url}へアクセスしてください。"
+msgstr "講義に参加しβテストを行うには {course_about_url} へアクセスしてください。"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:18
 msgid "Visit {site_name} to enroll in the course and begin the beta test."
-msgstr "講義に受講登録しβテストを始めるには{site_name}へアクセスしてください。"
+msgstr "講義に受講登録しβテストを始めるには {site_name} へアクセスしてください。"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:22
 #: lms/templates/emails/enroll_email_allowedmessage.txt:40
 #: lms/templates/emails/remove_beta_tester_email_message.txt:15
 #: lms/templates/emails/unenroll_email_allowedmessage.txt:10
 msgid "This email was automatically sent from {site_name} to {email_address}"
-msgstr "このメールは{site_name}から{email_address}へ自動的に送信されました。"
+msgstr "このメールは {site_name} から {email_address} へ自動的に送信されました。"
 
 #: lms/templates/emails/add_beta_tester_email_subject.txt:3
 msgid "You have been invited to a beta test for {course_name}"
-msgstr "あなたは{course_name}のβテスターとして招待されました"
+msgstr "あなたは {course_name} のβテスターとして招待されました"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:6
 msgid "Thank you for your purchase of "
@@ -4698,24 +4698,24 @@ msgstr "お支払手続が完了しました。"
 msgid ""
 "If you have billing questions, please read the FAQ ({faq_url}) or contact "
 "{billing_email}."
-msgstr "請求に関するご質問があれば、FAQ({faq_url})をご覧いただくか{billing_email}にお問い合わせください。"
+msgstr "請求に関するご質問があれば、FAQ({faq_url}) をご覧いただくか {billing_email} にお問い合わせください。"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:13
 #: lms/templates/emails/order_confirmation_email.txt:9
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr "請求に関するご質問がありましたら、{billing_email}にお問い合わせください。"
+msgstr "請求に関するご質問がありましたら、 {billing_email} にお問い合わせください。"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:18
 msgid ""
 "{order_placed_by} placed an order and mentioned your name as the "
 "Organization contact."
-msgstr "{order_placed_by}からのご注文を頂きました。あなたのお名前を組織の窓口として記載しました。"
+msgstr " {order_placed_by} からのご注文を頂きました。あなたのお名前を組織の窓口として記載しました。"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:22
 msgid ""
 "{order_placed_by} placed an order and mentioned your name as the additional "
 "receipt recipient."
-msgstr "{order_placed_by}からのご注文を頂きました。あなたのお名前を領収書受領者の追加枠に記載しました。"
+msgstr " {order_placed_by} からのご注文を頂きました。あなたのお名前を領収書受領者の追加枠に記載しました。"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:26
 #: lms/templates/emails/order_confirmation_email.txt:23
@@ -4785,7 +4785,7 @@ msgstr "なにとぞよろしくお願いいたします。"
 #. the string after the sign off.
 #: lms/templates/emails/business_order_confirmation_email.txt:76
 msgid "Warm regards,<br>The {platform_name} Team"
-msgstr "なにとぞよろしくお願いいたします。<br>{platform_name}運営チーム"
+msgstr "なにとぞよろしくお願いいたします。<br> {platform_name} 運営チーム"
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use.
@@ -4797,7 +4797,7 @@ msgstr "[[Name]] 様"
 msgid ""
 "To enroll in {course_names} we have provided a registration URL for you.  "
 "Please follow the instructions below to claim your access."
-msgstr "{course_names}に受講登録するために、登録用URLを送付します。以下の説明に従ってアクセス要求をしてください。"
+msgstr "{course_names} に受講登録するために、登録用URLを送付します。以下の説明に従ってアクセス要求をしてください。"
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use.
@@ -4807,7 +4807,7 @@ msgstr "引換用のURL: [[引換用URLを添付のCSVからこちらに入力�
 
 #: lms/templates/emails/business_order_confirmation_email.txt:93
 msgid "(1) Register for an account at {site_name}"
-msgstr "(1) {site_name}でアカウント登録をします"
+msgstr "(1) {site_name} でアカウント登録をします"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:94
 msgid ""
@@ -4824,7 +4824,7 @@ msgstr "(3) 受講登録確認ページにて、'受講登録コード有効化'
 msgid ""
 "(4) You should be able to click on 'view course' button or see your course "
 "on your student dashboard at {url}"
-msgstr "(4) '講義を見る'ボタンがクリックできるようになり、{url}のダッシュボードから講義を見ることができます"
+msgstr "(4) '講義を見る'ボタンがクリックできるようになり、{url} のダッシュボードから講義を見ることができます"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:99
 msgid ""
@@ -4843,7 +4843,7 @@ msgid ""
 "This is to confirm that you changed the e-mail associated with "
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us immediately. Contact information is listed at:"
-msgstr "これは{platform_name}への登録メールを{old_email}から{new_email}へ変更したことを確認するものです。もし変更を行っていない場合は、すぐにご連絡ください。問い合わせ先: "
+msgstr "これは {platform_name} への登録メールを {old_email} から {new_email} へ変更したことを確認するものです。もし変更を行っていない場合は、すぐにご連絡ください。問い合わせ先: "
 
 #: lms/templates/emails/confirm_email_change.txt:25
 #: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:8
@@ -4858,18 +4858,18 @@ msgid ""
 "We received a request to change the e-mail associated with your "
 "{platform_name} account from {old_email} to {new_email}. If this is correct,"
 " please confirm your new e-mail address by visiting:"
-msgstr "{platform_name}アカウントへの登録メールを{old_email}から{new_email}へ変更するリクエストを受け取りました。これが正しい場合は、次にアクセスして新しいメールアドレスを確認してください:"
+msgstr "{platform_name} アカウントへの登録メールを {old_email} から {new_email} へ変更するリクエストを受け取りました。これが正しい場合は、次にアクセスして新しいメールアドレスを確認してください:"
 
 #: lms/templates/emails/email_change.txt:19
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive"
 " any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the help section of the {platform_name} web site."
-msgstr "もしこれをリクエストしていないのであれば、何もする必要はありません。これ以上メールはお送りしません。このメールには返信しないでください。もしヘルプが必要であれば、{platform_name}のウェブサイトのヘルプをご参照ください。"
+msgstr "もしこれをリクエストしていないのであれば、何もする必要はありません。これ以上メールはお送りしません。このメールには返信しないでください。もしヘルプが必要であれば、 {platform_name} のウェブサイトのヘルプをご参照ください。"
 
 #: lms/templates/emails/email_change_subject.txt:3
 msgid "Request to change {platform_name} account e-mail"
-msgstr "{platform_name}アカウントのメールの変更をリクエストする"
+msgstr " {platform_name} アカウントのメールの変更をリクエストする"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:3
 msgid "Dear student,"
@@ -4879,64 +4879,64 @@ msgstr "受講者 様、"
 msgid ""
 "You have been invited to join {course_name} at {site_name} by a member of "
 "the course staff."
-msgstr "{site_name}の{course_name}に参加するよう講義スタッフから招待されました。"
+msgstr " {site_name} の {course_name} に参加するよう講義スタッフから招待されました。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:13
 msgid "To access the course visit {course_url} and login."
-msgstr "講義へは{course_url}にアクセスしてログインしてください。"
+msgstr "講義へは {course_url} にアクセスしてログインしてください。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:16
 msgid ""
 "To access the course visit {course_about_url} and register for the course."
-msgstr "講義へは{course_about_url}へアクセスして登録してください。"
+msgstr "講義へは {course_about_url} へアクセスして登録してください。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:21
 msgid ""
 "To finish your registration, please visit {registration_url} and fill out "
 "the registration form making sure to use {email_address} in the E-mail "
 "field."
-msgstr "登録を完了するには{registration_url}にアクセスし、登録フォームのメール欄に{email_address}を入力してください。"
+msgstr "登録を完了するには {registration_url} にアクセスし、登録フォームのメール欄に {email_address} を入力してください。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:27
 msgid ""
 "Once you have registered and activated your account, you will see "
 "{course_name} listed on your dashboard."
-msgstr "アカウントを登録して有効化すると、ダッシュボードに{course_name}が表示されます。"
+msgstr "アカウントを登録して有効化すると、ダッシュボードに {course_name} が表示されます。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:32
 msgid ""
 "Once you have registered and activated your account, visit "
 "{course_about_url} to join the course."
-msgstr "アカウントを登録して有効化してから、{course_about_url}にアクセスして講義に参加してください。"
+msgstr "アカウントを登録して有効化してから、 {course_about_url} にアクセスして講義に参加してください。"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt:35
 msgid "You can then enroll in {course_name}."
-msgstr "{course_name}を受講登録することができます。"
+msgstr " {course_name} を受講登録することができます。"
 
 #: lms/templates/emails/enroll_email_allowedsubject.txt:3
 msgid "You have been invited to register for {course_name}"
-msgstr "{course_name}に登録するように招待されました"
+msgstr " {course_name} に登録するように招待されました"
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:5
 msgid ""
 "You have been enrolled in {course_name} at {site_name} by a member of the "
 "course staff. The course should now appear on your {site_name} dashboard."
-msgstr "講義スタッフによって{site_name}の{course_name}に受講登録されました。{site_name}のダッシュボードに講義が表示されます。"
+msgstr "講義スタッフによって {site_name} の {course_name} に受講登録されました。 {site_name} のダッシュボードに講義が表示されます。"
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:17
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt:14
 msgid "This email was automatically sent from {site_name} to {full_name}"
-msgstr "このメールは{site_name}から{full_name}様へ自動的に送信されました"
+msgstr "このメールは {site_name} から {full_name} 様へ自動的に送信されました"
 
 #: lms/templates/emails/enroll_email_enrolledsubject.txt:3
 msgid "You have been enrolled in {course_name}"
-msgstr "{course_name}に受講登録されました"
+msgstr " {course_name} に受講登録されました"
 
 #: lms/templates/emails/order_confirmation_email.txt:4
 msgid ""
 "Your payment was successful. You will see the charge below on your next "
 "credit or debit card statement under the company name {merchant_name}."
-msgstr "お支払手続きが完了しました。{merchant_name}にて次回のクレジットまたはデビットカード計算書に以下の金額が記載されます。"
+msgstr "お支払手続きが完了しました。 {merchant_name} にて次回のクレジットまたはデビットカード計算書に以下の金額が記載されます。"
 
 #: lms/templates/emails/order_confirmation_email.txt:12
 #: lms/templates/emails/photo_submission_confirmation.txt:9
@@ -4949,7 +4949,7 @@ msgstr "あなたの注文番号: {order_number}"
 
 #: lms/templates/emails/photo_submission_confirmation.txt:3
 msgid "Hi {full_name},"
-msgstr "こんにちは、{full_name}さん。"
+msgstr "こんにちは、 {full_name} さん。"
 
 #: lms/templates/emails/photo_submission_confirmation.txt:5
 msgid "Thanks for submitting your photos!"
@@ -4964,17 +4964,17 @@ msgstr "あなたの情報を受信したので、本人認証手続が開始さ
 #: lms/templates/emails/photo_submission_confirmation.txt:11
 #: lms/templates/emails/reverification_processed.txt:27
 msgid "The {platform_name} team"
-msgstr "{platform_name}運営チーム"
+msgstr " {platform_name} 運営チーム"
 
 #: lms/templates/emails/registration_codes_sale_email.txt:3
 msgid "Thank you for purchasing enrollments in {course_name}."
-msgstr "{course_name}の受講登録料をお支払いいただき、ありがとうございます。"
+msgstr " {course_name} の受講登録料をお支払いいただき、ありがとうございます。"
 
 #: lms/templates/emails/registration_codes_sale_email.txt:5
 msgid ""
 "An invoice for {currency_symbol}{total_price} is attached. Payment is due "
 "upon receipt. You can find information about payment methods on the invoice."
-msgstr "{currency_symbol}{total_price}の請求書が添付されています。受け取り次第お支払いください。お支払い方法については請求書に記載されています。"
+msgstr " {currency_symbol}{total_price} の請求書が添付されています。受け取り次第お支払いください。お支払い方法については請求書に記載されています。"
 
 #: lms/templates/emails/registration_codes_sale_email.txt:7
 msgid ""
@@ -4990,7 +4990,7 @@ msgstr "受講登録コードを記載したCSVファイルが添付されてい
 msgid ""
 "Thanks,\n"
 "The {platform_name} Team"
-msgstr "ありがとうございます。\n{platform_name}運営チームより"
+msgstr "ありがとうございます。\n{platform_name} 運営チームより"
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use.
@@ -5004,7 +5004,7 @@ msgstr " [[Name]] 様:"
 msgid ""
 "We have provided a course enrollment code for you in {course_name}. To "
 "enroll in the course, click the following link:"
-msgstr "{course_name}であなたの受講登録コードを発行しました。受講するためには次のリンクをクリックしてください: "
+msgstr " {course_name} であなたの受講登録コードを発行しました。受講するためには次のリンクをクリックしてください: "
 
 #: lms/templates/emails/registration_codes_sale_email.txt:23
 msgid "HTML link from the attached CSV file"
@@ -5024,7 +5024,7 @@ msgstr "受講登録すると受講生用ダッシュボードにその講義が
 msgid ""
 "Sincerely,\n"
 "[[Your Signature]]"
-msgstr "敬意を込めて\n[[ご署名]]"
+msgstr "敬意を込めて \n[[ご署名]]"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt:2
 msgid "INVOICE"
@@ -5087,14 +5087,14 @@ msgstr "お支払いいただけない場合は、このコードの受講登録
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt:42
 msgid "For payment questions, contact {contact_email}"
-msgstr "支払についてのご質問は{contact_email}へお問い合わせください"
+msgstr "支払についてのご質問は {contact_email} へお問い合わせください"
 
 #: lms/templates/emails/reject_name_change.txt:5
 msgid ""
 "We are sorry. Our course staff did not approve your request to change your "
 "name from {old_name} to {new_name}. If you need further assistance, please "
 "e-mail the course staff at {email}."
-msgstr "申し訳ありませんが、{old_name}から{new_name}への名前の変更が承認されませんでした。ヘルプが必要な場合は、{email}にメールしてください。"
+msgstr "申し訳ありませんが、 {old_name} から {new_name} への名前の変更が承認されませんでした。ヘルプが必要な場合は、 {email} にメールしてください。"
 
 #: lms/templates/emails/remove_beta_tester_email_message.txt:5
 msgid ""
