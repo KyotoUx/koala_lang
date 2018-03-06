@@ -134,7 +134,7 @@ msgstr "既に講義チームメンバーです"
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
-msgstr "{email}を“{container}”の講義チームから削除しようとしていますが、よろしいですか？"
+msgstr "{email} を “{container}” の講義チームから削除しようとしていますが、よろしいですか？"
 
 #: cms/static/js/factories/manage_users.js:19
 #: cms/static/js/factories/manage_users_lib.js:21
@@ -153,7 +153,7 @@ msgstr "すでにライブラリチームメンバーです"
 #: cms/static/js/factories/manage_users_lib.js:12
 msgid ""
 "Are you sure you want to delete {email} from the library “{container}”?"
-msgstr "{email}を“{container}”ライブラリから削除しようとしていますが、よろしいですか？"
+msgstr "{email} を “{container}” ライブラリから削除しようとしていますが、よろしいですか？"
 
 #: cms/static/js/factories/manage_users_lib.js:20
 msgid "Library User"
@@ -195,7 +195,7 @@ msgstr "アップロード失敗"
 
 #: cms/static/js/models/chapter.js:35
 msgid "Chapter name and asset_path are both required"
-msgstr "チャプター名および asset_pathは必須です"
+msgstr "チャプター名および asset_path は必須です"
 
 #: cms/static/js/models/chapter.js:40
 msgid "Chapter name is required"
@@ -275,7 +275,7 @@ msgstr "%(min)sから%(max)sの間の整数を入力してください。"
 
 #: cms/static/js/models/settings/course_grader.js:27
 msgid "The assignment type must have a name."
-msgstr ""
+msgstr "課題タイプ名は必須です。"
 
 #: cms/static/js/models/settings/course_grader.js:33
 msgid "There's already another assignment type with this name."
@@ -295,7 +295,7 @@ msgstr "正の整数を入力してください。"
 
 #: cms/static/js/models/settings/course_grader.js:69
 msgid "Cannot drop more <%= types %> assignments than are assigned."
-msgstr "指定数以上の<%= types %>の課題を落とすことはできません。"
+msgstr "指定数以上の <%= types %> の課題を落とすことはできません。"
 
 #: cms/static/js/models/settings/course_grading_policy.js:74
 msgid "Grace period must be specified in HH:MM format."
@@ -303,7 +303,7 @@ msgstr "猶予期間はHH:MMの形式で記入してください。"
 
 #: cms/static/js/models/settings/course_grading_policy.js:84
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
-msgstr "%(minimum_grade_cutoff)s%未満は、合格点として設定できません。"
+msgstr "%(minimum_grade_cutoff)s% 未満は、合格点として設定できません。"
 
 #: cms/static/js/models/textbook.js:62
 msgid "Textbook name is required"
@@ -321,7 +321,7 @@ msgstr "すべてのチャプターには名前およびアセットが必要で
 msgid ""
 "Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
 "<%= fileExtensions %> to upload."
-msgstr "アップロードが可能なファイル形式は<%= fileTypes %>のみです。拡張子が<%= fileExtensions %>のファイルを選択し、アップロードしてください。"
+msgstr "アップロードが可能なファイル形式は <%= fileTypes %> のみです。拡張子が <%= fileExtensions %> のファイルを選択し、アップロードしてください。"
 
 #: cms/static/js/models/uploads.js:63
 msgid "or"
@@ -377,7 +377,7 @@ msgstr "{filename} のファイル形式はサポートされていません。�
 
 #: cms/static/js/views/active_video_upload_list.js:388
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
-msgstr "{filename}は最大サイズ {maxFileSizeInGB}GBを超えています。"
+msgstr "{filename} は最大サイズ {maxFileSizeInGB}GBを超えています。"
 
 #: cms/static/js/views/active_video_upload_list.js:423
 msgid ": video upload complete."
@@ -396,7 +396,7 @@ msgid ""
 "Are you sure you wish to delete this item. It cannot be reversed!\n"
 "\n"
 "Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
-msgstr "このアイテムを本当に削除してよいですか？元には戻せません！\n\nまた、このアイテムにリンクまたは参照しているコンテンツはすべて機能しなくなります (例: 画像やリンク破損)"
+msgstr "このアイテムを本当に削除してよいですか？元には戻せません！\n\n また、このアイテムにリンクまたは参照しているコンテンツはすべて機能しなくなります (例: 画像やリンク破損)"
 
 #: cms/static/js/views/asset.js:61
 msgid "Your file has been deleted."
@@ -488,7 +488,7 @@ msgstr "必須"
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%= name %>”"
-msgstr "“<%= name %>”に新しいPDFをアップロード"
+msgstr "“<%= name %>” に新しいPDFをアップロード"
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -538,7 +538,7 @@ msgstr "メインコースページへ"
 
 #: cms/static/js/views/export.js:346
 msgid "The raw error message is:"
-msgstr "エラーメッセージの原文："
+msgstr "エラーメッセージの原文: "
 
 #: cms/static/js/views/export.js:348
 msgid "There has been an error with your export."
@@ -564,7 +564,7 @@ msgstr "使用されていません"
 #: cms/static/js/views/partition_group_details.js:74
 msgid "Used in {count} location"
 msgid_plural "Used in {count} locations"
-msgstr[0] "{count}ヵ所で使用中"
+msgstr[0] "{count} ヵ所で使用中"
 
 #. Translators: this refers to a collection of groups.
 #: cms/static/js/views/group_configuration_item.js:26
@@ -639,7 +639,7 @@ msgid ""
 "Allow others to copy, distribute, display and perform only verbatim copies "
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
-msgstr "二次著作物ではなく、あなたの作品そのままの複製だけを他の人が複製、頒布、展示、上演することを許可します。このオプションは\"継承\"と両立できません。"
+msgstr "二次著作物ではなく、あなたの作品そのままの複製だけを他の人が複製、頒布、展示、上演することを許可します。このオプションは \"継承\" と両立できません。"
 
 #: cms/static/js/views/license.js:42
 msgid "Share Alike"
@@ -650,17 +650,17 @@ msgid ""
 "Allow others to distribute derivative works only under a license identical "
 "to the license that governs your work. This option is incompatible with \"No"
 " Derivatives\"."
-msgstr "あなたの作品に付されているライセンスと同一のライセンスに基づいてのみ、他の人が二次著作物を頒布することを許可します。このオプションは\"二次著作物なし\"と両立できません。"
+msgstr "あなたの作品に付されているライセンスと同一のライセンスに基づいてのみ、他の人が二次著作物を頒布することを許可します。このオプションは \"二次著作物なし\" と両立できません。"
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
 #: cms/static/js/views/list_item.js:50
 msgid "Delete this %(item_display_name)s?"
-msgstr "この%(item_display_name)sを削除しますか？"
+msgstr "この %(item_display_name)s を削除しますか？"
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
 #: cms/static/js/views/list_item.js:55
 msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
-msgstr "この%(item_display_name)sの削除は恒久的で、元に戻せません。"
+msgstr "この %(item_display_name)s の削除は恒久的で、元に戻せません。"
 
 #: cms/static/js/views/manage_users_and_roles.js:11
 msgid "There was an error changing the user's role"
@@ -694,7 +694,7 @@ msgstr "既にメンバー"
 msgid ""
 "{email} is already on the {container} team. Recheck the email address if you"
 " want to add a new member."
-msgstr "{email}はすでに{container}チームに登録されています。新しいメンバーを登録する場合はメールアドレスを再確認してください。"
+msgstr "{email} はすでに {container} チームに登録されています。新しいメンバーを登録する場合はメールアドレスを再確認してください。"
 
 #: cms/static/js/views/manage_users_and_roles.js:26
 msgid "Return to team listing"
@@ -706,7 +706,7 @@ msgstr "間違いありませんか？"
 
 #: cms/static/js/views/manage_users_and_roles.js:30
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
-msgstr "{email}の“{container}”へのアクセスを制限してよろしいですか？"
+msgstr "{email} の “{container}” へのアクセスを制限してよろしいですか？"
 
 #: cms/static/js/views/modals/course_outline_modals.js:112
 msgid "{display_name} Settings"
@@ -726,7 +726,7 @@ msgstr "公開"
 
 #: cms/static/js/views/modals/course_outline_modals.js:220
 msgid "Highlights for {display_name}"
-msgstr "{display_name}のハイライト"
+msgstr "{display_name} のハイライト"
 
 #: cms/static/js/views/modals/course_outline_modals.js:228
 msgid ""
@@ -734,7 +734,7 @@ msgid ""
 "Each {item}'s highlights are emailed at the time that we expect the learner "
 "to start working on that {item}. At this time, we assume that each {item} "
 "will take 1 week to complete."
-msgstr "ここに記入したハイライトは受講者にメールで送られます。各{item}のハイライトはその{item}が出てくる時にメールされます。今回は、各{item}を完了させるのに1週間かかると想定しています。""
+msgstr "ここに記入したハイライトは受講者にメールで送られます。各 {item} のハイライトはその {item} が出てくる時にメールされます。今回は、各 {item} を完了させるのに1週間かかると想定しています。""
 
 #: cms/static/js/views/modals/course_outline_modals.js:683
 msgid "All Learners and Staff"
@@ -807,7 +807,7 @@ msgstr "グループ"
 
 #: cms/static/js/views/move_xblock_list.js:179
 msgid "This {parentCategory} has no {childCategory}"
-msgstr "この{parentCategory}には{childCategory}がありません"
+msgstr "この {parentCategory} には {childCategory} がありません"
 
 #: cms/static/js/views/move_xblock_list.js:196
 msgid "Course Outline"
@@ -821,7 +821,7 @@ msgstr "追加日"
 #. edited.
 #: cms/static/js/views/pages/container.js:200
 msgid "Editing access for: %(title)s"
-msgstr "アクセス権編集中：%(title)s"
+msgstr "アクセス権編集中: %(title)s"
 
 #: cms/static/js/views/pages/container_subviews.js:165
 msgid "Publishing"
@@ -893,7 +893,7 @@ msgstr "プレビューを表示"
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
-msgstr "{sortName}で昇順にソート、{assetType}でフィルタリングされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+msgstr "{sortName} で昇順にソート、{assetType} でフィルタリングされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -902,7 +902,7 @@ msgstr "{sortName}で昇順にソート、{assetType}でフィルタリングさ
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
-msgstr "{sortName}で降順にソート、{assetType}でフィルタリングされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+msgstr "{sortName} で降順にソート、{assetType} でフィルタリングされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -910,7 +910,7 @@ msgstr "{sortName}で降順にソート、{assetType}でフィルタリングさ
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
-msgstr "{sortName}で昇順にソートされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+msgstr "{sortName} で昇順にソートされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -918,13 +918,13 @@ msgstr "{sortName}で昇順にソートされた全{totalItemsCount}件中{curre
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
-msgstr "{sortName}で降順にソートされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+msgstr "{sortName} で降順にソートされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
 #: cms/static/js/views/paging_header.js:98
 msgid "{totalItems} total"
-msgstr "全{totalItems}件"
+msgstr "全 {totalItems} 件"
 
 #. Translators: This refers to a content group that can be linked to a student
 #. cohort.
@@ -970,7 +970,7 @@ msgstr "ポリシーキーまたは値のペアに対して認証は行われま
 #: cms/static/js/views/settings/grader.js:58
 msgid ""
 "For grading to work, you must change all {oldName} subsections to {newName}."
-msgstr "採点できるようにするには、{oldName}サブセクションを全て{newName}に変更しなければいけません。"
+msgstr "採点できるようにするには、{oldName} サブセクションを全て {newName} に変更しなければいけません。"
 
 #: cms/static/js/views/settings/main.js:59
 msgid "Course Credit Requirements"
@@ -1002,7 +1002,7 @@ msgstr "動画サムネイル画像をアップロードしてください。"
 
 #: cms/static/js/views/show_textbook.js:32
 msgid "Delete “<%= name %>”?"
-msgstr "“<%= name %>”を削除しますか?"
+msgstr "“<%= name %>” を削除しますか?"
 
 #: cms/static/js/views/show_textbook.js:35
 msgid ""
@@ -1031,23 +1031,23 @@ msgstr "申し訳ありませんが、エラーが発生しました"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%=limit%> characters."
-msgstr "組織名、講義番号、course run欄の合計文字数は<%=limit%>文字までです。"
+msgstr "組織名、講義番号、course run欄の合計文字数は <%=limit%> 文字までです。"
 
 #: cms/static/js/views/utils/create_library_utils.js:8
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%=limit%> characters."
-msgstr "組織名、ライブラリコード欄の合計文字数は<%=limit%>文字までです。"
+msgstr "組織名、ライブラリコード欄の合計文字数は <%=limit%> 文字までです。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:31
 msgid "Success! \"{displayName}\" has been moved."
-msgstr "完了！\"{displayName}\"を移動しました。"
+msgstr "完了！ \"{displayName}\" を移動しました。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:56
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
-msgstr "移動をキャンセル。\"{sourceDisplayName}\"は元の場所に戻されました。"
+msgstr "移動をキャンセル。 \"{sourceDisplayName}\" は元の場所に戻されました。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:74
 msgid "Undo move"
@@ -1086,11 +1086,11 @@ msgstr "この {xblock_type} (および必須条件) を削除しますか？"
 #: cms/static/js/views/utils/xblock_utils.js:162
 #: cms/static/js/views/utils/xblock_utils.js:177
 msgid "Yes, delete this {xblock_type}"
-msgstr "はい、この{xblock_type}を削除してください"
+msgstr "はい、この {xblock_type} を削除してください"
 
 #: cms/static/js/views/utils/xblock_utils.js:171
 msgid "Delete this {xblock_type}?"
-msgstr "この{xblock_type}を削除しますか？"
+msgstr "この {xblock_type} を削除しますか？"
 
 #: cms/static/js/views/utils/xblock_utils.js:263
 msgid "section"
@@ -1131,24 +1131,24 @@ msgstr ".srtファイルを選択してください。"
 
 #: cms/static/js/views/video/transcripts/file_uploader.js:188
 msgid "Error: Uploading failed."
-msgstr "エラー：アップロード失敗。"
+msgstr "エラー: アップロード失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:147
 msgid "Error: Import failed."
-msgstr "エラー：インポート失敗。"
+msgstr "エラー: インポート失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:161
 msgid "Error: Replacing failed."
-msgstr "エラー：置換失敗。"
+msgstr "エラー: 置換失敗。"
 
 #: cms/static/js/views/video/transcripts/message_manager.js:177
 #: cms/static/js/views/video/transcripts/message_manager.js:191
 msgid "Error: Choosing failed."
-msgstr "エラー：選択失敗。"
+msgstr "エラー: 選択失敗。"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:66
 msgid "Error: Connection with server failed."
-msgstr "エラー：サーバーへの接続失敗。"
+msgstr "エラー: サーバーへの接続失敗。"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:82
 msgid "No sources"
@@ -1205,12 +1205,12 @@ msgstr "{ReqTextSpanStart}必須{spanEnd}{lineBreak}{InstructionsSpanStart}{vide
 #. Translators: message will be like 1280x720 pixels
 #: cms/static/js/views/video_thumbnail.js:130
 msgid "{maxWidth}x{maxHeight} pixels"
-msgstr "{maxWidth}x{maxHeight}ピクセル"
+msgstr "{maxWidth}x{maxHeight} ピクセル"
 
 #. Translators: message will be like Thumbnail for Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:138
 msgid "Thumbnail for {videoName}"
-msgstr "{videoName}のサムネイル"
+msgstr "{videoName} のサムネイル"
 
 #. Translators: message will be like Add Thumbnail - Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:146
@@ -1221,7 +1221,7 @@ msgstr "サムネイル追加 - {videoName}"
 #. minutes etc
 #: cms/static/js/views/video_thumbnail.js:172
 msgid "Video duration is {humanizeDuration}"
-msgstr "動画の長さは{humanizeDuration}"
+msgstr "動画の長さは {humanizeDuration}"
 
 #: cms/static/js/views/video_thumbnail.js:189
 msgid "minutes"
@@ -1267,17 +1267,17 @@ msgstr "動画画像アップロード完了"
 msgid ""
 "This image file type is not supported. Supported file types are "
 "{supportedFileFormats}."
-msgstr "この画像ファイルの種類はサポートされていません。対応できるファイルの種類は{supportedFileFormats}です。"
+msgstr "この画像ファイルの種類はサポートされていません。対応できるファイルの種類は {supportedFileFormats} です。"
 
 #. Translators: maxFileSizeInMB will be like 2 MB.
 #: cms/static/js/views/video_thumbnail.js:330
 msgid "The selected image must be smaller than {maxFileSizeInMB}."
-msgstr "選択する画像は{maxFileSizeInMB}を超えてはいけません。"
+msgstr "選択する画像は {maxFileSizeInMB} を超えてはいけません。"
 
 #. Translators: minFileSizeInKB will be like 2 KB.
 #: cms/static/js/views/video_thumbnail.js:338
 msgid "The selected image must be larger than {minFileSizeInKB}."
-msgstr "選択する画像は{minFileSizeInKB}以上でなければいけません。"
+msgstr "選択する画像は {minFileSizeInKB} 以上でなければいけません。"
 
 #: cms/static/js/views/video_thumbnail.js:366
 msgid "Could not upload the video image file"
