@@ -110,7 +110,7 @@ msgstr "新規ファイルを選ぶ"
 #: common/static/bundles/Import.js:129
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
-msgstr "サポート対象外のファイルフォーマットです。拡張子が{ext}のファイルをアップロードしてください。"
+msgstr "サポート対象外のファイルフォーマットです。拡張子が {ext} のファイルをアップロードしてください。"
 
 #: cms/static/js/features/import/factories/import.js:54
 #: common/static/bundles/Import.js:136
@@ -260,7 +260,7 @@ msgstr "足りないグループを作成中"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:264
 msgid "{start_strong}{total}{end_strong} words submitted in total."
-msgstr "合計{start_strong}{total}{end_strong}語提出済。"
+msgstr "合計 {start_strong}{total}{end_strong} 語提出済。"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:291
 msgid "text_word_{uniqueId} title_word_{uniqueId}"
@@ -303,28 +303,28 @@ msgstr "注釈に返信する"
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:232
 msgid "%(num_points)s point possible (graded, results hidden)"
 msgid_plural "%(num_points)s points possible (graded, results hidden)"
-msgstr[0] "全%(num_points)s点 (採点対象、結果非表示) "
+msgstr[0] "全 %(num_points)s 点 (採点対象、結果非表示) "
 
 #. Translators: %(num_points)s is the number of points possible (examples: 1,
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:239
 msgid "%(num_points)s point possible (ungraded, results hidden)"
 msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
-msgstr[0] "全%(num_points)s点 (採点対象外、結果非表示) "
+msgstr[0] "全 %(num_points)s 点 (採点対象外、結果非表示) "
 
 #. Translators: %(num_points)s is the number of points possible (examples: 1,
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:250
 msgid "%(num_points)s point possible (graded)"
 msgid_plural "%(num_points)s points possible (graded)"
-msgstr[0] "全%(num_points)s点 (採点対象) "
+msgstr[0] "全 %(num_points)s 点 (採点対象) "
 
 #. Translators: %(num_points)s is the number of points possible (examples: 1,
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:256
 msgid "%(num_points)s point possible (ungraded)"
 msgid_plural "%(num_points)s points possible (ungraded)"
-msgstr[0] "全%(num_points)s点 (採点対象外) "
+msgstr[0] "全 %(num_points)s 点 (採点対象外) "
 
 #. Translators: %(earned)s is the number of points earned. %(possible)s is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -333,7 +333,7 @@ msgstr[0] "全%(num_points)s点 (採点対象外) "
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:266
 msgid "%(earned)s/%(possible)s point (graded)"
 msgid_plural "%(earned)s/%(possible)s points (graded)"
-msgstr[0] "全%(possible)s点中%(earned)s点 (採点対象) "
+msgstr[0] "全 %(possible)s 点中 %(earned)s 点 (採点対象) "
 
 #. Translators: %(earned)s is the number of points earned. %(possible)s is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -342,7 +342,7 @@ msgstr[0] "全%(possible)s点中%(earned)s点 (採点対象) "
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:273
 msgid "%(earned)s/%(possible)s point (ungraded)"
 msgid_plural "%(earned)s/%(possible)s points (ungraded)"
-msgstr[0] "全%(possible)s点中%(earned)s点 (採点対象外)"
+msgstr[0] "全 %(possible)s 点中 %(earned)s 点 (採点対象外)"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:345
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -361,11 +361,11 @@ msgstr "提出が中断されました！申し訳ありませんが、お使い
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:542
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
-msgstr "{filename}は提出済です。{allowedFiles}のみ可能です。"
+msgstr "{filename} は提出済です。{allowedFiles} のみ可能です。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:555
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
-msgstr "{filename}ファイルは大きすぎます (最大: {maxSize}MBまで)。"
+msgstr "{filename} ファイルは大きすぎます (最大: {maxSize}MBまで)。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:570
 msgid "You did not submit the required files: {requiredFiles}."
@@ -1630,7 +1630,7 @@ msgid ""
 "If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
 "\n"
 "Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr "Advanced Editorを使用すると、この問題はXMLに変換され、Simple Editor Interfaceに戻ることはできなくなります。\n\nAdvanced Editorに進んでこの問題をXMLに変換しますか？"
+msgstr "Advanced Editorを使用すると、この問題はXMLに変換され、Simple Editor Interfaceに戻ることはできなくなります。\n\n Advanced Editorに進んでこの問題をXMLに変換しますか？"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js:725
 msgid "Explanation"
@@ -1640,7 +1640,7 @@ msgstr "説明"
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
-msgstr "シーケンスエラー！このシーケンスモジュールでは%(tab_name)sを操作できません。講義スタッフにお問い合わせください。"
+msgstr "シーケンスエラー！このシーケンスモジュールでは %(tab_name)s を操作できません。講義スタッフにお問い合わせください。"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js:417
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
@@ -1776,7 +1776,7 @@ msgstr[0] "%(value)s 秒"
 msgid ""
 "Click on this button to mute or unmute this video or press UP or DOWN "
 "buttons to increase or decrease volume level."
-msgstr "このボタンをクリックすると、動画がミュート／ミュート解除されます。UP／DOWNボタンで音量を調節できます。"
+msgstr "このボタンをクリックすると、動画がミュート/ミュート解除されます。UP/DOWNボタンで音量を調節できます。"
 
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:68
 msgid "Adjust video volume"
@@ -1840,7 +1840,7 @@ msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
 "language."
-msgstr "言語メニューを入力するにはUPキーを押し、UPおよびDOWNキーを使って言語を選択してください。ENTERを押すと言語が変更されます。"
+msgstr "言語メニューを入力するにはUPキーを押し、UP/DOWNキーを使って言語を選択してください。ENTERを押すと言語が変更されます。"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1185
 msgid "Hide closed captions"
@@ -1957,11 +1957,11 @@ msgstr "リクエストの実行は完了していません。再読込して再
 
 #: common/static/common/js/components/views/paging_header.js:37
 msgid "Showing {firstIndex} out of {numItems} total"
-msgstr "全{numItems}個のうち{firstIndex}番目を表示中"
+msgstr "全 {numItems} 個のうち {firstIndex} 番目を表示中"
 
 #: common/static/common/js/components/views/paging_header.js:42
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
-msgstr "全{numItems}個のうち{firstIndex}-{lastIndex}番目を表示中"
+msgstr "全 {numItems} 個のうち {firstIndex}-{lastIndex} 番目を表示中"
 
 #: common/static/common/js/discussion/utils.js:142
 msgid "Loading content"
@@ -1987,12 +1987,12 @@ msgstr "画像省略"
 #: common/static/common/js/discussion/views/discussion_content_view.js:280
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] "現在 {numVotes}票"
+msgstr[0] "現在 {numVotes} 票"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:286
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
-msgstr[0] "{numVotes}票"
+msgstr[0] "{numVotes} 票"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:354
 msgid ""
@@ -2090,7 +2090,7 @@ msgstr "投稿リストを読込中"
 msgid ""
 "No results found for {original_query}. Showing results for "
 "{suggested_query}."
-msgstr "{original_query} に該当する結果が見つかりませんでした。 {suggested_query}の結果を表示しています。 "
+msgstr "{original_query} に該当する結果が見つかりませんでした。 {suggested_query} の結果を表示しています。 "
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:535
 msgid "No posts matched your query."
@@ -2098,7 +2098,7 @@ msgstr "質問に該当する投稿がありませんでした。"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:570
 msgid "Show posts by {username}."
-msgstr "{username}の投稿を見る"
+msgstr "{username} の投稿を見る"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:218
 msgid "The post you selected has been deleted."
@@ -2116,12 +2116,12 @@ msgstr "追加の返信を読み込めませんでした。画面を再読込し
 #: common/static/common/js/discussion/views/discussion_thread_view.js:244
 msgid "{numResponses} other response"
 msgid_plural "{numResponses} other responses"
-msgstr[0] "{numResponses}件の投稿"
+msgstr[0] "{numResponses} 件の投稿"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:251
 msgid "{numResponses} response"
 msgid_plural "{numResponses} responses"
-msgstr[0] "{numResponses}件の投稿"
+msgstr[0] "{numResponses} 件の投稿"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:263
 msgid "Showing all responses"
@@ -2130,7 +2130,7 @@ msgstr "すべての返信を表示中"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:268
 msgid "Showing first response"
 msgid_plural "Showing first {numResponses} responses"
-msgstr[0] "最初の {numResponses}件の返信を表示中"
+msgstr[0] "最初の {numResponses} 件の返信を表示中"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:281
 msgid "Load all responses"
@@ -2138,7 +2138,7 @@ msgstr "すべての返信を読込"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:284
 msgid "Load next {numResponses} responses"
-msgstr "次の {numResponses}件の返信を読込"
+msgstr "次の {numResponses} 件の返信を読込"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:449
 msgid "Are you sure you want to delete this post?"
@@ -2170,15 +2170,15 @@ msgstr "メールアドレスの書式が正しくありません。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:28
 msgid "%(field)s must have at least %(count)d characters."
-msgstr "%(field)sには最低%(count)d文字必要です。"
+msgstr "%(field)s には最低 %(count)d 文字必要です。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:29
 msgid "%(field)s can only contain up to %(count)d characters."
-msgstr "%(field)sは最大%(count)d文字までです。"
+msgstr "%(field)s は最大 %(count)d 文字までです。"
 
 #: common/static/common/js/utils/edx.utils.validate.js:30
 msgid "Please enter your %(field)s."
-msgstr "%(field)sを入力して下さい。"
+msgstr "%(field)s を入力して下さい。"
 
 #: common/static/js/capa/drag_and_drop/base_image.js:21
 msgid "Drop target image"
@@ -2374,14 +2374,14 @@ msgstr "全てのフラグを解除するにはチェックしてください。
 #: common/static/js/vendor/ova/flagging-annotator.js:93
 msgid "Check the box to remove %(totalFlags)s flag."
 msgid_plural "Check the box to remove %(totalFlags)s flags."
-msgstr[0] "全%(totalFlags)s件のフラグを解除するにはチェックしてください。"
+msgstr[0] "全 %(totalFlags)s 件のフラグを解除するにはチェックしてください。"
 
 #. Translators: 'count' is the number of flags solely for that annotation that
 #. will be removed
 #: common/static/js/vendor/ova/flagging-annotator.js:102
 msgid "Check the box to remove %(count)s flag."
 msgid_plural "Check the box to remove %(count)s flags."
-msgstr[0] "%(totalFlags)s件のフラグを解除するにはチェックしてください。"
+msgstr[0] "%(totalFlags)s 件のフラグを解除するにはチェックしてください。"
 
 #: common/static/js/vendor/ova/flagging-annotator.js:105
 msgid "All flags have been removed. To undo, uncheck the box."
@@ -2401,7 +2401,7 @@ msgstr "注釈が不適切および攻撃的表現であると報告する。"
 #: common/static/js/vendor/ova/flagging-annotator.js:183
 msgid "This annotation has %(count)s flag."
 msgid_plural "This annotation has %(count)s flags."
-msgstr[0] "この注釈には%(count)s件のフラグが設定されました。"
+msgstr[0] "この注釈には %(count)s 件のフラグが設定されました。"
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js:51
 msgid "An unexpected error occurred.  Please try again."
@@ -2740,7 +2740,7 @@ msgid ""
 "{search_span_start}search teams{span_end} in this topic. If you still can't "
 "find a team to join, {create_span_start}create a new team in this "
 "topic{span_end}."
-msgstr "{browse_span_start}他のトピックのチームを表示する{span_end} 、または{search_span_start}このトピックのチームを検索する{span_end}。参加したいチームが見つからない場合は、{create_span_start}このトピックで新規チームを作りましょう{span_end}。"
+msgstr "{browse_span_start}他のトピックのチームを表示する{span_end} 、または {search_span_start}このトピックのチームを検索する{span_end} 。参加したいチームが見つからない場合は、 {create_span_start}このトピックで新規チームを作りましょう{span_end} 。"
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js:15
 msgid "All topics"
@@ -2790,7 +2790,7 @@ msgstr "画像挿入 (ファイルのアップロードまたはURL入力)"
 msgid ""
 "Type in a URL or use the \"Choose File\" button to upload a file from your "
 "machine. (e.g. 'http://example.com/img/clouds.jpg')"
-msgstr "URLを入力するか、\"ファイルを選ぶ\"ボタンを使ってファイルをアップロードしてください。(例. 'http://example.com/img/clouds.jpg')"
+msgstr "URLを入力するか、 \"ファイルを選ぶ\" ボタンを使ってファイルをアップロードしてください。(例. 'http://example.com/img/clouds.jpg')"
 
 #: lms/static/js/Markdown.Editor.js:38
 msgid "Image Description"
@@ -2834,7 +2834,7 @@ msgstr "正しいURLを入力してください。"
 #: lms/static/js/Markdown.Editor.js:1076
 msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
-msgstr[0] "フォームに %(errorCount)s個エラーがありました。"
+msgstr[0] "フォームに %(errorCount)s 個エラーがありました。"
 
 #: lms/static/js/Markdown.Editor.js:1471
 msgid "Bold (Ctrl+B)"
@@ -2969,7 +2969,7 @@ msgstr "受講者のユーザー名/メールアドレス欄は必須です。�
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
-msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"修了証を失効する\"ボタンを押してください。"
+msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"修了証を失効する\" ボタンを押してください。"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:83
 msgid "Uploaded file issues. Click on \"+\" to view."
@@ -3020,11 +3020,11 @@ msgstr "受講者が講義に受講登録していないため、例外一覧に
 msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
-msgstr "<%= user %>の修了証は既に無効になっています。綴りをチェックして再試行してください。"
+msgstr "<%= user %> の修了証は既に無効になっています。綴りをチェックして再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
-msgstr "<%= user %>の修了証は既に無効になっています。"
+msgstr "<%= user %> の修了証は既に無効になっています。"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:70
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:100
@@ -3063,7 +3063,7 @@ msgstr "<%= user %>は既に例外一覧に入っています"
 msgid ""
 "<%= user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
-msgstr "<%= user %> は例外一覧に問題なく追加されました。修了証を送信するには、下の\"修了証例外の生成\"をクリックしてください。"
+msgstr "<%= user %> は例外一覧に問題なく追加されました。修了証を送信するには、下の \"修了証例外の生成\" をクリックしてください。"
 
 #: lms/static/js/course_survey.js:73
 msgid "There has been an error processing your survey."
@@ -3093,24 +3093,24 @@ msgstr "お支払いいただいた金額は返金されません。"
 msgid ""
 "Are you sure you want to unenroll from the purchased course %(courseName)s "
 "(%(courseNumber)s)?"
-msgstr "支払済の講義%(courseName)s(%(courseNumber)s)を受講取消しようとしていますが、よろしいですか？"
+msgstr "支払済の講義 %(courseName)s (%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:100
 msgid ""
 "Are you sure you want to unenroll from %(courseName)s (%(courseNumber)s)?"
-msgstr "%(courseName)s (%(courseNumber)s)を受講取消しようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s) を受講取消しようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:103
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s  track "
 "of %(courseName)s  (%(courseNumber)s)?"
-msgstr "%(courseName)s(%(courseNumber)s)の認証付き%(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s) の認証付き %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:107
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s track "
 "of %(courseName)s (%(courseNumber)s)?"
-msgstr "%(courseName)s(%(courseNumber)s)の認証付き%(certNameLong)sコースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s) の認証付き %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:109
 msgid ""
@@ -3226,7 +3226,7 @@ msgstr "ノート非表示"
 
 #: lms/static/js/edxnotes/views/search_box.js:20
 msgid "Please enter a term in the {anchorStart} search field{anchorEnd}."
-msgstr "{anchorStart}検索欄{anchorEnd}に用語を入力してください。"
+msgstr "{anchorStart}検索欄{anchorEnd} に用語を入力してください。"
 
 #: lms/static/js/edxnotes/views/tab_item.js:25
 msgid "Current tab"
@@ -3242,7 +3242,7 @@ msgstr "最近のアクティビティ"
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js:34
 msgid "No results found for \"%(query_string)s\". Please try searching again."
-msgstr "\"%(query_string)s\"が見つかりません。検索し直してください。"
+msgstr "\"%(query_string)s\" が見つかりません。検索し直してください。"
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js:48
 msgid "Search Results"
@@ -3288,17 +3288,17 @@ msgstr "ユーザー名またはメールアドレスを入力してください
 #: lms/static/js/groups/views/cohort_editor.js:174
 msgid "{numUsersAdded} learner has been added to this cohort. "
 msgid_plural "{numUsersAdded} learners have been added to this cohort. "
-msgstr[0] "このコホートに {numUsersAdded}名の受講者を追加しました。"
+msgstr[0] "このコホートに {numUsersAdded} 名の受講者を追加しました。"
 
 #: lms/static/js/groups/views/cohort_editor.js:194
 msgid "{numMoved} learner was moved from {prevCohort}"
 msgid_plural "{numMoved} learners were moved from {prevCohort}"
-msgstr[0] " {prevCohort}から{numMoved}名の受講者を移動"
+msgstr[0] " {prevCohort} から {numMoved} 名の受講者を移動"
 
 #: lms/static/js/groups/views/cohort_editor.js:204
 msgid "{numPresent} learner was already in the cohort"
 msgid_plural "{numPresent} learners were already in the cohort"
-msgstr[0] "このコホートには既に{numPresent}名の受講者がいます"
+msgstr[0] "このコホートには既に {numPresent} 名の受講者がいます"
 
 #: lms/static/js/groups/views/cohort_editor.js:230
 msgid "{email}"
@@ -3311,7 +3311,7 @@ msgid ""
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
-msgstr[0] "このコホートには{numPreassigned}名の受講者が予備登録されています。これらの受講者は、講義の受講登録をすると自動的にこのコホートに追加されます。"
+msgstr[0] "このコホートには {numPreassigned} 名の受講者が予備登録されています。これらの受講者は、講義の受講登録をすると自動的にこのコホートに追加されます。"
 
 #: lms/static/js/groups/views/cohort_editor.js:274
 msgid "Unknown username: {user}"
@@ -3324,7 +3324,7 @@ msgstr "無効なメールアドレス：{email}"
 #: lms/static/js/groups/views/cohort_editor.js:285
 msgid "There was an error when trying to add learners:"
 msgid_plural "{numErrors} learners could not be added to this cohort:"
-msgstr[0] "{numErrors}名の受講者をコホートに追加できませんでした: "
+msgstr[0] "{numErrors} 名の受講者をコホートに追加できませんでした: "
 
 #: lms/static/js/groups/views/cohort_editor.js:300
 msgid "View all errors"
@@ -3399,7 +3399,7 @@ msgid ""
 " disable cohorts, and you cannot rename the manual cohort named "
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
-msgstr "この講義では認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX partner managerにお問い合わせください。"
+msgstr "この講義では認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX Partner Manager にお問い合わせください。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js:44
 msgid ""
@@ -3724,11 +3724,11 @@ msgstr "この講義の全受講登録者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:90
 msgid "All learners in the {cohort_name} cohort"
-msgstr "{cohort_name}の全受講者"
+msgstr "{cohort_name} の全受講者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:93
 msgid "All learners in the {track_name} track"
-msgstr "{track_name}の全受講者"
+msgstr "{track_name} の全受講者"
 
 #: lms/static/js/instructor_dashboard/send_email.js:97
 msgid ""
@@ -3741,7 +3741,7 @@ msgstr "あなたのメッセージが送信待ちリストに加えられまし
 msgid ""
 "You are sending an email message with the subject {subject} to the following"
 " recipients."
-msgstr "以下の宛先に件名{subject}のメールを送信中です。"
+msgstr "以下の宛先に件名 {subject} のメールを送信中です。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:104
 msgid "Is this OK?"
@@ -3784,7 +3784,7 @@ msgstr "受講者のメールアドレスまたはユーザー名を入力して
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
-msgstr "受講者'<%- student_id %>'の進捗表示URLを取得する際、エラーが発生しました。受講者の識別子が正しく入力されているか確認してください。"
+msgstr "受講者 '<%- student_id %>' の進捗表示URLを取得する際、エラーが発生しました。受講者の識別子が正しく入力されているか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:112
 #: lms/static/js/instructor_dashboard/student_admin.js:154
@@ -3801,26 +3801,26 @@ msgstr "問題のロケーションを入力してください。"
 msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
-msgstr "成功！受講者'<%- student_id %>'の問題'<%- problem_id %>'の解答をリセットしました。"
+msgstr "成功！受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の解答をリセットしました。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:120
 msgid ""
 "Error resetting problem attempts for problem '<%= problem_id %>' and student"
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
-msgstr "受講者'<%- student_id %>'の問題'<%= problem_id %>'の解答リセットの際、エラーが発生しました。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '<%- student_id %>' の問題 '<%= problem_id %>' の解答リセットの際、エラーが発生しました。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:157
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
-msgstr "受講者'<%- student_id %>'の問題'<%- problem_id %>'の回答を削除してよろしいですか？"
+msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の回答を削除してよろしいですか？"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:168
 msgid ""
 "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
 " %>'. Make sure that the problem and student identifiers are complete and "
 "correct."
-msgstr "受講者'<%- student_id %>'の問題'<%- problem_id %>'の解答の削除エラー。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '<%- student_id %>' の問題 '<%- problem_id %>' の解答の削除エラー。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:179
 msgid "Module state successfully deleted."
@@ -3831,17 +3831,17 @@ msgid ""
 "Error getting task history for problem '<%- problem_id %>' and student '<%- "
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
-msgstr "受講者'<%- student_id %>'と問題'<%- problem_id %>'のタスク履歴の取得エラー。問題と受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '<%- student_id %>' と問題 '<%- problem_id %>' のタスク履歴の取得エラー。問題と受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:250
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
-msgstr "受講者'{student_id}'の入学試験の解答をリセットしています。"
+msgstr "受講者 '{student_id}' の入学試験の解答をリセットしています。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:258
 msgid ""
 "Error resetting entrance exam attempts for student '{student_id}'. Make sure"
 " student identifier is correct."
-msgstr "受講者'{student_id}'の入学試験の解答をリセットする際のエラー。受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '{student_id}' の入学試験の解答をリセットする際のエラー。受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:276
 #: lms/static/js/instructor_dashboard/student_admin.js:343
@@ -3852,7 +3852,7 @@ msgstr "受講者のユーザー名またはメールアドレスを入力して
 msgid ""
 "Do you want to allow this student ('{student_id}') to skip the entrance "
 "exam?"
-msgstr "受講者('{student_id}')が入学試験をスキップすることを許可しますか？"
+msgstr "受講者 ('{student_id}') が入学試験をスキップすることを許可しますか？"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:296
 msgid ""
@@ -3862,36 +3862,36 @@ msgstr "エラーが発生しました。受講者のユーザー名またはメ
 
 #: lms/static/js/instructor_dashboard/student_admin.js:322
 msgid "Entrance exam state is being deleted for student '{student_id}'."
-msgstr "受講者'{student_id}'の入学試験状況を削除しています。"
+msgstr "受講者 '{student_id}' の入学試験状況を削除しています。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:330
 msgid ""
 "Error deleting entrance exam state for student '{student_id}'. Make sure "
 "student identifier is correct."
-msgstr "受講者'{student_id}'の入学試験状況の削除エラー。受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '{student_id}' の入学試験状況の削除エラー。受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:359
 msgid ""
 "Error getting entrance exam task history for student '{student_id}'. Make "
 "sure student identifier is correct."
-msgstr "受講者'{student_id}'の入学試験タスク履歴の取得エラー。受講者の識別子が正しいか確認してください。"
+msgstr "受講者 '{student_id}' の入学試験タスク履歴の取得エラー。受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:376
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
-msgstr "問題'<%- problem_id %>'の全受講者の解答をリセットしますか?"
+msgstr "問題 '<%- problem_id %>' の全受講者の解答をリセットしますか?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:385
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
-msgstr "問題'<%- problem_id %>'の解答のリセット作業を問題なく開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
+msgstr "問題 '<%- problem_id %>' の解答のリセット作業を問題なく開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:389
 msgid ""
 "Error starting a task to reset attempts for all students on problem '<%- "
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
-msgstr "問題'<%- problem_id %>'の全受講者の解答リセット作業を開始する際、エラーが発生しました。問題の識別子が正しいか確認してください。"
+msgstr "問題 '<%- problem_id %>' の全受講者の解答リセット作業を開始する際、エラーが発生しました。問題の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:438
 msgid "Error listing task history for this student and problem."
@@ -3902,14 +3902,14 @@ msgid ""
 "Started rescore problem task for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
-msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の再採点作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業を開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:471
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>' for student "
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
-msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の再採点作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の再採点作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:512
 msgid "Please enter a score."
@@ -3920,43 +3920,43 @@ msgid ""
 "Started task to override the score for problem '<%- problem_id %>' and "
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
 "status of the task."
-msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の点数を無効にする作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数を無効にする作業を開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:525
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for "
 "student '<%- student_id %>'. Make sure that the the score and the problem "
 "and student identifiers are complete and correct."
-msgstr "問題'<%- problem_id %>'および受講者'<%- student_id %>'の点数無効化の作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
+msgstr "問題 '<%- problem_id %>' および受講者 '<%- student_id %>' の点数無効化の作業開始エラー。 問題および受講者の識別子が正しいか確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:567
 msgid ""
 "Started entrance exam rescore task for student '{student_id}'. Click the "
 "'Show Task Status' button to see the status of the task."
-msgstr "受講者'{student_id}'の入学試験の再採点作業を開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
+msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:575
 msgid ""
 "Error starting a task to rescore entrance exam for student '{student_id}'. "
 "Make sure that entrance exam has problems in it and student identifier is "
 "correct."
-msgstr "受講者'{student_id}'の入学試験の再採点作業を開始する際のエラー。入学試験に問題があること及び受講者の識別子が正しいことを確認してください。"
+msgstr "受講者 '{student_id}' の入学試験の再採点作業を開始する際のエラー。入学試験に問題があること及び受講者の識別子が正しいことを確認してください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:595
 msgid "Rescore problem '<%- problem_id %>' for all students?"
-msgstr "全受講者の問題'<%- problem_id %>'を再採点しますか？"
+msgstr "全受講者の問題 '<%- problem_id %>' を再採点しますか？"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:605
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
-msgstr "全受講者の問題'<%- problem_id %>'の再採点作業を正常に開始しました。作業状況を見るには'作業状況を見る'をクリックしてください。"
+msgstr "全受講者の問題 '<%- problem_id %>' の再採点作業を正常に開始しました。作業状況を見るには '作業状況を見る' をクリックしてください。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:609
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
-msgstr "問題'<%- problem_id %>'の再採点作業開始の際のエラー。問題の識別子が正しいか確認してください。"
+msgstr "問題 '<%- problem_id %>' の再採点作業開始の際のエラー。問題の識別子が正しいか確認してください。"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -4078,7 +4078,7 @@ msgstr "リンクは随時生成されますが、受講者の個人情報に関
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:50
 msgid "{type} Progress"
-msgstr "{type}の進捗"
+msgstr "{type} の進捗"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:53
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:71
@@ -4091,7 +4091,7 @@ msgstr "受講登録済"
 
 #: lms/static/js/staff_debug_actions.js:79
 msgid "Successfully reset the attempts for user {user}"
-msgstr "ユーザー{user}の解答を正常にリセット済"
+msgstr "ユーザー {user} の解答を正常にリセット済"
 
 #: lms/static/js/staff_debug_actions.js:80
 msgid "Failed to reset attempts for user."
@@ -4099,7 +4099,7 @@ msgstr "ユーザーの回答のリセットに失敗。"
 
 #: lms/static/js/staff_debug_actions.js:90
 msgid "Successfully deleted student state for user {user}"
-msgstr "ユーザー{user}の受講者状況を正常に削除済"
+msgstr "ユーザー {user} の受講者状況を正常に削除済"
 
 #: lms/static/js/staff_debug_actions.js:91
 msgid "Failed to delete student state for user."
@@ -4107,7 +4107,7 @@ msgstr "ユーザーの受講者状況の削除に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:101
 msgid "Successfully rescored problem for user {user}"
-msgstr "ユーザー{user}は正常に再採点済"
+msgstr "ユーザー {user} は正常に再採点済"
 
 #: lms/static/js/staff_debug_actions.js:102
 msgid "Failed to rescore problem for user."
@@ -4115,7 +4115,7 @@ msgstr "ユーザーの再採点に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:112
 msgid "Successfully rescored problem to improve score for user {user}"
-msgstr "ユーザー{user}は正常に再採点済"
+msgstr "ユーザー {user} は正常に再採点済"
 
 #: lms/static/js/staff_debug_actions.js:113
 msgid "Failed to rescore problem to improve score for user."
@@ -4123,11 +4123,11 @@ msgstr "ユーザーの再採点に失敗。"
 
 #: lms/static/js/staff_debug_actions.js:123
 msgid "Successfully overrode problem score for {user}"
-msgstr "ユーザー{user}の点数は正常に無効化完了"
+msgstr "ユーザー {user} の点数は正常に無効化完了"
 
 #: lms/static/js/staff_debug_actions.js:124
 msgid "Could not override problem score for {user}."
-msgstr "ユーザー{user}の点数を無効化できませんでした。"
+msgstr "ユーザー {user} の点数を無効化できませんでした。"
 
 #: lms/static/js/student_account/account.js:47
 msgid "The data could not be saved."
@@ -4209,7 +4209,7 @@ msgid ""
 " message, verify that you entered the correct email address, or check your "
 "spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
 "{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
-msgstr "{paragraphStart}あなたは{boldStart}{email}{boldEnd}と入力しました。このメールアドレスを{platform_name}アカウントに登録していれば、このメールアドレスにパスワード再設定に関するメッセージが届きます。{paragraphEnd}{paragraphStart}メールが届かない場合は、正しいメールアドレスが入力できているか、あるいは迷惑メールフォルダに入っていないか確認してください。{paragraphEnd}{paragraphStart}ヘルプが必要な場合は、{anchorStart}テクニカルサポートへお問い合わせください{anchorEnd}。{paragraphEnd}"
+msgstr "{paragraphStart}あなたは {boldStart}{email}{boldEnd} と入力しました。このメールアドレスを {platform_name} アカウントに登録していれば、このメールアドレスにパスワード再設定に関するメッセージが届きます。{paragraphEnd} {paragraphStart}メールが届かない場合は、正しいメールアドレスが入力できているか、あるいは迷惑メールフォルダに入っていないか確認してください。{paragraphEnd} {paragraphStart}ヘルプが必要な場合は、{anchorStart}テクニカルサポートへお問い合わせください{anchorEnd}。{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js:177
 msgid ""
@@ -4222,7 +4222,7 @@ msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account."
 " To link your accounts, sign in now using your %(platformName)s password."
-msgstr "%(currentProvider)sに正常にサインインしましたが、%(currentProvider)sのアカウントは%(platformName)sアカウントとの連携設定はしていません。アカウントとの連携設定をするには、%(platformName)sのパスワードでサインインしてください。"
+msgstr "%(currentProvider)s に正常にサインインしましたが、%(currentProvider)s のアカウントは %(platformName)s アカウントとの連携設定はしていません。アカウントとの連携設定をするには、%(platformName)s のパスワードでサインインしてください。"
 
 #: lms/static/js/student_account/views/RegisterView.js:41
 msgid "We couldn't create your account."
@@ -4238,13 +4238,13 @@ msgstr "(必須)"
 
 #: lms/static/js/student_account/views/RegisterView.js:291
 msgid "You've successfully signed into %(currentProvider)s."
-msgstr "%(currentProvider)sへサインインできました。"
+msgstr "%(currentProvider)s へサインインできました。"
 
 #: lms/static/js/student_account/views/RegisterView.js:293
 msgid ""
 "We just need a little more information before you start learning with "
 "%(platformName)s."
-msgstr "%(platformName)sでの学習を始めるにあたって、もう少し情報が必要です。"
+msgstr "%(platformName)s での学習を始めるにあたって、もう少し情報が必要です。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:43
 #: lms/static/js/student_account/views/account_settings_factory.js:56
@@ -4255,14 +4255,14 @@ msgstr "メールアドレス"
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address."
-msgstr "サインインの際に使うメールアドレス。{platform_name}や講義からのお知らせはこのメールアドレスに届きます。"
+msgstr "サインインの際に使うメールアドレス。{platform_name} や講義からのお知らせはこのメールアドレスに届きます。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:59
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address.  To change the email address, "
 "please contact {contact_email}."
-msgstr "サインインの際に使うメールアドレス。{platform_name}や講義からのメールはこのメールアドレスに届きます。メールアドレスを変更するには{contact_email}へお問い合わせください。"
+msgstr "サインインの際に使うメールアドレス。{platform_name} や講義からのメールはこのメールアドレスに届きます。メールアドレスを変更するには {contact_email} へお問い合わせください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:68
 #: lms/static/js/student_account/views/account_settings_factory.js:235
@@ -4277,7 +4277,7 @@ msgstr "この設定にはあなたのアカウントの基本情報が含まれ
 msgid ""
 "The name that identifies you throughout {platform_name}. You cannot change "
 "your username."
-msgstr "{platform_name}内であなたを特定する名前。ユーザー名を変更することはできません。"
+msgstr "{platform_name} 内であなたを特定する名前。ユーザー名を変更することはできません。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:85
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:105
@@ -4307,7 +4307,7 @@ msgid ""
 "When you select \"Reset Your Password\", a message will be sent to the email"
 " address for your {platform_name} account. Click the link in the message to "
 "reset your password."
-msgstr "'パスワードを再設定'を押すと、{platform_name}アカウントに登録しているメールアドレスへメッセージが届きます。メッセージ内のリンクをクリックして、パスワードを再設定してください。"
+msgstr "'パスワードを再設定'を押すと、{platform_name} アカウントに登録しているメールアドレスへメッセージが届きます。メッセージ内のリンクをクリックして、パスワードを再設定してください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:122
 msgid ""
@@ -4390,7 +4390,7 @@ msgstr "リンクされているアカウント"
 msgid ""
 "You can link your social media accounts to simplify signing in to "
 "{platform_name}."
-msgstr " {platform_name}へのサインインを簡便化するために、ソーシャルメディアのアカウントをリンクすることができます。"
+msgstr " {platform_name} へのサインインを簡便化するために、ソーシャルメディアのアカウントをリンクすることができます。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:267
 msgid "ORDER NAME"
@@ -4416,13 +4416,13 @@ msgstr "注文一覧"
 msgid ""
 "This page contains information about orders that you have placed with "
 "{platform_name}."
-msgstr "この画面には{platform_name}内での注文に関する情報が含まれています。"
+msgstr "この画面には {platform_name} 内での注文に関する情報が含まれています。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:45
 msgid ""
 "We've sent a confirmation message to {new_email_address}. Click the link in "
 "the message to update your email address."
-msgstr "{new_email_address}へ確認メッセージを送りました。メールアドレスを更新するにはメッセージの中にあるリンクをクリックしてください。"
+msgstr "{new_email_address} へ確認メッセージを送りました。メールアドレスを更新するにはメッセージの中にあるリンクをクリックしてください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:71
 msgid ""
@@ -4434,11 +4434,11 @@ msgid ""
 "We've sent a message to {email}. Click the link in the message to reset your"
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
-msgstr "{email}へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd}へお問い合わせください。"
+msgstr "{email} へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd} へお問い合わせください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:275
 msgid "Link your {accountName} account"
-msgstr " {accountName}アカウントをリンク"
+msgstr " {accountName} アカウントをリンク"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:279
 msgid "Unlink This Account"
@@ -4448,11 +4448,11 @@ msgstr "このアカウントをリンク解除"
 msgid ""
 "You can use your {accountName} account to sign in to your {platformName} "
 "account."
-msgstr "{accountName}のアカウントを使って{platformName}のアカウントにサインインできます。"
+msgstr " {accountName} のアカウントを使って {platformName} のアカウントにサインインできます。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:286
 msgid "Unlink your {accountName} account"
-msgstr " {accountName}アカウントをリンク解除"
+msgstr " {accountName} アカウントをリンク解除"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:290
 msgid "Link Your Account"
@@ -4462,7 +4462,7 @@ msgstr "アカウントをリンク"
 msgid ""
 "Link your {accountName} account to your {platformName} account and use "
 "{accountName} to sign in to {platformName}."
-msgstr "{platformName}アカウントに{accountName}アカウントをリンクし、{accountName}を使って{platformName}にサインインしてください。"
+msgstr "{platformName} アカウントに {accountName} アカウントをリンクし、 {accountName} を使って {platformName} にサインインしてください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:350
 msgid "Unlinking"
@@ -4640,11 +4640,11 @@ msgstr "エラーが発生しました。この画面を再読込して、再試
 
 #: lms/static/js/views/image_field.js:169
 msgid "The file must be at least {size} in size."
-msgstr "ファイル容量は少なくとも{size}必要です。"
+msgstr "ファイル容量は少なくとも {size} 必要です。"
 
 #: lms/static/js/views/image_field.js:177
 msgid "The file must be smaller than {size} in size."
-msgstr "ファイル容量は{size}以下でなければいけません。"
+msgstr "ファイル容量は {size} 以下でなければいけません。"
 
 #: lms/static/js/views/image_field.js:212
 msgid ""
@@ -4683,17 +4683,17 @@ msgstr "公開日まで受講者やβテスターとして講義を見ること�
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js:354
 msgid "%(num_students)s student opened Subsection"
 msgid_plural "%(num_students)s students opened Subsection"
-msgstr[0] "%(num_students)s名の受講者がサブセクションを開きました"
+msgstr[0] "%(num_students)s 名の受講者がサブセクションを開きました"
 
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js:358
 msgid "%(num_students)s student"
 msgid_plural "%(num_students)s students"
-msgstr[0] "%(num_students)s名の受講者"
+msgstr[0] "%(num_students)s 名の受講者"
 
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js:360
 msgid "%(num_questions)s question"
 msgid_plural "%(num_questions)s questions"
-msgstr[0] "%(num_questions)s件の質問"
+msgstr[0] "%(num_questions)s 件の質問"
 
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js:441
 msgid "Number of Students"
@@ -4710,7 +4710,7 @@ msgstr "この画面をブックマークする"
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:67
 msgid "{total_results} result"
 msgid_plural "{total_results} results"
-msgstr[0] "結果 {total_results}件"
+msgstr[0] "結果 {total_results} 件"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:74
 msgid "Profile Visibility:"
@@ -4766,13 +4766,13 @@ msgstr "アカウント設定ページ。"
 msgid ""
 "You must specify your birth year before you can share your full profile. To "
 "specify your birth year, go to the {account_settings_page_link}"
-msgstr "全プロフィールを公開するためには、誕生年を指定してください。誕生年を入力するには {account_settings_page_link}へ移動します。"
+msgstr "全プロフィールを公開するためには、誕生年を指定してください。誕生年を入力するには {account_settings_page_link} へ移動します。"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:46
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
-msgstr "全プロフィールを公開するには13歳以上である必要があります。13歳以上なら、{account_settings_page_link}であなたの誕生年が正しく設定されているか確認してください。"
+msgstr "全プロフィールを公開するには13歳以上である必要があります。13歳以上なら、 {account_settings_page_link} であなたの誕生年が正しく設定されているか確認してください。"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:65
 msgid "Profile Image"
@@ -4780,7 +4780,7 @@ msgstr "プロフィール画像"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:73
 msgid "Profile image for {username}"
-msgstr "{username}のプロフィール画像"
+msgstr "{username} のプロフィール画像"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js:69
 msgid "About Me"
