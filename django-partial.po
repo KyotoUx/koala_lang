@@ -4716,7 +4716,7 @@ msgstr "{partner_short_name} {course_number} 修了証 | {platform_name}"
 msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
-msgstr "講義を修了し、合格点を獲得して、{platform_name} {certificate_type} 修了証を授与されました。"
+msgstr "講義を修了し合格点を獲得して、{platform_name} {certificate_type} 修了証を授与されました。"
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -4849,7 +4849,7 @@ msgstr "{partner_short_name}, オンライン学習実践の {partner_long_name}
 #: lms/djangoapps/certificates/views/webview.py:248
 #, python-brace-format
 msgid "a course of study offered by {partner_short_name}."
-msgstr " {partner_short_name} 提供の講義。"
+msgstr " {partner_short_name} 提供の講義"
 
 #: lms/djangoapps/certificates/views/webview.py:286
 #, python-brace-format
