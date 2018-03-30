@@ -585,13 +585,13 @@ msgstr "ディスカッションを探す"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:21
 msgid "Use the All Topics menu to find specific topics."
-msgstr "特定のトピックを見つけるには'全トピック'メニューを使用してください。"
+msgstr "特定のトピックを見つけるには'全てのトピック'内のメニューを使用してください。"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:1
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:7
 msgid "Search all posts"
-msgstr "全投稿を検索"
+msgstr "全ての投稿を検索"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
 msgid "Filter and sort topics"
@@ -629,11 +629,11 @@ msgstr "こちらをチェックすると毎日ダイジェストメールが届
 
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
 msgid "All Topics"
-msgstr "全トピック"
+msgstr "全てのトピック"
 
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
 msgid "All Posts"
-msgstr "全投稿"
+msgstr "全ての投稿"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:10
 msgid "username or email"
