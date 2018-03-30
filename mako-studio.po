@@ -130,7 +130,7 @@ msgstr "ファイル＆アップロードに関するヘルプ"
 
 #: cms/templates/asset_index.html:71
 msgid "Adding Files for Your Course"
-msgstr "講義にファイルを追加中"
+msgstr "講義にファイルを追加"
 
 #: cms/templates/asset_index.html:73
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "{em_start}Caution{em_end}: {platform_name} recommends that you limit the "
 "file size to {em_start}10 MB{em_end}. In addition, do not upload video or "
 "audio files. You should use a third party service to host multimedia files."
-msgstr "{em_start}注意{em_end}: {platform_name} はファイルサイズの上限を {em_start}10 MB{em_end} とすることを推奨しています。また、動画および音声ファイルをアップロードしないでください。マルチメディアファイルの取扱は別のサービスをお使いください。"
+msgstr "{em_start}注意{em_end}: {platform_name} はファイルサイズの上限を {em_start}10 MB{em_end} とすることを推奨しています。また、動画および音声ファイルはアップロードしないでください。マルチメディアファイルの取扱は別のサービスをお使いください。"
 
 #: cms/templates/asset_index.html:77
 msgid ""
@@ -153,13 +153,13 @@ msgstr "講義ハンドアウトに掲載される講義画像、教科書およ
 
 #: cms/templates/asset_index.html:80
 msgid "Using File URLs"
-msgstr "ファイルURL使用中"
+msgstr "ファイルURLを使用"
 
 #: cms/templates/asset_index.html:82
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
 "image from a component, a course update, or a course handout."
-msgstr "コンポーネント、講義更新情報または講義ハンドアウトのファイルや画像へリンクするには、{em_start}{studio_name} URL{em_end} をご利用ください。"
+msgstr "コンポーネント、講義の新着情報または講義ハンドアウトのファイルや画像へリンクするには、{em_start}{studio_name} URL{em_end} をご利用ください。"
 
 #: cms/templates/asset_index.html:84
 msgid ""
@@ -222,13 +222,13 @@ msgstr "この講義では修了証を提供するモードを使用していま
 
 #: cms/templates/certificates.html:88
 msgid "Working with Certificates"
-msgstr "修了証に関する作業中"
+msgstr "修了証に関する作業"
 
 #: cms/templates/certificates.html:89
 msgid ""
 "Specify a course title to use on the certificate if the course's official "
 "title is too long to be displayed well."
-msgstr "講義の正式タイトルが長すぎてうまく表示されない場合には、修了証用の講義タイトルを指定してください。"
+msgstr "講義の正式名が長すぎてうまく表示されない場合には、修了証用の講義名を指定してください。"
 
 #: cms/templates/certificates.html:90
 msgid ""
@@ -251,7 +251,7 @@ msgstr "修了証の見本を表示するには、講義モードから {em_star
 
 #: cms/templates/certificates.html:94
 msgid "Issuing Certificates to Learners"
-msgstr "受講者に修了証を発行中"
+msgstr "受講者への修了証発行"
 
 #: cms/templates/certificates.html:95
 msgid ""
@@ -605,14 +605,14 @@ msgstr "講義の新着情報"
 
 #: cms/templates/course_info.html:48
 msgid "New Update"
-msgstr "新規更新"
+msgstr "新規の新着情報"
 
 #: cms/templates/course_info.html:58
 msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "講義の新着情報を使用して、重要な予定や試験を通知したり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりしてください。HTMLで更新情報の追加や編集をします。"
+msgstr "講義の新着情報を使用して、重要な予定や試験を通知したり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりしてください。HTMLで新着情報の追加や編集をします。"
 
 #: cms/templates/course_outline.html:43
 msgid ""
@@ -689,7 +689,7 @@ msgstr "クリックして新しいタブでLMSのコースウェアを開く"
 
 #: cms/templates/course_outline.html:143 cms/templates/edit-tabs.html:44
 msgid "View Live"
-msgstr "ライブ表示"
+msgstr "プレビュー"
 
 #: cms/templates/course_outline.html:160 cms/templates/course_outline.html:162
 msgid "Edit Start Date"
@@ -709,7 +709,7 @@ msgstr "Instructor-Paced"
 
 #: cms/templates/course_outline.html:196
 msgid "Creating your course organization"
-msgstr "講義の構成を作成中"
+msgstr "講義の構成の作成"
 
 #: cms/templates/course_outline.html:197
 msgid "You add sections, subsections, and units directly in the outline."
@@ -723,7 +723,7 @@ msgstr "セクションを作成した後、サブセクションやユニット
 
 #: cms/templates/course_outline.html:201
 msgid "Reorganizing your course"
-msgstr "講義を再構成中"
+msgstr "講義の再構成"
 
 #: cms/templates/course_outline.html:202
 msgid "Drag sections, subsections, and units to new locations in the outline."
@@ -735,14 +735,14 @@ msgstr "講義アウトラインについて詳しく知る"
 
 #: cms/templates/course_outline.html:208
 msgid "Setting release dates and grading policies"
-msgstr "公開日と採点ポリシーを設定中"
+msgstr "公開日と採点ポリシーの設定"
 
 #: cms/templates/course_outline.html:209
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
-msgstr "セクションまたはサブセクションの公開日を設定するための設定アイコンを選んでください。サブセクションを設定する際、採点ポリシーと締切も設定できます。"
+msgstr "セクションまたはサブセクションの公開日を設定するには設定アイコンをクリックしてください。サブセクションを作成する際、採点ポリシーと締切も設定できます。"
 
 #: cms/templates/course_outline.html:211
 msgid "Learn more about grading policy settings"
@@ -750,7 +750,7 @@ msgstr "採点ポリシー設定について詳しく知る"
 
 #: cms/templates/course_outline.html:215
 msgid "Changing the content learners see"
-msgstr "受講者に表示するコンテンツを変更"
+msgstr "受講者に表示するコンテンツの変更"
 
 #: cms/templates/course_outline.html:216
 msgid ""
@@ -772,7 +772,7 @@ msgid ""
 "date has passed, select the Configure icon for a subsection, then select "
 "{em_start}Hide content after due date{em_end}. Grades for the subsection "
 "remain included in grade calculations."
-msgstr "サブセクションの締切が過ぎた後にサブセクションのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、{em_start}締切以降コンテンツ非表示{em_end} を設定します。このサブセクションの成績は成績計算に含まれたままです。"
+msgstr "サブセクションの締切が過ぎた後そのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、{em_start}締切日以降コンテンツを非表示{em_end} を設定します。このサブセクションの成績は成績計算に含まれたままです。"
 
 #: cms/templates/course_outline.html:220
 msgid "Learn more about content visibility settings"
@@ -825,7 +825,7 @@ msgid ""
 "Pages are listed horizontally at the top of your course. Default pages "
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
-msgstr "講義画面上部に各種ページが一覧表示されます。既定のページ (ホーム、講義、ディスカッション、Wiki、進捗) の後に、教科書およびあなたが作成したカスタムページが表示されます。"
+msgstr "画面上部に各種ページが表示されます。既定のページ (ホーム、講義、ディスカッション、Wiki、進捗) の後に、教科書やあなたが作成したカスタムページが表示されます。"
 
 #: cms/templates/edit-tabs.html:147
 msgid "Custom pages"
@@ -840,13 +840,13 @@ msgstr "カスタムページを作成・編集して、講義コンテンツ追
 
 #: cms/templates/edit-tabs.html:151
 msgid "How do pages look to students in my course?"
-msgstr "各種ページはどのように表示されますか？"
+msgstr "各種ページはどのように表示される？"
 
 #: cms/templates/edit-tabs.html:152
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
-msgstr "受講者には既定ページおよびカスタムページが講義画面上部に表示され、リンクを使って移動できます。"
+msgstr "既定ページおよびカスタムページは画面上部に表示され、リンクで移動します。"
 
 #: cms/templates/edit-tabs.html:152
 msgid "See an example"
@@ -1026,7 +1026,7 @@ msgstr "エクスポートしたコースをダウンロード"
 
 #: cms/templates/export.html:192
 msgid "Data {em_start}exported with{em_end} your course:"
-msgstr "{em_start}エクスポート済の{em_end} データ: "
+msgstr "{em_start}エクスポートされる{em_end} データ: "
 
 #: cms/templates/export.html:197
 msgid ""
@@ -1035,7 +1035,7 @@ msgstr "MATLAB APIキーおよびLTIパスポートなどの詳細設定の値"
 
 #: cms/templates/export.html:198
 msgid "Course Content (all Sections, Sub-sections, and Units)"
-msgstr "講義コンテンツ (すべてのセクション、サブセクションおよびユニット)"
+msgstr "コースコンテンツ (すべてのセクション、サブセクションおよびユニット)"
 
 #: cms/templates/export.html:199
 msgid "Course Structure"
@@ -1055,7 +1055,7 @@ msgstr "コース設定"
 
 #: cms/templates/export.html:209
 msgid "Data {em_start}not exported{em_end} with your course:"
-msgstr "{em_start}エクスポートされていない{em_end} データ: "
+msgstr "{em_start}エクスポートされない{em_end} データ: "
 
 #: cms/templates/export.html:214
 msgid "User Data"
@@ -1083,7 +1083,7 @@ msgstr "{studio_name} 以外で直接ライブラリ内のXMLが編集できま�
 
 #: cms/templates/export.html:233 cms/templates/export.html:257
 msgid "Opening the downloaded file"
-msgstr "ダウンロードしたファイルを開いています"
+msgstr "ダウンロードしたファイルを開く"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:235
@@ -1111,7 +1111,7 @@ msgstr "{studio_name} 以外で直接コース内のXMLを編集できます。�
 
 #: cms/templates/export.html:251
 msgid "What content is exported?"
-msgstr "どのコンテンツがエクスポートされますか？"
+msgstr "どんなコンテンツがエクスポートされますか？"
 
 #: cms/templates/export.html:253
 msgid ""
@@ -1120,7 +1120,7 @@ msgid ""
 "keys and LTI passports, are also exported. Other data, including student "
 "data, grading information, discussion forum data, course settings, and "
 "course team information, is not exported."
-msgstr "講義コンテンツとコース構成 (セクション、サブセクション、ユニットなど) がエクスポートされます。MATLAB APIキーおよびLTIパスポートなどの詳細設定の値も含まれます。受講者情報、成績情報、ディスカッションフォーラムデータ、コース設定、講義チーム情報などのその他のデータはエクスポートされません。"
+msgstr "コースコンテンツとコース構成 (セクション、サブセクション、ユニットなど) がエクスポートされます。MATLAB APIキーおよびLTIパスポートなどの詳細設定の値も含まれます。受講者情報、成績情報、ディスカッションフォーラムデータ、設定、講義チーム情報などのその他のデータはエクスポートされません。"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:259
@@ -1156,7 +1156,7 @@ msgid ""
 "This will then trigger an automatic update of the main LMS site and update "
 "the contents of your course visible there to students if automatic git "
 "imports are configured."
-msgstr "自動Gitインポートが設定されている場合は、LMSサイトの自動アップデートが行われ、受講者に表示される講義コンテンツが更新されます。"
+msgstr "自動Gitインポートが設定されている場合は、LMSサイトの自動アップデートが行われ、受講者に表示されるコースコンテンツが更新されます。"
 
 #: cms/templates/export_git.html:35
 msgid "Export Course to Git:"
@@ -1235,7 +1235,7 @@ msgid ""
 " can restrict access to some content to learners in specific content groups."
 " Only learners in the cohorts that are associated with the specified content"
 " groups see the additional content."
-msgstr "作成したコンテンツグループごとに１つ以上のコホートと連携することができます。講義コンテンツを全受講者に表示できるだけでなく、特定のコンテンツグループの受講者に対してあるコンテンツにアクセスできるよう制限することもできます。指定されたコンテンツグループに連携しているコホートの受講者のみ追加コンテンツを見ることができます。"
+msgstr "作成したコンテンツグループごとに１つ以上のコホートと連携することができます。全受講者に講義コンテンツを公開するだけでなく、あるコンテンツを特定のコンテンツグループの受講者に対してのみ表示するよう指定することもできます。指定されたコンテンツグループに連携しているコホートの受講者のみ、その追加コンテンツを見ることができます。"
 
 #: cms/templates/group_configurations.html:98
 msgid ""
@@ -1244,7 +1244,7 @@ msgid ""
 "{em_start}Edit{em_end}. You can delete a content group only if it is not in "
 "use by a unit. To delete a content group, hover over its box and click the "
 "delete icon."
-msgstr "{em_start}新規コンテンツグループ{em_end} をクリックして、新しいコンテンツグループを追加してください。コンテンツグループ名を編集するには、そのボックスの上で{em_start}編集{em_end}をクリックします。コンテンツグループはユニットで使用していない場合に限り削除することもできます。コンテンツグループを削除するには、そのボックスの上で削除アイコンをクリックします。"
+msgstr "{em_start}新規のコンテンツグループを入力{em_end} をクリックして、新しいコンテンツグループを追加してください。コンテンツグループ名を編集するには、そのボックスの上で{em_start}編集{em_end}をクリックします。コンテンツグループはユニットで使用していない場合に限り削除することもできます。コンテンツグループを削除するには、そのボックスの上で削除アイコンをクリックします。"
 
 #: cms/templates/group_configurations.html:106
 msgid ""
@@ -1495,7 +1495,7 @@ msgid ""
 "{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
 "recommend that you export the current library, so that you have a backup "
 "copy of it."
-msgstr "操作を続ける前にライブラリをインポートしたいか確認してください。インポートしたライブラリのコンテンツを既存のライブラリのコンテンツと置き換えます。{em_start}インポートは取り消すことができません{em_end}。バックアップコピーを残すために、現在のライブラリを先にエクスポートしておくことをお勧めします。 "
+msgstr "操作を続ける前に本当にライブラリをインポートしたいか確認してください。インポートされたライブラリコンテンツは既存のライブラリコンテンツと置き換えられます。{em_start}インポートは取り消すことができません{em_end}。バックアップコピーを残すために、現在のライブラリを先にエクスポートしておくことをお勧めします。 "
 
 #: cms/templates/import.html:50
 msgid ""
@@ -1510,7 +1510,7 @@ msgid ""
 "stay on this page. You can leave this page after the Unpacking stage has "
 "completed. We recommend, however, that you don't make important changes to "
 "your library until the import operation has completed."
-msgstr "インポート処理は5段階あります。最初の２つの段階はこのページ上で行います。解凍が完了すれば、別のページへ移動しても構いません。ただし、インポート処理が完了するまではライブラリに重要な変更をしないことをお勧めします。"
+msgstr "インポート処理は5段階あります。最初の2つの段階はこのページ上で行います。解凍が完了すれば、別のページへ移動しても構いません。ただし、インポート処理が完了するまではライブラリに重要な変更をしないことをお勧めします。"
 
 #: cms/templates/import.html:53
 msgid ""
@@ -1519,7 +1519,7 @@ msgid ""
 "{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
 "recommend that you export the current course, so that you have a backup copy"
 " of it."
-msgstr "操作を続ける前にコースをインポートしたいか確認してください。インポートしたコースのコンテンツを既存のコースのコンテンツと置き換えます。{em_start}インポートは取り消すことができません{em_end}。バックアップコピーを残すために、現在のコースを先にエクスポートしておくことをお勧めします。 "
+msgstr "操作を続ける前に本当にコースをインポートしたいか確認してください。インポートされたコースコンテンツは既存のコースコンテンツと置き換えられます。{em_start}インポートは取り消すことができません{em_end}。バックアップコピーを残すために、現在のコースを先にエクスポートしておくことをお勧めします。 "
 
 #: cms/templates/import.html:54
 msgid ""
@@ -1640,7 +1640,7 @@ msgid ""
 "You might want to update an existing library to a new version, or replace an"
 " existing library entirely. You might also have developed a library outside "
 "of {studio_name}."
-msgstr "既存のライブラリを新しいバージョンに更新または既存のライブラリを完全に置き換えることができます。{studio_name} の外でライブラリを作成する場合もあります。"
+msgstr "既存のライブラリを新しいバージョンに更新または既存のライブラリをすべて置き換えます。{studio_name} の外でライブラリを作成する場合もあるでしょう。"
 
 #: cms/templates/import.html:212
 msgid "Note: Library content is not automatically updated in courses"
@@ -1667,7 +1667,7 @@ msgid ""
 "You may want to run a new version of an existing course, or replace an "
 "existing course altogether. Or, you may have developed a course outside "
 "{studio_name}."
-msgstr "既存のコースの新しいバージョンを実行または既存のコースを置き換えることができます。あるいは、{studio_name} の外でコースを作成することもできます。"
+msgstr "既存のコースを新しいバージョンに更新または既存のコースをすべて置き換えます。あるいは、{studio_name} の外でコースを作成する場合もあるでしょう。"
 
 #: cms/templates/import.html:227
 msgid "What content is imported?"
@@ -1679,7 +1679,7 @@ msgid ""
 "units) are imported. Other data, including student data, grading "
 "information, discussion forum data, course settings, and course team "
 "information, remains the same as it was in the existing course."
-msgstr "コースコンテンツおよび構造 (セクション、サブセクション、ユニットなど) のみインポートされます。受講者情報、成績情報、ディスカッションフォーラムデータ、コース設定、コースチーム情報などは既存のコースのままデータが残ります。"
+msgstr "コースコンテンツおよびコース構成 (セクション、サブセクション、ユニットなど) のみインポートされます。受講者情報、成績情報、ディスカッションフォーラムデータ、設定、講義チーム情報などは既存のコースのままデータが残ります。"
 
 #: cms/templates/import.html:232
 msgid "Warning: Importing while a course is running"
@@ -2139,7 +2139,7 @@ msgstr "講義チームの権限"
 msgid ""
 "Course team members with the Staff role are course co-authors. They have "
 "full writing and editing privileges on all course content."
-msgstr "Staff権限を持つ講義チームメンバーは講義共同制作者です。講義の全てのコンテンツを書いたり編集できる全権限を有します。"
+msgstr "Staff権限を持つ講義チームメンバーは講義共同制作者です。講義の全てのコンテンツを書いたり編集したりする権限を有します。"
 
 #: cms/templates/manage_users.html:102
 msgid ""
@@ -2411,12 +2411,12 @@ msgstr "講義開始日"
 
 #: cms/templates/settings.html:197
 msgid "Course Start Time"
-msgstr "講義開始時間"
+msgstr "講義開始時刻"
 
 #: cms/templates/settings.html:199 cms/templates/settings.html:213
 #: cms/templates/settings.html:241 cms/templates/settings.html:263
 msgid "(UTC)"
-msgstr "(UTC)"
+msgstr "(JST)"
 
 #: cms/templates/settings.html:207
 msgid "Last day your course is active"
@@ -2508,7 +2508,7 @@ msgstr "講義名"
 
 #: cms/templates/settings.html:319
 msgid "Displayed as title on the course details page. Limit to 50 characters."
-msgstr "講義詳細ページにタイトルとして表示されます。50文字以内。"
+msgstr "講義詳細ページにタイトルとして表示されます。50字以内。"
 
 #: cms/templates/settings.html:322
 msgid "Course Subtitle"
@@ -2517,7 +2517,7 @@ msgstr "講義のサブタイトル"
 #: cms/templates/settings.html:324
 msgid ""
 "Displayed as subtitle on the course details page. Limit to 150 characters."
-msgstr "講義詳細ページにサブタイトルとして表示されます。150文字以内。"
+msgstr "講義詳細ページにサブタイトルとして表示されます。150字以内。"
 
 #: cms/templates/settings.html:327
 msgid "Course Duration"
@@ -2525,25 +2525,25 @@ msgstr "開講期間"
 
 #: cms/templates/settings.html:329
 msgid "Displayed on the course details page. Limit to 50 characters."
-msgstr "講義詳細ページに表示されます。50文字以内。"
+msgstr "講義詳細ページに表示されます。50字以内。"
 
 #: cms/templates/settings.html:332
 msgid "Course Description"
-msgstr "講義の説明"
+msgstr "講義概要（詳細）"
 
 #: cms/templates/settings.html:334
 msgid "Displayed on the course details page. Limit to 1000 characters."
-msgstr "講義詳細ページに表示されます。1000文字以内。"
+msgstr "講義詳細ページに表示されます。1000字以内。"
 
 #: cms/templates/settings.html:340
 msgid "Course Short Description"
-msgstr "講義の簡潔な説明"
+msgstr "講義概要（短文）"
 
 #: cms/templates/settings.html:342
 msgid ""
 "Appears on the course catalog page when students roll over the course name. "
 "Limit to ~150 characters"
-msgstr "講義一覧ページで講義名の上に受講者がカーソルを合わせた際に表示されます。150文字以内"
+msgstr "講義一覧ページで講義名の上に受講者がカーソルを合わせた際に表示されます。150字以内"
 
 #: cms/templates/settings.html:348
 msgid "Course Overview"
@@ -2789,7 +2789,7 @@ msgstr "これらの設定はどのように利用されますか？"
 msgid ""
 "Your course's schedule determines when students can enroll in and begin a "
 "course."
-msgstr "講義スケジュールで、受講者がいつ受講登録して講義を開始できるのかを設定します。"
+msgstr "講義スケジュールでは、受講者がいつ受講登録して講義を開始できるのかを設定します。"
 
 #: cms/templates/settings.html:626
 msgid ""
@@ -2797,7 +2797,7 @@ msgid ""
 "This information includes the course overview, course image, introduction "
 "video, and estimated time requirements. Students use About pages to choose "
 "new courses to take."
-msgstr "このページの他の情報は講義のAboutページに表示されます。講義概要、講義画像、紹介動画、推定必要時間などの情報です。受講者はAboutページを見て、受講する講義を選びます\n。"
+msgstr "このページの他の情報は講義のAboutページに表示されます。講義概要、講義画像、紹介動画、週あたりの学習時間などの情報です。受講者はAboutページを見て、受講する講義を選びます\n。"
 
 #: cms/templates/settings_advanced.html:49
 msgid "Your policy changes have been saved."
@@ -2830,7 +2830,7 @@ msgid ""
 "Advanced settings control specific course functionality. On this page, you "
 "can edit manual policies, which are JSON-based key and value pairs that "
 "control specific course settings."
-msgstr "詳細設定は特定の講義の機能を管理できます。このページでは、特定の講義設定を管理しているJSONベースのキーおよび値であるマニュアル・ポリシーを編集することができます。"
+msgstr "詳細設定では特定の講義の機能を管理できます。このページでは、特定の講義設定を管理しているJSONベースのキーおよび値であるマニュアル・ポリシーを編集することができます。"
 
 #: cms/templates/settings_advanced.html:86
 msgid ""
@@ -2844,7 +2844,7 @@ msgid ""
 "{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
 " you use double quotation marks (\") around the string. Do not use single "
 "quotation marks (')."
-msgstr "{em_start}注:{em_end} ポリシーとして文字列を入力する場合には、その文字列を二重引用符 (\") でくくるようにしなければなりません。一重引用符 (') は使わないでください。"
+msgstr "{em_start}注:{em_end} ポリシーとして文字列を入力する場合には、その文字列を二重引用符 (\") でくくらなければいけません。一重引用符 (') は使わないでください。"
 
 #: cms/templates/settings_graders.html:3
 msgid "Grading Settings"
@@ -2896,7 +2896,7 @@ msgstr "締切の猶予"
 
 #: cms/templates/settings_graders.html:124
 msgid "Assignment Types"
-msgstr "課題タイプ"
+msgstr "課題"
 
 #: cms/templates/settings_graders.html:125
 msgid "Categories and labels for any exercises that are gradable"
@@ -2904,7 +2904,7 @@ msgstr "採点可能な練習問題のカテゴリーおよびラベル"
 
 #: cms/templates/settings_graders.html:134
 msgid "New Assignment Type"
-msgstr "新しい課題タイプ"
+msgstr "新規の課題"
 
 #: cms/templates/settings_graders.html:143
 msgid "What can I do on this page?"
@@ -2915,7 +2915,7 @@ msgid ""
 "You can use the slider under Overall Grade Range to specify whether your "
 "course is pass/fail or graded by letter, and to establish the thresholds for"
 " each grade."
-msgstr "採点レンジの下にあるスライダーを使って、合格/不合格または採点対象かを文字で表示するかどうかを設定したり、成績の閾値を設定することができます。"
+msgstr "採点レンジの下にあるスライダーを使って、合格/不合格または採点対象かどうかを文字で表示する設定をしたり、成績の閾値を設定することができます。"
 
 #: cms/templates/settings_graders.html:146
 msgid ""
@@ -2928,7 +2928,7 @@ msgid ""
 "You can also create assignment types, such as homework, labs, quizzes, and "
 "exams, and specify how much of a student's grade each assignment type is "
 "worth."
-msgstr "宿題、実習、小テスト、試験などの課題タイプを作成することができ、それぞれの課題タイプの配点を設定できます。"
+msgstr "宿題、実習、小テスト、試験などの課題を作成することができ、それぞれの課題の配点を設定できます。"
 
 #: cms/templates/studio_xblock_wrapper.html:63
 #: cms/templates/studio_xblock_wrapper.html:65
