@@ -2391,7 +2391,7 @@ msgstr "trueまたはfalseを入力してください。trueの場合、計算�
 #: common/lib/xmodule/xmodule/course_module.py:263
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
-msgstr "edX.org講義一覧に表示される講義名を入力してください。"
+msgstr "KoALA講義一覧に表示される講義名を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:265
 msgid "Course Display Name"
@@ -2432,7 +2432,7 @@ msgid ""
 " two blackout periods looks like this, including the outer pair of square "
 "brackets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
 "\"2015-10-08\"]] "
-msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時間も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"] という形式で入力します。日付と時間の間に\"T\"がある点に注意してください。２回以上の停止期間を設ける場合は次のように入力してください： [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
+msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時刻も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"] という形式で入力します。日付と時刻の間に\"T\"が必要ですので注意してください。２回以上の休止期間を設ける場合は次のように入力してください： [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
 
 #: common/lib/xmodule/xmodule/course_module.py:295
 msgid "Discussion Topic Mapping"
@@ -2449,7 +2449,7 @@ msgid ""
 "category as the default for new posts in the Discussion page by setting its "
 "\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": \"i4x-"
 "UniversityX-MUS101-course-2015_T1\", \"default\": true}."
-msgstr "ディスカッションカテゴリーを以下の形式で入力してください: \"カテゴリー名\": {\"id\": \"i4x-機関名-講義番号-course-CourseRun\"}。例えば、あるディスカッションカテゴリーは \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\" の値は各カテゴリー固有でなければならず、使用できる記号はアンダースコア、ハイフン、ピリオドのみです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+msgstr "ディスカッションカテゴリーは以下の形式で入力してください: \"カテゴリー名\": {\"id\": \"i4x-機関名-講義番号-course-CourseRun\"}。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\" の値は各カテゴリーに固有の値です。入力可能な記号は下線、ハイフン、ピリオドです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 
 #: common/lib/xmodule/xmodule/course_module.py:309
 msgid "Discussion Sorting Alphabetical"
@@ -2489,7 +2489,7 @@ msgstr "新規講義"
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
-msgstr "trueまたはfalseを入力してください。trueの場合、講義はedx.org新規講義リストに表示され、しばらくの間「New!」というマークが講義画像の横に表示されます。"
+msgstr "trueまたはfalseを入力してください。trueの場合、講義はKoALAの新規講義リストに表示され、しばらくの間「New!」というマークが講義画像の横に表示されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:338
 msgid "Mobile Course Available"
@@ -2600,7 +2600,7 @@ msgstr "trueまたはfalseを入力してください。trueの場合、受講�
 
 #: common/lib/xmodule/xmodule/course_module.py:411
 msgid "Allow Anonymous Discussion Posts to Peers"
-msgstr "匿名のディスカッション投稿を許可する"
+msgstr "他の受講者に対して匿名のディスカッション投稿を許可する"
 
 #: common/lib/xmodule/xmodule/course_module.py:413
 msgid ""
@@ -2648,7 +2648,7 @@ msgid ""
 "Enter the format for due dates. The default is Mon DD, YYYY. Enter "
 "\"%m-%d-%Y\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for "
 "YYYY-MM-DD, or \"%Y-%d-%m\" for YYYY-DD-MM."
-msgstr "締切表示フォーマットを入力してください。 デフォルトは Mon DD, YYYY です。MM-DD-YYYY は\"%m-%d-%Y\"、DD-MM-YYYY は \"%d-%m-%Y\"、YYYY-MM-DDは\"%Y-%m-%d\"、YYYY-DD-MMは\"%Y-%d-%m\" と入力してください。"
+msgstr "締切表示フォーマットを入力してください。 デフォルトは月日年です。MM-DD-YYYY は\"%m-%d-%Y\"、DD-MM-YYYY は \"%d-%m-%Y\"、YYYY-MM-DDは\"%Y-%m-%d\"、YYYY-DD-MMは\"%Y-%d-%m\" と入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:448
 msgid "External Login Domain"
@@ -2703,7 +2703,7 @@ msgstr "バナー画像"
 msgid ""
 "Edit the name of the banner image file. You can set the banner image on the "
 "Settings & Details page."
-msgstr "バナー画像ファイル名を入力してください。設定＆詳細ページからバナー画像を設定できます。"
+msgstr "バナー画像ファイル名を入力してください。詳細設定ページからバナー画像を設定できます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:497
 msgid "Course Video Thumbnail Image"
@@ -2713,7 +2713,7 @@ msgstr "動画サムネイル画像"
 msgid ""
 "Edit the name of the video thumbnail image file. You can set the video "
 "thumbnail image on the Settings & Details page."
-msgstr "動画サムネイル画像ファイルの名前を入力してください。設定＆詳細ページから動画サムネイル画像を設定できます。"
+msgstr "動画サムネイル画像ファイルの名前を入力してください。詳細設定ページから動画サムネイル画像を設定できます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:507
 msgid "Issue Open Badges"
@@ -2888,11 +2888,11 @@ msgid ""
 " This can be set to one of three values: 'both' (show in catalog and allow "
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
-msgstr "カタログで講義を表示するためのアクセス権限を定義します。３パターンが設定可能です: '両方' (カタログに表示かつAboutページへのアクセス可能), 'About' (Aboutページへのアクセスのみ可能), 'なし' (カタログの表示およびAboutページへのアクセス共に不可)。"
+msgstr "カタログで講義を表示するためのアクセス権限を定義します。3パターンが設定可能です: 'Both' (カタログに表示かつAboutページへのアクセス可能), 'About' (Aboutページへのアクセスのみ可能), 'None' (カタログの表示およびAboutページへのアクセス共に不可)。"
 
 #: common/lib/xmodule/xmodule/course_module.py:672
 msgid "Both"
-msgstr "両方"
+msgstr "Both"
 
 #: common/lib/xmodule/xmodule/course_module.py:673
 #: lms/djangoapps/branding/api.py:179
@@ -2901,7 +2901,7 @@ msgstr "About"
 
 #: common/lib/xmodule/xmodule/course_module.py:674
 msgid "None"
-msgstr "なし"
+msgstr "None"
 
 #: common/lib/xmodule/xmodule/course_module.py:678
 msgid "Entrance Exam Enabled"
@@ -2968,7 +2968,7 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr "波括弧内にチームの最大人数およびトピックを入力してください。波括弧の次にコンマを入力して角括弧内にトピックをすべて入力した後、もう一つコンマを入力してください。例えば、最大5名の参加者のチームで2つのトピックのリストを入力する場合は、以下の形式で入力してください: {example_format} 。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドのみです。"
+msgstr "{}内にチームの最大人数およびトピックを入力してください。各トピックの{}直後にカンマを入力し、トピックに関する値全体を[]で括って、その直後にもコンマを入力してください。例えば、最大5名のチームで2つのトピックがある場合、以下の形式で入力してください: {example_format} 。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドです。"
 
 #: common/lib/xmodule/xmodule/course_module.py:748
 msgid "Enable Proctored Exams"
@@ -3626,7 +3626,7 @@ msgid ""
 " setting for individual problems. However, if the course-wide setting is a "
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
-msgstr "受講者が解答可能な上限回数を入力してください。デフォルトでは上限提出数はnullとなっており、受講者が無制限に解答できることを意味しています。講義全体に対するこの設定は問題ごとに上書きできます。しかし、講座全体設定に特定の数字が入力されている場合、個々の問題で無制限の設定をすることはできません。"
+msgstr "受講者が解答可能な上限回数を入力してください。デフォルトでは上限提出数はnullとなっており、受講者が無制限に解答できることを意味しています。講義全体に対するこの設定は問題ごとに上書きできます。しかし、講義全体設定に特定の数字が入力されている場合、個々の問題で無制限の設定をすることはできません。"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:154
 msgid ""
