@@ -893,7 +893,7 @@ msgstr "プレビューを表示"
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
-msgstr "{sortName} で昇順にソート、{assetType} でフィルタリングされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
+msgstr "{sortName} で昇順にソート、{assetType} でフィルタリングされた {totalItemsCount} 中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -902,7 +902,7 @@ msgstr "{sortName} で昇順にソート、{assetType} でフィルタリング�
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
-msgstr "{sortName} で降順にソート、{assetType} でフィルタリングされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
+msgstr "{sortName} で降順にソート、{assetType} でフィルタリングされた {totalItemsCount} 中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -910,7 +910,7 @@ msgstr "{sortName} で降順にソート、{assetType} でフィルタリング�
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
-msgstr "{sortName} で昇順にソートされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
+msgstr "{sortName} で昇順にソートされた {totalItemsCount} 中 {currentItemRange} 件を表示中"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -918,7 +918,7 @@ msgstr "{sortName} で昇順にソートされた全 {totalItemsCount} 件中 {c
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
-msgstr "{sortName} で降順にソートされた全 {totalItemsCount} 件中 {currentItemRange} 件を表示中"
+msgstr "{sortName} で降順にソートされた {totalItemsCount} 中 {currentItemRange} 件を表示中"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
@@ -935,7 +935,7 @@ msgstr "コンテンツグループ"
 
 #: cms/static/js/views/partition_group_list.js:23
 msgid "Add your first content group"
-msgstr "最初のコンテンツグループを入力"
+msgstr "新規のコンテンツグループを入力"
 
 #: cms/static/js/views/partition_group_list.js:25
 msgid "You have not created any content groups yet."
@@ -1031,13 +1031,13 @@ msgstr "申し訳ありませんが、エラーが発生しました"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%=limit%> characters."
-msgstr "組織名、講義番号、course run欄の合計文字数は <%=limit%> 文字までです。"
+msgstr "組織名、講義番号、course run欄の合計文字数は <%=limit%> 字までです。"
 
 #: cms/static/js/views/utils/create_library_utils.js:8
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%=limit%> characters."
-msgstr "組織名、ライブラリコード欄の合計文字数は <%=limit%> 文字までです。"
+msgstr "組織名、ライブラリコード欄の合計文字数は <%=limit%> 字までです。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:31
 msgid "Success! \"{displayName}\" has been moved."
