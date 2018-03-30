@@ -2492,7 +2492,7 @@ msgid ""
 "Identify the course language here. This is used to assist users find courses"
 " that are taught in a specific language. It is also used to localize the "
 "'From:' field in bulk emails."
-msgstr "ここで講義で使用する言語を特定します。特定の言語を使用している講義をユーザーが検索する際に使われます。また、バルクメールの 'From:' 欄をローカライズするためにも使われます。"
+msgstr "講義で使用する言語を選択してください。受講者が特定の言語を使用している講義を検索する際に使用します。また、バルクメールの 'From:' 欄をローカライズする際にも使用します。"
 
 #: cms/templates/settings.html:310
 msgid "Introducing Your Course"
