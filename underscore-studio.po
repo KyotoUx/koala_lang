@@ -311,7 +311,7 @@ msgstr "この {blockType} へのアクセスは制限されています: {selec
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
-msgstr "この {blockType} のコンテンツへのアクセスは特定のグループの受講生に制限されています。"
+msgstr "この {blockType} のコンテンツへのアクセスは特定のグループの受講者に制限されています。"
 
 #: cms/templates/js/container-message.underscore:5
 msgid ""
@@ -364,13 +364,13 @@ msgstr "締切日以降コンテンツを非表示"
 msgid ""
 "After the course\\'s end date has passed, learners can no longer access "
 "subsection content. The subsection remains included in grade calculations."
-msgstr "講義終了日が過ぎると、受講者はサブセクションのコンテンツにアクセスすることができません。サブセクションは成績の計算に含まれたまま残ります。"
+msgstr "講義終了日を過ぎると、受講者はサブセクションのコンテンツにアクセスすることができません。サブセクションの成績は成績計算に含まれたまま残ります。"
 
 #: cms/templates/js/content-visibility-editor.underscore:22
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
-msgstr "サブセクションの締切日が過ぎると受講者はコンテンツにアクセスすることができません。サブセクションは成績の計算に含まれたまま残ります。"
+msgstr "サブセクションの締切日を過ぎると、受講者はこのコンテンツにアクセスすることができません。サブセクションの成績は成績計算に含まれたまま残ります。"
 
 #: cms/templates/js/content-visibility-editor.underscore:27
 msgid "Hide entire subsection"
@@ -380,7 +380,7 @@ msgstr "サブセクション全体を非表示"
 msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
-msgstr "受講者は講義アウトライン内のサブセクションを見ることができません。サブセクションは成績の計算に含まれていません。"
+msgstr "受講者は講義アウトライン内のサブセクションを見ることができません。サブセクションの成績は成績計算に含まれません。"
 
 #: cms/templates/js/content-visibility-editor.underscore:36
 #, python-format
@@ -650,13 +650,13 @@ msgstr "最終更新"
 
 #: cms/templates/js/course_grade_policy.underscore:3
 msgid "Assignment Type Name"
-msgstr "課題タイプ名"
+msgstr "課題名"
 
 #: cms/templates/js/course_grade_policy.underscore:5
 msgid ""
 "The general category for this type of assignment, for example, Homework or "
 "Midterm Exam. This name is visible to learners."
-msgstr "このタイプの課題の一般的なカテゴリー。例. 宿題または中間試験。この名称は受講者に表示されます。"
+msgstr "この課題の一般的なカテゴリー。例．宿題、中間試験。この名称は受講者に表示されます。"
 
 #: cms/templates/js/course_grade_policy.underscore:9
 msgid "Abbreviation"
@@ -666,17 +666,17 @@ msgstr "略称"
 msgid ""
 "This short name for the assignment type (for example, HW or Midterm) appears"
 " next to assignments on a learner's Progress page."
-msgstr "課題タイプの略称（例．HW、Midterm）は受講者の進捗ページの課題の横に表示されます。"
+msgstr "この課題の略称（例．HW、Midterm）は受講者の進捗ページの課題の横に表示されます。"
 
 #: cms/templates/js/course_grade_policy.underscore:15
 msgid "Weight of Total Grade"
-msgstr "総得点の重み付け"
+msgstr "総得点に対する％"
 
 #: cms/templates/js/course_grade_policy.underscore:17
 msgid ""
 "The weight of all assignments of this type as a percentage of the total "
 "grade, for example, 40. Do not include the percent symbol."
-msgstr "このタイプの課題すべての重み。合計点に対する%。例えば、40。%記号は入力しないでください。"
+msgstr "この課題の合計点に対する%。例．40。%記号は入力しないでください。"
 
 #: cms/templates/js/course_grade_policy.underscore:21
 msgid "Total Number"
@@ -686,7 +686,7 @@ msgstr "合計数"
 msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
-msgstr "この課題タイプの問題を含むサブセクション数。"
+msgstr "この課題の問題を含むサブセクション数。"
 
 #: cms/templates/js/course_grade_policy.underscore:27
 msgid "Number of Droppable"
@@ -696,7 +696,7 @@ msgstr "不合格になってもよい数"
 msgid ""
 "The number of assignments of this type that will be dropped. The lowest "
 "scoring assignments are dropped first."
-msgstr "このタイプの課題のうち不合格になっても良い数。点数の低い課題から先に不合格になります。"
+msgstr "この課題のうち不合格になってもよい数。点数の低い課題から先に不合格になります。"
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
@@ -1007,7 +1007,7 @@ msgstr "この講義にはまだ教科書が入力されていません。"
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "Add your first textbook"
-msgstr "最初の教科書を入力"
+msgstr "新規の教科書を入力"
 
 #: cms/templates/js/partition-group-details.underscore:47
 msgid "This group controls access to:"
@@ -1209,7 +1209,7 @@ msgstr "サブセクションの締切日がない場合、受講者は解答を
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
-msgstr "ライブ表示"
+msgstr "プレビュー"
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -1227,7 +1227,7 @@ msgstr "修了証署名者設定"
 
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
-msgstr "名前 "
+msgstr "氏名 "
 
 #: cms/templates/js/signatory-editor.underscore:14
 msgid "Name of the signatory"
@@ -1235,7 +1235,7 @@ msgstr "署名者名"
 
 #: cms/templates/js/signatory-editor.underscore:15
 msgid "The name of this signatory as it should appear on certificates."
-msgstr "修了証に表示される署名の名前"
+msgstr "修了証に表示される署名の氏名"
 
 #: cms/templates/js/signatory-editor.underscore:21
 msgid "Title "
@@ -1253,17 +1253,17 @@ msgstr "役職が100文字以上の場合、修了証を1ページに収めて�
 
 #: cms/templates/js/signatory-editor.underscore:29
 msgid "Organization "
-msgstr "組織 "
+msgstr "所属機関 "
 
 #: cms/templates/js/signatory-editor.underscore:30
 msgid "Organization of the signatory"
-msgstr "署名者の組織"
+msgstr "署名者の所属機関"
 
 #: cms/templates/js/signatory-editor.underscore:31
 msgid ""
 "The organization that this signatory belongs to, as it should appear on "
 "certificates."
-msgstr "修了証に表示されるこの署名者が所属している組織"
+msgstr "修了証に表示されるこの署名者が所属している機関"
 
 #: cms/templates/js/signatory-editor.underscore:43
 msgid "Path to Signature Image"
