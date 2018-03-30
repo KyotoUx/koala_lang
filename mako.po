@@ -5618,7 +5618,7 @@ msgstr "セクション数:"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:102
 msgid "Grade Cutoffs:"
-msgstr "成績: "
+msgstr "評価基準: "
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:110
