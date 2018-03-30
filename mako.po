@@ -2932,14 +2932,14 @@ msgstr "メールアドレス/ユーザー名"
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:87
 msgid ""
 "Enter email addresses and/or usernames separated by new lines or commas."
-msgstr "メールアドレスと（または）ユーザー名を新しい行またはコンマ区切りで分けて入力してください。"
+msgstr "メールアドレスおよび（または）ユーザー名を改行またはコンマ区切りで入力してください。"
 
 #: lms/templates/ccx/enrollment.html:14
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:11
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
-msgstr "戻ってくるメールの通知は届きません。綴りを再確認してください。"
+msgstr "宛先に届かず戻ってくるメールの通知はありませんので、スペルがあっているか再確認してください。"
 
 #: lms/templates/ccx/enrollment.html:21 lms/templates/ccx/enrollment.html:104
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:26
@@ -3014,7 +3014,7 @@ msgstr "上級者向け。採点ポリシーのエラーにより講義が表示
 
 #: lms/templates/ccx/grading_policy.html:13
 msgid "Most coaches should not need to make changes to the grading policy."
-msgstr "ほとんどの講師は採点ポリシーを変更する必要がありません。"
+msgstr "大抵の場合、採点ポリシーを変更する必要がありません。"
 
 #: lms/templates/ccx/grading_policy.html:23
 msgid "Save Grading Policy"
@@ -4479,7 +4479,7 @@ msgstr "全てのディスカッション"
 
 #: lms/templates/discussion/_filter_dropdown.html:57
 msgid "Posts I'm Following"
-msgstr "フォローしている投稿"
+msgstr "フォロー中の投稿"
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:8
@@ -4489,18 +4489,18 @@ msgstr "フィルタ:"
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html:11
 msgid "Show all posts"
-msgstr "全ての投稿を表示"
+msgstr "全件表示"
 
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html:13
 msgid "Unread posts"
-msgstr "未読の投稿"
+msgstr "未読"
 
 #. Translators: This is a menu option for showing only unanswered forum
 #. question threads
 #: lms/templates/discussion/_thread_list_template.html:16
 msgid "Unanswered posts"
-msgstr "未回答の投稿"
+msgstr "未回答"
 
 #. Translators: This is a menu option for showing only forum threads flagged
 #. for abuse
@@ -5556,11 +5556,11 @@ msgstr "受講登録情報"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:14
 msgid "Number of enrollees (admins, staff, and students) by track"
-msgstr "トラックごとの登録者数 (管理者、スタッフおよび受講者)"
+msgstr "登録者数 (管理者、スタッフおよび受講者)"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:16
 msgid "Verified"
-msgstr "認証済み"
+msgstr "認証付"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:19
 msgid "Audit"
@@ -5618,7 +5618,7 @@ msgstr "セクション数:"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:102
 msgid "Grade Cutoffs:"
-msgstr "採点〆切: "
+msgstr "成績: "
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:110
@@ -5637,7 +5637,7 @@ msgid ""
 "configuration is the breakdown of graded subsections of the course (such as "
 "exams and problem sets), and can be changed on the 'Grading' page (under "
 "'Settings') in Studio."
-msgstr "クリックして採点設定を表示します。採点設定は採点対象のサブセクション(テストや問題等)の分析です。Studio の('設定'内の)'採点'ページで変更することができます。"
+msgstr "クリックすると、採点設定を表示します。採点設定は採点対象のサブセクション(テストや問題等)の分析です。Studio の('設定'内の)'採点'ページで変更することができます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:13
 msgid "Grading Configuration"
@@ -5645,7 +5645,7 @@ msgstr "採点設定"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:18
 msgid "Click to download a CSV of anonymized student IDs:"
-msgstr "クリックして、匿名受講者IDのCSVをダウンロードしてください: "
+msgstr "クリックすると、匿名受講者IDのCSVをダウンロードします。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:19
 msgid "Get Student Anonymized IDs CSV"
@@ -5663,19 +5663,19 @@ msgid ""
 "generation appears in the table below. These reports are generated in the "
 "background, meaning it is OK to navigate away from this page while your "
 "report is generating."
-msgstr "規模の大きな講義では、レポートの生成に数時間を要するものがあります。レポートの生成が完了すると、生成された日時を含むリンクが下表に表示されます。これらのレポートはバックグラウンド処理において生成されるので、レポート生成中このページを離れても問題ありません。"
+msgstr "規模の大きな講義では、レポートの生成に数時間を要する場合があります。レポートの生成が完了すると、生成された日時を含むリンクが下表に表示されます。レポートはバックグラウンド処理で生成されるので、レポート生成中このページを離れても問題ありません。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:29
 msgid ""
 "Please be patient and do not click these buttons multiple times. Clicking "
 "these buttons multiple times will significantly slow the generation process."
-msgstr "これらのボタンは複数回クリックをせずに、お待ちください。複数回クリックをすると、生成処理が著しく遅くなります。"
+msgstr "ボタンは複数回クリックをせずに、お待ちください。複数回クリックをすると、生成処理が著しく遅くなります。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:31
 msgid ""
 "Click to generate a CSV file of all students enrolled in this course, along "
 "with profile information such as email address and username:"
-msgstr "クリックして、メールアドレスやユーザー名などのプロフィール情報と一緒に、この講義に受講登録している全受講者のCSVファイルを生成してください:"
+msgstr "クリックすると、メールアドレスやユーザー名などのプロフィール情報と共に、この講義に受講登録している全受講者のCSVファイルを生成します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:33
 msgid "Download profile information as a CSV"
@@ -5685,7 +5685,7 @@ msgstr "プロフィール情報をCSVとしてダウンロードする"
 msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
-msgstr "クリックして、受講登録可能だがまだ登録していない受講者のリストをCSVファイルとして生成してください。"
+msgstr "クリックすると、受講登録可能だがまだ登録していない受講者のリストをCSVファイルとして生成します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:37
 msgid "Download a CSV of learners who can enroll"
@@ -5694,7 +5694,7 @@ msgstr "受講登録可能な受講者のCSVをダウンロード"
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:40
 msgid ""
 "Click to generate a CSV file of all proctored exam results in this course."
-msgstr "クリックして、本講義の監督付き試験結果のCSVファイルを生成してください。"
+msgstr "クリックすると、本講義の監督付き試験結果のCSVファイルを生成します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:41
 msgid "Generate Proctored Exam Results Report"
@@ -5702,7 +5702,7 @@ msgstr "監督付き試験結果レポートを生成"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:45
 msgid "Click to generate a CSV file of survey results for this course."
-msgstr "クリックして、本講義の調査結果のCSVファイルを生成してください。"
+msgstr "クリックすると、本講義の調査結果のCSVファイルを生成します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:46
 msgid "Generate Survey Results Report"
@@ -5724,7 +5724,7 @@ msgstr "解答のCSVをダウンロード"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:62
 msgid "Click to list certificates that are issued for this course:"
-msgstr "クリックして発行済の修了証をリスト化する: "
+msgstr "クリックすると、発行済の修了証をリスト化します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:64
 msgid "View Certificates Issued"
@@ -5738,7 +5738,7 @@ msgstr "発行済修了証のCSVをダウンロード"
 msgid ""
 "For smaller courses, click to list profile information for enrolled students"
 " directly on this page:"
-msgstr "少人数の講義の場合は、クリックして、受講登録者のプロフィール情報の一覧を直接このページに表示してください: "
+msgstr "少人数の講義の場合、下のボタンをクリックすると、受講登録者のプロフィール情報の一覧を直接このページに表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:73
 msgid "List enrolled students' profile information"
@@ -5747,7 +5747,7 @@ msgstr "受講登録者のプロフィール情報を一覧表示する"
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:78
 msgid ""
 "Click to generate a CSV grade report for all currently enrolled students."
-msgstr "クリックして、受講登録者の成績レポートのCSVを生成してください。"
+msgstr "クリックすると、受講登録者の成績レポートのCSVを生成します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:80
 msgid "Generate Grade Report"
@@ -5786,7 +5786,7 @@ msgid ""
 "{strong_start}Note{strong_end}: To keep student data secure, you cannot save"
 " or email these links for direct access. Copies of links expire within 5 "
 "minutes."
-msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスするため保存したりメールしたりしてはいけません。リンクのコピーは５分で時間切れとなります。"
+msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスする目的で保存したりメールしたりしてはいけません。リンクのコピーは５分で時間切れとなります。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:19
 msgid "Enrollment Codes"
@@ -6436,7 +6436,7 @@ msgstr "βテスターバッチ追加"
 msgid ""
 "Note: Users must have an activated {platform_name} account before they can "
 "be enrolled as beta testers."
-msgstr "注: ユーザーはβテスターとして登録する前に有効化された {platform_name} のアカウントを有していなければなりません。"
+msgstr "注: ユーザーはβテスターとして登録する前に、有効化された {platform_name} のアカウントを有していなければなりません。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:98
 msgid ""
@@ -6737,7 +6737,7 @@ msgid ""
 "Before you send your email, review the text carefully and send it to "
 "yourself first, so that you can preview the formatting and make sure "
 "embedded images and links work correctly."
-msgstr "受講者に対して週2通以上メールを送信しないことを推奨します。メール送る前に文章を丁寧に読み返して、まずはご自身宛に送信し、フォーマットを事前確認したり画像やリンクが正しいか確認してください。"
+msgstr "受講者に対して週2通以上メールを送信しないことを推奨します。メールを送る前に文章を丁寧に読み返して、まずはご自身宛に送信し、フォーマットを事前に確認したり、画像やリンクが正しいか確認してください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:89
 msgid "CAUTION!"
@@ -6765,7 +6765,7 @@ msgstr "メールタスク履歴"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:116
 msgid "To see the content of previously sent emails, click this button:"
-msgstr "以前に送信したメールの内容を見るには、このボタンをクリックしてください: "
+msgstr "以前送信したメールの内容を見るには、このボタンをクリックしてください。 "
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:118
 msgid "Show Sent Email History"
@@ -6779,7 +6779,7 @@ msgstr "送信済メールのメッセージを読むには、件名をクリッ
 msgid ""
 "To see the status for all email tasks submitted for this course, click this "
 "button:"
-msgstr "本講義のメールタスクのステータスを見るには、このボタンをクリックしてください："
+msgstr "本講義のメールタスクのステータスを見るには、このボタンをクリックしてください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:131
 msgid "Show Email Task History"
@@ -6872,7 +6872,7 @@ msgstr "解答"
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:56
 msgid ""
 "Allow a learner who has used up all attempts to work on the problem again."
-msgstr "全解答回数を使ってしまった受講生に再度問題を解くチャンスを与える。"
+msgstr "全解答回数を使ってしまった受講者に再度問題を解くチャンスを与えることができます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:58
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:123
@@ -6891,15 +6891,15 @@ msgid ""
 "For the specified problem, rescore the learner's responses. The 'Rescore "
 "Only If Score Improves' option updates the learner's score only if it "
 "improves in the learner's favor."
-msgstr "特定の問題に関して、受講者の解答を再採点してください。'点数が良くなる場合のみ再採点する'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
+msgstr "特定の問題に関して、受講者の解答を再採点します。'点数が良くなる場合のみ再採点'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
 msgid "Score Override"
-msgstr "点数無視"
+msgstr "点数を無視"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
 msgid "For the specified problem, override the learner's score."
-msgstr "特定の問題に関して、受講者の点数を無視してください。"
+msgstr "特定の問題に関して、受講者の点数を無視します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
 msgid ""
@@ -6922,7 +6922,7 @@ msgstr "問題の履歴"
 msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
-msgstr "特定の問題に関して、受講者の解答および点数をデータベースから完全に削除してください。"
+msgstr "特定の問題に関して、受講者の解答および点数をデータベースから完全に削除します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:99
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:155
@@ -6934,7 +6934,7 @@ msgstr "タスクステータス"
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and problem."
-msgstr "この受講者に対して提出した再採点タスクのステータスを表示してください。"
+msgstr "この受講者に対して提出した再採点タスクのステータスを表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
@@ -6948,7 +6948,7 @@ msgstr "受講者の受講前試験の結果を調整する"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:121
 msgid "Allow the learner to take the exam again."
-msgstr "受講者が再度試験を受けられるようにしてください。"
+msgstr "受講者が再度試験を受けられるようにします。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:126
 msgid "Allow Skip"
@@ -6956,7 +6956,7 @@ msgstr "スキップOK"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:127
 msgid "Waive the requirement for the learner to take the exam."
-msgstr "受講者に受験を必須とするのをやめてください。"
+msgstr "受講者に受験を必須としません。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:129
 msgid "Let Learner Skip Entrance Exam"
@@ -6967,7 +6967,7 @@ msgid ""
 "Rescore any responses that have been submitted. The 'Rescore All Problems "
 "Only If Score Improves' option updates the learner's scores only if it "
 "improves in the learner's favor."
-msgstr "提出されたすべての解答を再採点してください。'点数が良くなる場合のみ全問題を再採点する'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
+msgstr "提出されたすべての解答を再採点します。'点数が良くなる場合のみ全問題を再採点'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:139
 msgid "Rescore All Problems"
@@ -6975,7 +6975,7 @@ msgstr "全問題を再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:140
 msgid "Rescore All Problems Only If Score Improves"
-msgstr "点数が良くなる場合のみ全問題を再採点する"
+msgstr "点数が良くなる場合のみ全問題を再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:145
 msgid "Entrance Exam History"
@@ -6985,13 +6985,13 @@ msgstr "受講前試験履歴"
 msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
-msgstr "受講前試験に関して、受講者の解答および点数をデータベースから完全に削除してください。"
+msgstr "受講前試験に関して、受講者の解答および点数をデータベースから完全に削除します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:157
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and entrance exam."
-msgstr "この受講者に対して提出した再採点タスクのステータスを表示してください。"
+msgstr "この受講者に対して提出した再採点タスクのステータスを表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
 msgid "Adjust all enrolled learners' grades for a specific problem"
@@ -6999,17 +6999,17 @@ msgstr "特定の問題の全受講登録者の成績を調整する"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:184
 msgid "Allows all learners to work on the problem again."
-msgstr "全受講者が再度問題を解けるようにしてください。"
+msgstr "全受講者が再度問題を解けるようにします。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:190
 msgid ""
 "Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
 "updates a learner's score only if it improves in the learner's favor."
-msgstr "提出済の解答を再採点してください。'点数が良くなる場合のみ再採点する'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
+msgstr "提出済の解答を再採点します。'点数が良くなる場合のみ再採点'オプションは受講者の希望により点数が良くなる場合のみ点数を更新します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:193
 msgid "Rescore All Learners' Submissions"
-msgstr "全受講者の提出物を再採点"
+msgstr "全受講者の解答を再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:194
 msgid "Rescore Only If Scores Improve"
@@ -7017,7 +7017,7 @@ msgstr "点数が良くなる場合のみ再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:199
 msgid "Show the status for the tasks that you submitted for this problem."
-msgstr "この問題に関して提出したタスクのステータスを表示してください。"
+msgstr "この問題に関して提出したタスクのステータスを表示します。"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:10
