@@ -911,7 +911,7 @@ msgstr "ライブラリのエクスポート"
 
 #: cms/templates/export.html:24 cms/templates/export.html:48
 msgid "Course Export"
-msgstr "エクスポート"
+msgstr "コースのエクスポート"
 
 #: cms/templates/export.html:43 cms/templates/export_git.html:16
 #: cms/templates/import.html:32 cms/templates/widgets/header.html:112
@@ -1667,7 +1667,7 @@ msgid ""
 "You may want to run a new version of an existing course, or replace an "
 "existing course altogether. Or, you may have developed a course outside "
 "{studio_name}."
-msgstr "既存のコースを新しいバージョンに更新または既存のコースをすべて置き換えます。あるいは、{studio_name} の外でコースを作成する場合もあるでしょう。"
+msgstr "既存のコースを新しいバージョンに更新または既存のコースをすべて置き換えます。あるいは、{studio_name} の外でコースを作成することもできます。"
 
 #: cms/templates/import.html:227
 msgid "What content is imported?"
@@ -1691,7 +1691,7 @@ msgid ""
 "URL names (or url_name nodes) of any Problem components, the student data "
 "associated with those Problem components may be lost. This data includes "
 "students' problem scores."
-msgstr "講義開講中にインポートを行い、問題コンポーネントのURL名 (またはurl_nameノード) を変更すると、その問題コンポーネントに連携している受講者データが失われる可能性があります。データには受講者の得点が含まれています。"
+msgstr "講義開講中にインポートを行い、問題コンポーネントのURL名 (またはurl_nameノード) を変更すると、その問題コンポーネントに連携している受講者データが失われる可能性があります。データには受講者の得点も含まれます。"
 
 #: cms/templates/import.html:236
 msgid "Learn more about importing a course"
