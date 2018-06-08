@@ -612,7 +612,7 @@ msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "講義の新着情報を使用して、重要な予定や試験を通知したり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりしてください。HTMLで新着情報の追加や編集をします。"
+msgstr "講義の新着情報では、重要な予定や試験の通知をしたり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりできます。HTMLで新着情報の追加や編集をしてください。"
 
 #: cms/templates/course_outline.html:43
 msgid ""
@@ -846,7 +846,7 @@ msgstr "各種ページはどのように表示される？"
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
-msgstr "既定ページおよびカスタムページは画面上部に表示され、リンクで移動します。"
+msgstr "既定ページおよびカスタムページは画面上部に表示され、リンクで移動できます。"
 
 #: cms/templates/edit-tabs.html:152
 msgid "See an example"
@@ -2958,7 +2958,7 @@ msgstr "新しい教科書"
 
 #: cms/templates/textbooks.html:61
 msgid "Why should I break my textbook into chapters?"
-msgstr "どうして教科書をチャプターに分けた方がよいのか？"
+msgstr "なぜ教科書をチャプターに分けた方がよいのか？"
 
 #: cms/templates/textbooks.html:62
 msgid ""
