@@ -2888,7 +2888,7 @@ msgid ""
 " This can be set to one of three values: 'both' (show in catalog and allow "
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
-msgstr "カタログで講義を表示するためのアクセス権限を定義します。3パターンが設定可能です: 'Both' (カタログに表示かつAboutページへのアクセス可能), 'About' (Aboutページへのアクセスのみ可能), 'None' (カタログの表示およびAboutページへのアクセス共に不可)。"
+msgstr "カタログで講義を表示するためのアクセス権限を定義します。3パターン設定可能です: 'Both' (カタログに表示かつAboutページへのアクセス可能), 'About' (Aboutページへのアクセスのみ可能), 'None' (カタログの表示およびAboutページへのアクセス共に不可)。"
 
 #: common/lib/xmodule/xmodule/course_module.py:672
 msgid "Both"
@@ -2968,7 +2968,7 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr "{}内にチームの最大人数およびトピックを入力してください。各トピックの{}直後にカンマを入力し、トピックに関する値全体を[]で括って、その直後にもコンマを入力してください。例えば、最大5名のチームで2つのトピックがある場合、以下の形式で入力してください: {example_format} 。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドです。"
+msgstr "{}内にチームの最大人数およびトピックを入力してください。各トピックの{}直後にカンマを入力し、トピック全体を[]で括って、その直後にもカンマを入力してください。例えば、最大5名のチームで2つのトピックがある場合、以下のようになります: {example_format} 。IDの値に入力可能な記号は、下線、ハイフンおよびピリオドです。"
 
 #: common/lib/xmodule/xmodule/course_module.py:748
 msgid "Enable Proctored Exams"
@@ -2991,7 +2991,7 @@ msgid ""
 "proctored exams without proctoring. If this value is false, all learners "
 "must take the exam with proctoring. This setting only applies if proctored "
 "exams are enabled for the course."
-msgstr "trueまたはfalseを入力してください。trueと設定すると監督付き試験を監督なしで受けることを選択できるようになります。falseと設定すると、全受講者は監督付きで試験を受けなければいけません。この設定は監督付試験が有効な場合に限り適用されます。"
+msgstr "trueまたはfalseを入力してください。trueと設定すると監督付き試験を監督なしで受けることを選択できるようになります。falseと設定すると、全受講者は監督付きで試験を受けなければいけません。この設定は監督付き試験が有効な場合に限り適用されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:769
 msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
@@ -3626,7 +3626,7 @@ msgid ""
 " setting for individual problems. However, if the course-wide setting is a "
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
-msgstr "受講者が解答可能な上限回数を入力してください。デフォルトでは上限提出数はnullとなっており、受講者が無制限に解答できることを意味しています。講義全体に対するこの設定は問題ごとに上書きできます。しかし、講義全体設定に特定の数字が入力されている場合、個々の問題で無制限の設定をすることはできません。"
+msgstr "受講者が解答可能な上限回数を入力してください。デフォルトでは上限提出数はnullとなっており、受講者が無制限に解答できることを意味しています。講義全体に対するこの設定は問題ごとに上書きできます。しかし、特定の数字が入力されている場合、個々の問題で無制限の設定をすることはできません。"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:154
 msgid ""
