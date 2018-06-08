@@ -656,7 +656,7 @@ msgstr "課題名"
 msgid ""
 "The general category for this type of assignment, for example, Homework or "
 "Midterm Exam. This name is visible to learners."
-msgstr "この課題の一般的なカテゴリー。例．宿題、中間試験。この名称は受講者に表示されます。"
+msgstr "この課題のカテゴリー。例．宿題、中間試験など。この名称は受講者に表示されます。"
 
 #: cms/templates/js/course_grade_policy.underscore:9
 msgid "Abbreviation"
