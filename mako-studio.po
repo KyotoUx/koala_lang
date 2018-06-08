@@ -2416,7 +2416,7 @@ msgstr "講義開始時刻"
 #: cms/templates/settings.html:199 cms/templates/settings.html:213
 #: cms/templates/settings.html:241 cms/templates/settings.html:263
 msgid "(UTC)"
-msgstr "(JST)"
+msgstr "(UTC)"
 
 #: cms/templates/settings.html:207
 msgid "Last day your course is active"
@@ -2492,7 +2492,7 @@ msgid ""
 "Identify the course language here. This is used to assist users find courses"
 " that are taught in a specific language. It is also used to localize the "
 "'From:' field in bulk emails."
-msgstr "講義で使用する言語を選択してください。受講者が特定の言語を使用している講義を検索する際に使用します。また、バルクメールの 'From:' 欄をローカライズする際にも使用します。"
+msgstr "講義で使用する言語を選択してください。受講者が特定の言語を使用している講義を検索する際に使用されます。また、バルクメールの 'From:' 欄をローカライズする際にも使用します。"
 
 #: cms/templates/settings.html:310
 msgid "Introducing Your Course"
@@ -2543,7 +2543,7 @@ msgstr "講義概要（短文）"
 msgid ""
 "Appears on the course catalog page when students roll over the course name. "
 "Limit to ~150 characters"
-msgstr "講義一覧ページで講義名の上に受講者がカーソルを合わせた際に表示されます。150字以内"
+msgstr "講義一覧ページで講義名の上に受講者がカーソルを合わせた際に表示されます。150字以内。"
 
 #: cms/templates/settings.html:348
 msgid "Course Overview"
