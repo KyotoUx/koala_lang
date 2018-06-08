@@ -370,7 +370,7 @@ msgstr "講義終了日を過ぎると、受講者はサブセクションのコ
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
-msgstr "サブセクションの締切日を過ぎると、受講者はこのコンテンツにアクセスすることができません。サブセクションの成績は成績計算に含まれたまま残ります。"
+msgstr "締切日以降、受講者はこのコンテンツにアクセスできません。サブセクションの成績は成績計算に含まれます。"
 
 #: cms/templates/js/content-visibility-editor.underscore:27
 msgid "Hide entire subsection"
