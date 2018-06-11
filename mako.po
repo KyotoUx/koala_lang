@@ -5576,7 +5576,7 @@ msgstr "Professional"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:44
 msgid "Basic Course Information"
-msgstr "講義基本情報"
+msgstr "講義の基本情報"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:58
 msgid "Course Name:"
@@ -6846,12 +6846,12 @@ msgstr "進捗状況ページを見る"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:37
 msgid "Adjust a learner's grade for a specific problem"
-msgstr "特定の問題の受講者の成績を調整する"
+msgstr "特定の問題に関する受講者の成績を調整する"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
 msgid "Location of problem in course"
-msgstr "講義内の問題のロケーション"
+msgstr "コース内の問題のロケーション"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:49
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:177
