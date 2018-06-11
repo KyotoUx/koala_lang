@@ -2037,7 +2037,7 @@ msgstr "この投稿はピン止めできませんでした。画面を再読込
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:441
 msgid "This post could not be unpinned. Refresh the page and try again."
-msgstr "この投稿からピン止めを外せませんでした。画面を再読込して再試行してください。"
+msgstr "この投稿からピンを外せませんでした。画面を再読込して再試行してください。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:457
 msgid ""
@@ -2381,7 +2381,7 @@ msgstr[0] "全 %(totalFlags)s 件のフラグを解除するにはチェック�
 #: common/static/js/vendor/ova/flagging-annotator.js:102
 msgid "Check the box to remove %(count)s flag."
 msgid_plural "Check the box to remove %(count)s flags."
-msgstr[0] "%(totalFlags)s 件のフラグを解除するにはチェックしてください。"
+msgstr[0] "%(count)s 件のフラグを解除するにはチェックしてください。"
 
 #: common/static/js/vendor/ova/flagging-annotator.js:105
 msgid "All flags have been removed. To undo, uncheck the box."
@@ -2963,13 +2963,13 @@ msgstr "開始日時を入力"
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
-msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"例外一覧へ追加\" ボタンを押してください。"
+msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"例外リストに追加\" ボタンを押してください。"
 
 #: lms/static/js/certificates/models/certificate_invalidation.js:28
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
-msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"修了証を失効する\" ボタンを押してください。"
+msgstr "受講者のユーザー名/メールアドレス欄は必須です。お手数ですがユーザー名/メールアドレスを入力し、\"修了証無効化\" ボタンを押してください。"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:83
 msgid "Uploaded file issues. Click on \"+\" to view."
@@ -2977,44 +2977,44 @@ msgstr "アップロードしたファイルが発行されました。視聴す
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:159
 msgid " learners are successfully added to exception list"
-msgstr "受講者を例外一覧に追加しました"
+msgstr "受講者を例外リストに追加しました"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:160
 msgid " learner is successfully added to the exception list"
-msgstr "受講者を例外一覧に追加しました"
+msgstr "受講者を例外リストに追加しました"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:164
 msgid " records are not in correct format and not added to the exception list"
-msgstr "レコードが正しいフォーマットになっていないため、例外一覧に追加されません"
+msgstr "レコードが正しいフォーマットになっていないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:166
 msgid " record is not in correct format and not added to the exception list"
-msgstr "レコードが正しいフォーマットになっていないため、例外一覧に追加されません"
+msgstr "レコードが正しいフォーマットになっていないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:171
 msgid " learners do not exist in LMS and not added to the exception list"
-msgstr "受講者がLMSにいないため、例外一覧に追加されません"
+msgstr "受講者がLMSにいないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:173
 msgid " learner does not exist in LMS and not added to the exception list"
-msgstr "受講者がLMSにいないため、例外一覧に追加されません"
+msgstr "受講者がLMSにいないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:177
 msgid " learners are already white listed and not added to the exception list"
-msgstr "受講者は既にホワイトリスト化されているため、例外一覧に追加されません"
+msgstr "受講者は既にホワイトリスト化されているため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:179
 msgid " learner is already white listed and not added to the exception list"
-msgstr "受講者は既にホワイトリスト化されているため、例外一覧に追加されません"
+msgstr "受講者は既にホワイトリスト化されているため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:184
 msgid ""
 " learners are not enrolled in course and not added to the exception list"
-msgstr "受講者が講義に受講登録していないため、例外一覧に追加されません"
+msgstr "受講者が講義に受講登録していないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:186
 msgid " learner is not enrolled in course and not added to the exception list"
-msgstr "受講者が講義に受講登録していないため、例外一覧に追加されません"
+msgstr "受講者が講義に受講登録していないため、例外リストに追加されません"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:49
 msgid ""
@@ -3043,7 +3043,7 @@ msgstr "この受講者の修了証は再度有効となりましたので、シ
 msgid ""
 "Could not find Certificate Invalidation in the list. Please refresh the page"
 " and try again"
-msgstr "一覧に修了証失効はありませんでした。画面を再読込して再試行してください。"
+msgstr "一覧に修了証無効化はありませんでした。画面を再読込して再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_whitelist.js:59
 msgid "Student Removed from certificate white list successfully."
@@ -3053,17 +3053,17 @@ msgstr "修了証ホワイトリストからの受講者削除を正常に実行
 msgid ""
 "Could not find Certificate Exception in white list. Please refresh the page "
 "and try again"
-msgstr "ホワイトリストに修了証の例外はありませんでした。画面を再読込して再試行してください。"
+msgstr "ホワイトリストに例外修了証はありませんでした。画面を再読込して再試行してください。"
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js:61
 msgid "<%= user %> already in exception list."
-msgstr "<%= user %>は既に例外一覧に入っています"
+msgstr "<%= user %>は既に例外リストに入っています"
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js:67
 msgid ""
 "<%= user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
-msgstr "<%= user %> は例外一覧に問題なく追加されました。修了証を送信するには、下の \"修了証例外の生成\" をクリックしてください。"
+msgstr "<%= user %> は例外リストに問題なく追加されました。修了証を送信するには、下の \"修了証例外の生成\" をクリックしてください。"
 
 #: lms/static/js/course_survey.js:73
 msgid "There has been an error processing your survey."
@@ -3104,13 +3104,13 @@ msgstr "%(courseName)s (%(courseNumber)s) を受講取消しようとしてい�
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s  track "
 "of %(courseName)s  (%(courseNumber)s)?"
-msgstr "%(courseName)s (%(courseNumber)s) の認証付き %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s) の認証付 %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:107
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s track "
 "of %(courseName)s (%(courseNumber)s)?"
-msgstr "%(courseName)s (%(courseNumber)s) の認証付き %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
+msgstr "%(courseName)s (%(courseNumber)s) の認証付 %(certNameLong)s コースの受講取消をしようとしていますが、よろしいですか？"
 
 #: lms/static/js/dashboard/legacy.js:109
 msgid ""
@@ -3399,20 +3399,20 @@ msgid ""
 " disable cohorts, and you cannot rename the manual cohort named "
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
-msgstr "この講義では認証付きコース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX Partner Manager にお問い合わせください。"
+msgstr "この講義では認証付コース受講者に対して自動コホートが使われています。このコホートを無効にすることはできませんし、手動で設定した '{verifiedCohortName}' という名称を変更することはできません。認証付きコースのコホートの設定を変更したい場合は、edX Partner Manager にお問い合わせください。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js:44
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " the required cohort does not exist. You must create a manually-assigned "
 "cohort named '{verifiedCohortName}' for the feature to work."
-msgstr "この講義では認証付きコースの受講者に対して自動コホートが設定されていますが、必要なコホートがありません。作業を進めるには '{verifiedCohortName}' という名称の手動振り分けコホートを作成してください。"
+msgstr "この講義では認証付コースの受講者に対して自動コホートが設定されていますが、必要なコホートがありません。作業を進めるには '{verifiedCohortName}' という名称の手動振り分けコホートを作成してください。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js:54
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " cohorts are disabled. You must enable cohorts for the feature to work."
-msgstr "この講義では認証付きコースの受講者に対して自動コホートが設定されていますが、コホートが無効になっています。作業を進めるにはコホートを有効にしてください。"
+msgstr "この講義では認証付コースの受講者に対して自動コホートが設定されていますが、コホートが無効になっています。作業を進めるにはコホートを有効にしてください。"
 
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
@@ -3444,7 +3444,7 @@ msgstr "データ読込中…"
 
 #: lms/static/js/instructor_dashboard/data_download.js:37
 msgid "Error getting issued certificates list."
-msgstr "発行済み修了証一覧の取得エラー。"
+msgstr "発行済修了証リストの取得エラー。"
 
 #: lms/static/js/instructor_dashboard/data_download.js:125
 msgid "Error generating proctored exam results. Please try again."
@@ -3465,11 +3465,11 @@ msgstr "読込中"
 
 #: lms/static/js/instructor_dashboard/data_download.js:211
 msgid "Error getting student list."
-msgstr "受講者一覧の取得エラー。"
+msgstr "受講者リストの取得エラー。"
 
 #: lms/static/js/instructor_dashboard/data_download.js:278
 msgid "Error generating list of students who may enroll. Please try again."
-msgstr "受講登録見込みの学生一覧の生成エラー。再試行してください。"
+msgstr "受講登録見込みの学生リストの生成エラー。再試行してください。"
 
 #: lms/static/js/instructor_dashboard/data_download.js:310
 msgid "Error retrieving grading configuration."
@@ -3520,7 +3520,7 @@ msgstr "ユーザー名"
 #: lms/static/js/instructor_dashboard/membership.js:111
 #: lms/static/js/instructor_dashboard/membership.js:116
 msgid "Email"
-msgstr "メールアドレス"
+msgstr "メール"
 
 #: lms/static/js/instructor_dashboard/membership.js:111
 #: lms/static/js/instructor_dashboard/membership.js:116
@@ -3534,11 +3534,11 @@ msgstr "グループ"
 
 #: lms/static/js/instructor_dashboard/membership.js:122
 msgid "Enter username or email"
-msgstr "ユーザー名またはメールアドレスを入力"
+msgstr "ユーザー名またはメールを入力"
 
 #: lms/static/js/instructor_dashboard/membership.js:156
 msgid "Please enter a username or email."
-msgstr "ユーザー名またはメールアドレスを入力してください。"
+msgstr "ユーザー名またはメールを入力してください。"
 
 #: lms/static/js/instructor_dashboard/membership.js:197
 #: lms/static/js/instructor_dashboard/membership.js:1026
@@ -3702,7 +3702,7 @@ msgstr "メッセージは空白ではいけません。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:72
 msgid "Your message must have at least one target."
-msgstr "メッセージには少なくともひとつ宛先が必要です。"
+msgstr "メッセージには少なくとも一つ宛先が必要です。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:77
 msgid ""
