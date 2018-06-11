@@ -4760,7 +4760,7 @@ msgstr "業績のページ"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:33
 msgid "Account Settings page."
-msgstr "アカウント設定ページ。"
+msgstr "アカウント設定ページ"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:39
 msgid ""
