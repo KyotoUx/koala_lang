@@ -3147,7 +3147,7 @@ msgstr "{platform_name} {studio_name}: タスクステータス更新"
 
 #: cms/templates/maintenance/_force_publish_course.html:12
 msgid "Required data to force publish course."
-msgstr "講義の公開を強制するのに必要なデータ。　"
+msgstr "コース強制公開に必要なデータ"
 
 #: cms/templates/maintenance/_force_publish_course.html:17
 msgid "course-v1:edX+DemoX+Demo_Course"
@@ -3155,7 +3155,7 @@ msgstr "course-v1:edX+DemoX+Demo_Course"
 
 #: cms/templates/maintenance/_force_publish_course.html:24
 msgid "Force Publish Course"
-msgstr "講義の公開を強制する"
+msgstr "コース強制公開"
 
 #: cms/templates/maintenance/_force_publish_course.html:28
 msgid "Reset values"
