@@ -5712,7 +5712,7 @@ msgstr "調査結果レポートを生成"
 msgid ""
 "To generate a CSV file that lists all student answers to a given problem, "
 "enter the location of the problem (from its Staff Debug Info)."
-msgstr "任意の問題の全受講者の解答リストのCSVファイルを生成するには、問題のロケーションを(スタッフ用デバッグ情報から)入力してください。"
+msgstr "任意の問題に関する全受講者の解答リストのCSVファイルを生成するには、問題のロケーションを(スタッフ用デバッグ情報から)入力してください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:53
 msgid "Problem location: "
@@ -5724,7 +5724,7 @@ msgstr "解答のCSVをダウンロード"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:62
 msgid "Click to list certificates that are issued for this course:"
-msgstr "クリックすると、発行済の修了証をリスト化します。"
+msgstr "クリックすると、発行済修了証をリスト化します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:64
 msgid "View Certificates Issued"
@@ -5786,7 +5786,7 @@ msgid ""
 "{strong_start}Note{strong_end}: To keep student data secure, you cannot save"
 " or email these links for direct access. Copies of links expire within 5 "
 "minutes."
-msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスする目的でリンクを保存したりメールしたりしてはいけません。リンクのコピーは５分で時間切れとなります。"
+msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスする目的でリンクを保存したりメールすることはできません。リンクのコピーは５分で時間切れとなります。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:19
 msgid "Enrollment Codes"
@@ -6934,7 +6934,7 @@ msgstr "タスクステータス"
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and problem."
-msgstr "この受講者に対して提出した再採点タスクのステータスを表示します。"
+msgstr "この受講者に関する再採点タスクのステータスを表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
@@ -6991,11 +6991,11 @@ msgstr "受講前試験に関して、受講者の解答および点数をデー
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and entrance exam."
-msgstr "この受講者に対して提出した再採点タスクのステータスを表示します。"
+msgstr "この受講者に関する再採点タスクのステータスを表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
 msgid "Adjust all enrolled learners' grades for a specific problem"
-msgstr "特定の問題の全受講登録者の成績を調整する"
+msgstr "特定の問題に関する全受講登録者の成績を調整する"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:184
 msgid "Allows all learners to work on the problem again."
@@ -7017,7 +7017,7 @@ msgstr "点数が良くなる場合のみ再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:199
 msgid "Show the status for the tasks that you submitted for this problem."
-msgstr "この問題に関して提出したタスクのステータスを表示します。"
+msgstr "この問題に関するタスクのステータスを表示します。"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:10
