@@ -2642,7 +2642,7 @@ msgstr "参加しているチーム"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:143
 msgid "Browse"
-msgstr "ブラウズ"
+msgstr "検索"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:175
 msgid "Your request could not be completed. Reload the page and try again."
@@ -3063,7 +3063,7 @@ msgstr "<%= user %>は既に例外リストに入っています"
 msgid ""
 "<%= user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
-msgstr "<%= user %> は例外リストに問題なく追加されました。修了証を送信するには、下の \"修了証例外の生成\" をクリックしてください。"
+msgstr "<%= user %> は例外リストに問題なく追加されました。修了証を送信するには、下の \"例外修了証生成\" をクリックしてください。"
 
 #: lms/static/js/course_survey.js:73
 msgid "There has been an error processing your survey."
