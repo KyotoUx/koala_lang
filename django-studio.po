@@ -631,8 +631,7 @@ msgid ""
 "Force publish course command resets the published branch of a course to "
 "point to the draft branch, effectively force publishing the course. This "
 "view dry runs the force publish command"
-msgstr "ドラフトおよび公開済ブランチは時に同期から外れる可能性があります。コース強制公開コマンドは公開中のブランチをドラフトブランチ時点にリセットし、効果的に強制公開します。このビューは強制公開コマンドをドライランします。ます"
-
+msgstr "ドラフトおよび公開済ブランチは時に同期から外れる可能性があります。コース強制公開コマンドは公開中のブランチをドラフトブランチ時点にリセットし、強制公開します。このビューは強制公開コマンドをドライランします。"
 #: cms/djangoapps/maintenance/views.py:40
 msgid "Please provide course id."
 msgstr "講義IDを入力してください。"
