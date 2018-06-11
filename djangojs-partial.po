@@ -4398,7 +4398,7 @@ msgstr "注文名"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:268
 msgid "ORDER PLACED"
-msgstr "注文地"
+msgstr "注文場所"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:269
 msgid "TOTAL"
@@ -4434,7 +4434,7 @@ msgid ""
 "We've sent a message to {email}. Click the link in the message to reset your"
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
-msgstr "{email} へメッセージを送りました。パスワードを再設定するには、メッセージの中にあるリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd} へお問い合わせください。"
+msgstr "{email} へメッセージを送りました。パスワードを再設定するには、メッセージ内のリンクをクリックしてください。メッセージが届いていない場合は、{anchorStart}テクニカルサポート{anchorEnd} へお問い合わせください。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:275
 msgid "Link your {accountName} account"
@@ -4590,7 +4590,7 @@ msgstr "Webカメラが接続され、作動していることを再確認して
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js:346
 msgid "Photo Captured successfully."
-msgstr "問題なく写真キャプチャ完了。"
+msgstr "写真キャプチャ完了"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js:387
 msgid "No Flash Detected"
