@@ -5499,32 +5499,32 @@ msgstr "修了証再生成"
 msgid ""
 "To regenerate certificates for your course, choose the learners who will "
 "receive regenerated certificates and click Regenerate Certificates."
-msgstr "修了証を再生成するには、受講者を選択して修了証再生成をクリックしてください。"
+msgstr "修了証を再生成するには、受講者を選択して'修了証再生成'をクリックしてください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:118
 msgid "Choose learner types for regeneration"
-msgstr "再生成する受講者のタイプを選択してください"
+msgstr "再生成する受講者タイプを選択してください"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:122
 msgid ""
 "Regenerate for learners who have already received certificates. ({count})"
-msgstr "既に修了証を受取済の受講者のために再生成。({count})"
+msgstr "既に修了証を受取済の受講者のために再生成する({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:128
 msgid "Regenerate for learners who have not received certificates. ({count})"
-msgstr "修了証を受け取っていない受講者のために再生成。({count})"
+msgstr "修了証を受け取っていない受講者のために再生成する({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:134
 msgid "Regenerate for learners with audit passing state. ({count})"
-msgstr "聴講合格者のために再生成。({count})"
+msgstr "聴講合格者のために再生成する({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:140
 msgid "Regenerate for learners with audit not passing state. ({count})"
-msgstr "聴講不合格者のために再生成。({count})"
+msgstr "聴講不合格者のために再生成する({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:146
 msgid "Regenerate for learners in an error state. ({count})"
-msgstr "エラー状態の受講者のために再生成。({count})"
+msgstr "エラー状態の受講者のために再生成する({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:157
 msgid "Certificate Generation History"
@@ -5544,7 +5544,7 @@ msgid ""
 " a certificate but have been given an exception by the course team. After "
 "you add learners to the exception list, click Generate Exception "
 "Certificates below."
-msgstr "修了証の獲得資格はないが講義チームにより例外とされている受講者に修了証を生成するための例外を設定してください。受講者を例外リストに追加した後、下の'例外修了証生成'をクリックしてください。"
+msgstr "修了証の獲得資格はないが講義チームにより例外とされた受講者に修了証を生成するための例外を設定してください。受講者を例外リストに追加した後、下の'例外修了証生成'をクリックしてください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:204
 msgid "Invalidate Certificates"
