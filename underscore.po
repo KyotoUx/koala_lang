@@ -1189,7 +1189,7 @@ msgstr "{course_name} の経済援助申込書をご提出いただき、あり�
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:1
 msgid "Bulk Exceptions"
-msgstr "大量の例外"
+msgstr "例外対象者が多数の場合"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:4
 msgid ""
@@ -1198,7 +1198,7 @@ msgid ""
 "username or email address in the first comma separated field. You can "
 "include an optional note describing the reason for the exception in the "
 "second comma separated field."
-msgstr "例外とされた受講者のユーザー名またはメールアドレスを含むカンマ区切りの(.csv)ファイルをアップロードしてください。カンマ区切りの最初の項目をユーザー名またはメールアドレスにしてください。2番目に例外とした理由を書くこともできます。す。"
+msgstr "例外対象受講者のユーザー名またはメールアドレスを含むカンマ区切りの(.csv)ファイルをアップロードしてください。カンマ区切りの最初の項目をユーザー名またはメールアドレスにしてください。2番目に例外とした理由を書くこともできます。す。"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:8
 msgid "Upload a CSV file"
@@ -1206,7 +1206,7 @@ msgstr "CSVファイルをアップロード"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:11
 msgid "Browse"
-msgstr "見る"
+msgstr "検索"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:12
@@ -1250,7 +1250,7 @@ msgstr "無効化表から削除"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:1
 msgid "Individual Exceptions"
-msgstr "個々の例外"
+msgstr "例外対象者"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:2
 msgid ""
@@ -1271,11 +1271,11 @@ msgstr "ご自由にご記入ください"
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:1
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:13
 msgid "Generate Exception Certificates"
-msgstr "例外修了証を生成"
+msgstr "例外修了証生成"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
-msgstr "修了証を持っていない例外リスト内の全ユーザー"
+msgstr "まだ修了証を持っていない例外リスト内の全ユーザー"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:10
 msgid "All users on the Exception list"
@@ -1342,7 +1342,7 @@ msgstr "例：johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
 "your spelling."
-msgstr "戻ってきたメールの通知は届きません。間違いがないかダブルチェックしてください。"
+msgstr "届かずに戻ってきたメールの通知はありません。スペルに間違いがないか再度確認してください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
 msgid "Add Learners"
@@ -1630,7 +1630,7 @@ msgstr "プログラムの行程"
 msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
-msgstr "プログラムを修了するには各講義の認証付き修了証を獲得しなければなりません。"
+msgstr "プログラムを修了するには各講義の認証付修了証を獲得しなければなりません。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:25
 msgid "Upgrade All Remaining Courses ("
@@ -1671,11 +1671,11 @@ msgstr "{organization} のロゴ"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:3
 msgid "Needs verified certificate "
-msgstr "認証付き修了証が必要です"
+msgstr "認証付修了証が必要です"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:8
 msgid "Upgrade to Verified"
-msgstr "認証付きにアップグレードする"
+msgstr "認証付にアップグレードする"
 
 #: lms/templates/student_account/account.underscore:2
 msgid "New Address"
@@ -1737,7 +1737,7 @@ msgstr "組織／学校の証明書でサインイン"
 #: lms/templates/student_account/institution_login.underscore:10
 #: lms/templates/student_account/institution_register.underscore:10
 msgid "Choose your institution from the list below:"
-msgstr "以下の一覧から所属機関を選択してください: "
+msgstr "以下のリストから所属機関を選択してください: "
 
 #: lms/templates/student_account/institution_login.underscore:29
 msgid "Back to sign in"
@@ -1753,7 +1753,7 @@ msgstr "edXを通して登録"
 
 #: lms/templates/student_account/login.underscore:6
 msgid "First time here?"
-msgstr "ここは初めてですか？"
+msgstr "初めてですか？"
 
 #: lms/templates/student_account/login.underscore:7
 msgid "Create an Account."
@@ -1841,11 +1841,11 @@ msgstr "おめでとうございます！ %(platformName)s で認証されまし
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
 msgid "You are now enrolled as a verified student for:"
-msgstr "あなたは認証付き受講者として受講登録されています: "
+msgstr "あなたは認証付受講者として受講登録されています: "
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr "認証付き受講者として受講登録した講義の一覧"
+msgstr "認証付受講者として受講登録した講義の一覧"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
 msgid "Explore your course!"
@@ -1866,7 +1866,7 @@ msgid ""
 "now sign up for any %(platformName)s course that offers verified "
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
-msgstr "写真をご提出いただき、ありがとうございます。まもなく確認いたします。%(platformName)s の認証付き修了証を発行している講義に登録することができます。認証は1年間有効です。1年後に再び認証用写真の提出が必要となります。"
+msgstr "写真をご提出いただき、ありがとうございます。まもなく確認いたします。%(platformName)s の認証付修了証を発行している講義に登録することができます。認証は1年間有効です。1年後に再び認証用写真の提出が必要となります。"
 
 #: lms/templates/verify_student/error.underscore:6
 msgid "Error:"
@@ -1888,7 +1888,7 @@ msgstr "ウェブカメラ"
 msgid ""
 "You need a computer that has a webcam. When you receive a browser prompt, "
 "make sure that you allow access to the camera."
-msgstr "ウェブカメラ付きのコンピュータが必要です。ブラウザからの指示を受けたら、カメラへのアクセスが許可されているのを確認してください。"
+msgstr "ウェブカメラ付のコンピュータが必要です。ブラウザからの指示を受けたら、カメラへのアクセスが許可されているのを確認してください。"
 
 #: lms/templates/verify_student/face_photo_step.underscore:10
 msgid "Photo Identification"
@@ -1995,7 +1995,7 @@ msgstr "ウェブカメラを使って、あなたのIDの写真を撮影して�
 msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or "
 "other government-issued IDs are all acceptable."
-msgstr "氏名と写真付きのIDが必要です。運転免許証、パスポートまたは政府発行の身分証明書が有効です。"
+msgstr "氏名と写真付IDが必要です。運転免許証、パスポートまたは政府発行の身分証明書が有効です。"
 
 #: lms/templates/verify_student/id_photo_step.underscore:15
 #: lms/templates/verify_student/incourse_reverify.underscore:13
@@ -2100,7 +2100,7 @@ msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by {date} to qualify to earn a Verified "
 "Certificate."
-msgstr "以下のアイテムがない場合でも今支払いはできますが、認証付き修了証を取得するためには {date} までにこれらのアイテムが必要になります。"
+msgstr "以下のアイテムがない場合でも今支払いはできますが、認証付修了証を取得するためには {date} までにこれらのアイテムが必要になります。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:44
 msgid ""
@@ -2122,7 +2122,7 @@ msgstr "間違いなくあなた自身がアカウントを作成しているの
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these to qualify to earn a Verified Certificate."
-msgstr "以下のアイテムがなくても支払はできますが、認証付き修了証を取得するにはこれらのアイテムが必要になります。"
+msgstr "以下のアイテムがなくても支払はできますが、認証付修了証を取得するにはこれらのアイテムが必要になります。"
 
 #: lms/templates/verify_student/make_payment_step.underscore:65
 msgid "Government-Issued Photo ID"
@@ -2157,7 +2157,7 @@ msgstr "有効化されていないアカウント"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
 msgid "Upgrade to a Verified Certificate for {courseName}"
-msgstr "{courseName} を認証付き修了証にアップグレード"
+msgstr "{courseName} を認証付修了証にアップグレード"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
 msgid ""
@@ -2174,7 +2174,7 @@ msgstr "{courseName} 講義のProfessional Certificate"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
 msgid "Verified Certificate for {courseName}"
-msgstr "{courseName} 講義の認証付き修了証"
+msgstr "{courseName} 講義の認証付修了証"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
 msgid ""
@@ -2199,7 +2199,7 @@ msgstr "IDは顔がはっきりと分かる政府発行の写真付き身分証�
 msgid ""
 "You will use your webcam to take a picture of your face and of your "
 "government-issued photo ID."
-msgstr "顔写真および政府発行の写真付きIDの写真を撮る際はwebカメラを使用してください。"
+msgstr "顔写真および政府発行の写真付IDの写真を撮る際はwebカメラを使用してください。"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:5
 msgid "Thank you! We have received your payment for {courseName}."
