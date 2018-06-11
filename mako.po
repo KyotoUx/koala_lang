@@ -5786,7 +5786,7 @@ msgid ""
 "{strong_start}Note{strong_end}: To keep student data secure, you cannot save"
 " or email these links for direct access. Copies of links expire within 5 "
 "minutes."
-msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスする目的で保存したりメールしたりしてはいけません。リンクのコピーは５分で時間切れとなります。"
+msgstr "{strong_start}注{strong_end}: 受講者データを安全に保管するため、これらのリンクに直接アクセスする目的でリンクを保存したりメールしたりしてはいけません。リンクのコピーは５分で時間切れとなります。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:19
 msgid "Enrollment Codes"
