@@ -187,7 +187,7 @@ msgstr " {studio_name} にサインイン"
 
 #: cms/templates/login.html:20 themes/red-theme/cms/templates/login.html:17
 msgid "Don't have a {studio_name} Account? Sign up!"
-msgstr "{studio_name} アカウントをお持ちでない？新規登録しよう！"
+msgstr "{studio_name} アカウントを持っていない？新規登録しよう！"
 
 #: cms/templates/login.html:28 themes/red-theme/cms/templates/login.html:24
 msgid "Required Information to Sign In to {studio_name}"
@@ -268,7 +268,7 @@ msgstr "ユーザー名"
 #: themes/stanford-style/lms/templates/register-form.html:131
 #: themes/stanford-style/lms/templates/register-shib.html:119
 msgid "example: JaneDoe"
-msgstr "例: gacco"
+msgstr "例: koalataro"
 
 #: cms/templates/settings.html:191
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html:35
@@ -422,22 +422,22 @@ msgstr "edX ドキュメント"
 #: cms/templates/widgets/sock.html:37
 #: themes/edx.org/cms/templates/widgets/sock.html:40
 msgid "Enroll in edX101: Overview of Creating an edX Course"
-msgstr "edX101に受講登録する: edXの講義制作の概要"
+msgstr "edX101に登録する: edXの講義制作の概要"
 
 #: cms/templates/widgets/sock.html:38
 #: themes/edx.org/cms/templates/widgets/sock.html:41
 msgid "Enroll in edX101"
-msgstr "edX101に受講登録する"
+msgstr "edX101に登録する"
 
 #: cms/templates/widgets/sock.html:42
 #: themes/edx.org/cms/templates/widgets/sock.html:45
 msgid "Enroll in StudioX: Creating a Course with edX Studio"
-msgstr "StudioXに受講登録する: edX Studioでの講義制作"
+msgstr "StudioXに登録する: edX Studioでの講義制作"
 
 #: cms/templates/widgets/sock.html:43
 #: themes/edx.org/cms/templates/widgets/sock.html:46
 msgid "Enroll in StudioX"
-msgstr "StudioXに受講登録する"
+msgstr "StudioXに登録する"
 
 #: cms/templates/widgets/sock.html:47
 #: themes/edx.org/cms/templates/widgets/sock.html:50
@@ -560,7 +560,7 @@ msgstr "ディスカッションは使用できません"
 msgid ""
 "The discussions are currently undergoing maintenance. We'll have them back "
 "up shortly!"
-msgstr "このディスカッションは現在作業中です。まもなく再開します！"
+msgstr "このディスカッションは現在メンテナンス中です。まもなく再開します！"
 
 #: lms/djangoapps/teams/templates/teams/teams.html:16
 msgid "Teams"
@@ -708,7 +708,7 @@ msgstr "ウィンドウを開く"
 #: lms/templates/dashboard.html:241
 #: themes/edx.org/lms/templates/dashboard.html:252
 msgid "Receive course emails"
-msgstr "講義からのメールを受け取る"
+msgstr "講義に関するメールを受け取る"
 
 #: lms/templates/dashboard.html:243
 #: themes/edx.org/lms/templates/dashboard.html:254
@@ -750,11 +750,11 @@ msgstr "{link_start} ダッシュボード {link_end}で新しいメールを確
 
 #: lms/templates/email_exists.html:11
 msgid "An account with the new e-mail address already exists."
-msgstr "新しいメールアドレスを使ったアカウントが既に存在します。"
+msgstr "この新しいメールアドレスを使ったアカウントが既に存在します。"
 
 #: lms/templates/enroll_staff.html:22
 msgid "You should Register before trying to access the Unit"
-msgstr "ユニットにアクセスするにはまず登録してください"
+msgstr "ユニットにアクセスするには、まず登録してください"
 
 #: lms/templates/enroll_staff.html:33 lms/templates/ccx/enrollment.html:56
 #: lms/templates/courseware/course_about.html:329
@@ -863,7 +863,7 @@ msgid ""
 "For {strong_start}questions on course lectures, homework, tools, or "
 "materials for this course{strong_end}, post in the {link_start}course "
 "discussion forum{link_end}."
-msgstr " {strong_start} 本講義の講義内容や宿題、ツール、教材への疑問 {strong_end} は、{link_start} ディスカッションフォーラム {link_end} に投稿しましょう。"
+msgstr " {strong_start} 本講義の講義内容や宿題、ツール、教材に関する質問 {strong_end} は、{link_start} ディスカッションフォーラム {link_end} に投稿しましょう。"
 
 #: lms/templates/help_modal.html:59
 msgid ""
@@ -992,7 +992,7 @@ msgstr "後ほど再試行してください。"
 
 #: lms/templates/hidden_content.html:10
 msgid "The course has ended."
-msgstr "講義は終了しています。"
+msgstr "本講義は終了しています。"
 
 #: lms/templates/hidden_content.html:12
 msgid "The due date for this assignment has passed."
@@ -1003,14 +1003,14 @@ msgid ""
 "Because the course has ended, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr "講義が既に終了していますので、この課題はもう有効ではありません。{line_break} すでにこの課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
+msgstr "講義が既に終了しているため、この課題はもう有効ではありません。{line_break} 既に課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
 
 #: lms/templates/hidden_content.html:28
 msgid ""
 "Because the due date has passed, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr "締切が過ぎていますので、この課題はもう有効ではありません。{line_break} すでにこの課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
+msgstr "締切が過ぎているため、この課題はもう有効ではありません。{line_break} 既に課題を完了している場合、成績は {link_start} 進捗ページ {link_end} でご覧いただけます。"
 
 #: lms/templates/imageannotation.html:37
 msgid "Note: only instructors may annotate."
@@ -1140,7 +1140,7 @@ msgstr "ログインに失敗しました。"
 
 #: lms/templates/login.html:155
 msgid "Your email or password is incorrect"
-msgstr "メールもしくはパスワードが間違っています"
+msgstr "メールまたはパスワードが間違っています"
 
 #: lms/templates/login.html:165
 msgid "An error occurred when signing you in to {platform_name}."
@@ -1360,7 +1360,7 @@ msgstr "解答をリセット"
 
 #: lms/templates/problem.html:62
 msgid "Show Answer"
-msgstr "解答を見る"
+msgstr "正解を見る"
 
 #: lms/templates/problem_notifications.html:14
 msgid "Next Hint"
@@ -1617,7 +1617,7 @@ msgid ""
 "Registering with {platform_name} gives you access to all of our current and "
 "future free courses. Not ready to take a course just yet? Registering puts "
 "you on our mailing list - we will update you as courses are added."
-msgstr "{platform_name} に登録するといつでもすべての講義にアクセスできます。受講したい講義がまだ見つかっていないという方もぜひご登録ください。登録いただいた方には、新規講義のお知らせをメールにてご連絡します。"
+msgstr "{platform_name} に登録するといつでもすべての講義にアクセスできます。受講したい講義がまだ見つかっていない方もぜひご登録ください。登録いただいた方には、新規講義のお知らせをメールにてご連絡します。"
 
 #: lms/templates/register-sidebar.html:35
 #: themes/stanford-style/lms/templates/register-sidebar.html:26
@@ -1758,7 +1758,7 @@ msgstr "提出履歴"
 
 #: lms/templates/staff_problem_info.html:37
 msgid "{platform_name} Content Quality Assessment"
-msgstr "{platform_name} コンテンツの品質評価"
+msgstr "{platform_name} コンテンツの質評価"
 
 #: lms/templates/staff_problem_info.html:41
 msgid "Comment"
@@ -1885,7 +1885,7 @@ msgstr "ユーザー"
 #: lms/templates/sysadmin_dashboard.html:60
 #: lms/templates/sysadmin_dashboard_gitlogs.html:117
 msgid "Staffing and Enrollment"
-msgstr "スタッフおよび受講登録"
+msgstr "スタッフおよび登録"
 
 #. Translators: refers to http://git-scm.com/docs/git-log
 #: lms/templates/sysadmin_dashboard.html:62
@@ -1934,7 +1934,7 @@ msgstr "スタッフと講師のリストをダウンロード(CSVファイル)"
 
 #: lms/templates/sysadmin_dashboard.html:125
 msgid "Administer Courses"
-msgstr "管理者講義"
+msgstr "講義管理"
 
 #. Translators: Repo is short for git repository or source of
 #. courseware; see http://git-scm.com/about
@@ -2939,7 +2939,7 @@ msgstr "メールアドレスおよび（または）ユーザー名を改行ま
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
-msgstr "宛先に届かず戻ってくるメールの通知はありませんので、スペルがあっているか再確認してください。"
+msgstr "宛先に届かず戻ってきたメールの通知はありませんので、スペルがあっているか再度確認してください。"
 
 #: lms/templates/ccx/enrollment.html:21 lms/templates/ccx/enrollment.html:104
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:26
@@ -2965,7 +2965,7 @@ msgstr "このオプションが {em_start} 無効 {em_end} の場合、{platfor
 #: lms/templates/ccx/enrollment.html:36
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:33
 msgid "Checking this box has no effect if 'Unenroll' is selected."
-msgstr "\"登録解除\"が選択されているときは、このチェックボックスは何も影響しません。"
+msgstr "\"受講登録取消\"が選択されているときは、このチェックボックスは何も影響しません。"
 
 #: lms/templates/ccx/enrollment.html:43 lms/templates/ccx/enrollment.html:125
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:42
@@ -2991,7 +2991,7 @@ msgstr "CCX 受講者名簿管理の応答メッセージ"
 
 #: lms/templates/ccx/enrollment.html:92
 msgid "Revoke access"
-msgstr "アクセスを放棄"
+msgstr "アクセスを取消"
 
 #: lms/templates/ccx/enrollment.html:99 lms/templates/ccx/enrollment.html:100
 msgid "Enter username or email"
@@ -2999,7 +2999,7 @@ msgstr "ユーザー名またはメールを入力"
 
 #: lms/templates/ccx/enrollment.html:119
 msgid "Checking this box has no effect if 'Revoke' is clicked."
-msgstr "\"無効\" がクリックされている場合は、このボックスをチェックをしても反映されません。"
+msgstr "\"取消\" がクリックされている場合は、このボックスをチェックをしても反映されません。"
 
 #: lms/templates/ccx/grading_policy.html:10
 msgid "WARNING"
@@ -3133,7 +3133,7 @@ msgstr "リンクをクリックして修了書を見る。"
 
 #: lms/templates/certificates/_accomplishment-banner.html:57
 msgid "Post on Facebook"
-msgstr "フェースブックに投稿"
+msgstr "Facebook に投稿"
 
 #: lms/templates/certificates/_accomplishment-banner.html:61
 #: lms/templates/certificates/_accomplishment-banner.html:63
@@ -3141,11 +3141,11 @@ msgstr "フェースブックに投稿"
 #: lms/templates/dashboard/_dashboard_course_listing.html:201
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:39
 msgid "Share on Twitter"
-msgstr "ツイッターで共有"
+msgstr "Twitter で共有"
 
 #: lms/templates/certificates/_accomplishment-banner.html:66
 msgid "Tweet this Accomplishment. Pop up window."
-msgstr "この成果をツイートしましょう。ウィンドウをポップアップします。"
+msgstr "この成果をツイートしましょう。ウィンドウを開きます。"
 
 #: lms/templates/certificates/_accomplishment-banner.html:71
 #: lms/templates/certificates/_accomplishment-banner.html:73
@@ -3220,7 +3220,7 @@ msgstr "講義管理ツール内の講義情報。"
 msgid ""
 "If all of the information is correct and the problem persists, contact "
 "technical support."
-msgstr "入力情報に間違いがなく問題が解決しない場合には、テクニカルサポートにお問い合わせください。"
+msgstr "入力情報に間違いがないにもかかわらず問題が解決しない場合は、テクニカルサポートにお問い合わせください。"
 
 #: lms/templates/commerce/checkout_cancel.html:5
 #: lms/templates/commerce/checkout_cancel.html:9
@@ -3256,7 +3256,7 @@ msgstr "注文詳細情報を復元しておりますので、お待ちくださ
 #: lms/templates/course_modes/choose.html:12
 #: themes/edx.org/lms/templates/course_modes/choose.html:13
 msgid "Enroll In {course_name} | Choose Your Track"
-msgstr "{course_name} を受講登録する | トラックを選んでください"
+msgstr "{course_name} の受講登録 | トラックを選んでください"
 
 #: lms/templates/course_modes/choose.html:61
 #: themes/edx.org/lms/templates/course_modes/choose.html:70
@@ -3357,7 +3357,7 @@ msgstr "講義を聴講"
 msgid ""
 "Audit this course for free and have complete access to all the course "
 "material, activities, tests, and forums."
-msgstr "講義を無料で聴講。教材、アクティビティ、テスト、ディスカッションへのアクセスに制約はありません。"
+msgstr "講義を無料で聴講でき、教材、アクティビティー、テスト、掲示板へのアクセスにも制約はありません。"
 
 #: lms/templates/course_modes/choose.html:173
 #: themes/edx.org/lms/templates/course_modes/choose.html:255
@@ -3373,7 +3373,7 @@ msgid ""
 "material, activities, tests, and forums.  {b_start}Please note that this "
 "track does not offer a certificate for learners who earn a passing "
 "grade.{b_end}"
-msgstr "講義を無料で聴講。教材、アクティビティ、テスト、ディスカッションへのアクセスに制約はありません。{b_start} ただし、合格点を取得しても修了証は発行されませんのでご注意ください。 {b_end}"
+msgstr "講義を無料で聴講でき、教材、アクティビティ、テスト、掲示板へのアクセスにも制約はありません。{b_start} ただし、合格点を取得しても修了証は発行されませんのでご注意ください。 {b_end}"
 
 #: lms/templates/courseware/accordion.html:13
 msgid "{chapter} current chapter"
