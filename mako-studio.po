@@ -713,13 +713,13 @@ msgstr "講義のアウトラインを作成するには"
 
 #: cms/templates/course_outline.html:197
 msgid "You add sections, subsections, and units directly in the outline."
-msgstr "セクション、サブセクション、ユニットを左の講義アウトラインに順次入力していってください。"
+msgstr "セクション、サブセクション、ユニットを左の講義アウトラインに順次作成していってください。"
 
 #: cms/templates/course_outline.html:198
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
-msgstr "まずセクションを作成した後、サブセクションやユニットを入力していきます。コンポ―ネントを追加するにはユニットを開いてください。"
+msgstr "まずセクションを作成した後、サブセクションやユニットを作成していきます。コンポ―ネントを追加するにはユニットを開いてください。"
 
 #: cms/templates/course_outline.html:201
 msgid "Reorganizing your course"
