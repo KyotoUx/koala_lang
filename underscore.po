@@ -1271,7 +1271,7 @@ msgstr "ご自由にご記入ください"
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:1
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:13
 msgid "Generate Exception Certificates"
-msgstr "例外修了証生成"
+msgstr "例外修了証の生成"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
