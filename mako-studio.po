@@ -727,7 +727,7 @@ msgstr "講義のアウトラインを変更するには"
 
 #: cms/templates/course_outline.html:202
 msgid "Drag sections, subsections, and units to new locations in the outline."
-msgstr "セクション、サブセクション、ユニットをアウトライン内の変更したい場所にドラッグしてください。"
+msgstr "右上の'ドラッグして並び替え'をクリックして、セクション、サブセクション、ユニットをアウトライン内の変更したい場所にドラッグしてください。"
 
 #: cms/templates/course_outline.html:204
 msgid "Learn more about the course outline"
