@@ -6747,7 +6747,7 @@ msgstr "注意！"
 msgid ""
 "When you select Send Email, your email message is added to the queue for "
 "sending, and cannot be cancelled."
-msgstr "'メール送信'を選択すると送信待ちリストに加えられ、キャンセルすることはできません。"
+msgstr "'メール送信'をクリックすると送信待ちリストに加えられ、キャンセルすることはできません。"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:94
 msgid "Send Email"
@@ -6765,7 +6765,7 @@ msgstr "メールタスク履歴"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:116
 msgid "To see the content of previously sent emails, click this button:"
-msgstr "以前送信したメールの内容を見るには、このボタンをクリックしてください。 "
+msgstr "以前送信したメールの内容を見るには、このボタンをクリックしてください。"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:118
 msgid "Show Sent Email History"
