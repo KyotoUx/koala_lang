@@ -6518,7 +6518,7 @@ msgid ""
 "Beta Testers can see course content before other learners. They can make "
 "sure that the content works, but have no additional privileges. You can only"
 " give course team roles to enrolled users."
-msgstr "βテスターは他の受講者より先に講義コンテンツを見ることができます。コンテンツがきちんと作動するかを確認することができますが、その他の権限はありません。受講登録したユーザーのみに講義チームの権限を与えることができます。"
+msgstr "βテスターは他の受講者より先に講義コンテンツを見ることができます。コンテンツがきちんと作動するかを確認することができますが、その他の権限はありません。受講登録済のユーザーに対してのみ任命できます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:191
 msgid "Add Beta Tester"
@@ -6535,7 +6535,7 @@ msgid ""
 "posts are marked as 'staff'. They can also add and remove the discussion "
 "moderation roles to manage course team membership. Only enrolled users can "
 "be added as Discussion Admins."
-msgstr "ディスカッション管理者は投稿の編集・削除、誤用フラグの解除、スレッドの終了・再開、レスポンスへのいいね！ができ、すべてのグループからの投稿を見ることができます。彼らの投稿には'スタッフ'と表示されます。また、講義チームメンバーを管理するため、ディスカッションモデレーターを追加および解除できます。受講登録済のユーザーのみディスカッション管理者として追加することができます。"
+msgstr "ディスカッション管理者は投稿の編集・削除、誤用フラグの解除、スレッドの終了・再開、返答へのいいね！ができ、全コホートの投稿の閲覧ができます。彼らの投稿には'スタッフ'と表示されます。また、ディスカッションモデレーター役を追加・解除して、講義チームメンバーを管理できます。受講登録済のユーザーに対してのみ任命できます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:205
 msgid "Add Discussion Admin"
@@ -6552,7 +6552,7 @@ msgid ""
 "Their posts are marked as 'staff'. They cannot manage course team membership"
 " by adding or removing discussion moderation roles. Only enrolled users can "
 "be added as Discussion Moderators."
-msgstr "ディスカッションモデレーターは投稿の編集・削除、誤用フラグの解除、スレッドの終了および再開、返答へのいいね！ができ、すべてのグループからの投稿を見ることができます。彼らの投稿には'スタッフ'と表示されます。彼らはディスカッションモデレーターの追加および解除などの講義チームメンバーの管理はできません。受講登録済のユーザーのみディスカッションモデレーターとして追加することができます。"
+msgstr "ディスカッションモデレーターは投稿の編集・削除、誤用フラグの解除、スレッドの終了・再開、返答へのいいね！ができ、全コホートの投稿の閲覧ができます。彼らの投稿には'スタッフ'と表示されます。彼らはディスカッションモデレーターの追加・解除などの講義チームメンバーの管理はできません。受講登録済のユーザーに対してのみ任命できます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:221
 msgid "Add Moderator"
@@ -6570,7 +6570,7 @@ msgid ""
 "re-open threads, and endorse responses, but only for posts by learners in "
 "their group. Their posts are marked as 'Community TA'. Only enrolled "
 "learners can be added as Group Community TAs."
-msgstr "グループコミュニティーTAは講義チームがディスカッションをモデレートするのを助けるコミュニティーメンバーのことです。グループコミュニティーTAは指定されたグループの受講者の投稿のみ見ることができます。投稿の編集・削除、フラグの解除、スレッドの終了および再開、返答へのいいね！ができますが、グループ内の受講者の投稿に限られます。彼らの投稿には'コミュニティーTA'と表示されます。受講登録済の受講者のみグループコミュニティーTAとして追加することができます。"
+msgstr "グループコミュニティーTAは講義チームがディスカッションをモデレートするのを助けるコミュニティーメンバーのことです。グループコミュニティーTAは指定されたグループの受講者の投稿のみ見ることができます。投稿の編集・削除、フラグの解除、スレッドの終了・再開、返答へのいいね！ができますが、グループ内の受講者の投稿に限られます。彼らの投稿には'コミュニティーTA'と表示されます。受講登録済のユーザーに対してのみ任命できます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:235
 msgid "Add Group Community TA"
@@ -6587,7 +6587,7 @@ msgid ""
 "posts, clear flags, close or re-open threads, and endorse responses. Their "
 "posts are marked as 'Community TA'. Only enrolled learners can be added as "
 "Community TAs."
-msgstr "コミュニティーTAは講義チームがディスカッションをモデレートするのを助けるコミュニティーメンバーのことです。コミュニティーTAは全受講者の投稿を見ることができ、投稿の編集・削除、フラグの解除、スレッドの終了および再開、返答へのいいね！ができます。彼らの投稿には'コミュニティーTA'と表示されます。受講登録済の受講者のみコミュニティーTAとして追加することができます。"
+msgstr "コミュニティーTAは講義チームがディスカッションをモデレートするのを助けるコミュニティーメンバーのことです。コミュニティーTAは全受講者の投稿を見ることができ、投稿の編集・削除、フラグの解除、スレッドの終了・再開、返答へのいいね！ができます。彼らの投稿には'コミュニティーTA'と表示されます。受講登録済のユーザーに対してのみ任命できます。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:248
 msgid "Add Community TA"
