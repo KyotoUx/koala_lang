@@ -742,7 +742,7 @@ msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
-msgstr "セクションまたはサブセクションの公開日を設定するには設定アイコンをクリックしてください。サブセクションを作成する際、採点ポリシーと締切も設定できます。"
+msgstr "セクションまたはサブセクションの公開日を設定するには設定アイコンをクリックしてください。サブセクションを作成すると、採点ポリシーと締切も設定できます。"
 
 #: cms/templates/course_outline.html:211
 msgid "Learn more about grading policy settings"
