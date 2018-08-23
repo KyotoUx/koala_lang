@@ -6934,13 +6934,13 @@ msgstr "タスクステータス"
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and problem."
-msgstr "この受講者に関する再採点タスクのステータスを表示します。"
+msgstr "この受講者に関する再採点のタスク状況を表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:201
 msgid "Show Task Status"
-msgstr "作業状況を見る"
+msgstr "タスク状況を表示"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:110
 msgid "Adjust a learner's entrance exam results"
@@ -6991,7 +6991,7 @@ msgstr "受講前試験に関して、受講者の解答および点数をデー
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and entrance exam."
-msgstr "この受講者に関する再採点タスクのステータスを表示します。"
+msgstr "この受講者に関する再採点のタスク状況を表示します。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
 msgid "Adjust all enrolled learners' grades for a specific problem"
@@ -7017,7 +7017,7 @@ msgstr "点数が良くなる場合のみ再採点"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:199
 msgid "Show the status for the tasks that you submitted for this problem."
-msgstr "この問題に関するタスクのステータスを表示します。"
+msgstr "この問題に関するタスク状況を表示します。"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:10
