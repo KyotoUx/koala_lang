@@ -601,18 +601,18 @@ msgstr "講義の再開講について詳しく知る"
 
 #: cms/templates/course_info.html:13 cms/templates/course_info.html:41
 msgid "Course Updates"
-msgstr "講義の新着情報"
+msgstr "新着情報"
 
 #: cms/templates/course_info.html:48
 msgid "New Update"
-msgstr "新規の新着情報"
+msgstr "新規"
 
 #: cms/templates/course_info.html:58
 msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "講義の新着情報では、重要な予定や試験の通知をしたり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりできます。HTMLで新着情報の追加や編集をしてください。"
+msgstr "新着情報では、重要な予定や試験の通知をしたり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりできます。HTMLで新着情報の追加や編集をしてください。"
 
 #: cms/templates/course_outline.html:43
 msgid ""
@@ -709,25 +709,25 @@ msgstr "Instructor-Paced"
 
 #: cms/templates/course_outline.html:196
 msgid "Creating your course organization"
-msgstr "講義の構成の作成"
+msgstr "講義のアウトラインを作成するには"
 
 #: cms/templates/course_outline.html:197
 msgid "You add sections, subsections, and units directly in the outline."
-msgstr "セクション、サブセクション、ユニットを直接講義アウトラインに入力してください。"
+msgstr "セクション、サブセクション、ユニットを左の講義アウトラインに順次入力していってください。"
 
 #: cms/templates/course_outline.html:198
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
-msgstr "セクションを作成した後、サブセクションやユニットを入力してください。コンポ―ネントを追加するにはユニットを開いてください。"
+msgstr "まずセクションを作成した後、サブセクションやユニットを入力していきます。コンポ―ネントを追加するにはユニットを開いてください。"
 
 #: cms/templates/course_outline.html:201
 msgid "Reorganizing your course"
-msgstr "講義の再構成"
+msgstr "講義のアウトラインを変更するには"
 
 #: cms/templates/course_outline.html:202
 msgid "Drag sections, subsections, and units to new locations in the outline."
-msgstr "セクション、サブセクション、ユニットをアウトライン内の新しいロケーションにドラッグしてください。"
+msgstr "セクション、サブセクション、ユニットをアウトライン内の変更したい場所にドラッグしてください。"
 
 #: cms/templates/course_outline.html:204
 msgid "Learn more about the course outline"
@@ -735,7 +735,7 @@ msgstr "講義アウトラインについて詳しく知る"
 
 #: cms/templates/course_outline.html:208
 msgid "Setting release dates and grading policies"
-msgstr "公開日と採点ポリシーの設定"
+msgstr "公開日と採点ポリシーを設定するには"
 
 #: cms/templates/course_outline.html:209
 msgid ""
@@ -750,13 +750,13 @@ msgstr "採点ポリシー設定について詳しく知る"
 
 #: cms/templates/course_outline.html:215
 msgid "Changing the content learners see"
-msgstr "受講者に表示するコンテンツの変更"
+msgstr "受講者に表示するコンテンツを変更するには"
 
 #: cms/templates/course_outline.html:216
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection,"
 " or unit."
-msgstr "ドラフトコンテンツを公開するには、セクション、サブセクションまたはユニットの公開アイコンを選択してください。"
+msgstr "ドラフトコンテンツを公開にするには、セクション、サブセクションまたはユニットの公開アイコンをクリックしてください。"
 
 #: cms/templates/course_outline.html:217
 msgid ""
@@ -772,7 +772,7 @@ msgid ""
 "date has passed, select the Configure icon for a subsection, then select "
 "{em_start}Hide content after due date{em_end}. Grades for the subsection "
 "remain included in grade calculations."
-msgstr "サブセクションの締切が過ぎた後そのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、{em_start}締切日以降コンテンツを非表示{em_end} を設定します。このサブセクションの成績は成績計算に含まれたままです。"
+msgstr "サブセクションの締切後そのコンテンツを受講者に非表示にするには、サブセクションの設定アイコンを選択し、{em_start}締切日以降コンテンツを非表示{em_end} を設定します。このサブセクションの成績は成績計算に含まれたままです。"
 
 #: cms/templates/course_outline.html:220
 msgid "Learn more about content visibility settings"
