@@ -241,13 +241,13 @@ msgid ""
 "To edit or delete a certificate before it is activated, hover over the top "
 "right corner of the form and select {em_start}Edit{em_end} or the delete "
 "icon."
-msgstr "修了証を有効化する前に編集したり削除したりする場合は、フォーム右肩にある {em_start}編集{em_end} または削除アイコンを選択してください。"
+msgstr "修了証を有効化する前に編集・削除する場合は、フォーム右肩にある {em_start}編集{em_end} または削除アイコンをクリックしてください。"
 
 #: cms/templates/certificates.html:92
 msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
-msgstr "修了証の見本を表示するには、講義モードから {em_start}修了証をプレビュー{em_end} を選択してください。"
+msgstr "修了証の見本を表示するには、講義モードを選択し、{em_start}修了証をプレビュー{em_end} をクリックしてください。"
 
 #: cms/templates/certificates.html:94
 msgid "Issuing Certificates to Learners"
@@ -258,14 +258,14 @@ msgid ""
 "To begin issuing course certificates, a course team member with either the "
 "Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
 "members with these roles can edit or delete an activated certificate."
-msgstr "修了証の発行を開始するには、スタッフまたは管理者である講義チームメンバーが {em_start}有効化{em_end} を選択してください。スタッフまたは管理者であるチームメンバーだけが有効化された修了証を編集したり削除したりすることができます。"
+msgstr "修了証の発行を開始するには、スタッフまたは管理者である講義チームメンバーが {em_start}有効化する{em_end} をクリックしてください。スタッフまたは管理者であるチームメンバーだけが有効化された修了証を編集・削除することができます。"
 
 #: cms/templates/certificates.html:96
 msgid ""
 "{em_start}Do not{em_end} delete certificates after a course has started; "
 "learners who have already earned certificates will no longer be able to "
 "access them."
-msgstr "講義が開始した後に修了証を削除しては {em_start}いけません{em_end}。既に修了証を取得している受講者が修了証にアクセスすることができなくなってしまいます。"
+msgstr "講義が開始した後に修了証を削除しては {em_start}いけません{em_end}。既に修了証を取得している受講者が修了証にアクセスできなくなってしまいます。"
 
 #: cms/templates/certificates.html:97
 msgid "Learn more about certificates"
@@ -2145,13 +2145,13 @@ msgstr "Staff権限を持つ講義チームメンバーは講義共同制作者�
 msgid ""
 "Admins are course team members who can add and remove other course team "
 "members."
-msgstr "管理者は講義チームメンバーを追加したり削除することができます。"
+msgstr "管理者は講義チームメンバーを追加・削除できます。"
 
 #: cms/templates/manage_users.html:103
 msgid ""
 "All course team members can access content in Studio, the LMS, and Insights,"
 " but are not automatically enrolled in the course."
-msgstr "講義チームメンバーは全員、Studio内のコンテンツ、LMS、Insightsにアクセスできますが、自動的に受講登録はされません。"
+msgstr "講義チームメンバーは全員、Studio内のコンテンツ、LMS、Insightsにアクセスできますが、自動的に受講登録されるわけではありません。"
 
 #: cms/templates/manage_users.html:108
 msgid "Transferring Ownership"
