@@ -166,7 +166,7 @@ msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
-msgstr "あなたの講義外のファイルや画像を参照するには、{em_start}Web URL{em_end} をご利用ください。{em_start}注: {em_end} ファイルをロックすると、Web URLはファイルへの外部アクセスとして機能しなくなります。"
+msgstr "講義外からファイルや画像だけを参照する場合は、{em_start}Web URL{em_end} をご利用ください。{em_start}注: {em_end} ファイルをロックすると、Web URLではアクセスできなくなります。"
 
 #: cms/templates/asset_index.html:86
 msgid ""
@@ -593,7 +593,7 @@ msgid ""
 "You are the only member of the new course's staff. No students are enrolled "
 "in the course, and there is no student data. There is no content in the "
 "discussion topics or wiki."
-msgstr "あなたが唯一の講義スタッフメンバーです。受講者は登録されていませんし、受講者情報もありません。ディスカッショントピックやWikiにもコンテンツはありません。"
+msgstr "あなたが唯一の講義スタッフメンバーです。受講者が登録されていないため、受講者情報はありません。ディスカッショントピックやWikiにもコンテンツはありません。"
 
 #: cms/templates/course-create-rerun.html:151
 msgid "Learn more about Course Re-runs"
@@ -612,7 +612,7 @@ msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "新着情報では、重要な予定や試験の通知をしたり、特定のディスカッションに注目させたり、スケジュール変更を知らせたり、受講者の質問に答えたりできます。HTMLで新着情報の追加や編集をしてください。"
+msgstr "新着情報では、重要な予定や試験の通知、注目のディスカッションやスケジュール変更のお知らせ、受講者からの質問の回答などができます。HTMLで新着情報の追加・編集をしてください。"
 
 #: cms/templates/course_outline.html:43
 msgid ""
@@ -794,7 +794,7 @@ msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
 "view the page even if they are not registered for or logged in to your "
 "course."
-msgstr "注: ページは一般公開されます。ページのURLを知っていれば、登録または講義にログインしていなくても閲覧することができます。"
+msgstr "注: ページは一般公開されます。ページのURLを知っていれば、講義に登録やログインをしていなくても閲覧することができます。"
 
 #: cms/templates/edit-tabs.html:103
 msgid "Show this page"
@@ -825,7 +825,7 @@ msgid ""
 "Pages are listed horizontally at the top of your course. Default pages "
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
-msgstr "画面上部に各種ページが表示されます。既定のページ (ホーム、講義、ディスカッション、Wiki、進捗) の後に、教科書やあなたが作成したカスタムページが表示されます。"
+msgstr "画面上部に各種ページが表示されます。既定のページ (ホーム、講義、ディスカッション、Wiki、進捗) に続いて、教科書ページやあなたが作成したカスタムページが表示されます。"
 
 #: cms/templates/edit-tabs.html:147
 msgid "Custom pages"
@@ -865,7 +865,7 @@ msgid ""
 "Pages appear in your course's top navigation bar. The default pages (Home, "
 "Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
 " pages."
-msgstr "画面上部のナビゲーションバーに表示される各種ページ。既定ページ (ホーム、講義、ディスカッション、Wiki、進捗) に続けて、教科書とカスタムページが表示されます。"
+msgstr "画面上部のナビゲーションバーに表示される各種ページ。既定ページ (ホーム、講義、ディスカッション、Wiki、進捗) に続いて、教科書ページやカスタムページが表示されます。"
 
 #: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
 #: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
@@ -2970,14 +2970,14 @@ msgstr "教科書を複数のチャプターに分けることにより、受講
 
 #: cms/templates/textbooks.html:65
 msgid "What if my book isn't divided into chapters?"
-msgstr "チャプターに分けられない場合は？"
+msgstr "チャプターに分けない場合は？"
 
 #: cms/templates/textbooks.html:66
 msgid ""
 "If your textbook doesn't have individual chapters, you can upload the entire"
 " text as a single chapter and enter a name of your choice in the Chapter "
 "Name field."
-msgstr "教科書をチャプターに分けない場合は、テキスト全部を１つの章としてアップロードし、チャプター名の欄に任意で名前を入力してください。"
+msgstr "教科書をチャプターに分けられない場合は、全テキストを１つのチャプターとしてアップロードし、チャプター名の欄に任意で名前を入力してください。"
 
 #: cms/templates/textbooks.html:70
 msgid "Learn more about textbooks"
