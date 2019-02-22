@@ -9427,7 +9427,7 @@ msgstr "%(course_name)s やその他のedX.org講義に受講登録した時の�
 msgid ""
 "Remember when you enrolled in %(course_name)s on edX.org? We do, and we’re "
 "glad to have you! Come see what everyone is learning."
-msgstr "edX.orgで %(course_name)s に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。""
+msgstr "edX.orgで %(course_name)s に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
 msgid "Keep learning today"

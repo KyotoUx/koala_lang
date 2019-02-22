@@ -1886,7 +1886,7 @@ msgstr "目標が更新されました。"
 #: common/static/bundles/CourseHome.js:98
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:89
 msgid "There was an error updating your goal."
-msgstr 目標の更新時にエラーが発生しました。"
+msgstr "目標の更新時にエラーが発生しました。"
 
 #: common/static/bundles/CourseHome.40ee1b4e0334515d1613.js:1
 #: common/static/bundles/CourseHome.a5e2414bdecbf3f88196.js:1
