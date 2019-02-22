@@ -4690,7 +4690,7 @@ msgstr "{cert_type} 修了証は優秀な成績をおさめたことを表し、
 #: lms/djangoapps/certificates/views/webview.py:105
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{year} 年 {month} 月 {day} 日"
+msgstr "{month} {day}, {year}"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:112
