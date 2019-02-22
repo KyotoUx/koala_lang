@@ -8569,11 +8569,8 @@ msgstr "新しい合成バージョンを作成する"
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:6
 #, python-format
-msgid ""
-"\n"
-"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
-"  "
-msgstr " \nこの機能を利用するには <a href=\"%(login_url)s\">ログイン</a> もしくは <a href=\"%(signup_url)s\">登録</a> が必要です。"
+msgid "\n  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n  "
+msgstr "\n この機能を利用するには <a href=\"%(login_url)s\">ログイン</a> もしくは <a href=\"%(signup_url)s\">登録</a> が必要です。\n  "
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:10
 msgid "You need to log in or sign up to use this function."
