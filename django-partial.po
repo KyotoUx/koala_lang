@@ -4690,7 +4690,7 @@ msgstr "{cert_type} 修了証は優秀な成績をおさめたことを表し、
 #: lms/djangoapps/certificates/views/webview.py:105
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{year} 年 {month} 月 {day} 日"
+msgstr "{month} {day}, {year}"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:112
@@ -8569,11 +8569,8 @@ msgstr "新しい合成バージョンを作成する"
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:6
 #, python-format
-msgid ""
-"\n"
-"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
-"  "
-msgstr " \nこの機能を利用するには <a href=\"%(login_url)s\">ログイン</a> もしくは <a href=\"%(signup_url)s\">登録</a> が必要です。"
+msgid "\n  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n  "
+msgstr "\n この機能を利用するには <a href=\"%(login_url)s\">ログイン</a> もしくは <a href=\"%(signup_url)s\">登録</a> が必要です。\n  "
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:10
 msgid "You need to log in or sign up to use this function."
@@ -9427,7 +9424,7 @@ msgstr "%(course_name)s やその他のedX.org講義に受講登録した時の�
 msgid ""
 "Remember when you enrolled in %(course_name)s on edX.org? We do, and we’re "
 "glad to have you! Come see what everyone is learning."
-msgstr "edX.orgで %(course_name)s に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。""
+msgstr "edX.orgで %(course_name)s に受講登録した時のことを覚えていますか？登録してくださってありがとう！みんながどんなことを学んでいるか見に来てください。"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
 msgid "Keep learning today"

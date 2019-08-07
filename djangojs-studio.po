@@ -734,7 +734,7 @@ msgid ""
 "Each {item}'s highlights are emailed at the time that we expect the learner "
 "to start working on that {item}. At this time, we assume that each {item} "
 "will take 1 week to complete."
-msgstr "ここに記入したハイライトは受講者にメールで送られます。各 {item} のハイライトはその {item} が出てくる時にメールされます。今回は、各 {item} を完了させるのに1週間かかると想定しています。""
+msgstr "ここに記入したハイライトは受講者にメールで送られます。各 {item} のハイライトはその {item} が出てくる時にメールされます。今回は、各 {item} を完了させるのに1週間かかると想定しています。"
 
 #: cms/static/js/views/modals/course_outline_modals.js:683
 msgid "All Learners and Staff"
