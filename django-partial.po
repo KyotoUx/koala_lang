@@ -498,36 +498,36 @@ msgstr "その他/言いたくない"
 
 #: common/djangoapps/student/models.py:279
 msgid "Doctorate"
-msgstr "大学院卒（博士課程修了）"
+msgstr "大学院（博士課程修了）"
 
 #: common/djangoapps/student/models.py:280
 msgid "Master's or professional degree"
-msgstr "大学院卒（修士課程修了）"
+msgstr "大学院（修士課程修了）"
 
 #: common/djangoapps/student/models.py:281
 msgid "Bachelor's degree"
-msgstr "大学学部卒"
+msgstr "大学学部"
 
 #: common/djangoapps/student/models.py:282
 msgid "Associate degree"
-msgstr "短大・専門学校卒"
+msgstr "短大・専門学校"
 
 #: common/djangoapps/student/models.py:283
 msgid "Secondary/high school"
-msgstr "高校卒"
+msgstr "高校"
 
 #: common/djangoapps/student/models.py:284
 msgid "Junior secondary/junior high/middle school"
-msgstr "中学校卒"
+msgstr "中学校"
 
 #: common/djangoapps/student/models.py:285
 msgid "Elementary/primary school"
-msgstr "小学校卒"
+msgstr "小学校"
 
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models.py:287
 msgid "No formal education"
-msgstr "学歴なし"
+msgstr "なし"
 
 #. Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models.py:289
@@ -554,7 +554,7 @@ msgstr "{course_name} 講義の {platform_name} Professional Certificate"
 msgid ""
 "The company identifier for the LinkedIn Add-to-Profile button e.g "
 "0_0dPSPyS070e0HsE9HNz_13_d11_"
-msgstr "LinkedInの\"Add-to-Profile\"ボタンの会社識別子　例. 0_0dPSPyS070e0HsE9HNz_13_d11_"
+msgstr "LinkedInの\"Add-to-Profile\"ボタンの識別子　例. 0_0dPSPyS070e0HsE9HNz_13_d11_"
 
 #: common/djangoapps/student/models.py:2251
 msgid ""
@@ -610,7 +610,7 @@ msgstr "このユーザーの属性の値。"
 #: common/djangoapps/student/views.py:834
 #, python-brace-format
 msgid "The course you are looking for does not start until {date}."
-msgstr "お探しの講義は {date} まで開講しません。"
+msgstr "お探しの講義は {date} に開講します。"
 
 #: common/djangoapps/student/views.py:838
 #, python-brace-format
@@ -802,7 +802,7 @@ msgid ""
 "{html_start}Your account could not be activated{html_end}Something went "
 "wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
 "issue."
-msgstr "{html_start} アカウントが有効化できませんでした。 {html_end} 問題が発生していますので、<a href=\"{support_url}\"> サポートへお問い合わせください </a>。"
+msgstr "{html_start}アカウントが有効化できませんでした。{html_end} 問題が発生していますので、<a href=\"{support_url}\">サポートへお問い合わせください</a>。"
 
 #: common/djangoapps/student/views.py:2402
 #, python-brace-format
@@ -840,7 +840,7 @@ msgid ""
 msgid_plural ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "days must elapse between password resets."
-msgstr[0] "パスワードを頻繁に変更しすぎています。セキュリティポリシーではパスワード変更の間隔を {num} 日間空ける必要があります。"
+msgstr[0] "パスワードを頻繁に変更しすぎています。セキュリティポリシーではパスワード変更の間隔を{num}日間空ける必要があります。"
 
 #: common/djangoapps/student/views.py:2628
 msgid "Password reset unsuccessful"
@@ -1348,32 +1348,32 @@ msgstr "より複雑なものにしてください ({0})"
 #: common/djangoapps/util/password_policy_validators.py:84
 #, python-brace-format
 msgid "must contain {0} or more uppercase characters"
-msgstr "大文字を {0} 文字以上含めてください"
+msgstr "大文字を{0}文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:86
 #, python-brace-format
 msgid "must contain {0} or more lowercase characters"
-msgstr "小文字を {0} 文字以上含めてください"
+msgstr "小文字を{0}文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:88
 #, python-brace-format
 msgid "must contain {0} or more digits"
-msgstr "{0} 桁以上にしてください"
+msgstr "{0}桁以上にしてください"
 
 #: common/djangoapps/util/password_policy_validators.py:90
 #, python-brace-format
 msgid "must contain {0} or more punctuation characters"
-msgstr "句読点を {0} 個以上含めてください"
+msgstr "句読点を{0}個以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:92
 #, python-brace-format
 msgid "must contain {0} or more non ascii characters"
-msgstr "ASCII文字以外を {0} 文字以上含めてください"
+msgstr "ASCII文字以外を{0}文字以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:94
 #, python-brace-format
 msgid "must contain {0} or more unique words"
-msgstr "ユニークワードを {0} 個以上含めてください"
+msgstr "ユニークワードを{0}個以上含めてください"
 
 #: common/djangoapps/util/password_policy_validators.py:111
 msgid "Too similar to a restricted dictionary word."
@@ -2346,7 +2346,7 @@ msgstr "受講者が修了証を受領できる日"
 
 #: common/lib/xmodule/xmodule/course_module.py:196
 msgid "Cosmetic Course Display Price"
-msgstr "表示上の講義料金"
+msgstr "講義表示料金"
 
 #: common/lib/xmodule/xmodule/course_module.py:198
 msgid ""
@@ -2543,7 +2543,7 @@ msgid ""
 "For HTML textbooks that appear as separate tabs in the course, enter the "
 "name of the tab (usually the title of the book) as well as the URLs and "
 "titles of each chapter in the book."
-msgstr "独立したタブとしてHTML教科書を表示する場合、タブ名 (通常は本のタイトル) および各章のURLとタイトルを入力してください。"
+msgstr "独立したタブとしてHTML教科書を表示する場合、タブ名（通常は本のタイトル）および各章のURLとタイトルを入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:373
 msgid "Remote Gradebook"
@@ -2734,7 +2734,7 @@ msgstr "PDFの修了証を発行する時のみこの設定を使用してくだ
 
 #: common/lib/xmodule/xmodule/course_module.py:521
 msgid "Certificate Name (Short)"
-msgstr "修了証名(略称)"
+msgstr "修了証名（略称）"
 
 #: common/lib/xmodule/xmodule/course_module.py:527
 msgid ""
@@ -2745,7 +2745,7 @@ msgstr "PDFの修了証を発行する時のみこの設定を使用してくだ
 
 #: common/lib/xmodule/xmodule/course_module.py:531
 msgid "Certificate Name (Long)"
-msgstr "修了証名(正式)"
+msgstr "修了証名（正式）"
 
 #: common/lib/xmodule/xmodule/course_module.py:536
 msgid "Certificate Web/HTML View Enabled"
