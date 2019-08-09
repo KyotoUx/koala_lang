@@ -1446,3 +1446,11 @@ msgstr "表が読み込めません。"
 #: templates/section_error.html:14
 msgid "We are unable to load these metrics."
 msgstr "データが読み込めません。"
+
+#: templates/footer.html
+#, python-format
+msgid ""
+"We want this dashboard to work for you! Need help? "
+"%(support_link_start)sContact course team support%(support_link_end)s. "
+"Comments or suggestions? Email %(email_link)s."
+msgstr ""
