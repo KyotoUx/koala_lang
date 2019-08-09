@@ -1454,3 +1454,7 @@ msgid ""
 "%(support_link_start)sContact course team support%(support_link_end)s. "
 "Comments or suggestions? Email %(email_link)s."
 msgstr "このページは役に立ちましたか？ヘルプが必要な方は講義サポートチームへお問い合わせください。ご意見・ご要望はメール：%(email_link)s へ。"
+
+#: courses/templates/courses/index.html
+msgid "Here are the courses you currently have access to in Insights:"
+msgstr ""
