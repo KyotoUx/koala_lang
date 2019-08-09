@@ -184,7 +184,7 @@ msgstr "不明"
 #: static/apps/course-list/app/controller.js:44
 #: static/apps/course-list/app/controller.js:106
 msgid "Course List"
-msgstr "講座一覧"
+msgstr "講義一覧"
 
 #: static/apps/course-list/app/controller.js:95
 #: static/apps/learners/app/controller.js:94
@@ -197,7 +197,7 @@ msgstr "申し訳ありませんが、該当する講座が見つかりません
 
 #: static/apps/course-list/app/controller.js:97
 msgid "Return to the Course List page."
-msgstr "講座一覧へ戻る。"
+msgstr "講義一覧へ戻る。"
 
 #: static/apps/course-list/app/controller.js:123
 #: static/apps/learners/app/controller.js:177
@@ -211,7 +211,7 @@ msgstr "お探しのページが見つかりません"
 
 #: static/apps/course-list/common/collections/course-list.js:77
 msgid "Course Name"
-msgstr "講座名"
+msgstr "講義名"
 
 #: static/apps/course-list/common/collections/course-list.js:78
 msgid "Start Date"
@@ -239,7 +239,7 @@ msgstr "先週の変動"
 
 #: static/apps/course-list/common/collections/course-list.js:83
 msgid "Verified Enrollment"
-msgstr "認証付き受講登録"
+msgstr "認証付き受講登録者数"
 
 #: static/apps/course-list/common/collections/course-list.js:86
 msgid "Passing Learners"
@@ -259,23 +259,22 @@ msgstr "プログラム"
 
 #: static/apps/course-list/list/views/base-header-cell.js:11
 msgid "Course name advertised on edX site."
-msgstr "edXサイト上で宣伝する講座名。"
-
+msgstr "edXサイト上で宣伝する講義名"
 #: static/apps/course-list/list/views/base-header-cell.js:12
 msgid "Start date advertised on edX site."
-msgstr "edXサイト上の宣伝開始日。"
+msgstr "edXサイト上の宣伝開始日"
 
 #: static/apps/course-list/list/views/base-header-cell.js:13
 msgid "End date set in edX Studio."
-msgstr "edXスタジオに設定する終了日。"
+msgstr "edXスタジオに設定する終了日"
 
 #: static/apps/course-list/list/views/base-header-cell.js:14
 msgid "Learners who ever enrolled in the course."
-msgstr "本講座に登録したことのある受講者。"
+msgstr "本講義に登録したことのある受講者"
 
 #: static/apps/course-list/list/views/base-header-cell.js:15
 msgid "Learners currently enrolled in the course."
-msgstr "本講座に現在登録中の受講者。"
+msgstr "本講義に現在登録中の受講者"
 
 #: static/apps/course-list/list/views/base-header-cell.js:16
 msgid "Net difference in current enrollment in the last week."
@@ -285,11 +284,11 @@ msgstr "先週の受講登録者数との差"
 msgid ""
 "Number of currently enrolled learners pursuing a verified certificate of "
 "achievement."
-msgstr "認証付き修了証を希望している現在登録中の受講者数。"
+msgstr "認証付き修了証を希望している現在登録中の受講者数"
 
 #: static/apps/course-list/list/views/base-header-cell.js:19
 msgid "Learners who have earned a passing grade."
-msgstr "合格点を獲得した受講者。"
+msgstr "合格点を獲得した受講者"
 
 #: static/apps/course-list/list/views/controls.js:38
 #: static/apps/learners/roster/views/controls.js:39
@@ -298,7 +297,7 @@ msgstr "結果へ"
 
 #: static/apps/course-list/list/views/controls.js:58
 msgid "Find a course"
-msgstr "講座を探す"
+msgstr "講義を探す"
 
 #: static/apps/course-list/list/views/controls.js:68
 msgid "availability"
@@ -314,20 +313,20 @@ msgstr "program_ids"
 
 #: static/apps/course-list/list/views/course-list.js:66
 msgid "Download full course list to CSV"
-msgstr "全講座一覧をCSVにダウンロード"
+msgstr "全講義一覧をCSVにダウンロード"
 
 #: static/apps/course-list/list/views/course-list.js:91
 msgid "Course list controls"
-msgstr "講座一覧管理"
+msgstr "講義一覧管理"
 
 #: static/apps/course-list/list/views/results.js:47
 msgid "No courses matched your criteria."
-msgstr "あなたの基準に合う講座がありません。"
+msgstr "あなたの基準に合う講義がありません。"
 
 #: static/apps/course-list/list/views/results.js:49
 #: static/apps/learners/roster/views/results.js:49
 msgid "Try a different search."
-msgstr "別の検索をトライしてください。"
+msgstr "別の検索を試してください。"
 
 #: static/apps/course-list/list/views/results.js:52
 #: static/apps/learners/roster/views/results.js:52
@@ -336,17 +335,17 @@ msgstr "フィルタを解除してください。"
 
 #: static/apps/course-list/list/views/results.js:55
 msgid "No course data is currently available for your course."
-msgstr "現在利用可能な講座データがありません。"
+msgstr "現在利用可能な講義データがありません。"
 
 #: static/apps/course-list/list/views/results.js:57
 msgid ""
 "No courses are enrolled, or course activity data has not yet been processed."
 " Data is updated every day, so check back regularly for up-to-date metrics."
-msgstr "講座を登録されていないか、講座データがまだ処理されていません。データは毎日更新されますので、定期的に確認してください。"
+msgstr "講義を登録されていないか、講義データがまだ処理されていません。データは毎日更新されますので、定期的に確認してください。"
 
 #: static/apps/course-list/list/views/search.js:71
 msgid "Search courses"
-msgstr "講座を検索"
+msgstr "講義検索"
 
 #: static/apps/course-list/list/views/search.js:72
 #: static/apps/learners/roster/views/search.js:56
@@ -506,7 +505,7 @@ msgstr "受講登録トラック: <%= filterVal %>"
 #: static/apps/learners/roster/views/active-filters.js:32
 #: static/js/engagement-content-main.js:20
 msgid "Active Learners"
-msgstr "Active Learners"
+msgstr "アクティブだった受講者"
 
 #: static/apps/learners/roster/views/activity-date-range.js:11
 msgid "Activity between <%- startDate %> - <%- endDate %>"
@@ -518,15 +517,15 @@ msgstr "この受講者の名前およびユーザー名。クリックしてユ
 
 #: static/apps/learners/roster/views/base-header-cell.js:11
 msgid "Number of unique problems this learner attempted."
-msgstr "この受講者が解答した問題数。"
+msgstr "この受講者が解答した問題数"
 
 #: static/apps/learners/roster/views/base-header-cell.js:12
 msgid "Number of unique problems the learner answered correctly."
-msgstr "この受講者が正解した問題数。"
+msgstr "この受講者が正解した問題数"
 
 #: static/apps/learners/roster/views/base-header-cell.js:13
 msgid "Number of unique videos this learner played."
-msgstr "この受講者が再生した動画数。"
+msgstr "この受講者が再生した動画数"
 
 #: static/apps/learners/roster/views/base-header-cell.js:15
 msgid ""
@@ -538,7 +537,7 @@ msgstr "正解した１問あたりの平均解答数。他の受講者に比べ
 msgid ""
 "Number of contributions by this learner, including posts, responses, and "
 "comments."
-msgstr "この受講者の投稿、返信、コメントなどの数。"
+msgstr "この受講者の投稿、返信、コメントなどの数"
 
 #: static/apps/learners/roster/views/controls.js:62
 msgid "Find a learner"
@@ -565,7 +564,7 @@ msgstr "enrollment_mode"
 #. course recently.
 #: static/apps/learners/roster/views/controls.js:103
 msgid "Hide Inactive Learners"
-msgstr "Hide Inactive Learners"
+msgstr "アクティブではない受講者を非表示"
 
 #: static/apps/learners/roster/views/controls.js:97
 msgid "ignore_segments"
@@ -577,7 +576,7 @@ msgstr "あなたの基準に合う受講者がいません。"
 
 #: static/apps/learners/roster/views/results.js:55
 msgid "No learner data is currently available for your course."
-msgstr "この講座の受講者データは現在ありません。"
+msgstr "この講義の受講者データは現在ありません。"
 
 #: static/apps/learners/roster/views/results.js:57
 msgid ""
