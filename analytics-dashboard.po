@@ -1186,7 +1186,7 @@ msgstr "講師用ダッシュボード"
 
 #: courses/views/__init__.py:734
 msgid "Courseware"
-msgstr "KoALA 講義ページ"
+msgstr "講義ページ"
 
 #. Translators: Do not translate UTC.
 #: courses/views/course_summaries.py:41
