@@ -1457,4 +1457,4 @@ msgstr "このページは役に立ちましたか？ヘルプが必要な方は
 
 #: courses/templates/courses/index.html
 msgid "Here are the courses you currently have access to in Insights:"
-msgstr ""
+msgstr "以下のリストはあなたが現在 Insights にアクセス可能な講義一覧です。"
