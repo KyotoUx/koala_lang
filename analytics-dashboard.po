@@ -260,7 +260,7 @@ msgid ""
 "\n"
 "        Select %(level)s\n"
 "    "
-msgstr "%(level)s\nを選択"
+msgstr "\n%(level)s\nを選択"
 
 #: courses/templates/courses/_graded_content_nav.html:31
 #: courses/templates/courses/_tags_content_nav.html:23
