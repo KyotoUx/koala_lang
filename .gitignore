@@ -6,3 +6,4 @@
 *.sh
 django.po
 djangojs.po
+.idea/*
