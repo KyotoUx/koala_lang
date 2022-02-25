@@ -1,1 +1,23 @@
 KoALA Language Files.
+
+
+# How to get PO Files from transifex
+
+## set up for tx command
+
+```
+$ pip install transifex-client
+$ tx init
+$ tx config mapping-remote https://www.transifex.com/open-edx/edx-platform/content
+```
+
+## downlod PO files
+
+```
+$ tx pull -l ja_JP
+```
+
+# Update repo
+
+https://github.com/KyotoUx/koala_lang
+

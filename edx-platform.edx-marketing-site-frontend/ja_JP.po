@@ -1,0 +1,133 @@
+# 
+# Translators:
+# わたカフェの店長, 2017
+# Shoji Kajita <kajita.shoji.5z@kyoto-u.ac.jp>, 2017
+# Shige Usui <ushige@live.com>, 2017
+# Toshiboumi Ohta <ohta@securesky-tech.com>, 2017
+# Kyoto University <edxkyotoux@gmail.com>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-07 03:28+0000\n"
+"PO-Revision-Date: 2017-08-04 18:07+0000\n"
+"Last-Translator: Kyoto University <edxkyotoux@gmail.com>, 2017\n"
+"Language-Team: Japanese (Japan) (https://www.transifex.com/open-edx/teams/6205/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ./views/program-detail.html:65
+msgid "View Courses"
+msgstr "講座を見る"
+
+#: ./views/program-detail.html:68
+msgid "Meet the Instructors"
+msgstr "講師紹介"
+
+#: ./views/program-detail.html:72
+msgid "The %(type)s"
+msgstr "%(type)s"
+
+#: ./views/program-detail.html:82
+msgid "Skip the %(type)s Main Overview"
+msgstr "%(type)s概要をスキップする"
+
+#: ./views/program-detail.html:90
+msgid ""
+"A series of courses that add up to a rich understanding of an area of study."
+msgstr "研究分野の理解を深めるシリーズ講座。"
+
+#: ./views/program-detail.html:92
+msgid "A series of credit-eligible courses recognized by industry."
+msgstr "業界から注目の単位認定可能なシリーズ講座"
+
+#: ./views/program-detail.html:94
+msgid "A series of career-oriented courses to develop in-demand skills."
+msgstr "需要の多いスキルが身に付くキャリア重視のシリーズ講座"
+
+#: ./views/program-detail.html:106
+msgid "See more"
+msgstr "もっと見る"
+
+#: ./views/program-detail.html:108
+msgid "about %(title)s"
+msgstr "%(title)sについて"
+
+#: ./views/program-detail.html:117
+msgid "Hide"
+msgstr "非表示"
+
+#: ./views/program-detail.html:189
+msgid "%(type)s Details"
+msgstr "%(type)sの詳細"
+
+#: ./views/program-detail.html:192
+msgid "About %(type)s"
+msgstr "%(type)sについて"
+
+#: ./views/program-detail.html:199 ./views/_navbar.html:14
+msgid "Courses"
+msgstr "講座"
+
+#: ./views/program-detail.html:216
+msgid "Instructors"
+msgstr "講師"
+
+#: ./views/program-detail.html:224
+msgid "bio for %(title)s"
+msgstr "%(title)sの経歴"
+
+#: ./views/program-detail.html:248
+msgid "View a PDF of a sample %(type)s Certificate"
+msgstr "%(type)s修了証のサンプルのPDFを見る"
+
+#: ./views/person-detail.html:5 ./views/person-detail.html:8
+#: ./views/person-detail.html:18
+msgid "Image of %(name)s"
+msgstr "%(name)sの画像"
+
+#: ./views/person-detail.html:28 ./views/person-detail.html:27
+#: ./views/person-detail.html:37 ./views/person-detail.html:38
+msgid "Courses taught by %(name)s"
+msgstr "%(name)sによる講座"
+
+#: ./views/_navbar.html:9
+msgid "%(site_name)s home page"
+msgstr "%(site_name)sホームページ"
+
+#: ./views/_navbar.html:17
+msgid "Programs"
+msgstr "プログラム"
+
+#: ./views/_navbar.html:20
+msgid "Schools & Partners"
+msgstr "学校&パートナー"
+
+#: ./views/_navbar.html:23
+msgid "About"
+msgstr "概要"
+
+#: ./views/_navbar.html:27 ./views/_navbar.html:28
+msgid "Search"
+msgstr "検索"
+
+#: ./views/_navbar.html:37
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: ./views/_navbar.html:38
+msgid "Profile"
+msgstr "プロフィール"
+
+#: ./views/_navbar.html:39
+msgid "Account"
+msgstr "アカウント"
+
+#: ./views/_navbar.html:40
+msgid "Sign Out"
+msgstr "サインアウト"

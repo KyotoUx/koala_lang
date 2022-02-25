@@ -1,0 +1,1429 @@
+# edX translation file
+# Copyright (C) 2022 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# わたカフェの店長, 2014
+# h_yoshida <h_yoshida@matsumo-sys.com>, 2014
+# Kyoto University <edxkyotoux@gmail.com>, 2017-2018
+# Toshiboumi Ohta <ohta@securesky-tech.com>, 2017-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2022-02-20 20:43+0000\n"
+"PO-Revision-Date: 2018-12-24 14:35+0000\n"
+"Last-Translator: Machida Miki <mikimachida711@gmail.com>\n"
+"Language-Team: Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: wiki/admin.py:80 wiki/models/article.py:31
+msgid "created"
+msgstr "作成された"
+
+#: wiki/apps.py:9
+msgid "Wiki notifications"
+msgstr "Wiki 通知"
+
+#: wiki/apps.py:15
+msgid "Wiki images"
+msgstr "Wiki の画像"
+
+#: wiki/apps.py:21
+msgid "Wiki attachments"
+msgstr "Wiki の添付ファイル"
+
+#: wiki/forms.py:34
+msgid "Only localhost... muahahaha"
+msgstr "ローカルホストのみ…はっはっは"
+
+#: wiki/forms.py:40 wiki/forms.py:48 wiki/forms.py:209
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr "件名"
+
+#: wiki/forms.py:40
+msgid "Initial title of the article. May be overridden with revision titles."
+msgstr "この記事の最初のタイトル。リビジョンタイトルが優先される可能性があります。"
+
+#: wiki/forms.py:41
+msgid "Type in some contents"
+msgstr "コンテンツを入力"
+
+#: wiki/forms.py:42
+msgid ""
+"This is just the initial contents of your article. After creating it, you "
+"can use more complex features like adding plugins, meta data, related "
+"articles etc..."
+msgstr "こちらはあなたの記事の最初のコンテンツです。記事作成後に、プラグインやメタデータ、関連記事を追加するなど、より複雑な機能を使うことができます。"
+
+#: wiki/forms.py:49 wiki/forms.py:212
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: wiki/forms.py:52 wiki/forms.py:215
+msgid "Summary"
+msgstr "サマリー"
+
+#: wiki/forms.py:52
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr "編集するにあたって簡単な理由を記入してください。これはリビジョンログに記載されます。"
+
+#: wiki/forms.py:101
+msgid ""
+"While you were editing, someone else changed the revision. Your contents "
+"have been automatically merged with the new contents. Please review the text"
+" below."
+msgstr "あなたが編集している間に、誰かがリビジョンを変更しました。あなたのコンテンツは新しいコンテンツに自動的にマージされました。以下をご確認ください。"
+
+#: wiki/forms.py:103
+msgid "No changes made. Nothing to save."
+msgstr "変更はありません。保存するものもありません。"
+
+#: wiki/forms.py:165
+msgid "Select an option"
+msgstr "オプションを選択"
+
+#: wiki/forms.py:210 wiki/templates/wiki/dir.html:55
+msgid "Slug"
+msgstr "スラグ"
+
+#: wiki/forms.py:210
+msgid ""
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. Note that you cannot change the slug "
+"after creating the article."
+msgstr "これはあなたの記事を見つけるためのアドレスです。英数字とハイフン、アンダースコアのみ利用できます。記事作成後はこのスラグは変更できませんので、ご注意ください。"
+
+#: wiki/forms.py:215
+msgid "Write a brief message for the article's history log."
+msgstr "記事の履歴ログ用のメッセージを記入"
+
+#: wiki/forms.py:225
+msgid "A slug may not begin with an underscore."
+msgstr "スラグはアンダースコアから始めることはできません。"
+
+#: wiki/forms.py:234
+#, python-format
+msgid "A deleted article with slug \"%s\" already exists."
+msgstr "スラグ\"%s\"を用いた削除済の記事が存在します。"
+
+#: wiki/forms.py:236
+#, python-format
+msgid "A slug named \"%s\" already exists."
+msgstr "\"%s\"という名前のスラグが既に存在します。"
+
+#: wiki/forms.py:249
+msgid "Yes, I am sure"
+msgstr "はい、問題ありません"
+
+#: wiki/forms.py:251 wiki/templates/wiki/deleted.html:46
+msgid "Purge"
+msgstr "抹消"
+
+#: wiki/forms.py:252
+msgid ""
+"Purge the article: Completely remove it (and all its contents) with no undo."
+" Purging is a good idea if you want to free the slug such that users can "
+"create new articles in its place."
+msgstr "記事抹消：記事は完全に削除され(その中のコンテンツも含めて)、元に戻すことはできません。その記事のスラグを別の新しい記事で使えるようにスラグを開放したい場合、記事抹消は良い方法です。"
+
+#: wiki/forms.py:259 wiki/plugins/attachments/forms.py:27
+#: wiki/plugins/images/forms.py:65
+msgid "You are not sure enough!"
+msgstr "確認が不十分です！"
+
+#: wiki/forms.py:261
+msgid "While you tried to delete this article, it was modified. TAKE CARE!"
+msgstr "この記事を削除しようとしている間に変更されました。ご注意ください！"
+
+#: wiki/forms.py:267
+msgid "Lock article"
+msgstr "記事を保護する"
+
+#: wiki/forms.py:267
+msgid "Deny all users access to edit this article."
+msgstr "この記事を編集不可とする"
+
+#: wiki/forms.py:270
+msgid "Permissions"
+msgstr "権限"
+
+#: wiki/forms.py:274
+msgid "Owner"
+msgstr "オーナー"
+
+#: wiki/forms.py:275
+msgid "Enter the username of the owner."
+msgstr "オーナーのユーザー名を入力してください。"
+
+#: wiki/forms.py:276
+msgid "(none)"
+msgstr "(なし)"
+
+#: wiki/forms.py:281
+msgid "Inherit permissions"
+msgstr "権限を継承"
+
+#: wiki/forms.py:281
+msgid ""
+"Check here to apply the above permissions recursively to articles under this"
+" one."
+msgstr "この記事配下の記事において上記の権限を再帰的に適用するかを、こちらでご確認ください。"
+
+#: wiki/forms.py:286
+msgid "Permission settings for the article were updated."
+msgstr "この記事についての権限設定が更新されました。"
+
+#: wiki/forms.py:288
+msgid "Your permission settings were unchanged, so nothing saved."
+msgstr "あなたの権限設定は変更されていません、そのため保存もされていません。"
+
+#: wiki/forms.py:327
+msgid "No user with that username"
+msgstr "そのユーザー名のユーザーはいません"
+
+#: wiki/forms.py:349
+msgid "Article locked for editing"
+msgstr "編集中のため記事は保護中"
+
+#: wiki/forms.py:356
+msgid "Article unlocked for editing"
+msgstr "記事を編集するため保護解除"
+
+#: wiki/forms.py:369
+msgid "Filter"
+msgstr "フィルタ"
+
+#: wiki/core/plugins/base.py:47
+msgid "Settings for plugin"
+msgstr "プラグイン設定"
+
+#: wiki/models/article.py:26 wiki/models/pluginbase.py:162
+#: wiki/plugins/attachments/models.py:22
+msgid "current revision"
+msgstr "現在のリビジョン"
+
+#: wiki/models/article.py:28
+msgid ""
+"The revision being displayed for this article. If you need to do a roll-"
+"back, simply change the value of this field."
+msgstr "この記事の表示中のリビジョン。ロールバックする必要がある場合は、この欄の値を変更すればよいです。"
+
+#: wiki/models/article.py:32
+msgid "modified"
+msgstr "変更済"
+
+#: wiki/models/article.py:33
+msgid "Article properties last modified"
+msgstr "最後に変更した記事のプロパティ"
+
+#: wiki/models/article.py:35
+msgid "owner"
+msgstr "オーナー"
+
+#: wiki/models/article.py:37
+msgid ""
+"The owner of the article, usually the creator. The owner always has both "
+"read and write access."
+msgstr "記事のオーナーは通常、作成者です。オーナーは常に読み書きの権限を有します。"
+
+#: wiki/models/article.py:39
+msgid "group"
+msgstr "グループ"
+
+#: wiki/models/article.py:41
+msgid ""
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are handled through the Django auth system."
+msgstr "UNIXファイルシステムのように、権限はグループに所属するユーザーに対して付与されます。グループはDjangoの認証システムによって管理されています。"
+
+#: wiki/models/article.py:43
+msgid "group read access"
+msgstr "グループ読み取り権限"
+
+#: wiki/models/article.py:44
+msgid "group write access"
+msgstr "グループ書き込み権限"
+
+#: wiki/models/article.py:45
+msgid "others read access"
+msgstr "その他読み取り権限"
+
+#: wiki/models/article.py:46
+msgid "others write access"
+msgstr "その他書き込み権限"
+
+#: wiki/models/article.py:177
+#, python-format
+msgid "Article without content (%(id)d)"
+msgstr "コンテンツの無い記事 (%(id)d)"
+
+#: wiki/models/article.py:205
+msgid "content type"
+msgstr "コンテンツタイプ"
+
+#: wiki/models/article.py:207
+msgid "object ID"
+msgstr "オブジェクトID"
+
+#: wiki/models/article.py:213
+msgid "Article for object"
+msgstr "オブジェクトの記事"
+
+#: wiki/models/article.py:214
+msgid "Articles for object"
+msgstr "オブジェクトの記事"
+
+#: wiki/models/article.py:223
+msgid "revision number"
+msgstr "リビジョン番号"
+
+#: wiki/models/article.py:229
+msgid "IP address"
+msgstr "IPアドレス"
+
+#: wiki/models/article.py:236
+msgid "user"
+msgstr "ユーザー"
+
+#: wiki/models/article.py:249
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
+#: wiki/templates/wiki/includes/revision_info.html:15
+msgid "deleted"
+msgstr "削除済み"
+
+#: wiki/models/article.py:250 wiki/templates/wiki/article.html:22
+#: wiki/templates/wiki/includes/revision_info.html:21
+msgid "locked"
+msgstr "ロック"
+
+#: wiki/models/article.py:269 wiki/models/pluginbase.py:42
+msgid "article"
+msgstr "記事"
+
+#: wiki/models/article.py:272
+msgid "article contents"
+msgstr "記事内容"
+
+#: wiki/models/article.py:276
+msgid "article title"
+msgstr "記事タイトル"
+
+#: wiki/models/article.py:277
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
+msgstr "タイトルが変更されていなくても、それぞれのリビジョンで入力されたタイトル欄が必要です。"
+
+#: wiki/models/pluginbase.py:78
+msgid "original article"
+msgstr "元の記事"
+
+#: wiki/models/pluginbase.py:79
+msgid "Permissions are inherited from this article"
+msgstr "権限はこの記事から継承されています"
+
+#: wiki/models/pluginbase.py:137
+msgid "A plugin was changed"
+msgstr "プラグインが変更されました"
+
+#: wiki/models/pluginbase.py:164
+msgid ""
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of this field."
+msgstr "このプラグインの表示中のリビジョン。ロールバックする必要がある場合は、この欄の値を変更してください。"
+
+#: wiki/models/urlpath.py:43
+msgid "Cache lookup value for articles"
+msgstr "この記事のキャッシュ参照値"
+
+#: wiki/models/urlpath.py:49
+msgid "slug"
+msgstr "スラグ"
+
+#: wiki/models/urlpath.py:139
+msgid "(root)"
+msgstr "(ルート)"
+
+#: wiki/models/urlpath.py:149
+msgid "URL path"
+msgstr "URLパス"
+
+#: wiki/models/urlpath.py:150
+msgid "URL paths"
+msgstr "URLパス"
+
+#: wiki/models/urlpath.py:155
+msgid "Sorry but you cannot have a root article with a slug."
+msgstr "申し訳ありませんが、スラグのあるルート記事は作成できません。"
+
+#: wiki/models/urlpath.py:157
+msgid "A non-root note must always have a slug."
+msgstr "ルートではないノートにはスラグが必要です。"
+
+#: wiki/models/urlpath.py:160
+#, python-format
+msgid "There is already a root node on %s"
+msgstr "既に %s にルートノードがあります"
+
+#: wiki/models/urlpath.py:265
+msgid ""
+"Articles who lost their parents\n"
+"===============================\n"
+"\n"
+"The children of this article have had their parents deleted. You should probably find a new home for them."
+msgstr "親をなくした記事\n===============================\n\nこの記事の子は親を削除されました。新しい接続先をさがしてください。"
+
+#: wiki/models/urlpath.py:268
+msgid "Lost and found"
+msgstr "一時保管場所"
+
+#: wiki/plugins/attachments/forms.py:12
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:13
+msgid "Description"
+msgstr "説明"
+
+#: wiki/plugins/attachments/forms.py:13
+msgid "A short summary of what the file contains"
+msgstr "ファイルの内容の要約"
+
+#: wiki/plugins/attachments/forms.py:22
+msgid "Yes I am sure..."
+msgstr "はい、問題ありません..."
+
+#: wiki/plugins/attachments/markdown_extensions.py:36
+msgid "Click to download file"
+msgstr "ファイルをダウンロードするにはクリック"
+
+#: wiki/plugins/attachments/models.py:24
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr "この添付のリビジョンは現在使用されています(この添付を使用している記事)。"
+
+#: wiki/plugins/attachments/models.py:28
+msgid "original filename"
+msgstr "元のファイル名"
+
+#: wiki/plugins/attachments/models.py:40
+msgid "attachment"
+msgstr "添付"
+
+#: wiki/plugins/attachments/models.py:41
+msgid "attachments"
+msgstr "添付"
+
+#: wiki/plugins/attachments/models.py:83
+msgid "file"
+msgstr "ファイル"
+
+#: wiki/plugins/attachments/models.py:89
+msgid "attachment revision"
+msgstr "添付リビジョン"
+
+#: wiki/plugins/attachments/models.py:90
+msgid "attachment revisions"
+msgstr "添付リビジョン"
+
+#: wiki/plugins/attachments/views.py:51
+#, python-format
+msgid "%s was successfully added."
+msgstr "%s の追加に成功しました。"
+
+#: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:118
+#, python-format
+msgid "Your file could not be saved: %s"
+msgstr "ファイルが保存できませんでした： %s"
+
+#: wiki/plugins/attachments/views.py:55 wiki/plugins/attachments/views.py:122
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr "ファイルが保存できませんでした。Webサーバーの権限エラーの可能性があります。"
+
+#: wiki/plugins/attachments/views.py:116
+#, python-format
+msgid "%s uploaded and replaces old attachment."
+msgstr "%s がアップロードされ、古い添付と置き換えます。"
+
+#: wiki/plugins/attachments/views.py:130
+msgid ""
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different extensions are not allowed."
+msgstr "新しいファイルは既存のファイルに合わせるために自動的に名前が変更されます。拡張子が違うものは許可されません。"
+
+#: wiki/plugins/attachments/views.py:184
+#, python-format
+msgid "Current revision changed for %s."
+msgstr "%s のリビジョンが変更されました。"
+
+#: wiki/plugins/attachments/views.py:205
+#, python-format
+msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
+msgstr "\"%(art)s\" から \"%(att)s\" へ参照が追加されました。"
+
+#: wiki/plugins/attachments/views.py:235
+#, python-format
+msgid "The file %s was deleted."
+msgstr "%s ファイルが削除されました。"
+
+#: wiki/plugins/attachments/views.py:238
+#, python-format
+msgid "This article is no longer related to the file %s."
+msgstr "この記事は %s に関連しなくなりました。"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:4
+#: wiki/plugins/attachments/wiki_plugin.py:31
+msgid "Attachments"
+msgstr "添付"
+
+#: wiki/plugins/attachments/wiki_plugin.py:37
+#, python-format
+msgid "A file was changed: %s"
+msgstr "ファイルが変更されました：%s"
+
+#: wiki/plugins/attachments/wiki_plugin.py:37
+#, python-format
+msgid "A file was deleted: %s"
+msgstr "ファイルが削除されました：%s"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7
+msgid "Delete"
+msgstr "削除"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
+msgid ""
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:48
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:70
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:20
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:20
+#: wiki/templates/wiki/create.html:51 wiki/templates/wiki/delete.html:11
+#: wiki/templates/wiki/delete.html:48
+msgid "Go back"
+msgstr "戻る"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:30
+msgid "Delete it!"
+msgstr "とにかく削除！"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
+msgid "Remove"
+msgstr "削除"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
+msgid ""
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
+msgid "Remove reference"
+msgstr "参照を削除"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:8
+msgid "History of"
+msgstr "履歴"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:11
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:23
+msgid "Date"
+msgstr "日付"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
+msgid "User"
+msgstr "ユーザー"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
+msgid "File"
+msgstr "ファイル"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:15
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:28
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:25
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:21
+msgid "Size"
+msgstr "サイズ"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:16
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:26
+msgid "Action"
+msgstr "操作"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:32
+msgid "<em>No description</em>"
+msgstr "<em>説明がありません </em>"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:35
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:50
+msgid "Download"
+msgstr "ダウンロード"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:40
+msgid "Use this!"
+msgstr "これを使う！"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr "これらのファイルはこの記事で利用できます。Markdownタグをコピーして、記事文中から直接ファイルを参照してください。"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
+msgid "Markdown tag"
+msgstr "Markdownタグ"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:24
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:20
+msgid "Uploaded by"
+msgstr "アップロード: "
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:8
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:31
+msgid "Replace"
+msgstr "置き換え"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:37
+msgid "Detach"
+msgstr "分離"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:44
+#: wiki/templates/wiki/deleted.html:24 wiki/templates/wiki/deleted.html:29
+msgid "Restore"
+msgstr "復元"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "File history"
+msgstr "ファイル履歴"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "revisions"
+msgstr "修正版"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:69
+msgid "There are no attachments for this article."
+msgstr "この記事には添付がありません。"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:83
+msgid "Upload new file"
+msgstr "新規ファイルをアップロード"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:95
+msgid "Upload file"
+msgstr "ファイルをアップロード"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:106
+msgid "Search and add file"
+msgstr "ファイル検索および追加"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:112
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr "ファイルは別の記事からも再利用できます。これらのファイルは、良し悪しに関わらず、他の記事内で更新される可能性があります。"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
+msgid "Search"
+msgstr "検索"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
+msgid "Articles using"
+msgstr "使用している記事"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
+msgid "Upload replacement"
+msgstr "差し替えるファイルをアップロード"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:4
+msgid "Add file to"
+msgstr "ファイルを追加する"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:8
+msgid "Add attachment from other article"
+msgstr "他の記事の添付を追加する"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:14
+msgid "Search files and articles"
+msgstr "ファイルおよび記事の検索"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:22
+msgid "Main article"
+msgstr "メインの記事"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:54
+msgid "Add to article"
+msgstr "記事に追加する"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:62
+msgid "Your search did not return any results"
+msgstr "検索結果が得られませんでした"
+
+#: wiki/plugins/help/wiki_plugin.py:15
+msgid "Help"
+msgstr "ヘルプ"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:1
+msgid "Adding new articles"
+msgstr "新しい記事を追加"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:3
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr "新しいwikiの記事を作成するには、リンクを作成しましょう。リンクをクリックすると、新規作成ページへ進めます。"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
+msgid "An external link"
+msgstr "外部リンク"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:9
+msgid "Headers"
+msgstr "見出し"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:10
+msgid ""
+"Use these codes for headers and to automatically generate Tables of "
+"Contents."
+msgstr "見出しのためにこれらのコードを使いコンテンツの目次を自動生成する。"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:25
+msgid "Typography"
+msgstr "タイポグラフィー 『活字配置による表現』"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:30
+msgid "Lists"
+msgstr "一覧"
+
+#: wiki/plugins/images/forms.py:17
+#, python-format
+msgid ""
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
+msgstr "新しい画像 %s のアップロードが完了しました。使用可能な画像の一覧から選択して使用できます。"
+
+#: wiki/plugins/images/forms.py:60
+msgid "Are you sure?"
+msgstr "間違いありませんか？"
+
+#: wiki/plugins/images/models.py:44
+msgid "image"
+msgstr "画像"
+
+#: wiki/plugins/images/models.py:45
+msgid "images"
+msgstr "画像"
+
+#: wiki/plugins/images/models.py:49
+#, python-format
+msgid "Image: %s"
+msgstr "画像：%s"
+
+#: wiki/plugins/images/models.py:49
+msgid "Current revision not set!!"
+msgstr "既存のリビジョンが設定されていません!!"
+
+#: wiki/plugins/images/models.py:97
+msgid "image revision"
+msgstr "画像リビジョン"
+
+#: wiki/plugins/images/models.py:98
+msgid "image revisions"
+msgstr "画像リビジョン"
+
+#: wiki/plugins/images/models.py:103
+#, python-format
+msgid "Image Revsion: %d"
+msgstr "画像リビジョン：%d"
+
+#: wiki/plugins/images/views.py:65
+#, python-format
+msgid "%s has been restored"
+msgstr "%s は復元されました"
+
+#: wiki/plugins/images/views.py:67
+#, python-format
+msgid "%s has been marked as deleted"
+msgstr "%s は削除にマークされました"
+
+#: wiki/plugins/images/views.py:121
+#, python-format
+msgid "%(file)s has been changed to revision #%(revision)d"
+msgstr "%(file)s はリビジョン #%(revision)d に変更されました"
+
+#: wiki/plugins/images/views.py:159
+#, python-format
+msgid "%(file)s has been saved."
+msgstr "%(file)s は保存されました。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:4
+#: wiki/plugins/images/wiki_plugin.py:16
+msgid "Images"
+msgstr "画像"
+
+#: wiki/plugins/images/wiki_plugin.py:27
+#, python-format
+msgid "An image was added: %s"
+msgstr "画像が追加されました：%s"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:7
+msgid ""
+"The following images are available for this article. Copy the markdown tag "
+"to directly refer to an image from the article text."
+msgstr "以下の画像をこの記事のために利用可能です。マークダウンタグをコピーして記事本文から直接画像を参照します。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:11
+msgid "Back to edit page"
+msgstr "編集する画面に戻る"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:18
+msgid "No file"
+msgstr "ファイルがありません"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:34
+msgid "Upload new image"
+msgstr "新しい画像をアップロード"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:39
+msgid "Restore image"
+msgstr "画像を復元"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:44
+msgid "Remove image"
+msgstr "画像を削除"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:51
+msgid "Completely delete"
+msgstr "完全に削除"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:65
+#: wiki/templates/wiki/history.html:4
+msgid "History"
+msgstr "履歴"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:84
+msgid "Revert to this version"
+msgstr "このバージョーンに戻す"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:97
+msgid "There are no images for this article."
+msgstr "この記事のための画像はありません。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:4
+#: wiki/templates/wiki/deleted.html:39
+msgid "Purge deletion"
+msgstr "完全削除"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:13
+msgid "Purge image: Completely remove image file and all revisions."
+msgstr "完全削除：画像ファイルとすべてのバージョンを削除します。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:24
+msgid "Remove it completely!"
+msgstr "取り消しできない削除です！"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/render.html:14
+msgid "Image not found"
+msgstr "画像がみつかりません"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:4
+msgid "Replace image"
+msgstr "画像を置き換え"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:13
+msgid "Choose an image file to replace current image."
+msgstr "現在の画像と入れ替える画像ファイルを選択。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:27
+msgid "Image id"
+msgstr "画像 id"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:29
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:13
+msgid "Insert"
+msgstr "挿入"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:45
+msgid "No images found for this article"
+msgstr "この記事には画像がありません"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:54
+msgid "Manage images"
+msgstr "画像の管理"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:60
+msgid "Add new image"
+msgstr "新しい画像を追加する"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:96
+msgid "Add image"
+msgstr "画像を追加する"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:104
+msgid "You do not have permissions to add images."
+msgstr "画像を追加する権限がありません。"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:111
+msgid "How to use images"
+msgstr "画像の使い方"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:114
+msgid ""
+"After uploading an image, it is attached to this particular artice and can "
+"be used only here. Other users may replace the image, but older versions are"
+" kept. You probably want to show the image with a nice caption. To achieve "
+"this, press the Insert button and fill in the caption fields and possibly "
+"choose to have you image floating right or left of the content. You can use "
+"Markdown in the caption. The markdown code syntax for images looks like "
+"this, possible values for align are left/center/right:"
+msgstr "画像をアップロードすると、この特定の記事にそれが添付されそこだけで使用されることになります。他のユーザが画像を置き換えることもできますが、古いバージョンも保持されています。素敵な解説文を添えた画像を公開したいかもしれませんね。その場合には、挿入ボタンを押下してコンテンツの右か左にフローティング表示される解説文入力の領域に書き込みます。解説文ではマークダウン書式を使うことができます。マークダウンの文法は、配置設定を左・中央・右にするなどのようにできます："
+
+#: wiki/plugins/links/wiki_plugin.py:22
+msgid "Links"
+msgstr "リンク"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:2
+msgid "Link to another wiki page"
+msgstr "他の Wiki ページへのリンク"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:5
+msgid ""
+"Type in something from another wiki page's title and auto-complete will help"
+" you create a tag for you wiki link. Tags for links look like this:"
+msgstr "他の Wiki ページのタイトルの一部を入力して自動補完させることは Wiki のリンクのタグを作成する手助けになるでしょう。リンクのためのタグはこのようになります："
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:22
+msgid ""
+"You can link to another website simply by inserting an address example.com "
+"or http://example.com or by using the markdown syntax:"
+msgstr "example.com や http://example.com のようなアドレス表記を記入したりマークダウン記法によって外部のウェブサイトへのリンクが簡単にできます："
+
+#: wiki/plugins/notifications/forms.py:15
+msgid "Notifications"
+msgstr "通知"
+
+#: wiki/plugins/notifications/forms.py:19
+msgid "When this article is edited"
+msgstr "記事が編集された時"
+
+#: wiki/plugins/notifications/forms.py:20
+msgid "Also receive emails about article edits"
+msgstr "編集に関するメールも受信する"
+
+#: wiki/plugins/notifications/forms.py:43
+msgid "Your notification settings were updated."
+msgstr "通知設定が更新されました。"
+
+#: wiki/plugins/notifications/forms.py:45
+msgid "Your notification settings were unchanged, so nothing saved."
+msgstr "通知設定は変更されていません、そのため保存もされていません。"
+
+#: wiki/plugins/notifications/models.py:19
+#, python-format
+msgid "%(user)s subscribing to %(article)s (%(type)s)"
+msgstr "%(user)s が %(article)s (%(type)s) に参加している"
+
+#: wiki/plugins/notifications/models.py:42
+#, python-format
+msgid "Article deleted: %s"
+msgstr "削除済記事：%s"
+
+#: wiki/plugins/notifications/models.py:45
+#, python-format
+msgid "Article modified: %s"
+msgstr "編集された記事：%s"
+
+#: wiki/plugins/notifications/models.py:48
+#, python-format
+msgid "New article created: %s"
+msgstr "作成された記事：%s"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:12
+msgid "notifications"
+msgstr "通知"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:17
+msgid "No notifications"
+msgstr "通知なし"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:19
+msgid "Clear notifications list"
+msgstr "通知の一覧を消去"
+
+#: wiki/templates/wiki/article.html:39
+msgid "This article was last modified:"
+msgstr "この記事が最後に変更されたのは: "
+
+#: wiki/templates/wiki/base.html:113
+msgid "Search..."
+msgstr "検索…"
+
+#: wiki/templates/wiki/base.html:129
+msgid "Log out"
+msgstr "ログアウト"
+
+#: wiki/templates/wiki/accounts/login.html:3
+#: wiki/templates/wiki/accounts/signup.html:3
+#: wiki/templates/wiki/base.html:138
+msgid "Log in"
+msgstr "ログイン"
+
+#: wiki/templates/wiki/accounts/login.html:18
+#: wiki/templates/wiki/accounts/signup.html:6
+#: wiki/templates/wiki/base.html:141
+msgid "Sign up"
+msgstr "サインアップ"
+
+#: wiki/templates/wiki/create.html:4 wiki/templates/wiki/create.html:44
+msgid "Add new article"
+msgstr "新たな記事を追加する"
+
+#: wiki/templates/wiki/create.html:55
+msgid "Create article"
+msgstr "記事を作成する"
+
+#: wiki/templates/wiki/delete.html:4 wiki/templates/wiki/delete.html:52
+#: wiki/templates/wiki/edit.html:41
+msgid "Delete article"
+msgstr "記事を削除する"
+
+#: wiki/templates/wiki/delete.html:10
+msgid "You cannot delete a root article."
+msgstr "上位の記事は削除できません。"
+
+#: wiki/templates/wiki/delete.html:16
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr "この記事は削除できません。子が紐づいている記事を削除する権限がないことが原因です。子の記事を１つずつ削除してみてください。"
+
+#: wiki/templates/wiki/delete.html:22
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr "記事を削除しようとしています。同時に、この記事に紐づいている子の記事も削除対象となります。消去を選択すると、子の記事も同時に削除されます。"
+
+#: wiki/templates/wiki/delete.html:24
+msgid "Articles that will be deleted"
+msgstr "削除される記事"
+
+#: wiki/templates/wiki/delete.html:30
+msgid "...and more!"
+msgstr "…さらに！"
+
+#: wiki/templates/wiki/delete.html:38
+msgid "You are deleting an article. Please confirm."
+msgstr "記事を削除しようとしています。よろしいですか？"
+
+#: wiki/templates/wiki/deleted.html:4
+msgid "Article deleted"
+msgstr "削除された記事"
+
+#: wiki/templates/wiki/deleted.html:13
+msgid "Article Deleted"
+msgstr "削除された記事"
+
+#: wiki/templates/wiki/deleted.html:16
+msgid "The article you were looking for has been deleted."
+msgstr "探していた記事は削除されていました。"
+
+#: wiki/templates/wiki/deleted.html:25
+msgid "You may restore this article and its children by clicking restore."
+msgstr "復元をチェックすることでこのアーティクルを復元できます。"
+
+#: wiki/templates/wiki/deleted.html:40
+msgid ""
+"You may remove this article and any children permanently and free their "
+"slugs by clicking the below button. This action cannot be undone."
+msgstr "下にあるボタンをクリックすることでこの記事とその下にある記事を跡形なく消去することができます。この操作は取り消すことができません。"
+
+#: wiki/templates/wiki/dir.html:4
+msgid "Listing articles in"
+msgstr "記事の一覧"
+
+#: wiki/templates/wiki/dir.html:16
+msgid "Up one level"
+msgstr "ひとつ上のレベルに移動"
+
+#: wiki/templates/wiki/dir.html:21
+msgid "Add article"
+msgstr "記事を追加する"
+
+#: wiki/templates/wiki/dir.html:28
+msgid "clear"
+msgstr "クリア"
+
+#: wiki/templates/wiki/dir.html:40 wiki/templates/wiki/dir.html:44
+msgid "article,articles"
+msgstr "記事"
+
+#: wiki/templates/wiki/dir.html:40
+msgid "matches,match"
+msgstr "一致"
+
+#: wiki/templates/wiki/dir.html:42
+#, python-format
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:44
+msgid "is,are"
+msgstr "は"
+
+#: wiki/templates/wiki/dir.html:46
+#, python-format
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:56
+msgid "Last modified"
+msgstr "最終変更"
+
+#: wiki/templates/wiki/edit.html:4
+#: wiki/templates/wiki/includes/article_menu.html:34
+msgid "Edit"
+msgstr "編集"
+
+#: wiki/templates/wiki/edit.html:31
+msgid "Preview"
+msgstr "プレビュー"
+
+#: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
+#: wiki/templates/wiki/settings.html:15
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: wiki/templates/wiki/edit.html:53
+msgid "Back to editor"
+msgstr "エディタに戻る"
+
+#: wiki/templates/wiki/history.html:55
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr "編集した行のリストを見るには、それぞれのバージョンをクリックしましょう。プレビューボタンを押すと、今の段階で記事がどのように見えたかを確認できます。このページの下部で、特定の修正版を変更したり、現在のものと旧バージョンをマージすることができます。"
+
+#: wiki/templates/wiki/history.html:74
+msgid "no log message"
+msgstr "ログメッセージなし"
+
+#: wiki/templates/wiki/history.html:86 wiki/templates/wiki/history.html:91
+msgid "Preview this revision"
+msgstr "この修正版をプレビュー"
+
+#: wiki/templates/wiki/history.html:105
+msgid "Auto log:"
+msgstr "自動ログ: "
+
+#: wiki/templates/wiki/history.html:113
+msgid "Change"
+msgstr "変更"
+
+#: wiki/templates/wiki/history.html:131
+msgid "Merge selected with current..."
+msgstr "選択したものと現在のものをマージする…"
+
+#: wiki/templates/wiki/history.html:135
+msgid "Switch to selected version"
+msgstr "選択したバージョンに移動する"
+
+#: wiki/templates/wiki/history.html:151 wiki/templates/wiki/history.html:178
+msgid "Back to history view"
+msgstr "履歴表示に戻る"
+
+#: wiki/templates/wiki/history.html:156 wiki/templates/wiki/history.html:161
+msgid "Switch to this version"
+msgstr "このバージョンに移動する"
+
+#: wiki/templates/wiki/history.html:169
+msgid "Merge with current"
+msgstr "現状とマージする"
+
+#: wiki/templates/wiki/history.html:170
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr "あるバージョンと現状をマージする際、それぞれのバージョンからのデータはすべて残します。そして、それぞれの修正版に近いロケーションでマージされます。"
+
+#: wiki/templates/wiki/history.html:170
+msgid "After this, it's important to do a manual review."
+msgstr "この後、手動レビューをすることが重要です。"
+
+#: wiki/templates/wiki/history.html:183 wiki/templates/wiki/history.html:188
+msgid "Create new merged version"
+msgstr "新しい合成バージョンを作成する"
+
+#: wiki/templates/wiki/permission_denied.html:7
+msgid "Permission Denied"
+msgstr "権限がありません"
+
+#: wiki/templates/wiki/permission_denied.html:9
+msgid "Sorry, you don't have permission to view this page."
+msgstr "もうしわけありませんが、このページを購読する権限がありません。"
+
+#: wiki/templates/wiki/preview_inline.html:8
+msgid "Previewing revision"
+msgstr "改訂版をプレビュー中"
+
+#: wiki/templates/wiki/preview_inline.html:15
+msgid "Previewing merge between"
+msgstr "次の2つの合成版をプレビュー中"
+
+#: wiki/templates/wiki/preview_inline.html:17
+msgid "and"
+msgstr "および"
+
+#: wiki/templates/wiki/preview_inline.html:26
+msgid "This revision has been deleted."
+msgstr "この修正版は削除されました。"
+
+#: wiki/templates/wiki/preview_inline.html:27
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "この修正版を復元すると、記事に削除済とマークされます。"
+
+#: wiki/templates/wiki/includes/article_menu.html:9
+#: wiki/templates/wiki/settings.html:4
+msgid "Settings"
+msgstr "設定"
+
+#: wiki/templates/wiki/source.html:4
+msgid "Source of"
+msgstr ""
+
+#: wiki/templates/wiki/source.html:9
+msgid "This article is currently locked for editing."
+msgstr "この記事は現在編集するためにロックされています"
+
+#: wiki/templates/wiki/accounts/login.html:6
+msgid "Please log in"
+msgstr "ログインしてください"
+
+#: wiki/templates/wiki/accounts/login.html:12
+msgid "Log me in..."
+msgstr "ログインさせてください。。。"
+
+#: wiki/templates/wiki/accounts/login.html:18
+msgid "Don't have an account?"
+msgstr "アカウントを持っていませんか？"
+
+#: wiki/templates/wiki/accounts/signup.html:12
+msgid "Sign me up..."
+msgstr "サインアップをさせてください。。。"
+
+#: wiki/templates/wiki/article/create_root.html:4
+msgid "Create root article"
+msgstr "ルートの記事を作成"
+
+#: wiki/templates/wiki/article/create_root.html:22
+msgid "Congratulations!"
+msgstr "おめでとうございます！"
+
+#: wiki/templates/wiki/article/create_root.html:24
+msgid ""
+"You have django-wiki installed... but there are no articles. So it's time to"
+" create the first one, the root article. In the beginning, it will only be "
+"editable by administrators, but you can define permissions after."
+msgstr "django-wiki を既にインストールしてあります。。。しかし記事がひとつもありません。そこで最初の記事、ルートの記事を作成する時となっています。開始するにあたり、管理者権限でなければこれを編集することはできませんが、あとから権限を設定することができます。"
+
+#: wiki/templates/wiki/article/create_root.html:27
+msgid "Root article"
+msgstr "ルートの記事"
+
+#: wiki/templates/wiki/article/create_root.html:34
+msgid "Create root"
+msgstr "ルートを作成"
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:8
+#, python-format
+msgid ""
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr ""
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:10
+msgid "You need to log in og sign up to use this function."
+msgstr ""
+
+#: wiki/templates/wiki/includes/article_menu.html:26
+msgid "Changes"
+msgstr "変更"
+
+#: wiki/templates/wiki/includes/article_menu.html:41
+msgid "View Source"
+msgstr "ソースを見る"
+
+#: wiki/templates/wiki/includes/article_menu.html:49
+msgid "View"
+msgstr "見る"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:16
+#: wiki/templates/wiki/includes/breadcrumbs.html:42
+msgid "Sub-articles for"
+msgstr ""
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:28
+msgid "No sub-articles"
+msgstr "副記事なし"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:31
+msgid "...and more"
+msgstr "。。。の他に"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:35
+msgid "Browse articles in this level"
+msgstr "このレベルの記事をブラウズする"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:51
+msgid "New article next to"
+msgstr "継続する新しい記事"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:56
+msgid "New article below"
+msgstr "下に続く新しい記事"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "by"
+msgstr ""
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "anonymous (IP logged)"
+msgstr "匿名 (IP記録済)"
+
+#: wiki/templates/wiki/includes/revision_info.html:18
+msgid "restored"
+msgstr "復旧済み"
+
+#: wiki/templates/wiki/includes/revision_info.html:24
+msgid "unlocked"
+msgstr "ロックされていません"
+
+#: wiki/views/accounts.py:28
+msgid "You are now sign up... and now you can sign in!"
+msgstr "サインアップされています... そしてサインインできます!"
+
+#: wiki/views/accounts.py:35
+msgid "You are no longer logged in. Bye bye!"
+msgstr "ログアウトしました。さようなら！"
+
+#: wiki/views/accounts.py:60
+msgid "You are now logged in! Have fun!"
+msgstr "ログインしました。お楽しみください！"
+
+#: wiki/views/article.py:91
+#, python-format
+msgid "New article '%s' created."
+msgstr "新しい記事 '%s' が作成されました。"
+
+#: wiki/views/article.py:96
+#, python-format
+msgid "There was an error creating this article: %s"
+msgstr "記事を作成する際にエラーが発生しました：%s"
+
+#: wiki/views/article.py:98
+msgid "There was an error creating this article."
+msgstr "この記事を作成する際にエラーが発生しました。"
+
+#: wiki/views/article.py:179
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr "この記事は削除することができません。子があるかルート記事です。"
+
+#: wiki/views/article.py:190
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
+msgstr "この記事とその内容はすべて削除されました。ありがとう！"
+
+#: wiki/views/article.py:197
+#, python-format
+msgid ""
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site "
+"free from unwanted material!"
+msgstr "記事：\"%s\" は削除にマークされています。不要な材料からサイトを解放してくれてありがとうございます。"
+
+#: wiki/views/article.py:280
+msgid "Your changes were saved."
+msgstr "変更は保存されました。"
+
+#: wiki/views/article.py:303
+msgid "A new revision of the article was successfully added."
+msgstr "新しいリビジョンが無事追加されました。"
+
+#: wiki/views/article.py:360
+msgid "Restoring article"
+msgstr "記事の復元"
+
+#: wiki/views/article.py:362
+#, python-format
+msgid "The article \"%s\" and its children are now restored."
+msgstr "記事： \"%s\" とその子は復元されました。"
+
+#: wiki/views/article.py:546
+#, python-format
+msgid ""
+"The article %(title)s is now set to display revision #%(revision_number)d"
+msgstr " 記事%(title)sは現在、リビジョン#%(revision_number)dを表示するよう設定されています。"
+
+#: wiki/views/article.py:611
+msgid "New title"
+msgstr "新しいタイトル"
+
+#: wiki/views/article.py:635
+#, python-format
+msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
+msgstr "#%(r1)d と #%(r2)d のリビジョンをマージする"
+
+#: wiki/views/article.py:639
+#, python-format
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision "
+"#%(r2)d"
+msgstr "新しいリビジョンが作成されました：#%(r1)d と #%(r2)d のリビジョンをマージ"
