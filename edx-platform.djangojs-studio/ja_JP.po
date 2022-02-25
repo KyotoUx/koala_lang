@@ -1,0 +1,1442 @@
+# edX translation file.
+# Copyright (C) 2022 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# わたカフェの店長, 2014
+# Yuta_Michiyabu <bii01143190417@yahoo.co.jp>, 2014
+# Hideki Mori <mori.h.aq@m.titech.ac.jp>, 2014
+# kawa <h.kawasaki@nttks.co.jp>, 2014
+# h_yoshida <h_yoshida@matsumo-sys.com>, 2014-2015
+# Juan Camilo Montoya Franco <juan.montoya@edunext.co>, 2017
+# Kyoto University <edxkyotoux@gmail.com>, 2017
+# Miyuki Harada <mykhrd@gmail.com>, 2015
+# Aoshi <support@225nou.com>, 2014
+# Takahiro Aoyagi, 2014
+# Takashi Nagai <ngi644@gmail.com>, 2014-2015
+# Toshiboumi Ohta <ohta@securesky-tech.com>, 2015,2018
+# わたカフェの店長, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2022-02-20 20:42+0000\n"
+"PO-Revision-Date: 2021-08-08 20:44+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/cms/js/main.js:47
+msgid "Studio's having trouble saving your work"
+msgstr "Studioでの作業の保存に問題が発生しています"
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+msgid "OpenAssessment Save Error"
+msgstr "オープン・アセスメントの保存エラー"
+
+#: cms/static/js/base.js:99
+msgid "This link will open in a new browser window/tab"
+msgstr "このリンクは新規ブラウザウィンドウ/タブで開きます。"
+
+#: cms/static/js/base.js:106
+msgid "This link will open in a modal window"
+msgstr "このリンクはモーダルウィンドウで開きます"
+
+#: cms/static/js/certificates/models/certificate.js:77
+msgid "Certificate name is required."
+msgstr "修了証名が必要です。"
+
+#: cms/static/js/certificates/models/certificate.js:86
+msgid "Signatory field(s) has invalid data."
+msgstr "署名欄 (複数の場合あり) に無効なデータがあります。"
+
+#: cms/static/js/certificates/views/certificate_details.js:45
+msgid "Edit this certificate?"
+msgstr "修了証を編集しますか？"
+
+#: cms/static/js/certificates/views/certificate_details.js:46
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr "この修了証は既に有効化されており、アクティブです。本当に編集を続けますか？"
+
+#: cms/static/js/certificates/views/certificate_details.js:47
+msgid "Yes, allow edits to the active Certificate"
+msgstr "はい、アクティブな修了証を編集します"
+
+#. Translators: This field pertains to the custom label for a certificate.
+#. Translators: this refers to a collection of certificates.
+#: cms/static/js/certificates/views/certificate_item.js:21
+#: cms/static/js/certificates/views/certificates_list.js:16
+msgid "certificate"
+msgstr "修了証"
+
+#: cms/static/js/certificates/views/certificate_preview.js:41
+msgid "Deactivating"
+msgstr ""
+
+#: cms/static/js/certificates/views/certificates_list.js:18
+msgid "Set up your certificate"
+msgstr "修了証を設定してください"
+
+#. Translators: This line refers to the initial state of the form when no data
+#. has been inserted
+#: cms/static/js/certificates/views/certificates_list.js:21
+msgid "You have not created any certificates yet."
+msgstr "まだ修了証を作成していません。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:133
+msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
+msgstr ""
+
+#: cms/static/js/certificates/views/signatory_editor.js:136
+#: cms/static/js/views/course_info_update.js:237
+msgid "This action cannot be undone."
+msgstr "このアクションは取り消しできません。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:142
+#: cms/static/js/views/course_info_update.js:248
+#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
+#: cms/static/js/views/tabs.js:173
+#: cms/static/js/views/utils/xblock_utils.js:133
+msgid "Deleting"
+msgstr "削除中"
+
+#: cms/static/js/certificates/views/signatory_editor.js:176
+msgid "Upload signature image."
+msgstr "署名の画像をアップロード。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:177
+msgid "Image must be in PNG format."
+msgstr "画像はPNG形式にしてください。"
+
+#: cms/static/js/collections/group.js:42
+#, javascript-format
+msgid "Group %s"
+msgstr "グループ %s"
+
+#. Translators: Dictionary used for creation ids that are used in
+#. default group names. For example: A, B, AA in Group A,
+#. Group B, ..., Group AA, etc.
+#: cms/static/js/collections/group.js:62
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+#: cms/static/js/factories/export.js:35
+msgid "Your export has failed."
+msgstr "エクスポート失敗。"
+
+#: cms/static/js/factories/manage_users.js:10
+msgid "Already a course team member"
+msgstr "既に講座チームメンバーです"
+
+#: cms/static/js/factories/manage_users.js:12
+msgid ""
+"Are you sure you want to delete {email} from the course team for "
+"“{container}”?"
+msgstr "{email}を“{container}”の講座チームから削除しようとしていますが、よろしいですか？"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:21
+msgid "Staff"
+msgstr "スタッフ"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:22
+msgid "Admin"
+msgstr "管理者"
+
+#: cms/static/js/factories/manage_users_lib.js:10
+msgid "Already a library team member"
+msgstr "すでにライブラリチームメンバーです"
+
+#: cms/static/js/factories/manage_users_lib.js:12
+msgid ""
+"Are you sure you want to delete {email} from the library “{container}”?"
+msgstr "{email}を“{container}”ライブラリから削除しようとしていますが、よろしいですか？"
+
+#: cms/static/js/factories/manage_users_lib.js:20
+msgid "Library User"
+msgstr "ライブラリユーザー"
+
+#: cms/static/js/factories/settings_advanced.js:40
+msgid "Hide Deprecated Settings"
+msgstr "非推奨の設定を非表示"
+
+#: cms/static/js/factories/settings_advanced.js:44
+msgid "Show Deprecated Settings"
+msgstr "非推奨の設定を表示"
+
+#: cms/static/js/factories/textbooks.js:19
+#: cms/static/js/views/pages/group_configurations.js:82
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "保存されていない変更があります。本当にこのページから移動しますか？"
+
+#: cms/static/js/features/import/factories/import.js:20
+msgid "There was an error during the upload process."
+msgstr "アップロード処理中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:21
+msgid "There was an error while unpacking the file."
+msgstr "ファイルの解凍中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:22
+msgid "There was an error while verifying the file you submitted."
+msgstr "提出したファイルの確認中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:31
+msgid "Choose new file"
+msgstr "新規ファイルを選ぶ"
+
+#: cms/static/js/features/import/factories/import.js:46
+msgid ""
+"File format not supported. Please upload a file with a {ext} extension."
+msgstr "サポート対象外のファイルフォーマットです。拡張子が{ext}のファイルをアップロードしてください。"
+
+#: cms/static/js/features/import/factories/import.js:54
+msgid "There was an error while importing the new library to our database."
+msgstr "新規ライブラリをデータベースにインポート中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:56
+msgid "There was an error while importing the new course to our database."
+msgstr "新規コースをデータベースにインポート中にエラーが発生しました。"
+
+#: cms/static/js/features/import/factories/import.js:119
+msgid "Your import has failed."
+msgstr "インポート失敗しました。"
+
+#: cms/static/js/features/import/views/import.js:66
+msgid "Your import is in progress; navigating away will abort it."
+msgstr "インポート処理中です。移動すると、この処理は中止されます。"
+
+#: cms/static/js/features/import/views/import.js:253
+msgid "Error importing course"
+msgstr "コースのインポートエラー"
+
+#: cms/static/js/features/import/views/import.js:298
+msgid "There was an error with the upload"
+msgstr "アップロードにエラーが発生しました"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:23
+msgid "Organization:"
+msgstr "組織: "
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:27
+msgid "Course Number:"
+msgstr "講座番号: "
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:32
+msgid "Course Run:"
+msgstr "Course Run: "
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:37
+msgid "(Read-only)"
+msgstr "(読取専用)"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:50
+msgid "Re-run Course"
+msgstr "講座を再実行"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:60
+msgid "View Live"
+msgstr "ライブ表示"
+
+#: cms/static/js/maintenance/force_publish_course.js:75
+msgid "Internal Server Error."
+msgstr "内部サーバーエラー。"
+
+#. Translators: This is the status of a video upload that is queued
+#. waiting for other uploads to complete
+#: cms/static/js/models/active_video_upload.js:9
+msgid "Queued"
+msgstr "待機中"
+
+#. Translators: This is the status of a video upload that has
+#. completed successfully
+#: cms/static/js/models/active_video_upload.js:14
+msgid "Upload completed"
+msgstr "アップロード完了"
+
+#. Translators: This is the status of a video upload that has failed
+#: cms/static/js/models/active_video_upload.js:16
+msgid "Upload failed"
+msgstr "アップロード失敗"
+
+#: cms/static/js/models/chapter.js:35
+msgid "Chapter name and asset_path are both required"
+msgstr "チャプター名および asset_pathは必須です"
+
+#: cms/static/js/models/chapter.js:40
+msgid "Chapter name is required"
+msgstr "チャプター名は必須です"
+
+#: cms/static/js/models/chapter.js:45
+msgid "asset_path is required"
+msgstr "asset_path は必須です"
+
+#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+msgid "You must specify a name"
+msgstr "名前を指定する必要があります"
+
+#: cms/static/js/models/course_update.js:12
+msgid "Action required: Enter a valid date."
+msgstr "必須: 正しい日付を入力してください。"
+
+#: cms/static/js/models/group.js:40
+msgid "Group name is required"
+msgstr "グループ名は必須です"
+
+#: cms/static/js/models/group_configuration.js:16
+msgid "Group A"
+msgstr "グループA"
+
+#: cms/static/js/models/group_configuration.js:20
+msgid "Group B"
+msgstr "グループB"
+
+#: cms/static/js/models/group_configuration.js:90
+msgid "Group Configuration name is required."
+msgstr "グループ設定名は必須です。"
+
+#: cms/static/js/models/group_configuration.js:97
+msgid "There must be at least one group."
+msgstr "少なくとも１グループ必要です。"
+
+#: cms/static/js/models/group_configuration.js:114
+msgid "All groups must have a name."
+msgstr "全てのグループに名前が必要です。"
+
+#: cms/static/js/models/group_configuration.js:122
+msgid "All groups must have a unique name."
+msgstr "全てのグループに固有の名前が必要です。"
+
+#: cms/static/js/models/settings/course_details.js:58
+msgid "The course must have an assigned start date."
+msgstr "講座開始日を設定する必要があります。"
+
+#: cms/static/js/models/settings/course_details.js:62
+msgid "The course end date must be later than the course start date."
+msgstr "講座終了日は、講座開始日より後でなければなりません。"
+
+#: cms/static/js/models/settings/course_details.js:67
+msgid "The course start date must be later than the enrollment start date."
+msgstr "講座開始日は、受講登録開始日より後でなければなりません。"
+
+#: cms/static/js/models/settings/course_details.js:73
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "受講登録開始日は、受講登録終了日より後にはできません．"
+
+#: cms/static/js/models/settings/course_details.js:77
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "受講登録終了日は、講座終了日より後にはできません。"
+
+#: cms/static/js/models/settings/course_details.js:82
+msgid "The certificate available date must be later than the course end date."
+msgstr "修了証受領日は講座終了日より後でなければいけません。"
+
+#: cms/static/js/models/settings/course_details.js:94
+msgid "The certificate display behavior must be one of: {behavior_options}"
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js:109
+msgid ""
+"The certificates display behavior must be {valid_option} if certificate "
+"available date is set."
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js:120
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "キーには英数字、_ または - のみ利用できます"
+
+#: cms/static/js/models/settings/course_details.js:131
+msgid "Please enter an integer between %(min)s and %(max)s."
+msgstr "%(min)sから%(max)sの間の整数を入力してください。"
+
+#: cms/static/js/models/settings/course_grader.js:27
+msgid "The assignment type must have a name."
+msgstr "この割り当ての種類には名前が必要です。"
+
+#: cms/static/js/models/settings/course_grader.js:32
+msgid "There's already another assignment type with this name."
+msgstr "この名前の課題タイプが既に存在します。"
+
+#: cms/static/js/models/settings/course_grader.js:39
+msgid "Please enter an integer between 0 and 100."
+msgstr "0 から 100 の間の整数を入力して下さい。"
+
+#: cms/static/js/models/settings/course_grader.js:54
+msgid "Please enter an integer greater than 0."
+msgstr "0 より大きい整数を入力して下さい。"
+
+#: cms/static/js/models/settings/course_grader.js:61
+msgid "Please enter non-negative integer."
+msgstr "正の整数を入力してください。"
+
+#: cms/static/js/models/settings/course_grader.js:66
+msgid "Cannot drop more <%- types %> assignments than are assigned."
+msgstr ""
+
+#: cms/static/js/models/settings/course_grading_policy.js:76
+msgid "Grace period must be specified in HH:MM format."
+msgstr "猶予期間はHH:MMの形式で記入してください。"
+
+#: cms/static/js/models/settings/course_grading_policy.js:87
+msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
+msgstr "%(minimum_grade_cutoff)s%未満は、合格点として設定できません。"
+
+#: cms/static/js/models/textbook.js:62
+msgid "Textbook name is required"
+msgstr "教科書名は必須です"
+
+#: cms/static/js/models/textbook.js:68
+msgid "Please add at least one chapter"
+msgstr "少なくとも１チャプター入力してください"
+
+#: cms/static/js/models/textbook.js:81
+msgid "All chapters must have a name and asset"
+msgstr "すべてのチャプターには名前およびアセットが必要です"
+
+#: cms/static/js/models/uploads.js:17
+msgid ""
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
+msgstr ""
+
+#: cms/static/js/models/uploads.js:63
+msgid "or"
+msgstr "または"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr "このユニットには認証に関する問題があります。"
+
+#: cms/static/js/models/xblock_validation.js:25
+msgid "This component has validation issues."
+msgstr "このコンポーネントは認証に関する問題があります。"
+
+#: cms/static/js/views/active_video_upload.js:42
+#: cms/static/js/views/assets.js:210
+msgid "Your file could not be uploaded"
+msgstr "ファイルがアップロードできませんでした"
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr "動画をアップロード"
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr "ドラッグ＆ドロップするか、{spanStart}あなたのコンピュータを見てください{spanEnd}。"
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr "最大ファイルサイズ:  {maxFileSize} GB"
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr "対応ファイルタイプ: {supportedVideoTypes}"
+
+#: cms/static/js/views/active_video_upload_list.js:155
+msgid "Your video uploads are not complete."
+msgstr "動画アップロードが完了していません。"
+
+#: cms/static/js/views/active_video_upload_list.js:296
+msgid "Upload completed for video {fileName}"
+msgstr "動画 {fileName} のアップロード完了"
+
+#: cms/static/js/views/active_video_upload_list.js:330
+#: cms/static/js/views/active_video_upload_list.js:354
+msgid "Upload failed for video {fileName}"
+msgstr "動画 {fileName} のアップロード失敗"
+
+#: cms/static/js/views/active_video_upload_list.js:383
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr "{filename} のファイル形式はサポートされていません。サポートされているファイル形式は {supportedFileFormats} です。"
+
+#: cms/static/js/views/active_video_upload_list.js:390
+msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
+msgstr "{filename}は最大サイズ {maxFileSizeInGB} GBを超えています。"
+
+#: cms/static/js/views/active_video_upload_list.js:425
+msgid ": video upload complete."
+msgstr ": 動画アップロード完了。"
+
+#: cms/static/js/views/active_video_upload_list.js:434
+msgid "Previous Uploads table has been updated."
+msgstr "以前のアップロード表が更新されました。"
+
+#: cms/static/js/views/asset.js:51
+msgid "Delete File Confirmation"
+msgstr "ファイル削除確認"
+
+#: cms/static/js/views/asset.js:52
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr "このアイテムを本当に削除してよいですか？元には戻せません！\n\nまた、このアイテムにリンクまたは参照しているコンテンツはすべて機能しなくなります (例: 画像やリンク破損)"
+
+#: cms/static/js/views/asset.js:62
+msgid "Your file has been deleted."
+msgstr "ファイルは削除されました。"
+
+#: cms/static/js/views/assets.js:111
+msgid "Date Added"
+msgstr "追加日"
+
+#: cms/static/js/views/assets.js:112
+msgid "Type"
+msgstr "タイプ"
+
+#: cms/static/js/views/assets.js:197
+msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
+msgstr "ファイル {filename} が最大サイズ {maxFileSizeInMBs} MBを超えています"
+
+#: cms/static/js/views/assets.js:204
+msgid ""
+"Please follow the instructions here to upload a file elsewhere and link to "
+"it: {maxFileSizeRedirectUrl}"
+msgstr "この説明に従ってファイルを別の場所にアップロードしたうえでリンクしてください: {maxFileSizeRedirectUrl}"
+
+#: cms/static/js/views/assets.js:216
+msgid "Max file size exceeded"
+msgstr "最大ファイルサイズを超えています"
+
+#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+msgid "Upload New File"
+msgstr "新規ファイルをアップロード"
+
+#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+msgid "Load Another File"
+msgstr "他のファイルを読み込み"
+
+#: cms/static/js/views/components/add_xblock.js:70
+#: cms/static/js/views/utils/xblock_utils.js:51
+msgid "Adding"
+msgstr "追加中"
+
+#: cms/static/js/views/container.js:146
+msgid "{startTag}{requestToken}{endTag}{selector}"
+msgstr ""
+
+#: cms/static/js/views/course_info_update.js:236
+msgid "Are you sure you want to delete this update?"
+msgstr "この変更を削除してもよろしいですか?"
+
+#: cms/static/js/views/course_rerun.js:52
+msgid "Create Re-run"
+msgstr "Re-runを作成"
+
+#: cms/static/js/views/course_rerun.js:59
+msgid "Processing Re-run Request"
+msgstr "Re-runリクエスト手続中"
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr "エラーが起きました。数分待ってから、もう一度やってみてください。"
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr "折り返しを選択"
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr "正確さを選択"
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr "言語を選択"
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr "言語を削除するには削除を押してください"
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr "設定が更新されました"
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr "最新の更新"
+
+#: cms/static/js/views/course_video_settings.js:554
+msgid "Required"
+msgstr "必須"
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr "自動の字幕は無効になっています。"
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr "{selectedProvider} の認証情報が保存されました"
+
+#: cms/static/js/views/edit_chapter.js:62
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr ""
+
+#: cms/static/js/views/edit_chapter.js:64
+msgid "Please select a PDF file to upload."
+msgstr "アップロードするPDFファイルを選択してください。"
+
+#: cms/static/js/views/export.js:312
+msgid "There has been an error while exporting."
+msgstr "エクスポート中にエラーが発生しました。"
+
+#: cms/static/js/views/export.js:313
+msgid ""
+"There has been a failure to export to XML at least one component. It is "
+"recommended that you go to the edit page and repair the error before "
+"attempting another export. Please check that all components on the page are "
+"valid and do not display any error messages."
+msgstr "XMLにエクスポートするにあたって少なくとも１つののコンポーネントに問題があります。別のエクスポートを試みる前に、編集ページに移動してエラーを修正することをお勧めします。ページ内の全てのコンポーネントが正常であること及びエラーメッセージが表示されないことを確認してください。"
+
+#: cms/static/js/views/export.js:320
+msgid "Correct failed component"
+msgstr "エラーとなっているコンポーネントを修正してください"
+
+#: cms/static/js/views/export.js:327
+msgid "Return to Export"
+msgstr "エクスポートへ戻る"
+
+#: cms/static/js/views/export.js:336
+msgid ""
+"Your library could not be exported to XML. There is not enough information "
+"to identify the failed component. Inspect your library to identify any "
+"problematic components and try again."
+msgstr "ライブラリをXMLにエクスポートできませんでした。失敗したコンポーネントを特定するために必要な情報が不足しています。ライブラリを精査して問題のあるコンポーネントを特定してから再試行してください。"
+
+#: cms/static/js/views/export.js:339
+msgid "Take me to the main library page"
+msgstr "メインライブラリページへ"
+
+#: cms/static/js/views/export.js:341
+msgid ""
+"Your course could not be exported to XML. There is not enough information to"
+" identify the failed component. Inspect your course to identify any "
+"problematic components and try again."
+msgstr "コースをXMLにエクスポートできませんでした。失敗したコンポーネントを特定するために必要な情報が不足しています。コースを精査して問題のあるコンポーネントを特定してから再試行してください。"
+
+#: cms/static/js/views/export.js:344
+msgid "Take me to the main course page"
+msgstr "メイン講座ページへ"
+
+#: cms/static/js/views/export.js:346
+msgid "The raw error message is:"
+msgstr "エラーメッセージの原文："
+
+#: cms/static/js/views/export.js:348
+msgid "There has been an error with your export."
+msgstr "エクスポートする際にエラーが発生しました。"
+
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#: cms/static/js/views/group_configuration_details.js:70
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "{count} グループ含む"
+
+#: cms/static/js/views/group_configuration_details.js:81
+#: cms/static/js/views/partition_group_details.js:66
+msgid "Not in Use"
+msgstr "使用されていません"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] "{count}ヵ所で使用中"
+
+#. Translators: this refers to a collection of groups.
+#: cms/static/js/views/group_configuration_item.js:26
+#: cms/static/js/views/group_configurations_list.js:18
+msgid "group configuration"
+msgstr "グループ設定"
+
+#: cms/static/js/views/group_configurations_list.js:20
+msgid "Add your first group configuration"
+msgstr "最初のグループ設定を入力"
+
+#: cms/static/js/views/group_configurations_list.js:22
+msgid "You have not created any group configurations yet."
+msgstr "グループ設定が作成されていません。"
+
+#: cms/static/js/views/instructor_info.js:77
+msgid "Upload instructor image."
+msgstr "講師の画像をアップロード。"
+
+#: cms/static/js/views/instructor_info.js:78
+#: cms/static/js/views/settings/main.js:477
+msgid "Files must be in JPEG or PNG format."
+msgstr "ファイル形式はJPEGもしくはPNG形式でなければいけません。"
+
+#: cms/static/js/views/license.js:8
+msgid "All Rights Reserved"
+msgstr "All Rights Reserved"
+
+#: cms/static/js/views/license.js:9
+msgid "You reserve all rights for your work"
+msgstr "あなたの作品の全ての権利をあなたが保有します"
+
+#: cms/static/js/views/license.js:12
+msgid "Creative Commons"
+msgstr "クリエイティブ・コモンズ"
+
+#: cms/static/js/views/license.js:13
+msgid "You waive some rights for your work, such that others can use it too"
+msgstr "あなたの作品の著作権の一部を放棄することにより、他者も利用できるようになります"
+
+#: cms/static/js/views/license.js:17
+msgid "Version"
+msgstr "バージョン"
+
+#: cms/static/js/views/license.js:22
+msgid "Attribution"
+msgstr "属性"
+
+#: cms/static/js/views/license.js:25
+msgid ""
+"Allow others to copy, distribute, display and perform your copyrighted work "
+"but only if they give credit the way you request. Currently, this option is "
+"required."
+msgstr "あなたの希望通りにクレジットを表示することを条件に、他の人があなたの作品を複製、頒布、展示、上演することを許可します。現在、このオプションは必須です。"
+
+#: cms/static/js/views/license.js:29
+msgid "Noncommercial"
+msgstr "非営利"
+
+#: cms/static/js/views/license.js:32
+msgid ""
+"Allow others to copy, distribute, display and perform your work - and "
+"derivative works based upon it - but for noncommercial purposes only."
+msgstr "非営利目的に限って、他の人があなたの作品とそれに基づく二次著作物を複製、頒布、展示、上演することを許可します。"
+
+#: cms/static/js/views/license.js:35
+msgid "No Derivatives"
+msgstr "二次著作物なし"
+
+#: cms/static/js/views/license.js:38
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr "二次著作物ではなく、あなたの作品そのままの複製だけを他の人が複製、頒布、展示、上演することを許可します。このオプションは\"継承\"と両立できません。"
+
+#: cms/static/js/views/license.js:42
+msgid "Share Alike"
+msgstr "継承"
+
+#: cms/static/js/views/license.js:45
+msgid ""
+"Allow others to distribute derivative works only under a license identical "
+"to the license that governs your work. This option is incompatible with \"No"
+" Derivatives\"."
+msgstr "あなたの作品に付されているライセンスと同一のライセンスに基づいてのみ、他の人が二次著作物を頒布することを許可します。このオプションは\"二次著作物なし\"と両立できません。"
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:51
+msgid "Delete this %(item_display_name)s?"
+msgstr "この%(item_display_name)sを削除しますか？"
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:56
+msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
+msgstr "この%(item_display_name)sの削除は恒久的で、元に戻せません。"
+
+#: cms/static/js/views/manage_users_and_roles.js:11
+msgid "There was an error changing the user's role"
+msgstr "ユーザーの権限を変更する際にエラーが発生しました"
+
+#: cms/static/js/views/manage_users_and_roles.js:15
+msgid "Error adding user"
+msgstr "ユーザー追加エラー"
+
+#: cms/static/js/views/manage_users_and_roles.js:16
+msgid "Error removing user"
+msgstr "ユーザー削除エラー"
+
+#: cms/static/js/views/manage_users_and_roles.js:19
+msgid "A valid email address is required"
+msgstr "正しいメールアドレスが必要です"
+
+#: cms/static/js/views/manage_users_and_roles.js:20
+msgid "You must enter a valid email address in order to add a new team member"
+msgstr "新しいチームメンバーを追加するには、正しいメールアドレスを入力してください"
+
+#: cms/static/js/views/manage_users_and_roles.js:21
+msgid "Return and add email address"
+msgstr "戻ってメールアドレスを入力する"
+
+#: cms/static/js/views/manage_users_and_roles.js:24
+msgid "Already a member"
+msgstr "既にメンバー"
+
+#: cms/static/js/views/manage_users_and_roles.js:25
+msgid ""
+"{email} is already on the {container} team. Recheck the email address if you"
+" want to add a new member."
+msgstr "{email}はすでに{container}チームに登録されています。新しいメンバーを登録する場合はメールアドレスを再確認してください。"
+
+#: cms/static/js/views/manage_users_and_roles.js:26
+msgid "Return to team listing"
+msgstr "チームのリスト表示に戻る"
+
+#: cms/static/js/views/manage_users_and_roles.js:30
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr "{email}の“{container}”へのアクセスを制限してよろしいですか？"
+
+#: cms/static/js/views/modals/course_outline_modals.js:122
+msgid "{display_name} Settings"
+msgstr "{display_name} 設定"
+
+#: cms/static/js/views/modals/course_outline_modals.js:203
+msgid "Publish {display_name}"
+msgstr "{display_name} を公開"
+
+#: cms/static/js/views/modals/course_outline_modals.js:210
+msgid "Publish all unpublished changes for this {item}?"
+msgstr "{item} の未公開の変更をすべて公開しますか？"
+
+#: cms/static/js/views/modals/course_outline_modals.js:216
+msgid "Publish"
+msgstr "公開"
+
+#: cms/static/js/views/modals/course_outline_modals.js:237
+msgid "Highlights for {display_name}"
+msgstr " {display_name} のハイライト"
+
+#: cms/static/js/views/modals/course_outline_modals.js:277
+msgid "Enable Course Highlight Emails"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:295
+msgid "Enable"
+msgstr "有効にする"
+
+#: cms/static/js/views/modals/course_outline_modals.js:296
+msgid "Not yet"
+msgstr "まだ"
+
+#: cms/static/js/views/modals/course_outline_modals.js:872
+msgid "All Learners and Staff"
+msgstr "全受講者およびスタッフ"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1222
+msgid "Basic"
+msgstr "基本"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1227
+msgid "Visibility"
+msgstr "公開範囲"
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/edit_xblock.js:23
+msgid "Editing: {title}"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js:98
+msgid "Plugins"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js:132
+msgid "Unit"
+msgstr "ユニット"
+
+#: cms/static/js/views/modals/edit_xblock.js:134
+msgid "Component"
+msgstr "コンポーネント"
+
+#: cms/static/js/views/modals/edit_xblock.js:180
+msgid "Studio's having trouble parsing the problem component's content"
+msgstr ""
+
+#: cms/static/js/views/modals/move_xblock_modal.js:37
+msgid "Move"
+msgstr "移動"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:38
+msgid "Choose a location to move your component to"
+msgstr "コンポーネントの移動先を選ぶ"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:66
+msgid "Move: {displayName}"
+msgstr "移動: {displayName}"
+
+#: cms/static/js/views/modals/validation_error_modal.js:16
+msgid "Validation Error While Saving"
+msgstr "保存時の認証エラー"
+
+#: cms/static/js/views/modals/validation_error_modal.js:21
+msgid "Undo Changes"
+msgstr "変更を取り消す"
+
+#: cms/static/js/views/modals/validation_error_modal.js:22
+msgid "Change Manually"
+msgstr "手動で変更する"
+
+#: cms/static/js/views/move_xblock_list.js:33
+msgid "Sections"
+msgstr "セクション"
+
+#: cms/static/js/views/move_xblock_list.js:34
+msgid "Subsections"
+msgstr "サブセクション"
+
+#: cms/static/js/views/move_xblock_list.js:35
+msgid "Units"
+msgstr "ユニット"
+
+#: cms/static/js/views/move_xblock_list.js:36
+msgid "Components"
+msgstr "コンポーネント"
+
+#: cms/static/js/views/move_xblock_list.js:37
+msgid "Groups"
+msgstr "グループ"
+
+#: cms/static/js/views/move_xblock_list.js:179
+msgid "This {parentCategory} has no {childCategory}"
+msgstr "この{parentCategory} には {childCategory} がありません"
+
+#: cms/static/js/views/move_xblock_list.js:196
+msgid "Course Outline"
+msgstr "講座アウトライン"
+
+#: cms/static/js/views/paged_container.js:260
+msgid "Date added"
+msgstr "追加日"
+
+#. Translators: "title" is the name of the current component or unit being
+#. edited.
+#: cms/static/js/views/pages/container.js:214
+msgid "Editing access for: {title}"
+msgstr ""
+
+#: cms/static/js/views/pages/container_subviews.js:164
+msgid "Publishing"
+msgstr "公開中"
+
+#: cms/static/js/views/pages/container_subviews.js:182
+#: cms/static/js/views/pages/container_subviews.js:184
+msgid "Discard Changes"
+msgstr "変更を破棄"
+
+#: cms/static/js/views/pages/container_subviews.js:183
+msgid ""
+"Are you sure you want to revert to the last published version of the unit? "
+"You cannot undo this action."
+msgstr "一番最近公開されたバージョンに本当に戻してよいですか？この操作は取り消しできません。"
+
+#: cms/static/js/views/pages/container_subviews.js:186
+msgid "Discarding Changes"
+msgstr "変更の破棄中"
+
+#: cms/static/js/views/pages/container_subviews.js:233
+msgid "Hiding from Students"
+msgstr "受講者に非表示"
+
+#: cms/static/js/views/pages/container_subviews.js:236
+msgid "Explicitly Hiding from Students"
+msgstr "受講者に明示して非表示"
+
+#: cms/static/js/views/pages/container_subviews.js:239
+msgid "Inheriting Student Visibility"
+msgstr "受講者公開範囲を継承中"
+
+#: cms/static/js/views/pages/container_subviews.js:242
+#: cms/static/js/views/pages/container_subviews.js:244
+msgid "Make Visible to Students"
+msgstr "受講者に表示する"
+
+#: cms/static/js/views/pages/container_subviews.js:243
+msgid ""
+"If the unit was previously published and released to students, any changes "
+"you made to the unit when it was hidden will now be visible to students. Do "
+"you want to proceed?"
+msgstr "ユニットが以前受講者に公開されていた場合、非表示中に変更した内容も受講生に表示されます。処理を続けてよろしいですか？"
+
+#: cms/static/js/views/pages/container_subviews.js:246
+msgid "Making Visible to Students"
+msgstr "受講者に表示中"
+
+#: cms/static/js/views/pages/course_outline.js:185
+msgid "Course Index"
+msgstr "コース見出し"
+
+#: cms/static/js/views/pages/course_outline.js:193
+msgid "There were errors reindexing course."
+msgstr "コースの見出し作成中にエラーが発生しました。"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Hide Previews"
+msgstr "プレビューを非表示"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Show Previews"
+msgstr "プレビューを表示"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. ascending"
+#: cms/static/js/views/paging_header.js:52
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} ascending"
+msgstr "{sortName}で昇順にソート、{assetType}でフィルタリングされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. descending"
+#: cms/static/js/views/paging_header.js:56
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} descending"
+msgstr "{sortName}で降順にソート、{assetType}でフィルタリングされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
+#: cms/static/js/views/paging_header.js:63
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"ascending"
+msgstr "{sortName}で昇順にソートされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added descending"
+#: cms/static/js/views/paging_header.js:67
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"descending"
+msgstr "{sortName}で降順にソートされた全{totalItemsCount}件中{currentItemRange}件を表示中"
+
+#. Translators: turns into "25 total" to be used in other sentences, e.g.
+#. "Showing 0-9 out of 25 total".
+#: cms/static/js/views/paging_header.js:98
+msgid "{totalItems} total"
+msgstr "全{totalItems}件"
+
+#. Translators: This refers to a content group that can be linked to a student
+#. cohort.
+#: cms/static/js/views/partition_group_item.js:24
+#: cms/static/js/views/partition_group_list.js:21
+msgid "content group"
+msgstr "コンテンツグループ"
+
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "最初のコンテンツグループを入力"
+
+#: cms/static/js/views/partition_group_list.js:25
+msgid "You have not created any content groups yet."
+msgstr "コンテンツグループがまだ作成されていません。"
+
+#: cms/static/js/views/previous_video_upload.js:76
+msgid "Are you sure you want to remove this video from the list?"
+msgstr "この動画をリストから削除してよろしいですか？"
+
+#: cms/static/js/views/previous_video_upload.js:77
+msgid ""
+"Removing a video from this list does not affect course content. Any content "
+"that uses a previously uploaded video ID continues to display in the course."
+msgstr "動画をリストから削除しても講座コンテンツには影響しません。以前にアップロードされた動画IDを使用しているコンテンツは引き続き表示されます。"
+
+#: cms/static/js/views/settings/advanced.js:69
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr "保存するまで変更は反映されません。認証は実施されませんので、キーと値の形式に気をつけて下さい。"
+
+#: cms/static/js/views/settings/advanced.js:140
+msgid "Your policy changes have been saved."
+msgstr "ポリシーの変更が保存されました。"
+
+#: cms/static/js/views/settings/advanced.js:141
+msgid ""
+"No validation is performed on policy keys or value pairs. If you are having "
+"difficulties, check your formatting."
+msgstr "ポリシーキーまたは値のペアに対して認証は行われません。問題がある場合は、形式を確認してください。"
+
+#: cms/static/js/views/settings/grader.js:58
+msgid ""
+"For grading to work, you must change all {oldName} subsections to {newName}."
+msgstr "採点できるようにするには、 {oldName}サブセクションを全て{newName}に変更しなければいけません。"
+
+#: cms/static/js/views/settings/main.js:62
+msgid "Course Credit Requirements"
+msgstr "講座単位認定条件"
+
+#: cms/static/js/views/settings/main.js:63
+msgid "The minimum grade for course credit is not set."
+msgstr "講座単位認定に必要な最低点が設定されていません。"
+
+#: cms/static/js/views/settings/main.js:155
+msgid "Course pacing cannot be changed once a course has started."
+msgstr "講座のタイプは一旦開講すると変更できません。"
+
+#: cms/static/js/views/settings/main.js:223
+msgid "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (現在のUTC時間)"
+
+#: cms/static/js/views/settings/main.js:456
+msgid "Upload your course image."
+msgstr "講座画像をアップロードしてください。"
+
+#: cms/static/js/views/settings/main.js:462
+msgid "Upload your banner image."
+msgstr "バナー画像をアップロードしてください。"
+
+#: cms/static/js/views/settings/main.js:468
+msgid "Upload your video thumbnail image."
+msgstr "動画サムネイル画像をアップロードしてください。"
+
+#: cms/static/js/views/show_textbook.js:33
+msgid "Delete “<%- name %>”?"
+msgstr ""
+
+#: cms/static/js/views/show_textbook.js:36
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr "教科書の削除は元に戻せません。一旦削除すると、コースウェア案内にある関連資料も削除されます。"
+
+#: cms/static/js/views/tabs.js:159
+msgid "Delete Page Confirmation"
+msgstr "ページ削除の確認"
+
+#: cms/static/js/views/tabs.js:160
+msgid ""
+"Are you sure you want to delete this page? This action cannot be undone."
+msgstr "このページを削除してよろしいですか？この操作は取り消しできません。"
+
+#: cms/static/js/views/uploads.js:29
+msgid "Upload"
+msgstr "アップロード"
+
+#: cms/static/js/views/uploads.js:121
+msgid "We're sorry, there was an error"
+msgstr "申し訳ありませんが、エラーが発生しました"
+
+#: cms/static/js/views/utils/create_course_utils.js:8
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%- limit %> characters."
+msgstr ""
+
+#: cms/static/js/views/utils/create_library_utils.js:8
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%- limit %> characters."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:32
+msgid "Success! \"{displayName}\" has been moved."
+msgstr "完了！\"{displayName}\" を移動しました。"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:57
+msgid ""
+"Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
+"location."
+msgstr "移動をキャンセル。\"{sourceDisplayName}\" は元の場所に戻されました。"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:75
+msgid "Undo move"
+msgstr "移動を取り消し"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:91
+msgid "Take me to the new location"
+msgstr "新しい場所へ"
+
+#: cms/static/js/views/utils/xblock_utils.js:79
+msgid "Duplicating"
+msgstr "複製中"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Undo moving"
+msgstr "移動を取り消し"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Moving"
+msgstr "移動中"
+
+#: cms/static/js/views/utils/xblock_utils.js:147
+msgid "Deleting this {xblock_type} is permanent and cannot be undone."
+msgstr "この {xblock_type} の削除は恒久的で、元に戻せません。"
+
+#: cms/static/js/views/utils/xblock_utils.js:153
+msgid ""
+"Any content that has listed this content as a prerequisite will also have "
+"access limitations removed."
+msgstr "このコンテンツを必須条件としているコンテンツもアクセス制限が削除されます。"
+
+#: cms/static/js/views/utils/xblock_utils.js:156
+msgid "Delete this {xblock_type} (and prerequisite)?"
+msgstr "この {xblock_type} (および必須条件) を削除しますか？"
+
+#: cms/static/js/views/utils/xblock_utils.js:162
+#: cms/static/js/views/utils/xblock_utils.js:177
+msgid "Yes, delete this {xblock_type}"
+msgstr "はい、この {xblock_type} を削除してください"
+
+#: cms/static/js/views/utils/xblock_utils.js:171
+msgid "Delete this {xblock_type}?"
+msgstr "この {xblock_type} を削除しますか？"
+
+#: cms/static/js/views/utils/xblock_utils.js:263
+msgid "section"
+msgstr "セクション"
+
+#: cms/static/js/views/utils/xblock_utils.js:265
+msgid "subsection"
+msgstr "サブセクション"
+
+#: cms/static/js/views/utils/xblock_utils.js:267
+msgid "unit"
+msgstr "ユニット"
+
+#: cms/static/js/views/validation.js:22
+msgid "You've made some changes"
+msgstr "変更しました"
+
+#: cms/static/js/views/validation.js:23
+msgid "Your changes will not take effect until you save your progress."
+msgstr "保存するまで変更は反映されません。"
+
+#: cms/static/js/views/validation.js:24
+msgid "You've made some changes, but there are some errors"
+msgstr "変更しましたが、エラーがあります"
+
+#: cms/static/js/views/validation.js:25
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "まずこのページのエラーを解決してから、変更を保存して下さい。"
+
+#: cms/static/js/views/validation.js:117
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:114
+msgid "Please select a file in .srt format."
+msgstr ".srtファイルを選択してください。"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:193
+msgid "Error: Uploading failed."
+msgstr "エラー: アップロード失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:141
+msgid "Error: Import failed."
+msgstr "エラー: インポート失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:155
+msgid "Error: Replacing failed."
+msgstr "エラー: 置換失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:171
+#: cms/static/js/views/video/transcripts/message_manager.js:185
+msgid "Error: Choosing failed."
+msgstr "エラー: 選択失敗。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:86
+msgid "Error: Connection with server failed."
+msgstr "エラー: サーバーへの接続失敗。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:357
+msgid "Link types should be unique."
+msgstr "リンクタイプは固有でなければいけません。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:370
+msgid "Links should be unique."
+msgstr "リンクは固有でなければいけません。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:392
+msgid "Incorrect url format."
+msgstr "URL形式が正しくありません。"
+
+#: cms/static/js/views/video/translations_editor.js:14
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr "申し訳ありませんが、アップロードされた字幕を処理する際にエラーが発生しました。フォーマットを確認して再試行してください。"
+
+#: cms/static/js/views/video/translations_editor.js:171
+#: cms/static/js/views/video_transcripts.js:268
+msgid "Are you sure you want to remove this transcript?"
+msgstr "本当にこの字幕を削除するつもりですか？"
+
+#: cms/static/js/views/video/translations_editor.js:172
+msgid ""
+"If you remove this transcript, the transcript will not be available for this"
+" component."
+msgstr "この字幕を削除すると、この動画を使っている全てのコンポーネントで字幕の表示が使えなくなります。"
+
+#: cms/static/js/views/video/translations_editor.js:173
+msgid "Remove Transcript"
+msgstr ""
+
+#: cms/static/js/views/video/translations_editor.js:224
+msgid "Upload translation"
+msgstr "翻訳をアップロード"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr "サムネイル追加"
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr "サムネイル編集"
+
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr "{InstructionsSpanStart}{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr "画像アップロード失敗"
+
+#. Translators: This is a 3 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr "{ReqTextSpanStart}必須{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
+
+#. Translators: message will be like 1280x720 pixels
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr "{maxWidth}x{maxHeight} ピクセル"
+
+#. Translators: message will be like Thumbnail for Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr "{videoName}のサムネイル"
+
+#. Translators: message will be like Add Thumbnail - Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr "サムネイル追加 - {videoName}"
+
+#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
+#. minutes etc
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr "動画の長さは {humanizeDuration}"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minutes"
+msgstr "分"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr "分"
+
+#. Translators: message will be like 15 minutes, 1 minute
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr "{minutes} {unit}"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr "秒"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "秒"
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#. Translators: `and` will be used to combine both miuntes and seconds like
+#. `13 minutes and 45 seconds`
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr "と"
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr "動画画像アップロード開始"
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr "動画画像アップロード完了"
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr "この画像ファイルの種類はサポートされていません。対応できるファイルの種類は {supportedFileFormats} です。"
+
+#. Translators: maxFileSizeInMB will be like 2 MB.
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr "選択する画像は {maxFileSizeInMB} を超えてはいけません。"
+
+#. Translators: minFileSizeInKB will be like 2 KB.
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr "選択する画像は {minFileSizeInKB} 以上でなければいけません。"
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr "動画画像ファイルをアップロードできませんでした"
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr "画像アップロード失敗。"
+
+#: cms/static/js/views/video_transcripts.js:32
+msgid "The file could not be uploaded."
+msgstr "ファイルをアップロードできません。"
+
+#: cms/static/js/views/video_transcripts.js:130
+msgid "Hide transcripts ({transcriptCount})"
+msgstr "字幕を表示しない ({transcriptCount})"
+
+#: cms/static/js/views/video_transcripts.js:149
+msgid "Show transcripts ({transcriptCount})"
+msgstr "字幕を表示する ({transcriptCount})"
+
+#: cms/static/js/views/video_transcripts.js:167
+msgid ""
+"This file type is not supported. Supported file type is "
+"{supportedFileFormat}."
+msgstr "このファイルフォーマットはサポートされていません。サポートされているのは {supportedFileFormat} です。"
+
+#: cms/static/js/views/video_transcripts.js:228
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:269
+msgid ""
+"If you remove this transcript, the transcript will not be available for any "
+"components that use this video."
+msgstr "この字幕を削除すると、この動画を使っている全てのコンポーネントで字幕の表示が使えなくなります。"
+
+#: cms/static/js/views/xblock_editor.js:49
+msgid "Editor"
+msgstr "エディタ"
+
+#: cms/static/js/views/xblock_editor.js:50
+msgid "Settings"
+msgstr "設定"
+
+#: cms/static/js/views/xblock_outline.js:90
+msgid "New {component_type}"
+msgstr "新規 {component_type}"
+
+#: cms/static/js/xblock_asides/structured_tags.js:23
+msgid "Updating Tags"
+msgstr "タグ更新中"

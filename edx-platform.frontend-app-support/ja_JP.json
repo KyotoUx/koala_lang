@@ -1,0 +1,6 @@
+{
+  "supportTools.mainTab.description": "Suite of tools used by support team to help triage and resolve select learner issues.",
+  "supportTools.accountActions.resetPassword": "We will send a message with password recovery instructions to the email address {email}. Do you wish to proceed?",
+  "supportTools.learnerInformation.ssoHeader": "Single Sign-on Records",
+  "supportTools.learnerInformation.verifiedNameHeader": "Verified Name Status"
+}

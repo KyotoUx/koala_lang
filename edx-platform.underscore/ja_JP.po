@@ -1,0 +1,2601 @@
+# edX translation file
+# Copyright (C) 2022 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# わたカフェの店長, 2014-2015
+# ayokose <ayokose.gacco@gmail.com>, 2015
+# h_yoshida <h_yoshida@matsumo-sys.com>, 2014-2015
+# Juan Camilo Montoya Franco <juan.montoya@edunext.co>, 2017
+# Kyoto University <edxkyotoux@gmail.com>, 2017
+# hachiyanagi_ks <m.hachiyanagi@nttks.co.jp>, 2016
+# hachiyanagi_ks <m.hachiyanagi@nttks.co.jp>, 2015
+# Omar Al-Ithawi <i@omardo.com>, 2021
+# Takashi Nagai <ngi644@gmail.com>, 2017
+# Toshiboumi Ohta <ohta@securesky-tech.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2022-02-20 20:42+0000\n"
+"PO-Revision-Date: 2022-02-13 20:46+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/templates/js/add-xblock-component-menu-problem.underscore:55
+#: cms/templates/js/add-xblock-component-menu.underscore:29
+#: cms/templates/js/certificate-editor.underscore:47
+#: cms/templates/js/content-group-editor.underscore:32
+#: cms/templates/js/course_info_handouts.underscore:20
+#: cms/templates/js/course_info_update.underscore:15
+#: cms/templates/js/edit-textbook.underscore:26
+#: cms/templates/js/group-configuration-editor.underscore:46
+#: cms/templates/js/section-name-edit.underscore:4
+#: cms/templates/js/signatory-actions.underscore:4
+#: cms/templates/js/xblock-string-field-editor.underscore:14
+#: common/static/common/templates/discussion/templates.underscore:148
+#: common/static/common/templates/discussion/templates.underscore:246
+#: common/static/common/templates/discussion/templates.underscore:293
+#: common/static/common/templates/discussion/templates.underscore:429
+#: common/static/common/templates/discussion/templates.underscore:495
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:25
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:55
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:149
+#: lms/templates/learner_dashboard/verification_popover.underscore:10
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: cms/templates/js/asset-library.underscore:19
+#: cms/templates/js/course-instructor-details.underscore:3
+#: cms/templates/js/previous-video-upload-list.underscore:14
+#: cms/templates/js/signatory-details.underscore:13
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:20
+msgid "Name"
+msgstr "名前"
+
+#: cms/templates/js/asset-library.underscore:26
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:7
+msgid "Type"
+msgstr "タイプ"
+
+#: cms/templates/js/asset-library.underscore:57
+#: cms/templates/js/basic-modal.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
+msgid "Actions"
+msgstr "操作"
+
+#: cms/templates/js/certificate-details.underscore:64
+#: cms/templates/js/course_info_handouts.underscore:1
+#: cms/templates/js/course_info_update.underscore:20
+#: cms/templates/js/group-configuration-details.underscore:45
+#: cms/templates/js/partition-group-details.underscore:28
+#: cms/templates/js/show-textbook.underscore:40
+#: cms/templates/js/signatory-details.underscore:5
+#: cms/templates/js/xblock-string-field-editor.underscore:3
+#: common/static/common/templates/discussion/templates.underscore:840
+msgid "Edit"
+msgstr "編集"
+
+#: cms/templates/js/certificate-details.underscore:66
+#: cms/templates/js/certificate-details.underscore:67
+#: cms/templates/js/certificate-editor.underscore:50
+#: cms/templates/js/content-group-editor.underscore:36
+#: cms/templates/js/content-group-editor.underscore:37
+#: cms/templates/js/content-group-editor.underscore:41
+#: cms/templates/js/course-instructor-details.underscore:41
+#: cms/templates/js/course-outline.underscore:166
+#: cms/templates/js/course-outline.underscore:168
+#: cms/templates/js/course-settings-learning-fields.underscore:4
+#: cms/templates/js/course_grade_policy.underscore:33
+#: cms/templates/js/course_info_update.underscore:21
+#: cms/templates/js/group-configuration-details.underscore:49
+#: cms/templates/js/group-configuration-details.underscore:53
+#: cms/templates/js/group-configuration-editor.underscore:50
+#: cms/templates/js/group-configuration-editor.underscore:54
+#: cms/templates/js/partition-group-details.underscore:31
+#: cms/templates/js/partition-group-details.underscore:32
+#: cms/templates/js/partition-group-details.underscore:36
+#: cms/templates/js/show-textbook.underscore:43
+#: cms/templates/js/signatory-editor.underscore:5
+#: cms/templates/js/video-transcripts.underscore:47
+#: cms/templates/js/xblock-outline.underscore:31
+#: cms/templates/js/xblock-outline.underscore:33
+#: common/static/common/templates/discussion/templates.underscore:848
+msgid "Delete"
+msgstr "削除"
+
+#: cms/templates/js/certificate-editor.underscore:46
+#: cms/templates/js/content-group-editor.underscore:31
+#: cms/templates/js/course_info_handouts.underscore:19
+#: cms/templates/js/edit-textbook.underscore:25
+#: cms/templates/js/group-configuration-editor.underscore:45
+#: cms/templates/js/section-name-edit.underscore:3
+#: cms/templates/js/signatory-actions.underscore:3
+#: cms/templates/js/xblock-string-field-editor.underscore:13
+#: lms/templates/fields/field_dropdown.underscore:45
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:147
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:15
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:35
+msgid "Save"
+msgstr "保存"
+
+#: cms/templates/js/course-instructor-details.underscore:9
+#: cms/templates/js/signatory-details.underscore:17
+#: common/static/common/templates/discussion/templates.underscore:136
+#: common/static/common/templates/discussion/templates.underscore:459
+msgid "Title"
+msgstr "件名"
+
+#: cms/templates/js/course-outline.underscore:205
+#: cms/templates/js/publish-xblock.underscore:72
+#: lms/templates/ccx/schedule.underscore:93
+#: lms/templates/ccx/schedule.underscore:103
+msgid "Unscheduled"
+msgstr "未定"
+
+#: cms/templates/js/course-video-settings.underscore:6
+#: common/static/common/templates/discussion/templates.underscore:417
+#: common/static/common/templates/discussion/templates.underscore:826
+#: common/static/common/templates/discussion/templates.underscore:828
+#: common/static/common/templates/discussion/templates.underscore:876
+#: common/static/common/templates/image-modal.underscore:19
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:3
+msgid "Close"
+msgstr "閉じる"
+
+#: cms/templates/js/discussion-editor.underscore:3
+#: common/static/common/templates/discussion/templates.underscore:733
+msgid "Discussion"
+msgstr "ディスカッション"
+
+#: cms/templates/js/move-xblock-modal.underscore:6
+#: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
+msgid "Loading"
+msgstr "読込中"
+
+#: cms/templates/js/paging-header.underscore:7
+#: common/static/common/templates/components/paging-footer.underscore:2
+#: common/static/common/templates/discussion/templates.underscore:592
+msgid "Previous"
+msgstr "前へ"
+
+#: cms/templates/js/paging-header.underscore:8
+#: common/static/common/templates/components/paging-footer.underscore:19
+#: common/static/common/templates/discussion/templates.underscore:616
+msgid "Next"
+msgstr "次へ"
+
+#: cms/templates/js/previous-video-upload-list.underscore:19
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
+msgid "Action"
+msgstr "操作"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:33
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:20
+msgid "Username"
+msgstr "ユーザー名"
+
+#: cms/templates/js/video/metadata-translations-item.underscore:2
+#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore:14
+msgid "Remove"
+msgstr "削除"
+
+#: common/static/common/templates/image-modal.underscore:6
+msgid "Fullscreen"
+msgstr "フルスクリーン"
+
+#: common/static/common/templates/image-modal.underscore:14
+msgid "Large"
+msgstr "大きい"
+
+#: common/static/common/templates/image-modal.underscore:27
+msgid "Zoom In"
+msgstr "ズームイン"
+
+#: common/static/common/templates/image-modal.underscore:35
+msgid "Zoom Out"
+msgstr "ズームアウト"
+
+#: common/static/common/templates/components/paging-footer.underscore:6
+#, python-format
+msgid "Page number out of %(total_pages)s"
+msgstr "%(total_pages)sページ中の頁番号"
+
+#: common/static/common/templates/components/paging-footer.underscore:11
+msgid "Enter the page number you'd like to quickly navigate to."
+msgstr "見たいページ番号を入力してください。"
+
+#: common/static/common/templates/components/paging-header.underscore:11
+msgid "Sorted by"
+msgstr "ソート"
+
+#: common/static/common/templates/components/search-field.underscore:6
+msgid "Clear search"
+msgstr "検索クリア"
+
+#: common/static/common/templates/components/search-field.underscore:7
+#: common/static/common/templates/components/search-field.underscore:10
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:9
+#: lms/djangoapps/support/static/support/templates/certificates.underscore:4
+#: lms/djangoapps/support/static/support/templates/certificates.underscore:19
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:3
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:11
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:3
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:11
+msgid "Search"
+msgstr "検索"
+
+#: common/static/common/templates/discussion/templates.underscore:15
+msgid "Add a Response"
+msgstr "返信を入力"
+
+#: common/static/common/templates/discussion/templates.underscore:24
+#: common/static/common/templates/discussion/templates.underscore:635
+msgid "This thread is closed."
+msgstr "このスレッドは終了しました。"
+
+#: common/static/common/templates/discussion/templates.underscore:28
+msgid "Add a response:"
+msgstr "返信を入力:"
+
+#: common/static/common/templates/discussion/templates.underscore:33
+#: common/static/common/templates/discussion/templates.underscore:168
+#: common/static/common/templates/discussion/templates.underscore:494
+#: lms/templates/verify_student/incourse_reverify.underscore:62
+msgid "Submit"
+msgstr "提出"
+
+#: common/static/common/templates/discussion/templates.underscore:74
+#, python-format
+msgid "discussion posted %(time_ago)s by %(author)s"
+msgstr "%(author)sが%(time_ago)s前に投稿したディスカッション"
+
+#: common/static/common/templates/discussion/templates.underscore:76
+#, python-format
+msgid "question posted %(time_ago)s by %(author)s"
+msgstr "%(author)sが%(time_ago)s前に投稿した質問"
+
+#: common/static/common/templates/discussion/templates.underscore:84
+#: common/static/common/templates/discussion/templates.underscore:330
+msgid "Pinned"
+msgstr "ピン留め"
+
+#: common/static/common/templates/discussion/templates.underscore:87
+#: common/static/common/templates/discussion/templates.underscore:218
+#: common/static/common/templates/discussion/templates.underscore:282
+msgid "Reported"
+msgstr "報告済"
+
+#: common/static/common/templates/discussion/templates.underscore:90
+msgid "Closed"
+msgstr "締切済"
+
+#: common/static/common/templates/discussion/templates.underscore:108
+#, python-format
+msgid "Related to: %(courseware_title_linked)s"
+msgstr "関連: %(courseware_title_linked)s"
+
+#: common/static/common/templates/discussion/templates.underscore:118
+#, python-format
+msgid "This post is visible only to %(group_name)s."
+msgstr "この投稿は%(group_name)sにのみ表示されます。"
+
+#: common/static/common/templates/discussion/templates.underscore:124
+msgid "This post is visible to everyone."
+msgstr "この投稿は全員に表示されます。"
+
+#: common/static/common/templates/discussion/templates.underscore:131
+msgid "Editing post"
+msgstr "投稿を編集中"
+
+#: common/static/common/templates/discussion/templates.underscore:138
+#: common/static/common/templates/discussion/templates.underscore:461
+msgid ""
+"Add a clear and descriptive title to encourage participation. (Required)"
+msgstr "受講を促すような、分かりやすく内容を表すタイトルを入力してください。(必須)"
+
+#: common/static/common/templates/discussion/templates.underscore:144
+msgid "Edit your post below."
+msgstr "以下の投稿を編集してください。"
+
+#: common/static/common/templates/discussion/templates.underscore:147
+msgid "Update post"
+msgstr "投稿を更新する"
+
+#: common/static/common/templates/discussion/templates.underscore:154
+#, python-format
+msgid "Show Comment (%(num_comments)s)"
+msgid_plural "Show Comments (%(num_comments)s)"
+msgstr[0] ""
+
+#: common/static/common/templates/discussion/templates.underscore:164
+#: common/static/common/templates/discussion/templates.underscore:166
+msgid "Add a comment"
+msgstr "コメントを入力"
+
+#: common/static/common/templates/discussion/templates.underscore:189
+#, python-format
+msgid "marked as answer %(time_ago)s by %(user)s"
+msgstr "%(time_ago)s前に%(user)sによって正解とマーク済"
+
+#: common/static/common/templates/discussion/templates.underscore:193
+#, python-format
+msgid "marked as answer %(time_ago)s"
+msgstr "%(time_ago)s前に正解とマーク済"
+
+#: common/static/common/templates/discussion/templates.underscore:199
+#, python-format
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr "%(user)sが%(time_ago)s前にいいね！しました"
+
+#: common/static/common/templates/discussion/templates.underscore:203
+#, python-format
+msgid "endorsed %(time_ago)s"
+msgstr "%(time_ago)s前にいいね！しました"
+
+#: common/static/common/templates/discussion/templates.underscore:242
+msgid "Editing response"
+msgstr "返信を編集中"
+
+#: common/static/common/templates/discussion/templates.underscore:245
+msgid "Update response"
+msgstr "返信を更新"
+
+#: common/static/common/templates/discussion/templates.underscore:275
+#, python-format
+msgid "posted %(time_ago)s by %(author)s"
+msgstr "%(author)sが%(time_ago)s前に投稿"
+
+#: common/static/common/templates/discussion/templates.underscore:289
+msgid "Editing comment"
+msgstr "コメントを編集中"
+
+#: common/static/common/templates/discussion/templates.underscore:292
+msgid "Update comment"
+msgstr "コメントを更新"
+
+#: common/static/common/templates/discussion/templates.underscore:305
+msgid "discussion"
+msgstr "ディスカッション"
+
+#: common/static/common/templates/discussion/templates.underscore:309
+msgid "answered question"
+msgstr "回答済の質問"
+
+#: common/static/common/templates/discussion/templates.underscore:313
+msgid "unanswered question"
+msgstr "未回答の質問"
+
+#: common/static/common/templates/discussion/templates.underscore:337
+msgid "Following"
+msgstr "フォロー中"
+
+#: common/static/common/templates/discussion/templates.underscore:344
+msgid "Staff"
+msgstr "スタッフ"
+
+#: common/static/common/templates/discussion/templates.underscore:351
+msgid "Community TA"
+msgstr "コミュニティーTA"
+
+#: common/static/common/templates/discussion/templates.underscore:379
+msgid "{unread_comments_count} new"
+msgstr "新規未読コメント{unread_comments_count}件"
+
+#: common/static/common/templates/discussion/templates.underscore:398
+#, python-format
+msgid ""
+"%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
+"unread comments)%(span_close)s"
+msgstr "コメント %(comments_count)s %(span_sr_open)s件 (うち%(unread_comments_count)s件が未読)%(span_close)s"
+
+#: common/static/common/templates/discussion/templates.underscore:401
+#, python-format
+msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
+msgstr "コメント%(comments_count)s %(span_sr_open)s件 %(span_close)s"
+
+#: common/static/common/templates/discussion/templates.underscore:425
+#: common/static/common/templates/discussion/templates.underscore:565
+msgid "Add a Post"
+msgstr "投稿を追加"
+
+#: common/static/common/templates/discussion/templates.underscore:440
+msgid "Visible to"
+msgstr "次の人に表示"
+
+#: common/static/common/templates/discussion/templates.underscore:443
+msgid ""
+"Discussion admins, moderators, and TAs can make their posts visible to all "
+"students or specify a single group."
+msgstr "ディスカッション管理者、モデレーター、TAは全受講者あるいは特定のグループのみに投稿を表示可能にできます。"
+
+#: common/static/common/templates/discussion/templates.underscore:447
+msgid "All Groups"
+msgstr "全グループ"
+
+#: common/static/common/templates/discussion/templates.underscore:470
+msgid "Your question or idea (required)"
+msgstr "質問やアイディア(必須)"
+
+#: common/static/common/templates/discussion/templates.underscore:477
+msgid "follow this post"
+msgstr "この投稿をフォローする"
+
+#: common/static/common/templates/discussion/templates.underscore:483
+msgid "post anonymously"
+msgstr "匿名で投稿する"
+
+#: common/static/common/templates/discussion/templates.underscore:489
+msgid "post anonymously to classmates"
+msgstr "匿名でクラスメートに投稿する"
+
+#: common/static/common/templates/discussion/templates.underscore:513
+msgid "Error posting your message."
+msgstr "メッセージの投稿エラー。"
+
+#: common/static/common/templates/discussion/templates.underscore:526
+#, python-format
+msgid "This post will be visible only to %(group_name)s."
+msgstr ""
+
+#: common/static/common/templates/discussion/templates.underscore:532
+msgid "This post will be visible to everyone."
+msgstr "この投稿は全員に表示されます。"
+
+#: common/static/common/templates/discussion/templates.underscore:538
+msgid "Topic area"
+msgstr "カテゴリ"
+
+#: common/static/common/templates/discussion/templates.underscore:541
+msgid "Add your post to a relevant topic to help others find it. (Required)"
+msgstr "他の受講者があなたの投稿を見つけやすくなるように、適切なトピックに投稿してください。(必須)"
+
+#: common/static/common/templates/discussion/templates.underscore:554
+msgid "(Community TA)"
+msgstr "(コミュニティTA)"
+
+#: common/static/common/templates/discussion/templates.underscore:556
+msgid "(Staff)"
+msgstr "(スタッフ)"
+
+#: common/static/common/templates/discussion/templates.underscore:559
+#: common/static/common/templates/discussion/templates.underscore:630
+msgid "anonymous"
+msgstr "匿名"
+
+#: common/static/common/templates/discussion/templates.underscore:578
+#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
+msgid "All Posts"
+msgstr "全ての投稿"
+
+#: common/static/common/templates/discussion/templates.underscore:579
+msgid "Return to all posts"
+msgstr ""
+
+#: common/static/common/templates/discussion/templates.underscore:598
+#: common/static/common/templates/discussion/templates.underscore:610
+msgid "…"
+msgstr "..."
+
+#: common/static/common/templates/discussion/templates.underscore:642
+msgid "View discussion"
+msgstr "ディスカッション"
+
+#: common/static/common/templates/discussion/templates.underscore:703
+#: common/static/common/templates/discussion/templates.underscore:892
+msgid "Load more"
+msgstr "さらに読み込む"
+
+#: common/static/common/templates/discussion/templates.underscore:713
+msgid "Post type"
+msgstr "投稿タイプ"
+
+#: common/static/common/templates/discussion/templates.underscore:717
+msgid ""
+"Questions raise issues that need answers. Discussions share ideas and start "
+"conversations. (Required)"
+msgstr "'質問'は解答を必要とする議題に用います。'ディスカッション'は考えを共有したり、会話するためのものです。(必須)"
+
+#: common/static/common/templates/discussion/templates.underscore:725
+msgid "Question"
+msgstr "質問"
+
+#: common/static/common/templates/discussion/templates.underscore:742
+#: common/static/common/templates/discussion/templates.underscore:744
+msgid "Endorse"
+msgstr "いいね！"
+
+#: common/static/common/templates/discussion/templates.underscore:745
+msgid "Unendorse"
+msgstr "いいね！取消"
+
+#: common/static/common/templates/discussion/templates.underscore:754
+#: common/static/common/templates/discussion/templates.underscore:756
+msgid "Mark as Answer"
+msgstr "正解とマーク"
+
+#: common/static/common/templates/discussion/templates.underscore:757
+msgid "Unmark as Answer"
+msgstr "正解マークを外す"
+
+#: common/static/common/templates/discussion/templates.underscore:766
+#: common/static/common/templates/discussion/templates.underscore:768
+msgid "Follow"
+msgstr "フォロー"
+
+#: common/static/common/templates/discussion/templates.underscore:769
+msgid "Unfollow"
+msgstr "フォロー解除"
+
+#: common/static/common/templates/discussion/templates.underscore:782
+msgid "Vote for this post,"
+msgstr "この投稿に投票する。"
+
+#: common/static/common/templates/discussion/templates.underscore:798
+msgid "Report abuse"
+msgstr "問題を報告"
+
+#: common/static/common/templates/discussion/templates.underscore:800
+msgid "Report"
+msgstr "報告"
+
+#: common/static/common/templates/discussion/templates.underscore:801
+msgid "Unreport"
+msgstr "報告取消"
+
+#: common/static/common/templates/discussion/templates.underscore:812
+#: common/static/common/templates/discussion/templates.underscore:814
+msgid "Pin"
+msgstr "ピン"
+
+#: common/static/common/templates/discussion/templates.underscore:815
+msgid "Unpin"
+msgstr "ピン解除"
+
+#: common/static/common/templates/discussion/templates.underscore:829
+msgid "Open"
+msgstr "開く"
+
+#: common/static/common/templates/discussion/templates.underscore:859
+#: common/static/common/templates/discussion/templates.underscore:860
+#: lms/templates/discovery/facet.underscore:10
+#: lms/templates/edxnotes/note-item.underscore:9
+msgid "More"
+msgstr "その他"
+
+#: common/static/common/templates/discussion/templates.underscore:885
+#: lms/templates/learner_dashboard/verification_popover.underscore:13
+msgid "OK"
+msgstr "OK"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
+msgid "Discussion Home"
+msgstr "ディスカッション・ホーム"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:12
+#, python-format
+msgid "How to use %(platform_name)s discussions"
+msgstr "%(platform_name)s のディスカッションの使い方"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:18
+msgid "Find discussions"
+msgstr "ディスカッションを探す"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:21
+msgid "Use the All Topics menu to find specific topics."
+msgstr "特定のトピックを見つけるには'全トピック'メニューを使用してください。"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
+msgid "Search all posts"
+msgstr "全ての投稿から検索"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
+msgid "Filter and sort topics"
+msgstr "トピックをフィルタリングおよびソートする"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:33
+msgid "Engage with posts"
+msgstr "投稿での参加"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:36
+msgid "Vote for good posts and responses"
+msgstr "良い投稿や解答に投票する"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:40
+msgid "Report abuse, topics, and responses"
+msgstr "不適切なトピックや解答を報告する"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:44
+msgid "Follow or unfollow posts"
+msgstr "投稿をフォローまたはフォロー解除する"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:49
+msgid "Receive updates"
+msgstr "更新情報を受け取る"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:52
+msgid "Toggle Notifications Setting"
+msgstr "通知設定を表示"
+
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:58
+msgid ""
+"Check this box to receive an email digest once a day notifying you about "
+"new, unread activity from posts you are following."
+msgstr "このボックスをチェックすると毎日ダイジェストメールが届きます。あなたがフォローしている投稿の新着情報や未読の動きを知ることができます。"
+
+#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
+msgid "All Topics"
+msgstr "全トピック"
+
+#: lms/djangoapps/support/static/support/templates/certificates.underscore:10
+msgid "username or email"
+msgstr "ユーザー名またはメール"
+
+#: lms/djangoapps/support/static/support/templates/certificates.underscore:17
+msgid "course id"
+msgstr "講座ID"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:16
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:23
+msgid "No results"
+msgstr "結果なし"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
+msgid "Course Key"
+msgstr "講座キー"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
+msgid "Status"
+msgstr "ステータス"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
+msgid "Download URL"
+msgstr "ダウンロードURL"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:10
+msgid "Grade"
+msgstr "成績"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:11
+msgid "Last Updated"
+msgstr "最新更新"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:24
+msgid "Download the user's certificate"
+msgstr "ユーザーの修了証をダウンロード"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:26
+msgid "Not available"
+msgstr "不可"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:37
+msgid "Regenerate"
+msgstr "再生成"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:38
+msgid "Regenerate the user's certificate"
+msgstr "ユーザーの修了証を再生成"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:44
+msgid "Generate"
+msgstr "生成"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:45
+msgid "Generate the user's certificate"
+msgstr "ユーザーの修了証を生成"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
+msgid "Current enrollment mode:"
+msgstr "現在の受講登録モード:"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:6
+msgid "New enrollment mode:"
+msgstr "新規受講登録モード:"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:14
+msgid "Reason for change:"
+msgstr "変更理由:"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:16
+msgid "Choose One"
+msgstr "どれか一つを選択"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:21
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:22
+msgid "Explain if other."
+msgstr "その他の場合、説明してください。"
+
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:24
+msgid "Submit enrollment change"
+msgstr "受講登録変更を提出"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:9
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:7
+msgid "Username or email address"
+msgstr "ユーザー名またはメールアドレス"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
+msgid "Course ID"
+msgstr "講座ID"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
+msgid "Course Start"
+msgstr "講座開始"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
+msgid "Course End"
+msgstr "講座終了"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
+msgid "Upgrade Deadline"
+msgstr "アップグレード締切"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:24
+msgid "Verification Deadline"
+msgstr "認証締切"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:25
+msgid "Enrollment Date"
+msgstr "受講登録日"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:26
+msgid "Enrollment Mode"
+msgstr "受講登録モード"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:27
+msgid "Verified mode price"
+msgstr "認証モード価格"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:28
+msgid "Reason"
+msgstr "理由"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:29
+msgid "Last modified by"
+msgstr "最終変更者"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:30
+msgid "Active"
+msgstr "アクティブ"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:45
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:46
+#: lms/templates/ccx/schedule.underscore:42
+msgid "N/A"
+msgstr "なし"
+
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:54
+msgid "Change Enrollment"
+msgstr "受講登録を変更"
+
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:21
+msgid "Email"
+msgstr "メール"
+
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:22
+msgid "Date Joined"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:23
+msgid "Password Status"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore:35
+msgid "Toggle Account Password (Usable/Unusable)"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:7
+msgid "Your team could not be created."
+msgstr "チームは作成できませんでした。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:9
+msgid "Your team could not be updated."
+msgstr "チームは更新できませんでした。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:23
+msgid ""
+"Enter information to describe your team. You cannot change these details "
+"after you create the team."
+msgstr "チームを説明する情報を入力してください。チーム作成後はこの詳細を変更できません。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:35
+msgid "Optional Characteristics"
+msgstr "オプションの特徴"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:38
+msgid ""
+"Help other learners decide whether to join your team by specifying some "
+"characteristics for your team. Choose carefully, because fewer people might "
+"be interested in joining your team if it seems too restrictive."
+msgstr "他の受講者があなたのチームに参加するよう、チームの特徴を明記してください。ただし、特定の人に限ってしまうと興味をなくしてしまう人がいる可能性がありますので、ご注意ください。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:49
+msgid "Create team."
+msgstr "チームを作成してください。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:51
+msgid "Update team."
+msgstr "チームを更新してください。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:57
+msgid "Cancel team creating."
+msgstr "チーム作成をキャンセルしてください。"
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:59
+msgid "Cancel team updating."
+msgstr "チーム更新をキャンセルしてください。"
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:3
+msgid "Instructor tools"
+msgstr "講師用ツール"
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:7
+msgid "Delete Team"
+msgstr "チームを削除"
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:10
+msgid "Edit Membership"
+msgstr "メンバーを編集"
+
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore:5
+msgid "View Current Team Memberships"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore:17
+msgid "Download Memberships"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore:22
+msgid "Assign Team Memberships"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore:40
+msgid "Upload Memberships"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore:46
+msgid "Error assigning team memberships"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore:2
+msgid "Are you having trouble finding a team to join?"
+msgstr "参加するチームを探すのにお困りですか？"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:4
+msgid "Join Team"
+msgstr "チームに参加"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:11
+msgid "Edit Team"
+msgstr "チームを編集"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:5
+msgid "Team Assignments"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:18
+msgid "Team Details"
+msgstr "チーム詳細"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:21
+msgid "You are a member of this team."
+msgstr "あなたはこのチームのメンバーです。"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:26
+msgid "Team member profiles"
+msgstr "チームメンバーのプロフィール"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:32
+msgid "Team capacity"
+msgstr "チーム定員"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:38
+msgid "The country that team members primarily identify with."
+msgstr "チームの主なメンバーの国。"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:47
+msgid ""
+"The language that team members primarily use to communicate with each other."
+msgstr "チームのメンバーがお互いにコミュニケーションをする際に主として使う言語。"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:57
+msgid "Leave Team"
+msgstr "チームを辞める"
+
+#: lms/static/js/fixtures/donation.underscore:5
+#: lms/templates/dashboard/donation.underscore:5
+msgid "Donate"
+msgstr "寄付"
+
+#: lms/templates/api_admin/catalog-error.underscore:2
+msgid ""
+"There was an error retrieving preview results for this catalog. Please check"
+" that your query is correct and try again."
+msgstr "本カタログのプレビュー結果を復元する際エラーが発生しました。クエリが正しいか確認して再試行してください。"
+
+#: lms/templates/api_admin/catalog-results.underscore:1
+msgid "This catalog's courses:"
+msgstr "本カタログの講座:"
+
+#: lms/templates/ccx/schedule.underscore:3
+msgid "Expand All"
+msgstr "すべてを表示"
+
+#: lms/templates/ccx/schedule.underscore:6
+msgid "Collapse All"
+msgstr "すべてを閉じる"
+
+#: lms/templates/ccx/schedule.underscore:13
+#: lms/templates/ccx/schedule.underscore:83
+msgid "Unit"
+msgstr "ユニット"
+
+#: lms/templates/ccx/schedule.underscore:14
+msgid "Start Date"
+msgstr "開始日"
+
+#: lms/templates/ccx/schedule.underscore:15
+msgid "Due Date"
+msgstr "締切"
+
+#: lms/templates/ccx/schedule.underscore:17
+msgid "remove all"
+msgstr "全削除"
+
+#: lms/templates/ccx/schedule.underscore:28
+#, python-format
+msgid "toggle chapter %(displayName)s"
+msgstr "チャプター%(displayName)sを切換"
+
+#: lms/templates/ccx/schedule.underscore:33
+msgid "Section"
+msgstr "セクション"
+
+#: lms/templates/ccx/schedule.underscore:38
+#: lms/templates/ccx/schedule.underscore:65
+#: lms/templates/ccx/schedule.underscore:71
+msgid "Click to change"
+msgstr "クリックで変更"
+
+#: lms/templates/ccx/schedule.underscore:45
+#, python-format
+msgid "Remove chapter %(chapterDisplayName)s"
+msgstr "チャプター%(chapterDisplayName)sを削除"
+
+#: lms/templates/ccx/schedule.underscore:46
+#: lms/templates/ccx/schedule.underscore:76
+#: lms/templates/ccx/schedule.underscore:109
+msgid "remove"
+msgstr "削除"
+
+#: lms/templates/ccx/schedule.underscore:56
+#, python-format
+msgid "toggle subsection %(displayName)s"
+msgstr "サブセクション%(displayName)sを切換"
+
+#: lms/templates/ccx/schedule.underscore:60
+msgid "Subsection"
+msgstr "サブセクション"
+
+#: lms/templates/ccx/schedule.underscore:75
+#, python-format
+msgid "Remove subsection %(subsectionDisplayName)s"
+msgstr "サブセクション%(subsectionDisplayName)sを削除"
+
+#: lms/templates/ccx/schedule.underscore:108
+#, python-format
+msgid "Remove unit %(unitName)s"
+msgstr "ユニット%(unitName)sを削除"
+
+#: lms/templates/courseware/proctored-exam-controls.underscore:3
+msgid "Mark Exam As Completed"
+msgstr "'試験終了'とマークする"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:9
+msgid "Exam timer and end exam button"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:13
+msgid "End My Exam"
+msgstr "試験を終了する"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:23
+msgid "Hide Timer"
+msgstr "タイマーを非表示"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
+msgid "You are taking \"{exam_link}\" as {exam_type}. "
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
+msgid "a timed exam"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:32
+msgid "The timer on the right shows the time remaining in the exam."
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:33
+msgid ""
+"To receive credit for problems, you must select \"Submit\" for each problem "
+"before you select \"End My Exam\"."
+msgstr "単位を獲得するには、\"試験を終了する\"を選択する前に各問題で\"提出\"を選択しなければいけません。"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+msgid "Show More"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore:36
+msgid "Show Less"
+msgstr ""
+
+#: lms/templates/discovery/course_card.underscore:6
+msgid "LEARN MORE"
+msgstr "詳しく知る"
+
+#: lms/templates/discovery/course_card.underscore:17
+#, python-format
+msgid "Starts: %(start_date)s"
+msgstr "開始: %(start_date)s"
+
+#: lms/templates/discovery/course_card.underscore:26
+msgid "Starts"
+msgstr "開始"
+
+#: lms/templates/discovery/facet.underscore:13
+#: lms/templates/edxnotes/note-item.underscore:7
+msgid "Less"
+msgstr "少ない"
+
+#: lms/templates/discovery/filter_bar.underscore:3
+msgid "Clear All"
+msgstr "全てをクリア"
+
+#: lms/templates/edxnotes/note-item.underscore:3
+msgid "Highlighted text"
+msgstr "ハイライトされたテキスト"
+
+#: lms/templates/edxnotes/note-item.underscore:17
+msgid "Note"
+msgstr "ノート"
+
+#: lms/templates/edxnotes/note-item.underscore:19
+msgid "You commented..."
+msgstr "あなたのコメント..."
+
+#: lms/templates/edxnotes/note-item.underscore:34
+msgid "Noted in:"
+msgstr "ノート："
+
+#: lms/templates/edxnotes/note-item.underscore:41
+msgid "Last Edited:"
+msgstr "最終編集："
+
+#: lms/templates/edxnotes/note-item.underscore:45
+msgid "Tags:"
+msgstr "タグ："
+
+#: lms/templates/edxnotes/tab-item.underscore:10
+msgid "Clear search results"
+msgstr "検索結果をクリア"
+
+#: lms/templates/fields/field_dropdown.underscore:38
+#: lms/templates/fields/field_dropdown_account.underscore:41
+#: lms/templates/fields/field_textarea.underscore:35
+msgid "Click to edit"
+msgstr "クリックして編集"
+
+#: lms/templates/fields/field_order_history.underscore:2
+msgid "Order Number"
+msgstr "注文番号"
+
+#: lms/templates/fields/field_order_history.underscore:3
+#: lms/templates/fields/field_order_history.underscore:13
+msgid "Date Placed"
+msgstr "注文日"
+
+#: lms/templates/fields/field_order_history.underscore:4
+#: lms/templates/fields/field_order_history.underscore:14
+msgid "Cost"
+msgstr "費用"
+
+#: lms/templates/fields/field_order_history.underscore:7
+msgid "Order Details"
+msgstr "注文の詳細"
+
+#: lms/templates/fields/field_order_history.underscore:7
+msgid "for"
+msgstr "用"
+
+#: lms/templates/fields/field_order_history.underscore:12
+msgid "Product Name"
+msgstr "製品名"
+
+#: lms/templates/fields/field_textarea.underscore:52
+msgid ""
+"{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
+"{maxCharacters}"
+msgstr "{maxCharacters}文字中{currentCountOpeningTag}{currentCharacterCount}文字{currentCountClosingTag}"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:1
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:1
+msgid "Financial Assistance Application"
+msgstr "経済支援申込書"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:14
+msgid "About You"
+msgstr "あなたについて"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:16
+msgid ""
+"The following information is already a part of your {platform} profile. "
+"We've included it here for your application."
+msgstr ""
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:24
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:28
+msgid "Legal name"
+msgstr "正式名"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:32
+msgid "Country of residence"
+msgstr "居住国"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:42
+msgid "Back to {platform} FAQs"
+msgstr "{platform} FAQへ戻る"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:45
+msgid "Submit Application"
+msgstr "申込書提出"
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
+msgid ""
+"Thank you for submitting your financial assistance application for "
+"{course_name}! You can expect a response in 2-4 business days."
+msgstr "{course_name}の経済援助申込書をご提出いただき、ありがとうございます！2-4営業日以内に返信が届きます。"
+
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:7
+msgid "Go to Dashboard"
+msgstr "ダッシュボードへ移動"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:1
+msgid "Individual Exceptions"
+msgstr "個々の例外"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:2
+msgid ""
+"Enter the username or email address of each learner that you want to add as "
+"an exception."
+msgstr "例外として追加したい受講者のユーザー名またはメールアドレスを入力してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:6
+msgid "Student email or username"
+msgstr "受講者のメールまたはユーザー名"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:8
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:9
+msgid "Free text notes"
+msgstr "ご自由にご記入ください"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist-editor.underscore:12
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:15
+msgid "Add to Exception List"
+msgstr "例外リストに追加"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:13
+msgid "Generate Exception Certificates"
+msgstr "例外修了証を生成"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:6
+msgid "All users on the Exception list who do not yet have a certificate"
+msgstr "修了証を持っていない例外リスト内の全ユーザー"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:10
+msgid "All users on the Exception list"
+msgstr "例外リスト内の全ユーザー"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:21
+msgid "User Email"
+msgstr "ユーザーのメール"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:22
+msgid "Exception Granted"
+msgstr "承諾済の例外"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:23
+msgid "Certificate Generated"
+msgstr "生成済の修了証"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:31
+msgid "Notes"
+msgstr "注記"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:37
+msgid "Remove from List"
+msgstr "リストから削除"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:1
+msgid "Bulk Exceptions"
+msgstr "大量の例外"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:4
+msgid ""
+"Upload a comma separated values (.csv) file that contains the usernames or "
+"email addresses of learners who have been given exceptions. Include the "
+"username or email address in the first comma separated field. You can "
+"include an optional note describing the reason for the exception in the "
+"second comma separated field."
+msgstr "例外とされた受講者のユーザー名またはメールアドレスを含むカンマ区切りの(.csv)ファイルをアップロードしてください。カンマ区切りの最初の項目をユーザー名またはメールアドレスにしてください。2番目に例外とした理由を書くこともできます。"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:8
+msgid "Upload a CSV file"
+msgstr "CSVファイルをアップロード"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:11
+msgid "Browse"
+msgstr "拾い読み"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:2
+msgid ""
+"To invalidate a certificate for a particular learner, add the username or "
+"email address below."
+msgstr "特定の受講者の修了証を無効にするには、ユーザー名またはメールアドレスを以下に入力してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
+msgid "Add notes about this learner"
+msgstr "この受講者に関する注記を入力"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:16
+msgid "Invalidate Certificate"
+msgstr "修了証無効化"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
+msgid "Student"
+msgstr "受講者"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+msgid "Invalidated By"
+msgstr "無効化"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:30
+msgid "Invalidated"
+msgstr "無効化"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:44
+msgid "Remove from Invalidation Table"
+msgstr "無効化表から削除"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore:6
+msgid "Divided"
+msgstr "分割済"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+msgid "Selected tab"
+msgstr "選択されたタブ"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+msgid "Manage Learners"
+msgstr "受講者を管理"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:6
+msgid "Settings"
+msgstr "設定"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
+msgid "Add learners to this cohort"
+msgstr "このコホートに受講者を追加"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
+msgid ""
+"Note: Learners can be in only one cohort. Adding learners to this group "
+"overrides any previous group assignment."
+msgstr "注意: 受講者は１つのコホートのみに所属できます。このグループに受講者を追加すると、以前の所属グループを無効にすることになります。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
+msgid ""
+"Enter email addresses and/or usernames, separated by new lines or commas, "
+"for the learners you want to add. *"
+msgstr "受講者を追加するには、メールアドレスおよび/もしくはユーザー名を改行またはカンマ区切りで入力してください。*"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
+msgid "(Required Field)"
+msgstr "(必須項目)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
+msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
+msgstr "例：johndoe@example.com, JaneDoe, joeydoe@example.com"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:33
+msgid ""
+"You will not receive notification for emails that bounce, so double-check "
+"your spelling."
+msgstr "戻ってくるメールに関する通知は届きませんので、綴りはダブルチェックしてください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
+msgid "Add Learners"
+msgstr "受講者を追加"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
+msgid "Add a New Cohort"
+msgstr "新規コホートを追加"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
+msgid "Enter the name of the cohort"
+msgstr "コホート名を入力してください"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:24
+msgid "Cohort Name"
+msgstr "コホート名"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:42
+msgid "Cohort Assignment Method"
+msgstr "コホート振り分け方法"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:45
+msgid "Automatic"
+msgstr "自動"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:48
+msgid "Manual"
+msgstr "手動"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:54
+msgid ""
+"There must be one cohort to which students can automatically be assigned."
+msgstr "受講者が自動的に割り当てられるにはコホートが１つ必要です。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:60
+msgid "Associated Content Group"
+msgstr "関連コンテンツグループ"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
+msgid "No Content Group"
+msgstr "コンテンツグループなし"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
+msgid "Select a Content Group"
+msgstr "コンテンツグループを選択"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:67
+msgid "Choose a content group to associate"
+msgstr "紐付けるコンテンツグループを選択してください"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:69
+msgid "Not selected"
+msgstr "未選択"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:91
+msgid "Deleted Content Group"
+msgstr "削除されたコンテンツグループ"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:102
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} The previously selected "
+"content group was deleted. Select another content group."
+msgstr "{screen_reader_start}警告:{screen_reader_end} 以前選択したコンテンツグループは削除されました。別のコンテンツグループを選択してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:121
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
+msgstr "{screen_reader_start}警告:{screen_reader_end} コンテンツグループが存在しません。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:129
+msgid "Only the parent course staff of a CCX can create content groups."
+msgstr "CCXの親講座のスタッフのみコンテンツグループを作成できます。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
+msgid "Create a content group"
+msgstr "コンテンツグループを作成"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#, python-format
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] "(%(student_count)s名の受講者が含まれます)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
+msgid ""
+"Learners are added to this cohort only when you provide their email "
+"addresses or usernames on this page."
+msgstr "このページでメールアドレスまたはユーザー名を入力した場合のみ、このコホートに受講者が追加されます。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
+msgid "What does this mean?"
+msgstr "これは何を意味する？"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
+msgid "Learners are added to this cohort automatically."
+msgstr "受講者は自動的にこのコホートに追加されます。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
+msgid "Select a cohort"
+msgstr "コホートを選択"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
+#, python-format
+msgid "%(cohort_name)s (%(user_count)s)"
+msgstr "%(cohort_name)s (%(user_count)s名)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
+msgid "Enable Cohorts"
+msgstr "コホートを有効にする"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
+msgid "Select a cohort to manage"
+msgstr "管理するコホートを選択"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
+msgid "View Cohort"
+msgstr "コホートを見る"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:22
+msgid "Add Cohort"
+msgstr "コホートを追加"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
+msgid "Assign learners to cohorts by uploading a CSV file"
+msgstr "CSVファイルをアップロードしてコホートに受講者を振り分ける"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+msgid ""
+"To review learner cohort assignments or see the results of uploading a CSV "
+"file, download course profile information or cohort results on the "
+"{link_start}Data Download{link_end} page."
+msgstr "受講者のコホート振り分けやCSVファイルのアップロード結果を確認するには、{link_start}データダウンロード{link_end} ページで講座プロフィール情報またはコホート結果をダウンロードしてください。 "
+
+#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
+msgid "Specify whether discussion topics are divided"
+msgstr "ディスカッショントピックを分割するかどうか指定してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
+msgid "Course-Wide Discussion Topics"
+msgstr "講座全般のディスカッショントピック"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
+msgid "Select the course-wide discussion topics that you want to divide."
+msgstr "分割したい講座全体のディスカッショントピックを選択してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
+msgid "Content-Specific Discussion Topics"
+msgstr "コンテンツ重視のディスカッショントピック"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
+msgid "Specify whether content-specific discussion topics are divided."
+msgstr "コンテンツ重視のディスカッショントピックを分割するかどうか指定してください。"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
+msgid "Always divide content-specific discussion topics"
+msgstr "コンテンツ重視のディスカッショントピックを常に分割する"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
+msgid "Divide the selected content-specific discussion topics"
+msgstr "選択されたコンテンツ重視のディスカッショントピックを分割する"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
+msgid "No content-specific discussion topics exist."
+msgstr "コンテンツ重視のディスカッショントピックがありません。"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:3
+msgid "Code"
+msgstr "コード"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:4
+msgid "Used"
+msgstr "利用済"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:5
+msgid "Valid"
+msgstr "有効"
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:2
+#: lms/templates/learner_dashboard/upgrade_message.underscore:2
+msgid "Certificate Status:"
+msgstr "修了証の状況:"
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:4
+msgid "Certificate Purchased"
+msgstr "購入済修了証"
+
+#: lms/templates/learner_dashboard/course_card.underscore:21
+msgid "Change or Leave Session"
+msgstr "授業をやめるか変更する"
+
+#: lms/templates/learner_dashboard/course_card.underscore:29
+msgid "You must select a session by {expiration_date} to access the course."
+msgstr "この講座を利用するためには {expiration_date} までに授業を選択しておく必要があります。"
+
+#: lms/templates/learner_dashboard/course_card.underscore:33
+msgid "You can no longer change sessions."
+msgstr "もはや授業を変更することはできません。"
+
+#: lms/templates/learner_dashboard/course_card.underscore:35
+msgid "You can change sessions until {expiration_date}."
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:5
+msgid "View Archived Course"
+msgstr "アーカイブ済講座を見る"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:7
+msgid "View Course"
+msgstr "講座を見る"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:15
+msgid "Select a session:"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:34
+#: lms/templates/learner_dashboard/course_enroll.underscore:38
+msgid "Enroll Now"
+msgstr "いますぐ登録しよう"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:44
+msgid "Coming Soon"
+msgstr "開講予定"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:47
+msgid "Enrollment Opens on"
+msgstr "受講登録開始日"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:54
+msgid "Not Currently Available"
+msgstr "現在は利用できません"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:4
+msgid "More sessions coming soon."
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:7
+msgid "Change to a different session or leave the current session."
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:9
+msgid "To access the course, select a session."
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:15
+msgid "Session Selection Dropdown for {courseName}"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:19
+msgid "{sessionDates} - Currently Selected"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:21
+msgid "{sessionDates} (Open until {enrollmentEnd})"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:27
+msgid "More sessions coming soon"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:28
+msgid "Leave the current session and decide later"
+msgstr ""
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:32
+msgid "Change Session"
+msgstr "セッションを切り替える"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:34
+msgid "Select Session"
+msgstr "セッションを選択"
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
+msgid "You are not enrolled in any programs yet."
+msgstr "まだどのプログラムにも受講登録していません。"
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:5
+msgid "Explore Programs"
+msgstr "プログラムを探す"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
+msgid ""
+"Browse recently launched courses and see what\\'s new in your favorite "
+"subjects"
+msgstr "最近開始した講座を閲覧して、お気に入りの分野の最新情報をご覧ください。"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:7
+msgid "Explore New Programs"
+msgstr "新規プログラムを探す"
+
+#: lms/templates/learner_dashboard/program_card.underscore:16
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:32
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+msgid "Course"
+msgid_plural "Courses"
+msgstr[0] "講座"
+
+#: lms/templates/learner_dashboard/program_card.underscore:18
+msgid "Completed"
+msgstr "修了"
+
+#: lms/templates/learner_dashboard/program_card.underscore:26
+msgid "In Progress"
+msgstr "進行中"
+
+#: lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr "残り"
+
+#: lms/templates/learner_dashboard/program_card.underscore:60
+#, python-format
+msgid "%(programName)s Home Page."
+msgstr "%(programName)sホームページ。"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+msgid "Your {program} Certificate"
+msgstr "あなたの{program}修了証"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
+#, python-format
+msgid "Open the certificate you earned for the %(title)s program."
+msgstr "%(title)s プログラムで授与された修了書を開けてください。"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
+msgid "Program Record"
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
+msgid ""
+"Once you complete one of the program requirements you have a program record."
+" This record is marked complete once you meet all program requirements. A "
+"program record can be used to continue your learning journey and demonstrate"
+" your learning to others."
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
+msgid "View Program Record"
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:120
+msgid "Additional Credit Opportunities"
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:41
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:67
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:145
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:174
+msgid "Learn More"
+msgstr "詳しく知る"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:53
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:159
+msgid "Additional Professional Opportunities"
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:33
+#: lms/templates/learner_dashboard/program_details_view.underscore:8
+msgid "Congratulations!"
+msgstr "おめでとうございます！"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:41
+#: lms/templates/learner_dashboard/program_details_view.underscore:16
+msgid "Your Program Journey"
+msgstr "プログラムの行程"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
+#: lms/templates/learner_dashboard/program_details_view.underscore:27
+msgid "Upgrade All Remaining Courses ("
+msgstr "残りの全講座をアップグレード ("
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
+#: lms/templates/learner_dashboard/program_details_view.underscore:31
+msgid "${listPrice}"
+msgstr "${listPrice}"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
+#: lms/templates/learner_dashboard/program_details_view.underscore:37
+msgid " ${price} {currency} )"
+msgstr " ${price} {currency} )"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
+#: lms/templates/learner_dashboard/program_details_view.underscore:48
+msgid "COURSES IN PROGRESS"
+msgstr "受講中の講座"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
+#: lms/templates/learner_dashboard/program_details_view.underscore:57
+msgid "REMAINING COURSES"
+msgstr "残りの講座"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
+#: lms/templates/learner_dashboard/program_details_view.underscore:65
+msgid "COMPLETED COURSES"
+msgstr "修了済の講座"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
+#: lms/templates/learner_dashboard/program_details_view.underscore:72
+msgid "As you complete courses, you will see them listed here."
+msgstr "講座を修了すると、ここにリストアップされます。"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
+#: lms/templates/learner_dashboard/program_details_view.underscore:73
+msgid ""
+"Complete courses on your schedule to ensure you stand out in your field!"
+msgstr "ご自身の分野でアピールできるようスケジュール通りに講座を修了させましょう！"
+
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
+msgid "{organization}\\'s logo"
+msgstr "{organization}のロゴ"
+
+#: lms/templates/learner_dashboard/upgrade_message.underscore:3
+msgid "Needs verified certificate "
+msgstr "認証付き修了証が必要です"
+
+#: lms/templates/learner_dashboard/upgrade_message.underscore:9
+msgid "Upgrade to Verified"
+msgstr "認証付きにアップグレードする"
+
+#: lms/templates/student_account/account.underscore:2
+msgid "New Address"
+msgstr "新しいアドレス"
+
+#: lms/templates/student_account/account.underscore:6
+msgid "Password"
+msgstr "パスワード"
+
+#: lms/templates/student_account/account.underscore:11
+msgid "Change My Email Address"
+msgstr "メールアドレスを変更"
+
+#: lms/templates/student_account/account.underscore:16
+msgid "Reset Password"
+msgstr "パスワード変更"
+
+#: lms/templates/student_account/account_settings.underscore:8
+msgid "Switch Language Back"
+msgstr ""
+
+#: lms/templates/student_account/account_settings.underscore:15
+msgid "Account Settings"
+msgstr "アカウント設定"
+
+#: lms/templates/student_account/account_settings_section.underscore:27
+msgid "An error occurred. Please reload the page."
+msgstr "エラーが発生しました。この画面を再読込してください。"
+
+#: lms/templates/student_account/form_field.underscore:137
+msgid "Need help signing in?"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore:139
+msgid "Forgot my password"
+msgstr "パスワードを忘れた場合"
+
+#: lms/templates/student_account/form_field.underscore:141
+#: lms/templates/student_account/form_field.underscore:153
+msgid "Other sign-in issues"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore:145
+msgid "Sign in with your company or school"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore:149
+msgid "Need other help signing in?"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore:151
+msgid "Create an account"
+msgstr "アカウントを作成する"
+
+#: lms/templates/student_account/hinted_login.underscore:4
+#: lms/templates/student_account/login.underscore:56
+msgid "Sign in"
+msgstr "サインイン"
+
+#: lms/templates/student_account/hinted_login.underscore:8
+#, python-format
+msgid "Would you like to sign in using your %(providerName)s credentials?"
+msgstr "%(providerName)s 証明書を使ってサインインしますか？"
+
+#: lms/templates/student_account/hinted_login.underscore:16
+#, python-format
+msgid "Sign in using %(providerName)s"
+msgstr "%(providerName)s を使ってサインイン"
+
+#: lms/templates/student_account/hinted_login.underscore:21
+#: lms/templates/student_account/institution_login.underscore:22
+#: lms/templates/student_account/institution_register.underscore:23
+msgid "or"
+msgstr "または"
+
+#: lms/templates/student_account/hinted_login.underscore:26
+msgid "Show me other ways to sign in or register"
+msgstr "サインインまたは登録する他の方法を探す"
+
+#: lms/templates/student_account/institution_login.underscore:4
+msgid "Sign in with Institution/Campus Credentials"
+msgstr "組織/学校の証明書でサインイン"
+
+#: lms/templates/student_account/institution_login.underscore:8
+#: lms/templates/student_account/institution_register.underscore:9
+msgid "Choose your institution from the list below:"
+msgstr "以下の一覧から所属機関を選択してください: "
+
+#: lms/templates/student_account/institution_login.underscore:27
+msgid "Back to sign in"
+msgstr "サインインへ戻る"
+
+#: lms/templates/student_account/institution_register.underscore:5
+msgid "Register with Institution/Campus Credentials"
+msgstr "機関/学校の証明書で登録"
+
+#: lms/templates/student_account/institution_register.underscore:28
+#: lms/templates/student_account/register.underscore:50
+msgid "Create an Account"
+msgstr "アカウントを作成"
+
+#: lms/templates/student_account/login.underscore:6
+msgid "First time here?"
+msgstr "ここは初めてですか？"
+
+#: lms/templates/student_account/login.underscore:7
+msgid "Create an Account."
+msgstr "アカウントを作成してください。"
+
+#: lms/templates/student_account/login.underscore:14
+msgid "Sign in to continue learning as {email}"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:16
+msgid "Sign in to continue learning"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:19
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:21
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:23
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:25
+msgid "To continue learning with this account, sign in below."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore:27
+msgid "Sign In"
+msgstr "サインイン"
+
+#: lms/templates/student_account/login.underscore:34
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr "メールアドレスとパスワードを使うか、以下のプロバイダのいずれかを使ってサインインしてください。"
+
+#: lms/templates/student_account/login.underscore:36
+msgid "Sign in here using your email address and password."
+msgstr "メールアドレスとパスワードを使ってサインインしてください。"
+
+#: lms/templates/student_account/login.underscore:38
+msgid "If you do not yet have an account, use the button below to register."
+msgstr "まだアカウントを登録していないのであれば、下のボタンを使って登録してください。"
+
+#: lms/templates/student_account/login.underscore:43
+msgid "Use my university info"
+msgstr "大学情報を使用"
+
+#: lms/templates/student_account/login.underscore:48
+#: lms/templates/student_account/login.underscore:63
+msgid "or sign in with"
+msgstr "または次でサインインする"
+
+#: lms/templates/student_account/login.underscore:76
+#, python-format
+msgid "Sign in with %(providerName)s"
+msgstr "%(providerName)sでサインイン"
+
+#: lms/templates/student_account/password_reset.underscore:4
+msgid "Password assistance"
+msgstr "パスワード設定"
+
+#: lms/templates/student_account/password_reset.underscore:8
+msgid ""
+"Please enter your log-in or recovery email address below and we will send "
+"you an email with instructions."
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore:12
+msgid "Recover my password"
+msgstr ""
+
+#: lms/templates/student_account/register.underscore:6
+msgid "Already have an {platformName} account?"
+msgstr "既に{platformName} のアカウントをお持ちですか？"
+
+#: lms/templates/student_account/register.underscore:7
+msgid "Sign in."
+msgstr "サインインしてください。"
+
+#: lms/templates/student_account/register.underscore:18
+msgid "Create an account using"
+msgstr "次を使用してアカウントを作成"
+
+#: lms/templates/student_account/register.underscore:31
+#, python-format
+msgid "Create account using %(providerName)s."
+msgstr "%(providerName)sを使ってアカウントを作成。"
+
+#: lms/templates/student_account/register.underscore:38
+msgid "Use my institution/campus credentials"
+msgstr "機関/学校の証明書を使う"
+
+#: lms/templates/student_account/register.underscore:45
+msgid "or create a new one here"
+msgstr "またはここで新しく作成する"
+
+#: lms/templates/student_account/register.underscore:63
+msgid "Support education research by providing additional information"
+msgstr ""
+
+#: lms/templates/student_account/register.underscore:69
+msgid "Create Account"
+msgstr "アカウントを作成"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
+#, python-format
+msgid "Congratulations! You are now verified on %(platformName)s!"
+msgstr "おめでとうございます！ %(platformName)s で認証されました！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
+msgid "You are now enrolled as a verified student for:"
+msgstr "あなたは認証付き受講者として受講登録されています: "
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
+msgid "A list of courses you have just enrolled in as a verified student"
+msgstr "認証付き受講者として受講登録した講座の一覧"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
+msgid "Explore your course!"
+msgstr "講座を探そう！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
+msgid "Go to your Dashboard"
+msgstr "ダッシュボードへ"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:46
+msgid "Verified Status"
+msgstr "認証ステータス"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
+#, python-format
+msgid ""
+"Thank you for submitting your photos. We will review them shortly. You can "
+"now sign up for any %(platformName)s course that offers verified "
+"certificates. Verification is good for one year. After one year, you must "
+"submit photos for verification again."
+msgstr "写真をご提出いただき、ありがとうございます。まもなく確認いたします。%(platformName)sの認証付き修了証を発行している講座に登録することができます。認証は１年間有効です。１年後に再び認証用写真の提出が必要となります。"
+
+#: lms/templates/verify_student/error.underscore:6
+msgid "Error:"
+msgstr "エラー:"
+
+#: lms/templates/verify_student/face_photo_step.underscore:4
+msgid "What You Need for Verification"
+msgstr "認証に必要なもの"
+
+#: lms/templates/verify_student/face_photo_step.underscore:6
+msgid "Device with Camera"
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:7
+msgid ""
+"You need a device that has a webcam. If you receive a browser prompt for "
+"access to your camera, please make sure to click 'Allow'."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:10
+msgid "Photo Identification"
+msgstr "写真による本人確認"
+
+#: lms/templates/verify_student/face_photo_step.underscore:11
+msgid "You need a valid ID that contains your full name and photo."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:17
+#: lms/templates/verify_student/incourse_reverify.underscore:3
+msgid "Take Your Photo"
+msgstr "写真を撮る"
+
+#: lms/templates/verify_student/face_photo_step.underscore:19
+msgid ""
+"When your face is in position, use the Take Photo button {icon} below to "
+"take your photo."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:25
+msgid "To take a successful photo, make sure that:"
+msgstr "上手く写真が撮れたら、以下を確認: "
+
+#: lms/templates/verify_student/face_photo_step.underscore:29
+msgid "Your face is well-lit."
+msgstr "顔が十分に明るい。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:30
+msgid "Your entire face fits inside the frame."
+msgstr "顔全体がフレームの中に納まっている。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:33
+msgid ""
+"To take the photo of your face, click on the camera button {icon}. If you "
+"need to try again, click 'Retake Photo'."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:38
+#: lms/templates/verify_student/id_photo_step.underscore:30
+#: lms/templates/verify_student/incourse_reverify.underscore:29
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"
+
+#: lms/templates/verify_student/face_photo_step.underscore:42
+#: lms/templates/verify_student/id_photo_step.underscore:35
+#: lms/templates/verify_student/incourse_reverify.underscore:33
+#, python-format
+msgid "Why does %(platformName)s need my photo?"
+msgstr "%(platformName)s でなぜ写真が必要なのでしょうか？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:44
+msgid ""
+"We use your verification photos to confirm your identity and ensure the "
+"validity of your certificate."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:46
+#: lms/templates/verify_student/id_photo_step.underscore:41
+#: lms/templates/verify_student/incourse_reverify.underscore:37
+#, python-format
+msgid "What does %(platformName)s do with this photo?"
+msgstr "この写真は%(platformName)s でどのように使われるのでしょうか？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:49
+#: lms/templates/verify_student/id_photo_step.underscore:44
+#, python-format
+msgid ""
+"We securely encrypt your photo and send it to our authorization service for "
+"review. Your photo and information are not saved or visible anywhere on "
+"%(platformName)s after the verification process is complete."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:52
+#: lms/templates/verify_student/id_photo_step.underscore:47
+#: lms/templates/verify_student/incourse_reverify.underscore:43
+msgid ""
+"What if I can't see the camera image, or if I can't see my photo do "
+"determine which side is visible?"
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:55
+#: lms/templates/verify_student/incourse_reverify.underscore:46
+msgid ""
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally the best position for a headshot is approximately 12-18 inches"
+" (30-45 centimeters) from the camera, with your head centered relative to "
+"the computer screen. "
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:56
+#: lms/templates/verify_student/id_photo_step.underscore:51
+#: lms/templates/verify_student/incourse_reverify.underscore:47
+msgid ""
+"If the photos you submit are rejected, try moving the computer or camera "
+"orientation to change the lighting angle.  The most common reason for "
+"rejection is inability to read the text on the ID card."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:59
+#: lms/templates/verify_student/incourse_reverify.underscore:50
+msgid ""
+"What if I have difficulty holding my head in position relative to the "
+"camera?"
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:62
+#: lms/templates/verify_student/id_photo_step.underscore:57
+#: lms/templates/verify_student/incourse_reverify.underscore:53
+#, python-format
+msgid ""
+"If you require assistance with taking either photo for submission, contact "
+"%(platformName)s support for additional suggestions."
+msgstr ""
+
+#: lms/templates/verify_student/face_photo_step.underscore:77
+#: lms/templates/verify_student/id_photo_step.underscore:69
+#: lms/templates/verify_student/intro_step.underscore:80
+#, python-format
+msgid "Next: %(nextStepTitle)s"
+msgstr "次: %(nextStepTitle)s"
+
+#: lms/templates/verify_student/id_photo_step.underscore:3
+msgid "Take a Photo of Your ID"
+msgstr "あなたのIDの写真を撮影する"
+
+#: lms/templates/verify_student/id_photo_step.underscore:5
+msgid "Use your webcam to take a photo of your ID."
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:13
+msgid ""
+"You need an ID with your name and photo. A driver's license, passport, or ID"
+" are all acceptable."
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:15
+#: lms/templates/verify_student/incourse_reverify.underscore:13
+msgid "Tips on taking a successful photo"
+msgstr "上手く写真を撮るためのヒント"
+
+#: lms/templates/verify_student/id_photo_step.underscore:19
+msgid "Ensure that you can see your photo and read your name"
+msgstr "写真と名前がはっきりと見えるかどうかご確認ください。"
+
+#: lms/templates/verify_student/id_photo_step.underscore:20
+msgid "Make sure your ID is well-lit"
+msgstr "IDが明るく写っているか確認してください"
+
+#: lms/templates/verify_student/id_photo_step.underscore:22
+msgid "Once in position, use the Take Photo button {icon} to capture your ID"
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:24
+#: lms/templates/verify_student/incourse_reverify.underscore:23
+msgid "Use the Retake Photo button if you are not pleased with your photo"
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:38
+msgid ""
+"As part of the verification process, you take a photo of both your face and "
+"a photo ID. Our authorization service confirms your identity by comparing "
+"the photo you take with the photo on your ID."
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:50
+msgid ""
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally, the best position for a photo of an ID card is 8-12 inches "
+"(20-30 centimeters) from the camera, with the ID card centered relative to "
+"the camera. "
+msgstr ""
+
+#: lms/templates/verify_student/id_photo_step.underscore:54
+msgid ""
+"What if I have difficulty holding my ID in position relative to the camera?"
+msgstr ""
+
+#: lms/templates/verify_student/image_input.underscore:1
+msgid "Preview of uploaded image"
+msgstr "アップロードされた画像のプレビュー"
+
+#: lms/templates/verify_student/image_input.underscore:3
+msgid "Upload an image or capture one with your web or phone camera."
+msgstr "画像をアップロードするか、Webカメラまたは携帯電話のカメラで撮影してください。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:5
+msgid ""
+"Use your webcam to take a photo of your face. We will match this photo with "
+"the photo on your ID."
+msgstr "ウェブカメラを使って、あなたの顔写真を撮影してください。この写真をあなたのIDの写真と照合します。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:17
+msgid "Make sure your face is well-lit"
+msgstr "顔が十分に明るいか確認"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:18
+msgid "Be sure your entire face is inside the frame"
+msgstr "顔全体がフレーム内に入っているか確認"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:20
+msgid ""
+"Once in position, use the Take Photo button {icon} to capture your photo"
+msgstr ""
+
+#: lms/templates/verify_student/incourse_reverify.underscore:22
+msgid "Can we match the photo you took with the one on your ID?"
+msgstr "今回撮影した写真とIDの写真を照合してもよいでしょうか？"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:35
+msgid ""
+"As part of the verification process, you take a photo of both your face and "
+"a government-issued photo ID. Our authorization service confirms your "
+"identity by comparing the photo you take with the photo on your ID."
+msgstr "認証手続の1つとして、顔写真と政府発行の写真付き身分証明書を撮影してください。我々の認証サービスがそれらを比較して、あなたの本人確認をします。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:40
+#, python-format
+msgid ""
+"We use the highest levels of security available to encrypt your photo and "
+"send it to our authorization service for review. Your photo and information "
+"are not saved or visible anywhere on %(platformName)s after the verification"
+" process is complete."
+msgstr "最高レベルのセキュリティで写真を暗号化し、認証サービスへ送ります。認証手続が完了した後は、写真や情報を%(platformName)sで保存したり閲覧することはできません。"
+
+#: lms/templates/verify_student/intro_step.underscore:6
+msgid "Thanks for returning to verify your ID in: {courseName}"
+msgstr "本講座のID認証にお越しいただき、ありがとうございます: {courseName}"
+
+#: lms/templates/verify_student/intro_step.underscore:19
+msgid ""
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email. After you complete activation you can "
+"return and refresh this page."
+msgstr "講座の受講登録を始める前に、アカウントを有効化させる必要があります。有効化に関するメールが届いているかご確認ください。有効化が完了したら、この画面に戻り再読込してください。"
+
+#: lms/templates/verify_student/intro_step.underscore:31
+msgid "Activate Your Account"
+msgstr "アカウントを有効化する"
+
+#: lms/templates/verify_student/intro_step.underscore:38
+msgid "Check Your Email"
+msgstr "メールをチェックしてください"
+
+#: lms/templates/verify_student/intro_step.underscore:45
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
+msgid "Photo ID"
+msgstr "写真ID"
+
+#: lms/templates/verify_student/intro_step.underscore:53
+msgid ""
+"A driver's license, passport, or other government-issued ID with your name "
+"and photo"
+msgstr "運転免許証、パスポートまたは政府発行の氏名と写真付き身分証明書"
+
+#: lms/templates/verify_student/intro_step.underscore:61
+#: lms/templates/verify_student/make_payment_step.underscore:77
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
+msgid "Webcam"
+msgstr "ウェブカメラ"
+
+#: lms/templates/verify_student/make_payment_step.underscore:6
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+msgid "You are enrolling in: {courseName}"
+msgstr "受講登録中: {courseName}"
+
+#: lms/templates/verify_student/make_payment_step.underscore:17
+msgid "You are upgrading your enrollment for: {courseName}"
+msgstr "受講登録のアップグレード中: {courseName}"
+
+#: lms/templates/verify_student/make_payment_step.underscore:26
+msgid ""
+"You can now enter your payment information and complete your enrollment."
+msgstr "支払情報を入力して、受講登録を完了してください。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:37
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these by {date} to qualify to earn a Verified "
+"Certificate."
+msgstr "以下のアイテムがない場合でも今支払いはできますが、認証付き修了証を取得するためには{date}までにこれらのアイテムが必要になります。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:44
+msgid ""
+"An email has been sent to {userEmail} with a link for you to activate your "
+"account."
+msgstr "{userEmail} にアカウントを有効化するリンク付きのメールを送信しました。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:48
+msgid "Why activate?"
+msgstr "なぜ有効化するの？"
+
+#: lms/templates/verify_student/make_payment_step.underscore:50
+msgid ""
+"We ask you to activate your account to ensure it is really you creating the "
+"account and to prevent fraud."
+msgstr "あなた自身が間違いなくアカウントを作成しているのか確認し、不正利用を防ぐため、アカウントの有効化をお願いしています。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:53
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these to qualify to earn a Verified Certificate."
+msgstr "以下のアイテムがなくても支払はできますが、認証付き修了証を取得するにはこれらのアイテムが必要になります。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:65
+msgid "Government-Issued Photo ID"
+msgstr "政府発行の写真付き身分証明書"
+
+#: lms/templates/verify_student/make_payment_step.underscore:92
+msgid ""
+"ID-Verification is not required for this Professional Education course."
+msgstr "この専門家教育講座では、ID認証は必要ありません。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:93
+msgid ""
+"All professional education courses are fee-based, and require payment to "
+"complete the enrollment process."
+msgstr "専門家教育講座はすべて有料で、受講登録手続の完了には支払が必要です。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:97
+msgid "You have already verified your ID!"
+msgstr "本人認証が完了しています！"
+
+#: lms/templates/verify_student/make_payment_step.underscore:100
+msgid "Your verification status is good until {verificationGoodUntil}."
+msgstr "認証状態は{verificationGoodUntil}まで有効です。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:112
+msgid "price"
+msgstr "価格"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
+msgid "Account Not Activated"
+msgstr "有効化されていないアカウント"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+msgid "Upgrade to a Verified Certificate for {courseName}"
+msgstr "{courseName}を認証付き修了証にアップグレード"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
+msgid ""
+"Before you upgrade to a certificate track, you must activate your account."
+msgstr "修了証をアップグレードする前に、アカウントを有効化しなければなりません。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
+msgid "Check your email for an activation message."
+msgstr "有効化に関するメールを確認してください。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
+msgid "Total"
+msgstr "合計"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+msgid "Professional Certificate for {courseName}"
+msgstr "{courseName}講座のProfessional Certificate"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+msgid "Verified Certificate for {courseName}"
+msgstr "{courseName}講座の認証付き修了証"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
+msgid ""
+"To receive a certificate, you must also verify your identity before {date}."
+msgstr "修了証を取得するためには、{date}までに本人認証をしなければなりません。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
+msgid "To receive a certificate, you must also verify your identity."
+msgstr "修了証を取得するためには、本人認証をしなければなりません。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
+msgid ""
+"To verify your identity, you need a webcam and a government-issued photo ID."
+msgstr "本人認証をするために、webカメラおよび政府発行の写真付きIDが必要です。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
+msgid ""
+"Your ID must be a government-issued photo ID that clearly shows your face."
+msgstr "IDは顔がはっきりと分かる政府発行の写真付きIDでなければいけません。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
+msgid ""
+"You will use your webcam to take a picture of your face and of your "
+"government-issued photo ID."
+msgstr "顔写真および政府発行の写真付きIDの写真を撮るためにwebカメラを使用してください。"
+
+#: lms/templates/verify_student/reverify_success_step.underscore:2
+msgid "Identity Verification In Progress"
+msgstr "本人認証手続中"
+
+#: lms/templates/verify_student/reverify_success_step.underscore:5
+msgid ""
+"We have received your information and are verifying your identity. You will "
+"see a message on your dashboard when the verification process is complete "
+"(usually within 5-7 days). In the meantime, you can still access all "
+"available course content."
+msgstr ""
+
+#: lms/templates/verify_student/reverify_success_step.underscore:9
+msgid "Return to Your Dashboard"
+msgstr "ダッシュボードへ戻る"
+
+#: lms/templates/verify_student/review_photos_step.underscore:3
+msgid "Review Your Photos"
+msgstr "写真を確認"
+
+#: lms/templates/verify_student/review_photos_step.underscore:5
+msgid ""
+"Make sure we can verify your identity with the photos and information you "
+"have provided."
+msgstr "以下の写真と情報で、あなたの本人確認ができることを確認してください。"
+
+#: lms/templates/verify_student/review_photos_step.underscore:13
+#, python-format
+msgid "Photo of %(fullName)s"
+msgstr "%(fullName)s の写真"
+
+#: lms/templates/verify_student/review_photos_step.underscore:18
+#, python-format
+msgid "Photo of %(fullName)s's ID"
+msgstr "%(fullName)sの身分証明書の写真"
+
+#: lms/templates/verify_student/review_photos_step.underscore:25
+msgid "Photo requirements:"
+msgstr "写真の必要条件: "
+
+#: lms/templates/verify_student/review_photos_step.underscore:27
+msgid "Does the photo of you show your whole face?"
+msgstr "写真にあなたの顔全体が写っていますか？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:28
+msgid "Is your name on your ID readable?"
+msgstr "身分証明書の氏名は読めますか？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:29
+#, python-format
+msgid "Does the name on your ID match your account name: %(fullName)s?"
+msgstr "身分証明書上の氏名はあなたのアカウントの氏名と一致しますか？: %(fullName)s"
+
+#: lms/templates/verify_student/review_photos_step.underscore:33
+msgid "Edit Your Name"
+msgstr "名前を編集"
+
+#: lms/templates/verify_student/review_photos_step.underscore:38
+msgid ""
+"Make sure that the full name on your account matches the name on your ID."
+msgstr "あなたの身分証明書の氏名がアカウントの氏名と一致することを確認してください。"
+
+#: lms/templates/verify_student/review_photos_step.underscore:50
+msgid "Photos don't meet the requirements?"
+msgstr "写真が必要条件を満たしていませんか？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:52
+msgid "Retake Your Photos"
+msgstr "再撮影する"
+
+#: lms/templates/verify_student/review_photos_step.underscore:63
+msgid "Before proceeding, please confirm that your details match"
+msgstr "手続きを進める前に、詳細情報が合致しているか確認をしてください"
+
+#: lms/templates/verify_student/review_photos_step.underscore:69
+msgid "Confirm"
+msgstr "確認"
+
+#: lms/templates/verify_student/webcam_photo.underscore:4
+msgid ""
+"Don't see your picture? Make sure to allow your browser to use your camera "
+"when it asks for permission."
+msgstr "写真が見えないですか？必要に応じて、ブラウザがカメラを使える状態か確認してください。"
+
+#: lms/templates/verify_student/webcam_photo.underscore:7
+msgid "Live view of webcam"
+msgstr "ウェブカメラのライブビュー"
+
+#: lms/templates/verify_student/webcam_photo.underscore:24
+msgid "Retake Photo"
+msgstr "再撮影する"
+
+#: lms/templates/verify_student/webcam_photo.underscore:28
+msgid "Take Photo"
+msgstr "写真を撮る"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
+msgid "Bookmarked on"
+msgstr "ブックマーク済"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:29
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore:2
+msgid "View"
+msgstr "見る"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
+msgid "You have not bookmarked any courseware pages yet"
+msgstr "まだいずれのコースウェアページにもブックマークしていません。"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
+msgid ""
+"Use bookmarks to help you easily return to courseware pages. To bookmark a "
+"page, click \"Bookmark this page\" under the page title."
+msgstr "コースウェアページに簡単に戻れるようブックマークを利用してください。ブックマークするには、ページタイトルの下の\"このページをブックマークする\"をクリックしてください。"
+
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+msgid "Load next {num_items} result"
+msgid_plural "Load next {num_items} results"
+msgstr[0] "次の{num_items}件の結果を読み込む"
+
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
+msgid "Sorry, no results were found."
+msgstr "申し訳ありませんが、検索結果がありません。"
+
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:2
+msgid "Search Results"
+msgstr "検索結果"
+
+#: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
+msgid "There was an error, try searching again."
+msgstr "エラーが発生しましたので、もう一度検索してください。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:13
+#, python-format
+msgid "Share your \"%(display_name)s\" award"
+msgstr "\"%(display_name)s\"をシェアする"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:18
+msgid "Share"
+msgstr "シェア"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:25
+#, python-format
+msgid "Earned %(created)s."
+msgstr "%(created)sを獲得済。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:6
+msgid "What's Your Next Accomplishment?"
+msgstr "あなたの次の業績は何？"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:7
+msgid "Start working toward your next learning goal."
+msgstr "次の学習目標に向けて取り組み始めましょう。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:8
+msgid "Find a course"
+msgstr "講座を探す"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
+msgid "You are currently sharing a limited profile."
+msgstr "現在は限定プロフィールを公開しています。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
+msgid "This learner is currently sharing a limited profile."
+msgstr "この受講者は現在限定プロフィールを公開しています。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:4
+msgid "Share on Mozilla Backpack"
+msgstr "Mozilla Backpackでシェア"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:5
+msgid ""
+"To share your certificate on Mozilla Backpack, you must first have a "
+"Backpack account. Complete the following steps to add your certificate to "
+"Backpack."
+msgstr "修了証をMozilla Backpackでシェアするには、まずBackpackのアカウントが必要です。次のステップを完了して、Backpackに修了証を追加しましょう。"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:12
+msgid ""
+"Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
+"existing account"
+msgstr ""
+
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:23
+msgid ""
+"{download_link_start}Download this image (right-click or option-click, save "
+"as){link_end} and then {upload_link_start}upload{link_end} it to your "
+"backpack."
+msgstr ""
