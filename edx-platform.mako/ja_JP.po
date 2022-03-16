@@ -4913,7 +4913,7 @@ msgstr "プログラム"
 #: lms/templates/header/navbar-authenticated.html:51
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html:52
 msgid "Discover New"
-msgstr "新しいものを見つける"
+msgstr "新規講義検索"
 
 #: lms/templates/header/navbar-logo-header.html:24
 msgid "{name} Dashboard"
