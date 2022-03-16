@@ -932,7 +932,7 @@ msgstr "本カタログの講座:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
-msgstr "すべてを表示"
+msgstr "展開する"
 
 #: lms/templates/ccx/schedule.underscore:6
 msgid "Collapse All"
@@ -1782,7 +1782,7 @@ msgstr "エラーが発生しました。この画面を再読込してくださ
 
 #: lms/templates/student_account/form_field.underscore:137
 msgid "Need help signing in?"
-msgstr ""
+msgstr "サインインにお困りですか？"
 
 #: lms/templates/student_account/form_field.underscore:139
 msgid "Forgot my password"
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore:149
 msgid "Need other help signing in?"
-msgstr ""
+msgstr "サインインにお困りですか？"
 
 #: lms/templates/student_account/form_field.underscore:151
 msgid "Create an account"
@@ -1929,11 +1929,11 @@ msgstr "パスワード設定"
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
-msgstr ""
+msgstr "ログイン時または再発行のためのメールアドレスを以下に入力してください。説明のためのメールを送信します。"
 
 #: lms/templates/student_account/password_reset.underscore:12
 msgid "Recover my password"
-msgstr ""
+msgstr "パスワードの再発行"
 
 #: lms/templates/student_account/register.underscore:6
 msgid "Already have an {platformName} account?"
@@ -1962,7 +1962,7 @@ msgstr "またはここで新しく作成する"
 
 #: lms/templates/student_account/register.underscore:63
 msgid "Support education research by providing additional information"
-msgstr ""
+msgstr "追加情報の提供により教育研究を支援する"
 
 #: lms/templates/student_account/register.underscore:69
 msgid "Create Account"

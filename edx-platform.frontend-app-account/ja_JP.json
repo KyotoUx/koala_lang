@@ -16,7 +16,7 @@
   "account.settings.section.linked.accounts": "リンクされているアカウント",
   "account.settings.section.linked.accounts.description": "You can link your identity accounts to simplify signing in to {siteName}.",
   "account.settings.field.username": "ユーザー名",
-  "account.settings.field.username.help.text": "The name that identifies you on {siteName}. You cannot change your username.",
+  "account.settings.field.username.help.text": "{siteName}であなたを識別するための名前です。ユーザー名は変更できません。",
   "account.settings.field.full.name": "氏名",
   "account.settings.field.full.name.empty": "Add name",
   "account.settings.field.full.name.help.text": "アカウント ID の認証に使われたり、修了証に表示される名前です。",

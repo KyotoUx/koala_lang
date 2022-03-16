@@ -117,7 +117,7 @@
   "proctoringEmailLongDescription": "Courses using Proctortrack require an escalation email. Ensure learners and Support can contact your course team regarding proctoring issues (e.g. appeals, exam resets, etc).",
   "updateLinkLabel": "更新",
   "completionCountLabel": "{completed}/{total} completed",
-  "completedItemLabel": "completed",
+  "completedItemLabel": "完了",
   "uncompletedItemLabel": "uncompleted",
   "loadingChecklistLabel": "読込中",
   "launchChecklistLabel": "Launch Checklist",

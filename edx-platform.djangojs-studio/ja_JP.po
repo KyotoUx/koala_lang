@@ -817,15 +817,15 @@ msgstr " {display_name} のハイライト"
 
 #: cms/static/js/views/modals/course_outline_modals.js:277
 msgid "Enable Course Highlight Emails"
-msgstr ""
+msgstr "講義ハイライトメールを有効にする"
 
 #: cms/static/js/views/modals/course_outline_modals.js:295
 msgid "Enable"
-msgstr "有効にする"
+msgstr "有効"
 
 #: cms/static/js/views/modals/course_outline_modals.js:296
 msgid "Not yet"
-msgstr "まだ"
+msgstr "未定"
 
 #: cms/static/js/views/modals/course_outline_modals.js:872
 msgid "All Learners and Staff"
