@@ -3,7 +3,6 @@
 from argparse import ArgumentParser
 from pathlib import Path
 from shutil import copy
-import sys
 
 PATTERN = "edx-platform.*"
 HERE = Path(__file__).parent.resolve()
