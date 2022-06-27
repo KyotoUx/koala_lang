@@ -1133,7 +1133,7 @@ msgstr ""
 
 #: lms/templates/preview_menu.html:106
 msgid "View in Studio"
-msgstr ""
+msgstr "Studioで見る"
 
 #: lms/templates/preview_menu.html:140
 msgid "View in Insights"
@@ -1153,7 +1153,7 @@ msgstr "解答をリセット"
 
 #: lms/templates/problem.html:50
 msgid "Show answer"
-msgstr ""
+msgstr "解答を見る"
 
 #: lms/templates/problem.html:91
 msgid "You have used {num_used} of {num_total} attempt"
@@ -1168,7 +1168,7 @@ msgstr "問題の中には、保存、リセット、ヒント、正解を見る
 
 #: lms/templates/problem.html:149
 msgid "Answers are displayed within the problem"
-msgstr "解答が問題と共に表示されます"
+msgstr "解答は問題内に表示されます"
 
 #: lms/templates/problem_notifications.html:14
 msgid "Next Hint"
@@ -1589,7 +1589,7 @@ msgstr ""
 
 #: lms/templates/vert_module.html:30
 msgid "Past due"
-msgstr ""
+msgstr "期限切れ"
 
 #: lms/templates/video.html:26
 msgid "Loading video player"
@@ -3343,7 +3343,7 @@ msgstr "{course.display_number_with_default}の講座情報"
 
 #: lms/templates/courseware/dates.html:27
 msgid "Important Dates"
-msgstr ""
+msgstr "重要な日程"
 
 #: lms/templates/courseware/dates.html:52
 msgid "Today"
@@ -3355,7 +3355,7 @@ msgstr ""
 
 #: lms/templates/courseware/dates.html:60
 msgid "Past Due"
-msgstr "締切経過"
+msgstr "期限切れ"
 
 #: lms/templates/courseware/dates.html:62
 msgid "Due Next"
@@ -3576,7 +3576,7 @@ msgstr "Studioで採点を見る"
 
 #: lms/templates/courseware/progress.html:67
 msgid "Course Progress for '{username}' ({email})"
-msgstr ""
+msgstr "'{username}' ({email})の講義の進捗"
 
 #: lms/templates/courseware/progress.html:85
 msgid "View Certificate"
@@ -4913,7 +4913,7 @@ msgstr "プログラム"
 #: lms/templates/header/navbar-authenticated.html:51
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html:52
 msgid "Discover New"
-msgstr "新しいものを見つける"
+msgstr "新規講義検索"
 
 #: lms/templates/header/navbar-logo-header.html:24
 msgid "{name} Dashboard"
@@ -4954,7 +4954,7 @@ msgstr "サインイン"
 
 #: lms/templates/header/user_dropdown.html:44
 msgid "Resume your last course"
-msgstr "最近の講座を再開する"
+msgstr "前回の講義を再開"
 
 #: lms/templates/header/user_dropdown.html:52
 msgid "Profile"
@@ -7057,11 +7057,11 @@ msgstr "部分的に著作権あり"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:11
 msgid "Upcoming Dates"
-msgstr ""
+msgstr "今後の予定"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
 msgid "View all course dates"
-msgstr ""
+msgstr "すべての講義日程を見る"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:90
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:92
@@ -7089,7 +7089,7 @@ msgstr "アップグレード ({price})"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:36
 msgid "Expand All"
-msgstr "すべてを表示"
+msgstr "展開する"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:85
 msgid "({number} Question)"

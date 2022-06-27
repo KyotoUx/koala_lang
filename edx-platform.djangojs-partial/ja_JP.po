@@ -4410,7 +4410,7 @@ msgstr "ユーザー {user} の点数を無効化できませんでした。"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
 msgid "Enter and confirm your new password."
-msgstr "新しいパスワードを入力して確認してください。"
+msgstr "新しいパスワードを入力し、確認する。"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
 msgid "New Password"
@@ -4610,7 +4610,7 @@ msgid ""
 " message after 1 minute, verify that you entered the correct email address, "
 "or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
-msgstr ""
+msgstr "{paragraphStart}{boldStart}{email}{boldEnd}を入力しました。このメールアドレスが{platform_name}のアカウントに関連付けられている場合、このメールアドレス宛にパスワードの再発行方法を記載したメッセージを送信します。{paragraphEnd}{paragraphStart}1分経過してもパスワードリセットのメッセージが届かない場合は、入力したメールアドレスが正しいかまたは迷惑メールフォルダを確認してください。{paragraphEnd}{paragraphStart}さらにサポートが必要な場合は、{anchorStart}テクニカルサポートまでご連絡ください{anchorEnd}。{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js:218
 msgid ""
@@ -4725,14 +4725,14 @@ msgstr "パスワード"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:175
 msgid "Check your email account for instructions to reset your password."
-msgstr "パスワードをリセットするための案内のためにメールアカウントをチェックしてください。"
+msgstr "パスワードの再設定方法については、Eメールのアカウントをご確認ください。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:186
 msgid ""
 "The language used throughout this site. This site is currently available in "
 "a limited number of languages. Changing the value of this field will cause "
 "the page to refresh."
-msgstr "このサイトで一貫して使用されている言語です。現在利用することが可能な言語の種類は限られています。この入力欄の値を変更すると画面が再表示されます。"
+msgstr "本サイトで使用されている言語について。このサイトは現在、限られた言語で提供されています。このフィールドの値を変更すると、ページが更新されます。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:199
 msgid "Time Zone"
@@ -5113,7 +5113,7 @@ msgstr "ゴールの変更でエラーが起きました。"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:86
 msgid "Expand All"
-msgstr "すべてを表示"
+msgstr "展開する"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:91
 msgid "Collapse All"

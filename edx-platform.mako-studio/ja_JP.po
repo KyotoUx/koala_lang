@@ -435,7 +435,7 @@ msgstr "組織内の新規講座を識別するための固有の番号。(こ�
 #: cms/templates/course-create-rerun.html:104 cms/templates/index.html:106
 #: cms/templates/settings.html:85
 msgid "Course Run"
-msgstr "Course Run"
+msgstr "講座名"
 
 #. Translators: This is an example for the "run" used to identify different
 #. instances of a course, seen when filling out the form to create a new
